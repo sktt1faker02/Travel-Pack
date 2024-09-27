@@ -920,7 +920,7 @@
     <script src="<?= getBaseUrl() ?>/assets/js/bootstrap.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/home.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/scripts.js"></script>
-    <script src="<?= getBaseUrl() ?>/assets/js/searchbar.js"></script>
+    <!-- <script src="<?= getBaseUrl() ?>/assets/js/searchbar.js"></script> -->
     <script src="<?= getBaseUrl() ?>/assets/js/moment.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/searchbar-flights.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/daterangepicker.js"></script>
