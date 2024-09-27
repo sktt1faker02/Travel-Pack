@@ -1,0 +1,122 @@
+@media (max-width: 1199px) {
+    .searchnowbtn {
+        max-height: 38.8px;
+        font-size: 13px;
+        padding: 10px 17px 10px;
+        line-height: 1.2;
+    }
+    .searchform-more {
+        cursor: pointer;
+        width: 16%;
+    }
+    .searchbar-main-inner form .searchform-row {
+        column-gap: 5px;
+    }
+    .searchbar-main-inner input.form-control, .searchbar-main-inner select {
+        padding: 7px;
+        font-size:14px;
+    }
+    .searchbar-main-inner .select_arrow {
+        top: 10px;
+        padding: 2.4px;
+        right: 13px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .searchform-more {
+        cursor: pointer;
+        width: 20%;
+    }
+    .searchbar-main-inner .select_arrow {
+        top: 20px;
+        padding: 2.4px;
+        right: 13px;
+    }
+    .searchbar-main .searchbar-inputwrap {
+        flex: 0 0 50%;
+        padding:8px;
+        padding-right: 0;
+        padding-left: 0;
+        order:5;
+    }
+    .searchbar-main-inner form .searchform-row { 
+        flex-wrap: wrap;
+        column-gap:0
+    }
+    .searchbar-main .searchbar-inputwrap.mobile-last-col {
+        padding-left:5px;
+    }
+    .searchbar-main .searchbar-inputwrap.flex100-mobile {
+        flex: 0 0 100%;
+        padding-left:0;
+    }
+    .searchbar-main-inner .searchbar-inputwrap.mobile-bordertop,
+    .searchbar-main-inner .searchbar-inputwrap.mobile-bordertop {
+        border-top: 1px solid #d5d4d2;
+    }
+    .searchbar-main-inner .searchbar-inputwrap.mobile-last-col input.form-control,
+    .searchbar-main-inner .searchbar-inputwrap.mobile-last-col select {
+        border-right:0 !important;
+    }
+    .searchnowbtn {
+        width: 100%;
+        margin-top: 5px;
+    }
+    .searchbar-main .mobile-order-2 {
+        order:2;
+    }
+    .searchbar-main .mobile-order-1 {
+        order:1;
+    }
+    .searchbar-main .mobile-order-1 {
+        order: 1;
+        flex-wrap: wrap;
+    }
+    .searchbar-main-inner form .searchform-row.searchform-row-top {
+        padding-bottom:0;
+    }
+    .searchbar-main-inner form .searchform-row.searchform-row-bottom {
+        padding-top: 0;
+    }
+    .searchbar-main-inner form .searchform-row.searchform-row-mid {
+        padding-top: 0;
+        padding-bottom:0;
+    }
+    .smc-multicity .searchform-row {
+        border-color: #666 !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .searchbar-checkboxes label {
+        flex-basis: 43%;
+        padding: 5px;
+    }
+    .searchform-more {
+        cursor: pointer;
+        width: 35%;
+    }
+}
+
+@media (max-width: 579px) {
+    ul#searchtab {
+        width: 550px;
+        overflow-y: scroll;
+        padding-right: 27px; /* Increase/decrease this value for cross-browser compatibility */
+        box-sizing: content-box; /* So the width will be 100% + 17px */
+    }
+    ul#searchtab button {
+        font-size: 15px;
+    }
+}
+@media (max-width: 479px) {
+    .searchbar {
+        padding: 15px 15px 20px;
+    }
+    .searchbar-checkboxes label {
+        flex-basis: 40%;
+        padding: 5px;
+    }
+}

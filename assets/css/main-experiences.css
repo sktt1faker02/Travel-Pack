@@ -1,0 +1,313 @@
+.whiteboxbg {
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #e5e5e4;
+    padding: 25px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.experiences-image {
+    height: 0;
+    padding-top: 90%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.experiences-image img {
+    object-fit: cover;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.experiences-right {
+    font-size:14px;
+}
+.listing-right-top-left {
+    line-height:1.4;
+}
+span.listing-price {
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.free-cancellation {
+    background-color: var(--accent);
+    display: inline-block;
+    padding: 6px 15px;
+    border-radius: 50px;
+    text-align: center;
+    color: var(--black-text);
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Roboto';
+    position: relative;
+    top: auto;
+    left: auto;
+}
+
+.sortby .select select {
+    width: 165px;
+    background-color: transparent;
+    border: 0.124rem solid var(--primary);
+}
+.sortby .select_arrow {
+    width: 8px;
+    height: 8px;
+    top: 17px;
+}
+.sortby .select select {
+    width: 165px;
+    background-color: transparent;
+    border: 0.124rem solid var(--primary);
+    color: #a09c9c;
+    font-family: 'Open Sans';
+}
+.sortby .select select:hover {
+    color: #fff;
+    background: #5d1790;
+}
+.experiences-mid-top p {
+    font-size: 13px;
+    color:#a09c9c;
+}
+.experiences-mid-top p a {
+    color: var(--black-text);
+    font-weight: 500;
+    text-decoration: underline !important;
+}
+.hotel-rooms-main-top-slider {
+    border-radius: 6px 0 0 6px;
+    overflow: hidden;
+}
+
+
+/* EXPERIENCES MAIN */
+.experience-single-top-left h2 {
+    font-size: 30px;
+}
+.hotel-rooms-main-top-right {
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+    border-left: 0;
+    width: 100%;
+    border-radius: 0 6px 6px 0;
+}
+.experiences-main-price {
+    font-size: 35px;
+}
+
+.experiences-main-top-right .select {
+    margin-bottom: 0;
+}
+
+/* EXPERIENCES OVERVIEW */
+.experiences-overview-title h3 {
+    margin-bottom: 0;
+}
+.experiences-overview-title {
+    margin-bottom: 0;
+    padding: 15px 0;
+    border-top: 1px solid #a09c9c;
+    border-bottom: 1px solid #a09c9c;
+}
+.experiences-overview-content {
+    padding: 35px 0;
+    color: var(--black-text);
+    font-size: 15px;
+    border-bottom: 1px solid #a09c9c;
+}
+.emi-boxes {
+    background-color: #fff;
+    padding: 25px;
+    border: 1px solid #eaeae8;
+    border-radius: 7px;
+    font-size:15px;
+}
+.emi-boxes h3 {
+    font-size: 20px;
+}
+.reglist ul {
+    list-style: disc;
+    padding-left: 15px;
+    line-height: 1.45;
+}
+.reglist li {
+    margin-bottom:10px;
+}
+
+.experiences-exclusions ul li:before {
+    content: '';
+}
+.experiences-inclusions ul li:before {
+    content: '';
+}
+.whatsincluded ul li:before {
+    font-family: 'FontAwesome';
+    color: var(--primary);
+    margin-left: -32px;
+    margin-right: 7px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+}
+.whatsincluded ul {
+    padding-left: 35px;
+}
+.whatsincluded ul li {
+    line-height: 1.45;
+    margin-bottom: 10px;
+    position: relative;
+}
+.experiences-reviews-inner .testibox h3 {
+    color: var(--black-text);
+    font-family: 'Open Sans';
+    FONT-WEIGHT: 600;
+    FONT-SIZE: 17PX;
+    margin-bottom: 0;
+}
+.experiences-reviews-inner .testimain p {
+    color: #a09c9c;
+    font-size: 13px;
+}
+.experiences-reviews .testibox {
+    padding: 20px;
+    border: 1px solid #e2e2e2;
+}
+.experiences-duration span, .experiences-language span {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--text-gray);
+}
+.experiences-right .btn.btn-white {
+    padding: 10px 10px;
+    font-size: 14px;
+}
+
+.experiences-meetingpoint .fb-bottom span {
+    line-height: 1.4;
+    display: block;
+}
+
+/* EXPERIENCES OPTIONS */
+.experience-unavailable h4 {
+    color: #a09c9c;
+}
+.unavailable-main-text {
+    font-size: 26px;
+    display: block;
+    margin-top: -6px;
+    font-family: 'Roboto', sans-serif;
+}
+.eoc-box {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #eaeae8;
+    border-radius: 7px;
+    font-size: 15px;
+    flex-basis: calc(50% - 10px);
+    align-items: center;
+    font-weight: 600;
+    column-gap:25px;
+    display: flex;
+    justify-content: space-between;
+}
+.eoc-box-left a:hover {
+    color:var(--primary);
+}
+.eoc-box-left a {
+    color: var(--black-text);
+}
+.experiences-options-content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.eoc-box h4 {
+    font-family: 'Open Sans';
+    font-size: 19px;
+    margin-bottom: 0;
+}
+span.options-price {
+    font-size: 29px;
+    line-height: 1;
+    font-weight: 600;
+    color: var(--tp-blue);
+}
+.bottom-emtr {
+    border-top: 1px solid #cfcdcd;
+    padding-top:20px;
+    margin-top:20px;
+}
+
+/* EXPERIENCES SLIDER */
+.experiences-details-main-top-slider {
+    border-radius: 6px 0 0 6px;
+    overflow: hidden;
+}
+.experiences-details-main-top-slider .slick-arrow.fa-chevron-right {
+    left: 44px;
+}
+.experiences-details-main-top-slider .slick-arrow {
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    width: 20px;
+    z-index: 10;
+    bottom: 30px;
+}
+.experiences-details-main-top-slider .slick-arrow.fa-chevron-right {
+    left: 44px;
+}
+.experiences-details-main-top-slider .slick-arrow.fa-chevron-left {
+    left: 20px;
+}
+.experiences-details-main-top-slider img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.experiences-details-main-top .free-cancellation {
+    position: absolute;
+    z-index: 3;
+    top: 20px;
+    left: 20px;
+}
+.experiences-main-top-right {
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+    border-left: 0;
+    width:100%;
+    min-height:580px;
+    border-radius: 0 6px 6px 0;
+}
+
+/* EOC MODAL */
+.eocbox-modal .modal-dialog {
+    max-width: 650px;
+}
+.eocbox-modal .modal-content {
+    padding: 25px;
+    color: var(--text-gray);
+}
+.eocbox-modal .btn-close {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+.eocbox-modal p {
+    font-size: 15px;
+}
+
+@media (min-width:992px) {
+    .experiences-mid-top h2 {
+        font-size: 26px;
+        padding-right: 40px;
+    }
+}
