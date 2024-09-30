@@ -36,6 +36,17 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+// FAQS DROPDOWN TOGGLE
+document.addEventListener("DOMContentLoaded", function() {
+    const faqTops = document.querySelectorAll('.faqs-box-top');
+  
+    faqTops.forEach(function(faqTop) {
+      faqTop.addEventListener('click', function() {
+        this.closest('.faqs-box').classList.toggle('showfaqs');
+      });
+    });
+  });
+
 // CTA TRAVEL DATES
 $(document).ready(function() {
     // Check if the #traveldates element exists

@@ -1,4 +1,5 @@
 <?php include '../config.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travelpack - Flights</title>
+
 
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap.min.css">
@@ -30,6 +32,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    
+
 </head>
 
 <body>
@@ -51,17 +55,42 @@
         <?php include '../sections/global/header-nav.php';?>
 
         <div id="main-hero" class="txt-white">
-            <div class="container">
-                <h2 class="noshadow">
-                    Effortless travel,<br/>
-                    Joyful moments.
-                </h2>
 
-                <p class="hero-text txt-white noshadow">
-                    Heathrow, London
-                </p>
+        <div class="container">
+                <div class="heroslider-nav">
+                    <div class="heroslider-nav-slide">
+                        <h1 class="txt-white">
+                            Effortless travel,<br/>
+                            Joyful moments.
+                        </h1>
+                    
+                        <p class="hero-text txt-white">
+                            Hikkaduwa, Sri Lanka
+                        </p>
+                    </div>
+                    <div class="heroslider-nav-slide">
+                        <h1 class="txt-white">
+                            Aliquam non erat,<br>
+                            volutpat risus et
+                        </h1>
+                    
+                        <p class="hero-text txt-white">
+                            Kyoto, Japan
+                        </p>
+                    </div>
+                    <div class="heroslider-nav-slide">
+                        <h1 class="txt-white">
+                            Quisque quis metus<br/>
+                            fringilla mollis nec
+                        </h1>
+                    
+                        <p class="hero-text txt-white">
+                            Boracay, Philippines
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
+        </div><!-- main hero -->
 
         <div class="container">
             <div id="home-searchbar" class="searchbar">
@@ -219,16 +248,156 @@
                         <img src="<?= getBaseUrl() ?>/assets/img/home/sed3.jpg" alt="">
                         <div class="sed-details">
                             <div class="sed-title">
-                                <h3 class="mb-5 pb-4">
+                                <h3 class="">
                                     <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
                                         Canada
                                     </a>
                                 </h3>
                             </div>
+                            <p class="txt-blue pb-2">
+                                5 Jun - 12 Jun<br/>
+                                Round Trip
+                            </p>
 
                             <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>   
+                </div>
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="" tabindex="-1">
+                                        From <strong>£600pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    Europe
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/home/sed4.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                        Greece
+                                    </a>                                        
+                                </h3>
+                            </div>
+                            <p class="txt-blue pb-2">
+                                5 Jun - 12 Jun<br/>
+                                Round Trip
+                            </p>
+
+                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="" tabindex="-1">
+                                        From <strong>£600pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    Europe
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/home/sed4.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                        Greece
+                                    </a>                                        
+                                </h3>
+                            </div>
+                            <p class="txt-blue pb-2">
+                                5 Jun - 12 Jun<br/>
+                                Round Trip
+                            </p>
+
+                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="" tabindex="-1">
+                                        From <strong>£600pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    Europe
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/home/sed4.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                        Greece
+                                    </a>                                        
+                                </h3>
+                            </div>
+                            <p class="txt-blue pb-2">
+                                5 Jun - 12 Jun<br/>
+                                Round Trip
+                            </p>
+
+                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="" tabindex="-1">
+                                        From <strong>£600pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    Europe
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/home/sed4.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                        Greece
+                                    </a>                                        
+                                </h3>
+                            </div>
+                            <p class="txt-blue pb-2">
+                                5 Jun - 12 Jun<br/>
+                                Round Trip
+                            </p>
+
+                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
                 </div>
                 <div class="sedboxslide">
                     <div class="sedbox">

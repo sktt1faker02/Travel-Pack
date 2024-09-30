@@ -1,3 +1,5 @@
+<?php include '../config.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,24 +8,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travelpack - Special Offers Search Results</title>
 
-    <link rel="stylesheet" href="../assets/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/css/slick.css">
-    <link rel="stylesheet" href="../assets/css/fontawesome.css">
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/slick.css">
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/fontawesome.css">
     
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../assets/css/sidebar.css">
-    <link rel="stylesheet" href="../assets/css/main-special-offers.css">
-    <link rel="stylesheet" href="../assets/css/mediaqueries.css">
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/style.css">
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/sidebar.css">
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/main-special-offers.css">
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/mediaqueries.css">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="../assets/img/favicon/site.webmanifest">
-    <link rel="mask-icon" href="../assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="../assets/img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= getBaseUrl() ?>/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= getBaseUrl() ?>/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= getBaseUrl() ?>/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="<?= getBaseUrl() ?>/assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="<?= getBaseUrl() ?>/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="<?= getBaseUrl() ?>/assets/img/favicon/favicon.ico">
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="../assets/img/favicon/browserconfig.xml">
+    <meta name="msapplication-config" content="<?= getBaseUrl() ?>/assets/img/favicon/browserconfig.xml">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,8 +33,8 @@
 </head>
 
 <body>
-    <div id="herohome" class="herowithform" style="background-image:url(../assets/img/special-offers/bghero-specialoffers.jpg)">
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/sections/global/header-nav.php';?>
+    <div id="herohome" class="herowithform" style="background-image:url(<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg)">
+        <?php include '../sections/global/header-nav.php';?>
     </div><!-- main hero -->
 
     <section class="block pt-0 search-wrap searchresults-formwrap bggray" id="special-offers-search">
@@ -46,7 +48,7 @@
                     </div>
                 </div><!-- searchbartop -->
                 
-                <?php include $_SERVER['DOCUMENT_ROOT'] . '/sections/searchform/main-forms/searchform-special-offers.php';?>
+                <?php include '../sections/searchform/main-forms/searchform-special-offers.php';?>
             </div><!-- searchbar -->
         </div><!-- container -->
         <div class="container mt-5 pt-4">
@@ -302,7 +304,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="../car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -380,7 +382,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="../car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -458,7 +460,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="../car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -536,7 +538,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="../car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -614,7 +616,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="../car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -692,7 +694,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="../car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -770,7 +772,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="../car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -848,7 +850,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="../car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -926,7 +928,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="../car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -1004,7 +1006,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="../car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -1082,7 +1084,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="../car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -1160,7 +1162,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="../car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -1256,15 +1258,15 @@
         </div>
     </section>
 
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/sections/global/footer.php';?>
+    <?php include '../sections/global/footer.php';?>
 
-    <script src="../assets/js/jquery.js"></script>
-    <script src="../assets/js/slick.min.js"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
-    <script src="../assets/js/sidebar.js"></script>
-    <script src="../assets/js/scripts.js"></script>
-    <script src="../assets/js/searchbar.js"></script>
-    <script src="../assets/js/loadmoreboxes.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/slick.min.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/bootstrap.min.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/sidebar.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/scripts.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/searchbar.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/loadmoreboxes.js"></script>
 
 </body>
 

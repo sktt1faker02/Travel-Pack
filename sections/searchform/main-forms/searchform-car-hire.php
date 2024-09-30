@@ -39,7 +39,7 @@
                     <div class="searchbar-inputwrap searchbar-select flex8 mobile-bordertop mobile-last-col">
                         <select class="form-control" name="car-driver-age" id="car-driver-age">
                             <option value="" selected>Driver Age*</option>
-                            <?php include $_SERVER['DOCUMENT_ROOT'] . '/sections/searchform/driverage.php';?>
+                            <?php include './sections/searchform/driverage.php';?>
                         </select>
                         <div class="select_arrow"></div>
                     </div>
@@ -53,20 +53,20 @@
                         <div class="searchbar-inputwrap">
                             <select class="form-control" name="car-pickup-time" id="car-hire-time-pickup">
                                 <option value="" disabled>Pickup Time</option>
-                                <?php include $_SERVER['DOCUMENT_ROOT'] . '/sections/searchform/timeincrements-fifteen.php';?>
+                                <?php include './sections/searchform/timeincrements-fifteen.php';?>
                             </select>
                             <div class="select_arrow"></div>
                         </div><!-- searchbar-inputwrap -->
                         <div class="searchbar-inputwrap mobile-last-col">
                             <select class="form-control" name=" car-dropoff-time" id="car-hire-time-dropoff">
                                 <option value="" disabled>Dropoff Time</option>
-                                <?php include $_SERVER['DOCUMENT_ROOT'] . '/sections/searchform/timeincrements-fifteen.php';?>
+                                <?php include './sections/searchform/timeincrements-fifteen.php';?>
                             </select>
                             <div class="select_arrow"></div>
                         </div><!-- searchbar-inputwrap -->
                         <div class="searchbar-inputwrap flex100-mobile mobile-bordertop">
                             <select class="form-control" name="car-hire-citizenship" id="car-hire-citizenship">
-                                <?php include $_SERVER['DOCUMENT_ROOT'] . '/sections/searchform/citizenships.php';?>
+                                <?php include './sections/searchform/citizenships.php';?>
                             </select>                                  
                             <div class="select_arrow"></div>      
                         </div><!-- searchbar-inputwrap -->

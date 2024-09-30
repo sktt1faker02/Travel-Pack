@@ -908,11 +908,14 @@
     </section> 
     
     <?php include './sections/global/whychoosetravelpack.php';?>
+
     <?php include './sections/global/cta.php';?>
+
     <?php include './sections/global/testimonials.php';?>
     <?php include './sections/global/dealstravels.php';?>
     <?php include './sections/global/perfect-holiday.php';?>
-    <?php include './sections//global/footer.php';?>
+
+    <?php include './sections//global/home-footer.php';?>
 
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/jquery-ui.min.js"></script>

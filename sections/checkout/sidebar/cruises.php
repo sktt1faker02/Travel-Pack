@@ -1,4 +1,3 @@
-
 <div class="hidden-filterboxes showfilterboxes">
 
     <div class="hiddenfilterboxes-top">
@@ -89,7 +88,7 @@
                             </div>
                         </div><!-- col -->
                     </div><!-- row -->
-                </div>     
+                </div>
                 <div class="fbinner">
                     <div class="row align-items-end">
                         <div class="col-12 col-lg-9 mainpurchase-box-left d-flex flex-column">
@@ -97,7 +96,7 @@
                                 Cabin
                             </strong>
                             <strong>
-                                Seriously Suite (4021) 
+                                Seriously Suite (4021)
                             </strong>
                         </div><!-- col -->
                         <div class="col-12 col-lg-3 d-flex justify-content-end mainpurchase-box-right">
@@ -172,7 +171,7 @@
                             </div>
                         </div><!-- col -->
                     </div><!-- row -->
-                </div>     
+                </div>
                 <div class="fbinner">
                     <div class="row align-items-end">
                         <div class="col-12 col-lg-9 mainpurchase-box-left d-flex flex-column">
@@ -180,7 +179,7 @@
                                 Cabin
                             </strong>
                             <strong>
-                                Seriously Suite (4021) 
+                                Seriously Suite (4021)
                             </strong>
                         </div><!-- col -->
                         <div class="col-12 col-lg-3 d-flex justify-content-end mainpurchase-box-right">
@@ -244,7 +243,7 @@
                 </div>
             </div><!-- fb-top   -->
             <div class="fb-bottom txt-black">
-                               
+
                 <div class="fbinner">
                     <div class="row">
                         <div class="col-12">

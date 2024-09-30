@@ -125,6 +125,10 @@ a {
     top:-1px;
 }
 
+.txt-primary-hover:hover {
+    color: var(--primary);    
+}
+
 .txt-primary {
     color: var(--primary);
 }
@@ -159,11 +163,17 @@ a {
 .fs20 {
     font-size: 20px;
 }
+.fs23 {
+    font-size: 23px;
+}
 .fs25 {
     font-size:25px;
 }
 .fs30 {
     font-size:30px;
+}
+.fs32 {
+    font-size:32px;
 }
 /* Type */
 h1, .h1 {
@@ -608,6 +618,9 @@ div#cta-datepicker {
 button:focus:not(:focus-visible) {
     outline: 0;
     box-shadow: none;
+}
+.bgcover {
+    background-size: cover;
 }
 .yellowbgpill {
     padding:8px 20px;
@@ -3087,4 +3100,53 @@ ul {
 .cabin-guaranteed {
     font-size: 19px;
     background-color: #fffbd3;
+}
+
+/* INNER PAGES - HELP CENTRE */
+#innerhero.herowithform {
+    padding-bottom: 330px;
+}
+#innerhero {
+    padding: 40px 0 350px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.faqs-toggle-btn {
+    background-color: var(--primary);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faqs-box-top h4 {
+    margin-bottom:0;
+    letter-spacing: 0;
+    font-size:22px;
+}
+.faqs-box {
+    border-bottom: 1px solid #b7b5b5;
+}
+.faqs-box-top {
+    column-gap: 40px;
+    cursor: pointer;
+    padding: 30px 0;
+}
+.faqs-box-bottom-inner {
+    padding-bottom: 30px;
+    font-size: 15px;
+    color: #9f9c9c;
+}
+.faqs-box.showfaqs .faqs-box-bottom {
+    max-height: 3500px; 
+    overflow: visible;
+    transition: max-height 0.5s ease;
+}
+.faqs-box-bottom {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease;
 }

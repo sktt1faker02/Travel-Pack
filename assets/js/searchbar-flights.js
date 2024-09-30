@@ -12,7 +12,6 @@ var smcOpenjawRow = document.querySelector('.smc-openjaw-row');
 var smcMulticity = document.querySelector('.smc-multicity');
 var smcReturn = document.querySelector('.smc-return'); // Reference for smc-return
 var flightDepartureTime = document.querySelector('.flight-departure-time'); // Reference to .flight-departure-time
-
 function checkJourneyType() {
     // Handle .flight-return-main visibility based on the radio buttons
     if (radioOneway.checked) {
@@ -75,7 +74,6 @@ function checkJourneyType() {
         searchformMore.classList.remove('hide-first');
     }
 }
-
 searchformMore.addEventListener('click', function() {
     const searchFormContents = document.querySelectorAll('.searchform-more-content');
     const radioButtons = document.querySelector('input[name="flt-journey"]:checked');

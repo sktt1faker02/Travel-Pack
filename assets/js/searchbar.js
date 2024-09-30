@@ -86,69 +86,69 @@ jQuery(document).ready(function($){
         }
     });
 
-   // Pickup date with 7 days default, max 1 year, and update drop-off based on it
-   const defaultPickupDate = new Date();
-   defaultPickupDate.setDate(defaultPickupDate.getDate() + 7);
+    // Pickup date with 7 days default, max 1 year, and update drop-off based on it
+    const defaultPickupDate = new Date();
+    defaultPickupDate.setDate(defaultPickupDate.getDate() + 7);
 
-   $(".pickup-date").datepicker({
-       dateFormat: 'dd/mm/yy',
-       minDate: 7,
-       maxDate: "+1y", // Max date is 1 year from today
-       changeMonth: true,
-       changeYear: true,
-       defaultDate: defaultPickupDate,
-       monthNames: [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ], // Full month names
-       dayNamesMin: [ "S", "M", "T", "W", "T", "F", "S" ], // First letters of the day names
-       onSelect: function(selectedDate) {
-           const selectedDateObject = $.datepicker.parseDate("dd/mm/yy", selectedDate);
+    $(".pickup-date").datepicker({
+        dateFormat: 'dd/mm/yy',
+        minDate: 7,
+        maxDate: "+1y", // Max date is 1 year from today
+        changeMonth: true,
+        changeYear: true,
+        defaultDate: defaultPickupDate,
+        monthNames: [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ], // Full month names
+        dayNamesMin: [ "S", "M", "T", "W", "T", "F", "S" ], // First letters of the day names
+        onSelect: function(selectedDate) {
+            const selectedDateObject = $.datepicker.parseDate("dd/mm/yy", selectedDate);
 
-           // Automatically set the drop-off date to be at least 7 days after pickup
-           const dropOffDate = new Date(selectedDateObject);
-           dropOffDate.setDate(dropOffDate.getDate() + 7);
+            // Automatically set the drop-off date to be at least 7 days after pickup
+            const dropOffDate = new Date(selectedDateObject);
+            dropOffDate.setDate(dropOffDate.getDate() + 7);
 
-           // Update min date for drop-off (7 days after selected pickup date)
-           $(".dropoff-date").datepicker("option", "minDate", dropOffDate);
+            // Update min date for drop-off (7 days after selected pickup date)
+            $(".dropoff-date").datepicker("option", "minDate", dropOffDate);
 
-           // If the current drop-off date is before the new drop-off minimum, update it
-           const currentDropOffDate = $(".dropoff-date").datepicker("getDate");
-           if (currentDropOffDate < dropOffDate) {
-               $(".dropoff-date").datepicker("setDate", dropOffDate);
-           }
+            // If the current drop-off date is before the new drop-off minimum, update it
+            const currentDropOffDate = $(".dropoff-date").datepicker("getDate");
+            if (currentDropOffDate < dropOffDate) {
+                $(".dropoff-date").datepicker("setDate", dropOffDate);
+            }
 
-           // Ensure drop-off max date is 1 year after the pickup date
-           const maxDate = new Date(selectedDateObject);
-           maxDate.setDate(maxDate.getDate() + 365);
-           $(".dropoff-date").datepicker("option", "maxDate", maxDate);
-       },
-       beforeShow: function(input, inst) {
-           replaceShortMonthNames(inst);
-       },
-       onChangeMonthYear: function(year, month, inst) {
-           replaceShortMonthNames(inst);
-       }
-   }).datepicker("setDate", defaultPickupDate);
+            // Ensure drop-off max date is 1 year after the pickup date
+            const maxDate = new Date(selectedDateObject);
+            maxDate.setDate(maxDate.getDate() + 365);
+            $(".dropoff-date").datepicker("option", "maxDate", maxDate);
+        },
+        beforeShow: function(input, inst) {
+            replaceShortMonthNames(inst);
+        },
+        onChangeMonthYear: function(year, month, inst) {
+            replaceShortMonthNames(inst);
+        }
+    }).datepicker("setDate", defaultPickupDate);
 
-   // Drop-off date with dynamic min and max dates, max 1 year
-   $(".dropoff-date").datepicker({
-       dateFormat: 'dd/mm/yy',
-       changeMonth: true,
-       changeYear: true,
-       minDate: defaultPickupDate, // Ensure this defaults to 7 days after pickup
-       maxDate: "+1y", // Max date is 1 year from today
-       monthNames: [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ], // Full month names
-       dayNamesMin: [ "S", "M", "T", "W", "T", "F", "S" ], // First letters of the day names
-       beforeShow: function(input, inst) {
-           replaceShortMonthNames(inst);
-       },
-       onChangeMonthYear: function(year, month, inst) {
-           replaceShortMonthNames(inst);
-       }
-   });
+    // Drop-off date with dynamic min and max dates, max 1 year
+    $(".dropoff-date").datepicker({
+        dateFormat: 'dd/mm/yy',
+        changeMonth: true,
+        changeYear: true,
+        minDate: defaultPickupDate, // Ensure this defaults to 7 days after pickup
+        maxDate: "+1y", // Max date is 1 year from today
+        monthNames: [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ], // Full month names
+        dayNamesMin: [ "S", "M", "T", "W", "T", "F", "S" ], // First letters of the day names
+        beforeShow: function(input, inst) {
+            replaceShortMonthNames(inst);
+        },
+        onChangeMonthYear: function(year, month, inst) {
+            replaceShortMonthNames(inst);
+        }
+    });
 
-   // Set default drop-off date to 7 days after today's date on page load
-   const defaultDropoffMinDate = new Date();
-   defaultDropoffMinDate.setDate(defaultDropoffMinDate.getDate() + 7);
-   $(".dropoff-date").datepicker("setDate", defaultDropoffMinDate);
+    // Set default drop-off date to 7 days after today's date on page load
+    const defaultDropoffMinDate = new Date();
+    defaultDropoffMinDate.setDate(defaultDropoffMinDate.getDate() + 7);
+    $(".dropoff-date").datepicker("setDate", defaultDropoffMinDate);
 
     const initialDate = $('.pickup-date').val();
     const appendDate = $('.dropoff-date');
@@ -531,25 +531,25 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // SEARCH MORE / MORE OPTION ON CLICK SHOW
-document.addEventListener('DOMContentLoaded', function() {
-    // Get the .searchform-more element
-    var searchFormMore = document.querySelector('.searchform-more');
+// document.addEventListener('DOMContentLoaded', function() {
+//     // Get the .searchform-more element
+//     var searchFormMore = document.querySelector('.searchform-more');
     
-    // Add click event listener
-    searchFormMore.addEventListener('click', function() {
-        // Get the .searchform-more-content element
-        var searchFormMoreContent = document.querySelector('.searchform-more-content');
+//     // Add click event listener
+//     searchFormMore.addEventListener('click', function() {
+//         // Get the .searchform-more-content element
+//         var searchFormMoreContent = document.querySelector('.searchform-more-content');
         
-        // Get the <i> element inside .searchform-more
-        var searchFormMoreIcon = searchFormMore.querySelector('i');
+//         // Get the <i> element inside .searchform-more
+//         var searchFormMoreIcon = searchFormMore.querySelector('i');
         
-        // Toggle the 'show' class on the .searchform-more-content element
-        searchFormMoreContent.classList.toggle('show');
+//         // Toggle the 'show' class on the .searchform-more-content element
+//         searchFormMoreContent.classList.toggle('show');
         
-        // Toggle the 'rotate' class on the <i> element
-        searchFormMoreIcon.classList.toggle('rotate');
-    });
-});
+//         // Toggle the 'rotate' class on the <i> element
+//         searchFormMoreIcon.classList.toggle('rotate');
+//     });
+// });
 
 
 // CRUISES + RAIL + TRANSFER + FLIGHTS DROPDOWN CHANGE TEXT

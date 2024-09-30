@@ -116,7 +116,7 @@
             <div class="row">
                 <div class="col-lg-4 col-12">
                     <div class="car-hire-image">
-                        <img src="<?= getBaseUrl() ?>/assets/img/car-hire/car-thumb.jpg" alt="">
+                        <img src="../assets/img/car-hire/car-thumb.jpg" alt="">
                     </div>
                 </div><!-- col -->
                 <div class="col-lg-8 col-12 d-flex align-item-between flex-column">
@@ -170,7 +170,7 @@
                             </div>
                         </div><!-- col -->
                         <div class="col-lg-3 col-12 carhirelogo">
-                            <img src="<?= getBaseUrl() ?>/assets/img/car-hire/green-motors.png" alt="">
+                            <img src="../assets/img/car-hire/green-motors.png" alt="">
                         </div>
                     </div><!-- row -->
 
