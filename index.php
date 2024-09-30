@@ -25,7 +25,7 @@
                 <div class="heroslider-nav">
                     <div class="heroslider-nav-slide">
                         <h1 class="txt-white">
-                            Effortless travel,<br/>
+                            test,<br/>
                             Joyful moments.
                         </h1>
                     
