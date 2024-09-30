@@ -103,23 +103,23 @@
 
                 <div class="col-12 col-lg-8 tp-main">
                     <div class="slidertop-spo-wrap position-relative">
-                        <div class="slidertop-spo">
-                            <div class="slidertop-spo-slide">
+                        <div class="slidertop-spo v-slide-wrap">
+                            <div class="slidertop-spo-slide v-slide">
                                 <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
                             </div>
-                            <div class="slidertop-spo-slide">
+                            <div class="slidertop-spo-slide v-slide">
                                 <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
                             </div>
-                            <div class="slidertop-spo-slide">
+                            <div class="slidertop-spo-slide v-slide">
                                 <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
                             </div>
-                            <div class="slidertop-spo-slide">
+                            <div class="slidertop-spo-slide v-slide">
                                 <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
                             </div>
-                            <div class="slidertop-spo-slide">
+                            <div class="slidertop-spo-slide v-slide">
                                 <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
                             </div>
-                            <div class="slidertop-spo-slide">
+                            <div class="slidertop-spo-slide v-slide">
                                 <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
                             </div>
                         </div>
@@ -127,7 +127,7 @@
                             <span id="current">01</span>/<span id="total">08</span>
                         </div>
 
-                        <div class="slidertop-spo-viewall">
+                        <div class="slidertop-spo-viewall v-all">
                             View All <i class="fa-solid fa-chevron-right"></i>
                         </div>
 
@@ -391,11 +391,13 @@
 
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/jquery-ui.min.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/bootstrap.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/jquery-ui-timepicker-addon.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/sidebar.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/slick.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/main-special-offers.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/scripts.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/galleryPopup.js"></script>
 
     <script>
         function redirectToPage(event) {

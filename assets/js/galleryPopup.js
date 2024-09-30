@@ -30,6 +30,7 @@ const mCounter = document.querySelector('#galleryHotel .counter');
 const mPrev = document.querySelector('#galleryHotel .fa-chevron-left');
 const mNext = document.querySelector('#galleryHotel .fa-chevron-right');
 const mViewAll = document.querySelector('.v-view-all');
+const vAll = document.querySelector('.v-all');
 
 let currentIndex = 0;
 let images = [];
@@ -64,6 +65,24 @@ if(mViewAll){
         }
     });
 }
+
+if(vAll){
+    vAll.addEventListener('click', (e) => {
+        e.stopPropagation();
+    
+        if (sliders.length > 0) {
+            const firstSlider = sliders[0];
+            const vSlides = firstSlider.querySelectorAll('.v-slide');
+    
+            images = Array.from(vSlides).map(slide => slide.querySelector('img'));
+            currentIndex = 0;
+    
+            updateSlideState();
+            myModal.show();
+        }
+    });
+}
+
 
 sliders.forEach(slider => {
     const vSlides = slider.querySelectorAll('.v-slide');
