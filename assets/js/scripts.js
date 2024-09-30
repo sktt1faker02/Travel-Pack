@@ -45,7 +45,15 @@ document.addEventListener("DOMContentLoaded", function() {
         this.closest('.faqs-box').classList.toggle('showfaqs');
       });
     });
-  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const elements = document.querySelectorAll('.baggage-allowances .box-group');
+    
+    elements.forEach(function(element) {
+        element.classList.remove('g-3');
+    });
+});
 
 // CTA TRAVEL DATES
 $(document).ready(function() {

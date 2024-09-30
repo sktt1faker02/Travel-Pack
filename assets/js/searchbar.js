@@ -95,7 +95,6 @@ jQuery(document).ready(function($){
 
 
 
-
 // DROPDOWN FILTER ON CLICK ------------------- ||
 document.addEventListener('DOMContentLoaded', function() {
     // Handle the Apply button click to remove .show on .dropdown-filter

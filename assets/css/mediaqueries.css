@@ -92,7 +92,8 @@
         padding: 0 5px;
     }
     .deals-travel-inspiration-top p {
-        margin: 0 auto;
+        margin: 0 auto 15px;
+        width:100%;
     }
     .emailinputwrap {
         justify-content: center;
@@ -212,10 +213,31 @@
     #herohome {
         padding: 40px 0 70px;
     }
+    .largesectiontitle {
+        font-size:40px;
+    }
+    .deals-travel-inspiration-top h2 {
+        font-size: 40px;
+    }
+    .fs32 {
+        font-size: 25px;
+    }
+    .fs23 {
+        font-size:18px;
+    }
+    .deals-travel-inspiration-top h2 {
+        font-size: 30px;
+    }
+    .deals-travel-inspiration-top p {
+        font-size: 19px;
+    }
 }
 
 
 @media (max-width: 575px) {
+    .faqs-toggle-btn i {
+        font-size: 10px;
+    }
     .mobilesearchtab-wrap {
         margin-bottom:0;
     }
@@ -265,10 +287,37 @@
     section.block {
         padding: 70px 0;
     }
+
+    #innerhero.inner-baggage-allowances {
+        background-position: -60px 0;
+    }
+    div#innerhero {
+        padding-bottom: 260px;
+        padding-top:25px;
+    }
+    .our-achievements-box {
+        padding: 30px;
+    }
+
+    #innerhero.inner-pvh {
+        background-image:url(../img/inner/mobilehero-pvh.jpg) !important;
+    }
+    #innerhero.inner-about {
+        background-image:url(../img/inner/mobilehero-about.jpg) !important;
+    }
+    #innerhero.inner-hc {
+        background-image:url(../img/inner/mobilehero-hc.jpg) !important;
+    }
 }
 
 @media (max-width: 479px) {
-    l#searchtab {
+    .yph-details > .yph-more {
+        flex-basis: 110px;
+    }
+    .search-box-ba {
+        width: 150px;
+    }
+    #searchtab {
         width: 390px;
     }
     .exciting-deals-heading a.view-all {

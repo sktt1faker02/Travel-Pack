@@ -34,7 +34,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
-<body class="flight-body">
+<body>
     <div id="herohome"  class="herowithform"  style="background-image:url(<?= getBaseUrl() ?>/assets/img/hotels/hero-search-hotels.jpg)">
         <?php include '../sections/global/header-nav.php';?>
     </div><!-- main hero -->

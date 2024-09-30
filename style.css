@@ -615,6 +615,12 @@ div#cta-datepicker {
 }
 
 /* DEFAULTS */
+img.br5 {
+    border-radius: 5px;
+}
+img.br7 {
+    border-radius: 7px;
+}
 button:focus:not(:focus-visible) {
     outline: 0;
     box-shadow: none;
@@ -1194,7 +1200,7 @@ textarea.tp-input {
     z-index: 5;
 }
 section#deals-travel-inspiration {
-    padding-bottom: 180px;
+    padding-bottom: 190px;
     padding-top: 80px;
 }
 .dti-right-img img {
@@ -1230,7 +1236,7 @@ section#deals-travel-inspiration {
     color: #232323;
     font-weight: 500;
     font-size: 22px;
-    width: 420px;
+    width: 430px;
     max-width: 100%;
     margin-top: 15px;
     letter-spacing: 0;
@@ -1292,6 +1298,11 @@ section#deals-travel-inspiration {
     background-color: #f7f6f3;
     padding-top:40px;
 }
+#innerhero.innerhero-nohero {
+    background-color: #fff;
+    background-image: none !important;
+    padding-bottom: 10px;
+}
 
 /* MAIN HEADER */
 #main-header {
@@ -1312,6 +1323,10 @@ section#deals-travel-inspiration {
     box-shadow: -1px 2px 16px 0px rgba(0,0,0,0.11);
     -webkit-box-shadow: -1px 2px 16px 0px rgba(0,0,0,0.11);
     -moz-box-shadow: -1px 2px 16px 0px rgba(0,0,0,0.11);
+}
+.innerhero-nohero #main-header .row {
+    background-color: #f8f6f3;
+    box-shadow: none;
 }
 #bottommenu {
     background-color: #fff;
@@ -3111,6 +3126,7 @@ ul {
     background-size: cover;
     position: relative;
     overflow: hidden;
+    background-position: center;
 }
 .faqs-toggle-btn {
     background-color: var(--primary);
@@ -3121,6 +3137,11 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.faqs-section-top {
+    border-bottom: 1px solid #acacac;
+    border-top: 1px solid #acacac;
+    padding: 10px 0;
 }
 .faqs-box-top h4 {
     margin-bottom:0;
@@ -3140,16 +3161,181 @@ ul {
     font-size: 15px;
     color: #9f9c9c;
 }
+.faqs-box .faqs-box-top i {
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+}
+.faqs-box.showfaqs .faqs-box-top i {
+    transform: rotate(180deg);
+}
 .faqs-box.showfaqs .faqs-box-bottom {
     max-height: 3500px; 
     overflow: visible;
-    transition: max-height 0.5s ease;
+    transition: max-height 0.1s ease;
 }
 .faqs-box-bottom {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.8s ease;
 }
+.faqs-box  ul a:hover {
+    color:var(--primary);
+}
+.faqs-box a {
+    color:#000;
+    font-weight: 500;
+}
+.faqs-box:first-child .faqs-box-top {
+    padding-top: 0;
+}
+
+/* BAGGAGE ALLOWANCES */
+.baggage-allowances .loadmorebox {
+    margin-top: 0;
+}
+.ba-box {
+    border:1px solid #e9e9e9;
+    border-radius: 5px;
+}
+.ba-box-top {
+    padding: 20px;
+}
+.ba-box-top img {
+    max-height: 35px;
+}
+.ba-box-top {
+    padding: 20px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ba-bottom-options ul a:hover {
+    color:var(--primary);
+}
+.ba-bottom-options ul a {
+    color:#000;
+    font-size:15px;
+}
+.ba-bottom-options ul {
+    margin-bottom:0;
+}
+.ba-box-bottom {
+    padding: 20px;
+    background-color: #f8f6f3;
+    font-weight: 500;
+}
+.ba-bottom-airways {
+    border-bottom: 2px solid #eaeae8;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+.baggage-allowance-slider .slick-dots {
+    display: none;
+}
+.search-box-ba {
+    display: flex;
+    align-items: center;
+    border: 1px solid #5a2d82;
+    border-radius: 5px;
+    padding: 0;
+}
+.search-box-ba .search-input {
+    border: none;
+    width:100%;
+    outline: none;
+    padding: 6px 10px;
+    flex-grow: 1;
+    font-size: 15px;
+    color: #999;
+    border-radius: 7px;
+    font-weight: 500;
+}
+.search-box-ba .search-input::placeholder {
+    color: #ccc; /* Lighter placeholder */
+}
+.search-box-ba .search-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    color: #002b5c;
+    font-size: 10px;
+    position: absolute;
+    right: 20px;
+}
+.search-box-ba .search-btn i {
+    font-size: 18px;
+    position: relative;
+    top: 1px;
+}
+
+/* ABOUT US */
+.dti-right-img .btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+/* OUR ACHIEVEMENTS CHECKLIST */
+.our-achievements-box {
+    background-color: #f8f6f3;
+    padding: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    flex-grow: 1; /* Ensures the box grows to fill the available space */
+    display: flex;
+    flex-direction: column;
+}
+
+ul.oa-checklist {
+    color: #000;
+    padding-left: 30px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    margin-bottom:0;
+}
+
+ul.oa-checklist > li {
+    position: relative;
+}
+
+ul.oa-checklist > li::before {
+    content: '';
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: -30px;
+    background-size: cover;
+    background-image: url(../assets/img/inner/checkbox.png);
+    top: 3px;
+}
+
+ul.visa-list {
+    margin-top:10px;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+ul.oa-checklist li a:hover {
+    color:var(--primary);
+}
+ul.oa-checklist li a {
+    color:#000;
+    font-weight:500;
+    display:inline-block;
+}
+
+
+/* INNER FAQS */
+.innerfaqs-title h1 {
+    font-size: 25px;
+}
+
 
 /* ! range date picker */
 .ui-datepicker-current-day{

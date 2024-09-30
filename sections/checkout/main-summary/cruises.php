@@ -24,7 +24,7 @@
                             </div>
                         </div><!-- col -->
                         <div class="col-lg-3 col-12 justify-content-end">
-                            <img src="../assets/img/cruise/topright-image.png" alt="" class="cruise-image-topright">
+                            <img src="<?= getBaseUrl() ?>/assets/img/cruise/topright-image.png" alt="" class="cruise-image-topright">
                         </div><!-- col -->
                     </div><!-- row -->
                     <div class="row cruise-features mt-3">

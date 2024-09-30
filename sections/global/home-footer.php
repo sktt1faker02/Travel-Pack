@@ -54,7 +54,7 @@
                             <h4>
                                 Protected By
                             </h4>
-                            <img src="<?= getBaseUrl() ?>/assets/img/footer/protectedby.png" alt="" class="protectedby">
+                            <img src="./assets/img/footer/protectedby.png" alt="" class="protectedby">
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
             <div class="row footerbottom">
                 <div class="col-12 col-lg-2">
                     <a href="index.html">
-                        <img src="<?= getBaseUrl() ?>/assets/img/footer/footerlogo.png" alt="" class="mb-4 mb-lg-0">
+                        <img src="./assets/img/footer/footerlogo.png" alt="" class="mb-4 mb-lg-0">
                     </a>
                 </div>
                 <div class="col-12 col-lg-10 footerbottom-right ps-lg-5">

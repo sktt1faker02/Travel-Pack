@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="row g-5 mt-1 text-center">
-                <div class="col-6 col-lg-3 col-md-6 wct-col">
+                <div class="col-6 col-lg-3 col-sm-6 wct-col">
                     <div class="whychoosebox">
                         <img src="<?= getBaseUrl() ?>/assets/img/home/whychoose1.png" alt="">
                         <h4>
@@ -20,7 +20,7 @@
                         </p>
                     </div>
                 </div><!-- col -->
-                <div class="col-6 col-lg-3 col-md-6 wct-col">
+                <div class="col-6 col-lg-3 col-sm-6 wct-col">
                     <div class="whychoosebox">
                         <img src="<?= getBaseUrl() ?>/assets/img/home/whychoose2.png" alt="">
                         <h4>
@@ -31,7 +31,7 @@
                         </p>
                     </div>
                 </div><!-- col -->
-                <div class="col-6 col-lg-3 col-md-6 wct-col">
+                <div class="col-6 col-lg-3 col-sm-6 wct-col">
                     <div class="whychoosebox">
                         <img src="<?= getBaseUrl() ?>/assets/img/home/whychoose3.png" alt="">
                         <h4>
@@ -42,7 +42,7 @@
                         </p>
                     </div>
                 </div><!-- col -->
-                <div class="col-6 col-lg-3 col-md-6 wct-col">
+                <div class="col-6 col-lg-3 col-sm-6 wct-col">
                     <div class="whychoosebox">
                         <img src="<?= getBaseUrl() ?>/assets/img/home/whychoose4.png" alt="">
                         <h4>

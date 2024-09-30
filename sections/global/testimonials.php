@@ -10,7 +10,7 @@
         <div id="main-testimonials">
             <div class="testislider">
                 <div class="testibox">
-                    <?php include './sections/global/star-rating.php';?>
+                    <?php include '../sections/global/star-rating.php';?>
                     <div class="testimain">
                         <h3>
                             Quick and Simple
@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="testibox">
-                    <?php include './sections/global/star-rating.php';?>
+                    <?php include '../sections/global/star-rating.php';?>
                     <div class="testimain">
                         <h3>
                             Fast processing
@@ -38,7 +38,7 @@
                     </div>
                 </div>
                 <div class="testibox">
-                    <?php include './sections/global/star-rating.php';?>
+                    <?php include '../sections/global/star-rating.php';?>
                     <div class="testimain">
                         <h3>
                             Hassle free!
@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 <div class="testibox">
-                    <?php include './sections/global/star-rating.php';?>
+                    <?php include '../sections/global/star-rating.php';?>
                     <div class="testimain">
                         <h3>
                             Easy and Fast
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <div class="testibox">
-                    <?php include './sections/global/star-rating.php';?>
+                    <?php include '../sections/global/star-rating.php';?>
                     <div class="testimain">
                         <h3>
                             So far so good
@@ -96,7 +96,7 @@
                     </div>
                 </div>
                 <div class="testibox">
-                    <?php include './sections/global/star-rating.php';?>
+                    <?php include '../sections/global/star-rating.php';?>
                     <div class="testimain">
                         <h3>
                             Efficient and Fast

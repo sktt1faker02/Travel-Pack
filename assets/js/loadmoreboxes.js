@@ -16,14 +16,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const boxesPerPage = 3;
     let currentPage = 1;
 
-    // Check if .loadmore-boxes-wrap is inside .specialoffer-main
+    // Check if .loadmore-boxes-wrap is inside .specialoffer-main or .baggage-allowances
     const isSpecialOffer = loadmoreBoxesWrap.closest('.specialoffer-main') !== null;
+    const isBaggageAllowances = loadmoreBoxesWrap.closest('.baggage-allowances') !== null;
     const displayStyle = isSpecialOffer ? 'flex' : 'block';
 
     // Wrap every 3 boxes into a new parent div with class "box-group"
     for (let i = 0; i < totalBoxes; i += boxesPerPage) {
         const group = document.createElement('div');
-        group.classList.add('box-group', 'g-3', 'row'); // Add class gx-3 and row to box-group
+        group.classList.add('box-group'); // Add 'box-group' by default
+
+        // Only add 'g-3' and 'row' if the loadmore-boxes-wrap is NOT inside .baggage-allowances
+        if (!isBaggageAllowances) {
+            group.classList.add('g-3', 'row');
+        }
+
         group.style.display = 'none'; // Set initially hidden
         loadmoreBoxes.slice(i, i + boxesPerPage).forEach(box => group.appendChild(box));
         loadmoreBoxesWrap.appendChild(group);

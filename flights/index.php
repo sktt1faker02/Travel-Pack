@@ -50,7 +50,8 @@
                     <img src="" alt="">
                 </div>
             </div>
-        </div>
+        </div> 
+        
         
         <?php include '../sections/global/header-nav.php';?>
 

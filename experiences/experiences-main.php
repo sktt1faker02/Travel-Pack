@@ -485,6 +485,7 @@
     <script src="<?= getBaseUrl() ?>/assets/js/slick.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/bootstrap.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/sidebar.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/experiences.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/galleryPopup.js"></script>
 
 
