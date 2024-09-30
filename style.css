@@ -3150,3 +3150,21 @@ ul {
     overflow: hidden;
     transition: max-height 0.8s ease;
 }
+
+/* ! range date picker */
+.ui-datepicker-current-day{
+    opacity: 1 !important;
+}
+
+.ui-datepicker-current-day .ui-state-default{
+    background: var(--primary) !important;
+    color: var(--white);
+}
+
+.ui-state-disabled.rd{
+    opacity: 1 !important;
+}
+.ui-state-disabled.rd .ui-state-default{
+    background: #ffee57 !important;
+    color: #000000 !important;
+}

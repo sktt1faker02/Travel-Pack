@@ -1,142 +1,69 @@
 jQuery(document).ready(function($){
-    // Function to dynamically set the width of the month dropdown
     function adjustMonthWidth(inst) {
         const monthSelect = inst.dpDiv.find('.ui-datepicker-month');
-        
-        // Get the currently selected month's text
         const selectedMonthText = monthSelect.find('option:selected').text();
-
-        // Create a temporary span element to calculate the width of the month text
         const tempSpan = $('<span>').text(selectedMonthText).css({
             "font-size": monthSelect.css("font-size"),
             "font-family": monthSelect.css("font-family"),
             "visibility": "hidden",
             "white-space": "nowrap"
         }).appendTo('body');
-        
-        // Calculate the width of the text and set the width of the select element
         const textWidth = tempSpan.width();
-        monthSelect.css('width', textWidth + 10 + 'px'); // Add a little padding (10px)
-        
-        // Remove the temporary span after the width is calculated
+        monthSelect.css('width', textWidth + 10 + 'px');
         tempSpan.remove();
     }
 
-    // Replace short month names with full month names and adjust width
     function replaceShortMonthNames(inst) {
         setTimeout(function() {
             inst.dpDiv.find('.ui-datepicker-month option').each(function() {
-                var monthIndex = $(this).val(); // Get month index
-                $(this).text($.datepicker._defaults.monthNames[monthIndex]); // Set full month name
+                var monthIndex = $(this).val();
+                $(this).text($.datepicker._defaults.monthNames[monthIndex]);
             });
-            adjustMonthWidth(inst); // Adjust width after setting full names
+            adjustMonthWidth(inst);
         }, 0);
     }
 
-    // Datepicker initialization for general datepicker with 1 year max
-    $(".datepicker").datepicker({
-        dateFormat: "dd/mm/yy",
-        changeMonth: true,
-        changeYear: true,
-        monthNames: [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ], // Full month names
-        dayNamesMin: [ "S", "M", "T", "W", "T", "F", "S" ], // First letters of the day names
-        maxDate: "+1y", // Max date is 1 year from today
-        showMonthAfterYear: false,
-        beforeShow: function(input, inst) {
-            replaceShortMonthNames(inst);
-        },
-        onChangeMonthYear: function(year, month, inst) {
-            replaceShortMonthNames(inst);
-        }
-    });
+    function highlightCurrentDay(date, inst) {
+        const pickupDate = $(".pickup-date").datepicker("getDate");
+        const dropoffDate = $(".dropoff-date").datepicker("getDate");
 
-    // Datepicker for today's date with minDate as 0 and max 1 year
-    $(".datetoday").datepicker({
-        dateFormat: 'dd/mm/yy',
-        minDate: 0, 
-        changeMonth: true,
-        changeYear: true,
-        monthNames: [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ], // Full month names
-        dayNamesMin: [ "S", "M", "T", "W", "T", "F", "S" ], // First letters of the day names
-        maxDate: "+1y", // Max date is 1 year from today
-        showMonthAfterYear: false,
-        beforeShow: function(input, inst) {
-            replaceShortMonthNames(inst);
-        },
-        onChangeMonthYear: function(year, month, inst) {
-            replaceShortMonthNames(inst);
-        }
-    });
+        if (pickupDate && dropoffDate) {
+            const startDate = pickupDate.getTime();
+            const endDate = dropoffDate.getTime();
+            const currentDate = date.getTime();
 
-    // Datepicker for transfer date with min 7 days and max 1 year range
-    $(".trf-date").datepicker({
-        dateFormat: 'dd/mm/yy',
-        minDate: 7,
-        maxDate: "+1y", // Max date is 1 year from today
-        changeMonth: true,
-        changeYear: true,
-        monthNames: [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ], // Full month names
-        dayNamesMin: [ "S", "M", "T", "W", "T", "F", "S" ], // First letters of the day names
-        showMonthAfterYear: false,
-        beforeShow: function(input, inst) {
-            replaceShortMonthNames(inst);
-        },
-        onChangeMonthYear: function(year, month, inst) {
-            replaceShortMonthNames(inst);
+            if (currentDate === startDate || currentDate === endDate) {
+                return [true, "ui-datepicker-current-day"];
+            } else if (currentDate > startDate && currentDate < endDate) {
+                return [true, "rd"];
+            }
         }
-    });
+        
+        return [true, ""];
+    }
 
-    // Pickup date with 7 days default, max 1 year, and update drop-off based on it
-    const defaultPickupDate = new Date();
-    defaultPickupDate.setDate(defaultPickupDate.getDate() + 7);
 
     $(".pickup-date").datepicker({
         dateFormat: 'dd/mm/yy',
         minDate: 7,
-        maxDate: "+1y", // Max date is 1 year from today
+        maxDate: "+1y",
         changeMonth: true,
         changeYear: true,
-        defaultDate: defaultPickupDate,
-        monthNames: [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ], // Full month names
-        dayNamesMin: [ "S", "M", "T", "W", "T", "F", "S" ], // First letters of the day names
+        beforeShowDay: highlightCurrentDay,
         onSelect: function(selectedDate) {
             const selectedDateObject = $.datepicker.parseDate("dd/mm/yy", selectedDate);
-
-            // Automatically set the drop-off date to be at least 7 days after pickup
             const dropOffDate = new Date(selectedDateObject);
             dropOffDate.setDate(dropOffDate.getDate() + 7);
-
-            // Update min date for drop-off (7 days after selected pickup date)
             $(".dropoff-date").datepicker("option", "minDate", dropOffDate);
-
-            // If the current drop-off date is before the new drop-off minimum, update it
             const currentDropOffDate = $(".dropoff-date").datepicker("getDate");
             if (currentDropOffDate < dropOffDate) {
                 $(".dropoff-date").datepicker("setDate", dropOffDate);
             }
-
-            // Ensure drop-off max date is 1 year after the pickup date
             const maxDate = new Date(selectedDateObject);
             maxDate.setDate(maxDate.getDate() + 365);
             $(".dropoff-date").datepicker("option", "maxDate", maxDate);
+            $(".dropoff-date").datepicker("refresh");
         },
-        beforeShow: function(input, inst) {
-            replaceShortMonthNames(inst);
-        },
-        onChangeMonthYear: function(year, month, inst) {
-            replaceShortMonthNames(inst);
-        }
-    }).datepicker("setDate", defaultPickupDate);
-
-    // Drop-off date with dynamic min and max dates, max 1 year
-    $(".dropoff-date").datepicker({
-        dateFormat: 'dd/mm/yy',
-        changeMonth: true,
-        changeYear: true,
-        minDate: defaultPickupDate, // Ensure this defaults to 7 days after pickup
-        maxDate: "+1y", // Max date is 1 year from today
-        monthNames: [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ], // Full month names
-        dayNamesMin: [ "S", "M", "T", "W", "T", "F", "S" ], // First letters of the day names
         beforeShow: function(input, inst) {
             replaceShortMonthNames(inst);
         },
@@ -145,19 +72,27 @@ jQuery(document).ready(function($){
         }
     });
 
-    // Set default drop-off date to 7 days after today's date on page load
-    const defaultDropoffMinDate = new Date();
-    defaultDropoffMinDate.setDate(defaultDropoffMinDate.getDate() + 7);
-    $(".dropoff-date").datepicker("setDate", defaultDropoffMinDate);
+    $(".dropoff-date").datepicker({
+        dateFormat: 'dd/mm/yy',
+        changeMonth: true,
+        changeYear: true,
+        minDate: 7,
+        maxDate: "+1y",
+        beforeShowDay: highlightCurrentDay,
+        beforeShow: function(input, inst) {
+            replaceShortMonthNames(inst);
+        },
+        onChangeMonthYear: function(year, month, inst) {
+            replaceShortMonthNames(inst);
+        }
+    });
 
-    const initialDate = $('.pickup-date').val();
-    const appendDate = $('.dropoff-date');
-    const [day, month, year] = initialDate.split('/').map(Number);
-    const dateObj = new Date(year, month - 1, day);
-    dateObj.setDate(dateObj.getDate() + 7);
-    const newDate = `${String(dateObj.getDate()).padStart(2, '0')}/${String(dateObj.getMonth() + 1).padStart(2, '0')}/${dateObj.getFullYear()}`;
-    appendDate.val(newDate);
+    const defaultPickupDate = new Date();
+    defaultPickupDate.setDate(defaultPickupDate.getDate() + 7);
+    $(".pickup-date").datepicker("setDate", defaultPickupDate);
+    $(".dropoff-date").datepicker("setDate", new Date(defaultPickupDate.getTime() + 7 * 24 * 60 * 60 * 1000));
 });
+
 
 
 
