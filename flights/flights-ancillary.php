@@ -85,7 +85,7 @@
                                         </div>
                                     </div><!-- col -->
                                     <div class="col-md-6 col-12">
-                                        <label>Inbound Checked Baggage</span>
+                                        <label>Inbound Checked Baggage</label>
                                         <div class="select">
                                             <select class="inbound-checked-baggage">
                                                 <option>00</option>
@@ -200,7 +200,7 @@
                                         </div>
                                     </div><!-- col -->
                                     <div class="col-md-6 col-12">
-                                        <label>Inbound Checked Baggage</span>
+                                        <label>Inbound Checked Baggage</label>
                                         <div class="select">
                                             <select class="inbound-checked-baggage">
                                                 <option>00</option>

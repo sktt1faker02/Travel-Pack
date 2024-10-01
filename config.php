@@ -4,7 +4,7 @@ function getBaseUrl() {
     $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
     $host = $_SERVER['HTTP_HOST'];
 
-    if ($host === 'localhost' || $host === '127.0.0.1') {
+    if ($host === 'localhost' || $host === '127.0.0.1' || $host === 'localhost:8888') {
         return $protocol . $host . '/travelpack';
     } else {
         return 'https://devtravelpack.wpdev.ws';
