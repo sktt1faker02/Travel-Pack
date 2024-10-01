@@ -87,10 +87,13 @@ jQuery(document).ready(function($){
         }
     });
 
-    const defaultPickupDate = new Date();
-    defaultPickupDate.setDate(defaultPickupDate.getDate() + 7);
-    $(".pickup-date").datepicker("setDate", defaultPickupDate);
-    $(".dropoff-date").datepicker("setDate", new Date(defaultPickupDate.getTime() + 7 * 24 * 60 * 60 * 1000));
+    // $(".pickup-date").attr("placeholder", "Return");
+    // $(".dropoff-date").attr("placeholder", "Types of Holiday");
+
+    // const defaultPickupDate = new Date();
+    // defaultPickupDate.setDate(defaultPickupDate.getDate() + 7);
+    // $(".pickup-date").datepicker("setDate", defaultPickupDate);
+    // $(".dropoff-date").datepicker("setDate", new Date(defaultPickupDate.getTime() + 7 * 24 * 60 * 60 * 1000));
 });
 
 
