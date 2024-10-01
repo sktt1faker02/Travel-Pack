@@ -317,7 +317,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const travellersText = totalTravellers === 1 ? '1 traveller' : `${totalTravellers} travellers`;
             const roomsText = roomsCount === 1 ? '1 room' : `${roomsCount} rooms`;
 
-            placeholderElement.placeholder = `${travellersText}, ${roomsText}`;
+            const updatePlaceHolder = ()=>{
+                placeholderElement.placeholder = `${travellersText}, ${roomsText}`;
+            };
         }
     };
 
@@ -492,6 +494,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // CRUISES + RAIL + TRANSFER + FLIGHTS DROPDOWN CHANGE TEXT
 document.addEventListener('DOMContentLoaded', function() {
     const changeTextWraps = document.querySelectorAll('.change-text-wrap');
+    const transferSearchForm = document.querySelector('#transfer-search');
 
     changeTextWraps.forEach(wrapper => {
         const inputField = wrapper.querySelector('.input-change-text');
@@ -499,21 +502,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (!inputField) return;
 
-        // Function to calculate total travelers and cabins
         const updatePlaceholder = () => {
             let totalTravelers = 0;
             let totalCabins = 0;
             const travelerInputs = wrapper.querySelectorAll('.dropdown-filter-travellers-count input[type="text"]');
             const cabinInput = wrapper.querySelector('.dropdown-filter-cabin-count input[type="text"]');
-
+    
             travelerInputs.forEach(input => {
                 totalTravelers += parseInt(input.value, 10);
             });
-
+    
             // Determine the label based on the class of inputField
             const travelerLabel = inputField.classList.contains('input-change-text-passengers') ? 'Passenger' : 'Traveller';
             const travelerText = totalTravelers === 1 ? travelerLabel : travelerLabel + 's';
-
+    
             if (cabinInput) {
                 totalCabins = parseInt(cabinInput.value, 10);
                 const cabinText = totalCabins === 1 ? 'Cabin' : 'Cabins';
@@ -521,7 +523,7 @@ document.addEventListener('DOMContentLoaded', function() {
             } else {
                 inputField.placeholder = `${totalTravelers} ${travelerText}`;
             }
-
+    
             // Add additional text from the dropdown if it exists
             if (cabinClassDropdown) {
                 const selectedOption = cabinClassDropdown.options[cabinClassDropdown.selectedIndex];
@@ -529,9 +531,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 inputField.placeholder += ` - ${selectedText}`;
             }
         };
-
-        // Initial update on page load
-        updatePlaceholder();
 
         // Update placeholder when any of the inputs change
         const inputs = wrapper.querySelectorAll('.dd-filter input[type="text"]');
@@ -549,6 +548,41 @@ document.addEventListener('DOMContentLoaded', function() {
         if (cabinClassDropdown) {
             cabinClassDropdown.addEventListener('change', updatePlaceholder);
         }
+    });
+
+    const updatePlaceholder = () => {
+        let totalTravelers = 0;
+        let totalCabins = 0;
+        const travelerInputs = wrapper.querySelectorAll('.dropdown-filter-travellers-count input[type="text"]');
+        const cabinInput = wrapper.querySelector('.dropdown-filter-cabin-count input[type="text"]');
+
+        travelerInputs.forEach(input => {
+            totalTravelers += parseInt(input.value, 10);
+        });
+
+        // Determine the label based on the class of inputField
+        const travelerLabel = inputField.classList.contains('input-change-text-passengers') ? 'Passenger' : 'Traveller';
+        const travelerText = totalTravelers === 1 ? travelerLabel : travelerLabel + 's';
+
+        if (cabinInput) {
+            totalCabins = parseInt(cabinInput.value, 10);
+            const cabinText = totalCabins === 1 ? 'Cabin' : 'Cabins';
+            inputField.placeholder = `${totalTravelers} ${travelerText}, ${totalCabins} ${cabinText}`;
+        } else {
+            inputField.placeholder = `${totalTravelers} ${travelerText}`;
+        }
+
+        // Add additional text from the dropdown if it exists
+        if (cabinClassDropdown) {
+            const selectedOption = cabinClassDropdown.options[cabinClassDropdown.selectedIndex];
+            const selectedText = selectedOption.textContent.trim();
+            inputField.placeholder += ` - ${selectedText}`;
+        }
+    };
+
+    transferSearchForm.addEventListener('submit', (e)=>{
+        e.preventDefault();
+        updatePlaceholder();
     });
 });
 
