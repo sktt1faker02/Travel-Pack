@@ -1,4 +1,3 @@
-
 <div class="searchbar-main" id="searchbar-car-hire">
     <div class="searchbar-main-inner">
         <form name="car-hire-search" id="car-hire-search" method="post" action="">
@@ -10,7 +9,7 @@
                     </div>
 
                     <div class="searchbar-inputwrap flex7 mobile-last-col">
-                        <input class="form-control date pickup-date" maxdate="+730D"  name="car-hire-date-pickup" id="car-hire-date-pickup" value="" placeholder="Date">
+                        <input class="form-control date pickup-date" maxdate="+730D" name="car-hire-date-pickup" id="car-hire-date-pickup" value="" placeholder="Date">
                         <div class="select_arrow"></div>
                     </div>
 
@@ -39,7 +38,7 @@
                     <div class="searchbar-inputwrap searchbar-select flex8 mobile-bordertop mobile-last-col">
                         <select class="form-control" name="car-driver-age" id="car-driver-age">
                             <option value="" selected>Driver Age*</option>
-                            <?php include './sections/searchform/driverage.php';?>
+                            <?php include './sections/searchform/driverage.php'; ?>
                         </select>
                         <div class="select_arrow"></div>
                     </div>
@@ -48,35 +47,36 @@
                         <input type="submit" class="btn-typ2 searchnowbtn btn btn-primary" value="Search Now" onclick="redirectToPage(event)">
                     </div>
                 </div><!-- searchform-row -->
-                <div class="searchform-more-content">
+                <div class="searchform-more-content car-hire-content">
                     <div class="searchform-row mt-3">
                         <div class="searchbar-inputwrap">
                             <select class="form-control" name="car-pickup-time" id="car-hire-time-pickup">
-                                <option value="" disabled>Pickup Time</option>
-                                <?php include './sections/searchform/timeincrements-fifteen.php';?>
+                                <option value="" disabled selected>Pickup Time</option>
+                                <?php include './sections/searchform/timeincrements-fifteen.php'; ?>
                             </select>
                             <div class="select_arrow"></div>
                         </div><!-- searchbar-inputwrap -->
                         <div class="searchbar-inputwrap mobile-last-col">
                             <select class="form-control" name=" car-dropoff-time" id="car-hire-time-dropoff">
-                                <option value="" disabled>Dropoff Time</option>
-                                <?php include './sections/searchform/timeincrements-fifteen.php';?>
+                                <option value="" disabled selected>Dropoff Time</option>
+                                <?php include './sections/searchform/timeincrements-fifteen.php'; ?>
                             </select>
                             <div class="select_arrow"></div>
                         </div><!-- searchbar-inputwrap -->
                         <div class="searchbar-inputwrap flex100-mobile mobile-bordertop">
                             <select class="form-control" name="car-hire-citizenship" id="car-hire-citizenship">
-                                <?php include './sections/searchform/citizenships.php';?>
-                            </select>                                  
-                            <div class="select_arrow"></div>      
+                                <option value="" disabled selected>Citizenship</option>
+                                <?php include './sections/searchform/citizenships.php'; ?>
+                            </select>
+                            <div class="select_arrow"></div>
                         </div><!-- searchbar-inputwrap -->
                     </div><!-- searchform-row -->
                 </div><!-- searchform content more -->
                 <div class="searchform-more-wrap mt-3">
-                    <div class="searchform-more d-flex align-items-center">
+                    <div class="searchform-more d-flex align-items-center search-more-ch">
                         <span>
-                            More Option 
-                        </span>    
+                            More Option
+                        </span>
                         <i class="fa-solid fa-chevron-down ms-2"></i>
                     </div>
                 </div><!-- searchform-more wrap -->

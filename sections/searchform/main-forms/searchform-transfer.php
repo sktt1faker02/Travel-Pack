@@ -1,7 +1,7 @@
 
 <div class="searchbar-main" id="searchbar-transfer">
     <div class="searchbar-main-inner">
-        <form name="transfer-search" id="transfer-search" method="post" action="">
+        <form name="transfer-search" id="transfer-search">
             <div class="searchform-inner">
                 <div class="searchform-row">
                     <div class="searchbar-inputwrap flex7">
@@ -24,8 +24,8 @@
 
                     <div class="searchbar-inputwrap searchbar-select transfer-time-wrap flex7 mobile-bordertop mobile-last-col">
                         <select class="form-control" name="transfer-time" id="transfer-time">
-                            <option value="" disabled>Time</option>
-                            <?php include $_SERVER['DOCUMENT_ROOT'] . '/sections/searchform/timeincrements-fifteen.php';?>
+                            <option value="" disabled selected>Time</option>
+                            <?php include './sections/searchform/timeincrements-fifteen.php';?>
                         </select>
                         <div class="select_arrow"></div>
                     </div>
@@ -87,7 +87,7 @@
                                         </p>
                                     </div><!-- fitertext -->
                                     <div class="dd-filterbtn">
-                                        <button class="btn btn-primary">
+                                        <button type="submit" class="btn btn-primary">
                                             Apply
                                         </button>
                                     </div>
@@ -101,7 +101,7 @@
                     </div>
                 </div><!-- searchform-row -->
 
-                <div class="searchform-more-content">
+                <div class="searchform-more-content transfer-content">
                     <div class="searchform-row mt-3">
                         <div class="searchbar-inputwrap">
                             <input class="form-control date dropoff-date" name="transfer-date-return" id="transfer-date-return" value="" placeholder="When">
@@ -110,7 +110,7 @@
                         <div class="searchbar-inputwrap mobile-last-col">
                             <select class="form-control" name="transfer-return-time" id="transfer-return-time">
                                 <option value="" disabled>Time</option>
-                                <?php include $_SERVER['DOCUMENT_ROOT'] . '/sections/searchform/timeincrements-fifteen.php';?>
+                                <?php include './sections/searchform/timeincrements-fifteen.php';?>
                             </select>
                             <div class="select_arrow"></div>
                         </div><!-- searchbar-inputwrap -->
@@ -129,7 +129,7 @@
                 </div><!-- searchform content more -->
                 
                 <div class="searchform-more-wrap row mt-2">
-                    <div class="searchform-more searchform-more-transfer d-flex col-12 col-md-3 align-items-center">
+                    <div class="searchform-more searchform-more-transfer d-flex col-12 col-md-3 align-items-center search-more-tr">
                         <span>
                             More Option 
                         </span>    

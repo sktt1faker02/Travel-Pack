@@ -494,11 +494,8 @@
     </section>
 
     <?php include '../sections/global/whychoosetravelpack.php';?>
-
     <?php include '../sections/global/cta.php';?>
-
     <?php include '../sections/global/testimonials.php';?>
-
     <?php include '../sections/global/footer.php';?>
 
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
@@ -512,8 +509,6 @@
     <script src="<?= getBaseUrl() ?>/assets/js/searchbar.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/searchbar-flights.js"></script>
 
-    <script>
-    </script>
 </body>
 
 </html>
