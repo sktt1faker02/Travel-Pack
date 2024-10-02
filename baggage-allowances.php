@@ -61,14 +61,14 @@
                 </div><!-- faqs section top -->
             </div><!-- container -->
 
-            <div class="baggage-allowances container mt-0 mt-md-4 pt-1">
+            <div class="baggage-allowances container mt-0 mt-md-1 pt-1">
                 <div class="loadmore-boxes-wrap loadmoreboxes-ba">
-                    <div class="d-flex loadmorebox g-3 row">
-                        <div class="col-12 col-lg-3 col-sm-6">
+                    <div class="d-flex loadmorebox row g-4">
+                        <div class="col-12 col-lg-3">
                             <div class="ba-box">
                                 <div class="ba-box-top">
                                     <div>
-                                        <img src="<?= getBaseUrl() ?>/assets/img/inner/airwaylogo1.png" alt="">
+                                        <img src="../travelpack/assets/img/inner/airwaylogo1.png" alt="">
                                     </div>
                                 </div><!-- ba box top -->
                                 <div class="ba-box-bottom">
@@ -97,11 +97,11 @@
                                 </div>
                             </div><!-- ba-box -->
                         </div><!-- col -->
-                        <div class="col-12 col-lg-3 col-sm-6">
+                        <div class="col-12 col-lg-3">
                             <div class="ba-box">
                                 <div class="ba-box-top">
                                     <div>
-                                        <img src="<?= getBaseUrl() ?>/assets/img/inner/airwaylogo3.png" alt="">
+                                        <img src="../travelpack/assets/img/inner/airwaylogo3.png" alt="">
                                     </div>
                                 </div><!-- ba box top -->
                                 <div class="ba-box-bottom">
@@ -130,11 +130,11 @@
                                 </div>
                             </div><!-- ba-box -->
                         </div><!-- col -->
-                        <div class="col-12 col-lg-3 col-sm-6">
+                        <div class="col-12 col-lg-3">
                             <div class="ba-box">
                                 <div class="ba-box-top">
                                     <div>
-                                        <img src="<?= getBaseUrl() ?>/assets/img/inner/airwaylogo5.png" alt="">
+                                        <img src="../travelpack/assets/img/inner/airwaylogo5.png" alt="">
                                     </div>
                                 </div><!-- ba box top -->
                                 <div class="ba-box-bottom">
@@ -163,11 +163,413 @@
                                 </div>
                             </div><!-- ba-box -->
                         </div><!-- col -->
-                        <div class="col-12 col-lg-3 col-sm-6">
+                        <div class="col-12 col-lg-3">
                             <div class="ba-box">
                                 <div class="ba-box-top">
                                     <div>
-                                        <img src="<?= getBaseUrl() ?>/assets/img/inner/airwaylogo2.png" alt="">
+                                        <img src="../travelpack/assets/img/inner/airwaylogo2.png" alt="">
+                                    </div>
+                                </div><!-- ba box top -->
+                                <div class="ba-box-bottom">
+                                    <div class="ba-bottom-airways">
+                                        British Airways (BA)
+                                    </div>
+                                    <div class="ba-bottom-options">
+                                        <ul>
+                                            <li>
+                                                <a href="#baggage-allowances">
+                                                    Baggage Allowances <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#online-checkin">
+                                                    Online Check In <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#frequent-flyer">
+                                                    Frequent Flyer <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!-- ba-box -->
+                        </div><!-- col -->
+                    </div><!-- dflex loadmore box-->
+                    <div class="d-flex loadmorebox g-4 row">
+                        <div class="col-12 col-lg-3">
+                            <div class="ba-box">
+                                <div class="ba-box-top">
+                                    <div>
+                                        <img src="../travelpack/assets/img/inner/airwaylogo7.png" alt="">
+                                    </div>
+                                </div><!-- ba box top -->
+                                <div class="ba-box-bottom">
+                                    <div class="ba-bottom-airways">
+                                        British Airways (BA)
+                                    </div>
+                                    <div class="ba-bottom-options">
+                                        <ul>
+                                            <li>
+                                                <a href="#baggage-allowances">
+                                                    Baggage Allowances <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#online-checkin">
+                                                    Online Check In <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#frequent-flyer">
+                                                    Frequent Flyer <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!-- ba-box -->
+                        </div><!-- col -->
+                        <div class="col-12 col-lg-3">
+                            <div class="ba-box">
+                                <div class="ba-box-top">
+                                    <div>
+                                        <img src="../travelpack/assets/img/inner/airwaylogo6.png" alt="">
+                                    </div>
+                                </div><!-- ba box top -->
+                                <div class="ba-box-bottom">
+                                    <div class="ba-bottom-airways">
+                                        British Airways (BA)
+                                    </div>
+                                    <div class="ba-bottom-options">
+                                        <ul>
+                                            <li>
+                                                <a href="#baggage-allowances">
+                                                    Baggage Allowances <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#online-checkin">
+                                                    Online Check In <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#frequent-flyer">
+                                                    Frequent Flyer <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!-- ba-box -->
+                        </div><!-- col -->
+                        <div class="col-12 col-lg-3">
+                            <div class="ba-box">
+                                <div class="ba-box-top">
+                                    <div>
+                                        <img src="../travelpack/assets/img/inner/airwaylogo4.png" alt="">
+                                    </div>
+                                </div><!-- ba box top -->
+                                <div class="ba-box-bottom">
+                                    <div class="ba-bottom-airways">
+                                        British Airways (BA)
+                                    </div>
+                                    <div class="ba-bottom-options">
+                                        <ul>
+                                            <li>
+                                                <a href="#baggage-allowances">
+                                                    Baggage Allowances <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#online-checkin">
+                                                    Online Check In <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#frequent-flyer">
+                                                    Frequent Flyer <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!-- ba-box -->
+                        </div><!-- col -->
+                        <div class="col-12 col-lg-3">
+                            <div class="ba-box">
+                                <div class="ba-box-top">
+                                    <div>
+                                        <img src="../travelpack/assets/img/inner/airwaylogo1.png" alt="">
+                                    </div>
+                                </div><!-- ba box top -->
+                                <div class="ba-box-bottom">
+                                    <div class="ba-bottom-airways">
+                                        British Airways (BA)
+                                    </div>
+                                    <div class="ba-bottom-options">
+                                        <ul>
+                                            <li>
+                                                <a href="#baggage-allowances">
+                                                    Baggage Allowances <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#online-checkin">
+                                                    Online Check In <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#frequent-flyer">
+                                                    Frequent Flyer <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!-- ba-box -->
+                        </div><!-- col -->
+                    </div><!-- dflex loadmore box-->
+                    <div class="d-flex loadmorebox g-4 row">
+                        <div class="col-12 col-lg-3">
+                            <div class="ba-box">
+                                <div class="ba-box-top">
+                                    <div>
+                                        <img src="../travelpack/assets/img/inner/airwaylogo2.png" alt="">
+                                    </div>
+                                </div><!-- ba box top -->
+                                <div class="ba-box-bottom">
+                                    <div class="ba-bottom-airways">
+                                        British Airways (BA)
+                                    </div>
+                                    <div class="ba-bottom-options">
+                                        <ul>
+                                            <li>
+                                                <a href="#baggage-allowances">
+                                                    Baggage Allowances <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#online-checkin">
+                                                    Online Check In <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#frequent-flyer">
+                                                    Frequent Flyer <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!-- ba-box -->
+                        </div><!-- col -->
+                        <div class="col-12 col-lg-3">
+                            <div class="ba-box">
+                                <div class="ba-box-top">
+                                    <div>
+                                        <img src="../travelpack/assets/img/inner/airwaylogo6.png" alt="">
+                                    </div>
+                                </div><!-- ba box top -->
+                                <div class="ba-box-bottom">
+                                    <div class="ba-bottom-airways">
+                                        British Airways (BA)
+                                    </div>
+                                    <div class="ba-bottom-options">
+                                        <ul>
+                                            <li>
+                                                <a href="#baggage-allowances">
+                                                    Baggage Allowances <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#online-checkin">
+                                                    Online Check In <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#frequent-flyer">
+                                                    Frequent Flyer <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!-- ba-box -->
+                        </div><!-- col -->
+                        <div class="col-12 col-lg-3">
+                            <div class="ba-box">
+                                <div class="ba-box-top">
+                                    <div>
+                                        <img src="../travelpack/assets/img/inner/airwaylogo5.png" alt="">
+                                    </div>
+                                </div><!-- ba box top -->
+                                <div class="ba-box-bottom">
+                                    <div class="ba-bottom-airways">
+                                        British Airways (BA)
+                                    </div>
+                                    <div class="ba-bottom-options">
+                                        <ul>
+                                            <li>
+                                                <a href="#baggage-allowances">
+                                                    Baggage Allowances <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#online-checkin">
+                                                    Online Check In <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#frequent-flyer">
+                                                    Frequent Flyer <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!-- ba-box -->
+                        </div><!-- col -->
+                        <div class="col-12 col-lg-3">
+                            <div class="ba-box">
+                                <div class="ba-box-top">
+                                    <div>
+                                        <img src="../travelpack/assets/img/inner/airwaylogo7.png" alt="">
+                                    </div>
+                                </div><!-- ba box top -->
+                                <div class="ba-box-bottom">
+                                    <div class="ba-bottom-airways">
+                                        British Airways (BA)
+                                    </div>
+                                    <div class="ba-bottom-options">
+                                        <ul>
+                                            <li>
+                                                <a href="#baggage-allowances">
+                                                    Baggage Allowances <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#online-checkin">
+                                                    Online Check In <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#frequent-flyer">
+                                                    Frequent Flyer <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!-- ba-box -->
+                        </div><!-- col -->
+                    </div><!-- dflex loadmore box-->
+                    <div class="d-flex loadmorebox g-4 row">
+                        <div class="col-12 col-lg-3">
+                            <div class="ba-box">
+                                <div class="ba-box-top">
+                                    <div>
+                                        <img src="../travelpack/assets/img/inner/airwaylogo7.png" alt="">
+                                    </div>
+                                </div><!-- ba box top -->
+                                <div class="ba-box-bottom">
+                                    <div class="ba-bottom-airways">
+                                        British Airways (BA)
+                                    </div>
+                                    <div class="ba-bottom-options">
+                                        <ul>
+                                            <li>
+                                                <a href="#baggage-allowances">
+                                                    Baggage Allowances <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#online-checkin">
+                                                    Online Check In <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#frequent-flyer">
+                                                    Frequent Flyer <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!-- ba-box -->
+                        </div><!-- col -->
+                        <div class="col-12 col-lg-3">
+                            <div class="ba-box">
+                                <div class="ba-box-top">
+                                    <div>
+                                        <img src="../travelpack/assets/img/inner/airwaylogo6.png" alt="">
+                                    </div>
+                                </div><!-- ba box top -->
+                                <div class="ba-box-bottom">
+                                    <div class="ba-bottom-airways">
+                                        British Airways (BA)
+                                    </div>
+                                    <div class="ba-bottom-options">
+                                        <ul>
+                                            <li>
+                                                <a href="#baggage-allowances">
+                                                    Baggage Allowances <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#online-checkin">
+                                                    Online Check In <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#frequent-flyer">
+                                                    Frequent Flyer <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!-- ba-box -->
+                        </div><!-- col -->
+                        <div class="col-12 col-lg-3">
+                            <div class="ba-box">
+                                <div class="ba-box-top">
+                                    <div>
+                                        <img src="../travelpack/assets/img/inner/airwaylogo4.png" alt="">
+                                    </div>
+                                </div><!-- ba box top -->
+                                <div class="ba-box-bottom">
+                                    <div class="ba-bottom-airways">
+                                        British Airways (BA)
+                                    </div>
+                                    <div class="ba-bottom-options">
+                                        <ul>
+                                            <li>
+                                                <a href="#baggage-allowances">
+                                                    Baggage Allowances <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#online-checkin">
+                                                    Online Check In <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#frequent-flyer">
+                                                    Frequent Flyer <i class="fa-solid fa-chevron-right ms-1 fs-icon"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!-- ba-box -->
+                        </div><!-- col -->
+                        <div class="col-12 col-lg-3">
+                            <div class="ba-box">
+                                <div class="ba-box-top">
+                                    <div>
+                                        <img src="../travelpack/assets/img/inner/airwaylogo1.png" alt="">
                                     </div>
                                 </div><!-- ba box top -->
                                 <div class="ba-box-bottom">

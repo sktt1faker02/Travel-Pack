@@ -203,8 +203,11 @@
                             <!-- Checkbox for Special Offers -->
                             <div class="col-12">
                                 <div class="mt-3 mb-3 d-flex column-gap-2 align-items-center">
-                                    <input type="checkbox" id="special-offers" name="special-offers">
-                                    <label class="mb-0" for="special-offers">If you do not wish to receive special offers by email, please untick this box</label>
+
+                                    <div class="feedback-custom-checkbox fs14">
+                                        <input type="checkbox" id="special-offers" name="special-offers">
+                                        <label for="special-offers">If you do not wish to receive special offers by email, please untick this box</label>
+                                    </div>
                                 </div>
                             </div><!-- col -->
 
@@ -232,7 +235,7 @@
                 </div><!-- row -->
 
                 <div class="row g-4">
-                    <div class="col-12 col-md-6 col-lg-3 d-flex">
+                    <div class="col-12 col-md-6 col-lg-3 d-lg-flex">
                         <div class="contact-office-box">
                             <div class="cob-top">
                                 <img src="<?= getBaseUrl() ?>/assets/img/inner/contact1.jpg" alt="">
@@ -260,7 +263,7 @@
                             </div><!-- cob bottom -->
                         </div><!-- contact office box -->
                     </div><!-- col -->
-                    <div class="col-12 col-md-6 col-lg-3 d-flex">
+                    <div class="col-12 col-md-6 col-lg-3 d-lg-flex">
                         <div class="contact-office-box">
                             <div class="cob-top">
                                 <img src="<?= getBaseUrl() ?>/assets/img/inner/contact2.jpg" alt="">
@@ -289,7 +292,7 @@
                             </div><!-- cob bottom -->
                         </div><!-- contact office box -->
                     </div><!-- col -->
-                    <div class="col-12 col-md-6 col-lg-3 d-flex">
+                    <div class="col-12 col-md-6 col-lg-3 d-lg-flex">
                         <div class="contact-office-box">
                             <div class="cob-top">
                                 <img src="<?= getBaseUrl() ?>/assets/img/inner/contact3.jpg" alt="">
@@ -320,7 +323,7 @@
                             </div><!-- cob bottom -->
                         </div><!-- contact office box -->
                     </div><!-- col -->
-                    <div class="col-12 col-md-6 col-lg-3 d-flex">
+                    <div class="col-12 col-md-6 col-lg-3 d-lg-flex">
                         <div class="contact-office-box">
                             <div class="cob-top">
                                 <img src="<?= getBaseUrl() ?>/assets/img/inner/contact4.jpg" alt="">
@@ -349,7 +352,7 @@
                             </div><!-- cob bottom -->
                         </div><!-- contact office box -->
                     </div><!-- col -->
-                    <div class="col-12 col-md-6 col-lg-3 d-flex">
+                    <div class="col-12 col-md-6 col-lg-3 d-lg-flex">
                         <div class="contact-office-box">
                             <div class="cob-top">
                                 <img src="<?= getBaseUrl() ?>/assets/img/inner/contact5.jpg" alt="">
@@ -379,7 +382,7 @@
                             </div><!-- cob bottom -->
                         </div><!-- contact office box -->
                     </div><!-- col -->
-                    <div class="col-12 col-md-6 col-lg-3 d-flex">
+                    <div class="col-12 col-md-6 col-lg-3 d-lg-flex">
                         <div class="contact-office-box">
                             <div class="cob-top">
                                 <img src="<?= getBaseUrl() ?>/assets/img/inner/contact4.jpg" alt="">
@@ -422,7 +425,7 @@
                 </div><!-- row -->
 
                 <div class="row g-4">
-                    <div class="col-12 col-md-6 col-lg-3 d-flex">
+                    <div class="col-12 col-md-6 col-lg-3 d-lg-flex">
                         <div class="contact-office-box">
                             <div class="cob-top">
                                 <img src="<?= getBaseUrl() ?>/assets/img/inner/contact7.jpg" alt="">
@@ -450,7 +453,7 @@
                             </div><!-- cob bottom -->
                         </div><!-- contact office box -->
                     </div><!-- col -->
-                    <div class="col-12 col-md-6 col-lg-3 d-flex">
+                    <div class="col-12 col-md-6 col-lg-3 d-lg-flex">
                         <div class="contact-office-box">
                             <div class="cob-top">
                                 <img src="<?= getBaseUrl() ?>/assets/img/inner/contact8.jpg" alt="">
@@ -479,7 +482,7 @@
                             </div><!-- cob bottom -->
                         </div><!-- contact office box -->
                     </div><!-- col -->
-                    <div class="col-12 col-md-6 col-lg-3 d-flex">
+                    <div class="col-12 col-md-6 col-lg-3 d-lg-flex">
                         <div class="contact-office-box">
                             <div class="cob-top">
                                 <img src="<?= getBaseUrl() ?>/assets/img/inner/contact9.jpg" alt="">
@@ -510,7 +513,7 @@
                             </div><!-- cob bottom -->
                         </div><!-- contact office box -->
                     </div><!-- col -->
-                    <div class="col-12 col-md-6 col-lg-3 d-flex">
+                    <div class="col-12 col-md-6 col-lg-3 d-lg-flex">
                         <div class="contact-office-box">
                             <div class="cob-top">
                                 <img src="<?= getBaseUrl() ?>/assets/img/inner/contact10.jpg" alt="">

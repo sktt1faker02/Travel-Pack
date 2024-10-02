@@ -174,6 +174,52 @@
                         </div><!-- searchforrn wrap -->
                     </div><!--  -->
 
+                    <div class="searchform-more-content search-more-content-rows smc-oneway hide-first searchform-more-content-flight">
+                        <div class="searchform-wrap-main mt-3">
+                            <div class="searchform-row smc-openjaw-row mt-3 searchform-row-top">
+                                <div class="searchbar-inputwrap mobile-bordertop flight-departure-time mobile-last-col">
+                                    <select class="form-control" name="fare-type" >
+                                        <option value="lowest-fare" disabled selected>Fares Type</option>
+                                        <option value="lowest-fare">Lowest Fare</option>
+                                        <option value="private-fares">Private Fares (Only)</option>
+                                        <option value="flexible-fares">Flexible Fares</option>
+                                        <option value="published">Published (Only)</option>
+                                        <option value="tour-operator-deferred">Tour Operator Deferred</option>
+                                        <option value="tour-operator-semi-deferred">Tour Operator Semi Deferred</option>
+                                        <option value="vfr">VFR</option>
+                                    </select>
+                                    <div class="select_arrow"></div>
+                                </div><!-- searchbar inputwrap -->
+                                <div class="searchbar-inputwrap mobile-bordertop flight-departure-time mobile-last-col">
+                                    <select class="form-control" name="fare-bag-type">
+                                        <option value="any" disabled selected>Baggage</option>
+                                        <option value="any">Any</option>
+                                        <option value="fares-with-bags">Fares with Bags</option>
+                                    </select>
+                                    <div class="select_arrow"></div>
+                                </div><!-- searchbar inputwrap -->
+                                <div class="searchbar-inputwrap flights-faretype mobile-col-last mobile-bordertop">
+                                    <select class="form-control" name="fare-bag-type">
+                                        <option value="any" disabled selected>Stops</option>
+                                        <option value="any">Any</option>
+                                        <option value="direct-flights">Direct Flights</option>
+                                        <option value="fares-with-bags">Up to one Stops</option>
+                                    </select>
+                                    <div class="select_arrow"></div>
+                                </div><!-- searchbar inputwrap -->
+                                <div class="searchbar-inputwrap">
+                                    <select class="form-control" name="flt-calendar">
+                                        <option value="exact" selected>Exact Dates Only</option>
+                                        <option value="1-day">+/- 1 day</option>
+                                        <option value="2-days">+/- 2 days</option>
+                                        <option value="3-days">+/- 3 days</option>
+                                    </select>
+                                    <div class="select_arrow"></div>
+                                </div><!-- searchbar inputwrap -->
+                            </div><!-- searchform-row -->
+                        </div><!-- searchforrn wrap -->
+                    </div><!--  -->
+
                     <div class="searchform-more-content search-more-content-rows search-more-content-rows2 smc-openjaw searchform-more-content-flight">
                         <div class="searchform-wrap-main mt-3">
                             <div class="searchform-row smc-openjaw-row mt-3 searchform-row-top">
@@ -496,7 +542,7 @@
                     <div class="searchform-more-wrap row mt-2">
                         <div class="searchform-more hide-first d-flex col-12 mobile-order-2 col-md-2 col-lg-4 col-xl-3 align-items-center">
                             <span>
-                                More Option 
+                                More Options
                             </span>    
                             <i class="fa-solid fa-chevron-down ms-2"></i>
                         </div><!-- searchform-more -->

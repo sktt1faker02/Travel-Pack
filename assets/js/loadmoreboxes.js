@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Check if .loadmore-boxes-wrap is inside .specialoffer-main or .baggage-allowances
     const isSpecialOffer = loadmoreBoxesWrap.closest('.specialoffer-main') !== null;
     const isBaggageAllowances = loadmoreBoxesWrap.closest('.baggage-allowances') !== null;
+    const isDestination = loadmoreBoxesWrap.classList.contains('loadmoreboxes-destinations');
     const displayStyle = isSpecialOffer ? 'flex' : 'block';
 
     // Wrap every 3 boxes into a new parent div with class "box-group"
@@ -26,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const group = document.createElement('div');
         group.classList.add('box-group'); // Add 'box-group' by default
 
-        // Only add 'g-3' and 'row' if the loadmore-boxes-wrap is NOT inside .baggage-allowances
-        if (!isBaggageAllowances) {
+        // Only add 'g-3' and 'row' if the loadmore-boxes-wrap is NOT inside .baggage-allowances and is NOT a destination
+        if (!isBaggageAllowances && !isDestination) {
             group.classList.add('g-3', 'row');
         }
 
@@ -43,10 +44,10 @@ document.addEventListener('DOMContentLoaded', function() {
         boxGroups.forEach((group, index) => {
             if (index < maxGroups) {
                 group.style.display = displayStyle; // Set flex or block depending on parent
-                setTimeout(() => {
-                    group.style.opacity = '1';
-                    group.style.visibility = 'visible';
-                }, 50 * (index % boxesPerPage));  // Stagger the fade-in effect
+                group.style.opacity = '1';
+                group.style.visibility = 'visible';
+            } else {
+                group.style.display = 'none'; // Ensure hidden for groups beyond the current page
             }
         });
 
