@@ -1,3 +1,4 @@
+<?php include './config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -147,7 +148,6 @@
                         <?php include './sections/cta/cta-transfer.php';?>
                         <?php include './sections/cta/cta-experiences.php';?>
                         <?php include './sections/cta/cta-experiences2.php';?>
-
                     </div>
 
                     <div class="proceed mt-5 pt-4">
