@@ -179,9 +179,15 @@
                             <div class="searchform-row smc-openjaw-row mt-3 searchform-row-top">
                                 <div class="searchbar-inputwrap">
                                     <input type="text" class="form-control openjaw-required" autocomplete="airport" id="flt-departs-from-I" name="flt-departs-from-I" value="" placeholder="Return From" required="required">
+                                    <div class="select_arrow"></div>
                                 </div><!-- searchbar inputwrap -->
                                 <div class="searchbar-inputwrap mobile-last-col">
                                     <input type="text" class="form-control openjaw-required" autocomplete="airport" id="flt-arrives-to-I" name="flt-arrives-to-I" value="" placeholder="Return To" required="required">
+                                    <div class="select_arrow"></div>
+                                </div><!-- searchbar inputwrap -->
+                                <div class="searchbar-inputwrap mobile-last-col">
+                                    <input type="text" class="form-control openjaw-required" autocomplete="airport" id="flt-arrives-to-I" name="flt-arrives-to-I" value="" placeholder="Return" required="required">
+                                    <div class="select_arrow"></div>
                                 </div><!-- searchbar inputwrap -->
                             </div><!-- searchform-row -->
                             <div class="searchform-row searchform-row-bottom">
@@ -233,7 +239,7 @@
                         <div class="searchform-wrap-main mt-3">
                             <div class="searchform-row searchform-row-top">
                                 <div class="searchbar-inputwrap">
-                                    <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-departs-from-1" value="" placeholder="Departing From" required="required">
+                                    <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-departs-from-1" value="" placeholder="Depart From" required="required">
                                 </div><!-- searchvar inputwrap -->
                                 <div class="searchbar-inputwrap mobile-last-col">
                                     <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-arrives-to-1" value="" placeholder="Arrived To" required="required">
@@ -253,8 +259,8 @@
                                 </div><!-- searchbar inputwrap -->
                                 <div class="searchbar-inputwrap mobile-bordertop mobile-last-col flex100-mobile">
                                     <select class="form-control" name="flt-cabin-1" id="cabin-1">
-                                        <option value="" disabled>Cabin</option>
-                                        <option value="4" selected>Economy</option>
+                                        <option value="" disabled selected>Cabin</option>
+                                        <option value="4">Economy</option>
                                         <option value="3">Premium Economy</option>
                                         <option value="2">Business</option>
                                         <option value="1">First</option>
@@ -264,7 +270,7 @@
                             </div><!-- searchform row -->
                             <div class="searchform-row mobile-bordertop searchform-row-mid">
                                 <div class="searchbar-inputwrap">
-                                    <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-departs-from-1" value="" placeholder="Departing From" required="required">
+                                    <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-departs-from-1" value="" placeholder="Depart From" required="required">
                                 </div><!-- searchvar inputwrap -->
                                 <div class="searchbar-inputwrap mobile-last-col">
                                     <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-arrives-to-1" value="" placeholder="Arrived To" required="required">
@@ -284,8 +290,8 @@
                                 </div><!-- searchbar inputwrap -->
                                 <div class="searchbar-inputwrap mobile-bordertop mobile-last-col flex100-mobile">
                                     <select class="form-control" name="flt-cabin-1" >
-                                        <option value="" disabled>Cabin</option>
-                                        <option value="4" selected>Economy</option>
+                                        <option value="" disabled selected>Cabin</option>
+                                        <option value="4">Economy</option>
                                         <option value="3">Premium Economy</option>
                                         <option value="2">Business</option>
                                         <option value="1">First</option>
@@ -295,7 +301,7 @@
                             </div><!-- searchform row -->
                             <div class="searchform-row mobile-bordertop searchform-row-mid">
                                 <div class="searchbar-inputwrap">
-                                    <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-departs-from-1" value="" placeholder="Departing From" required="required">
+                                    <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-departs-from-1" value="" placeholder="Depart From" required="required">
                                 </div><!-- searchvar inputwrap -->
                                 <div class="searchbar-inputwrap mobile-last-col">
                                     <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-arrives-to-1" value="" placeholder="Arrived To" required="required">
@@ -315,8 +321,8 @@
                                 </div><!-- searchbar inputwrap -->
                                 <div class="searchbar-inputwrap mobile-bordertop mobile-last-col flex100-mobile">
                                     <select class="form-control" name="flt-cabin-1" >
-                                        <option value="" disabled>Cabin</option>
-                                        <option value="4" selected>Economy</option>
+                                        <option value="" disabled selected>Cabin</option>
+                                        <option value="4">Economy</option>
                                         <option value="3">Premium Economy</option>
                                         <option value="2">Business</option>
                                         <option value="1">First</option>
@@ -326,7 +332,7 @@
                             </div><!-- searchform row -->
                             <div class="searchform-row mobile-bordertop searchform-row-mid">
                                 <div class="searchbar-inputwrap">
-                                    <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-departs-from-1" value="" placeholder="Departing From" required="required">
+                                    <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-departs-from-1" value="" placeholder="Depart From" required="required">
                                 </div><!-- searchvar inputwrap -->
                                 <div class="searchbar-inputwrap mobile-last-col">
                                     <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-arrives-to-1" value="" placeholder="Arrived To" required="required">
@@ -346,8 +352,8 @@
                                 </div><!-- searchbar inputwrap -->
                                 <div class="searchbar-inputwrap mobile-bordertop mobile-last-col flex100-mobile">
                                     <select class="form-control" name="flt-cabin-1" >
-                                        <option value="" disabled>Cabin</option>
-                                        <option value="4" selected>Economy</option>
+                                        <option value="" disabled selected>Cabin</option>
+                                        <option value="4">Economy</option>
                                         <option value="3">Premium Economy</option>
                                         <option value="2">Business</option>
                                         <option value="1">First</option>
@@ -357,7 +363,7 @@
                             </div><!-- searchform row -->
                             <div class="searchform-row mobile-bordertop searchform-row-mid">
                                 <div class="searchbar-inputwrap">
-                                    <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-departs-from-1" value="" placeholder="Departing From" required="required">
+                                    <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-departs-from-1" value="" placeholder="Depart From" required="required">
                                 </div><!-- searchvar inputwrap -->
                                 <div class="searchbar-inputwrap mobile-last-col">
                                     <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-arrives-to-1" value="" placeholder="Arrived To" required="required">
@@ -377,8 +383,8 @@
                                 </div><!-- searchbar inputwrap -->
                                 <div class="searchbar-inputwrap mobile-bordertop mobile-last-col flex100-mobile">
                                     <select class="form-control" name="flt-cabin-1" >
-                                        <option value="" disabled>Cabin</option>
-                                        <option value="4" selected>Economy</option>
+                                        <option value="" disabled selected>Cabin</option>
+                                        <option value="4">Economy</option>
                                         <option value="3">Premium Economy</option>
                                         <option value="2">Business</option>
                                         <option value="1">First</option>
@@ -388,7 +394,7 @@
                             </div><!-- searchform row -->
                             <div class="searchform-row mobile-bordertop searchform-row-mid">
                                 <div class="searchbar-inputwrap">
-                                    <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-departs-from-1" value="" placeholder="Departing From" required="required">
+                                    <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-departs-from-1" value="" placeholder="Depart From" required="required">
                                 </div><!-- searchvar inputwrap -->
                                 <div class="searchbar-inputwrap mobile-last-col">
                                     <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-arrives-to-1" value="" placeholder="Arrived To" required="required">
@@ -408,8 +414,8 @@
                                 </div><!-- searchbar inputwrap -->
                                 <div class="searchbar-inputwrap mobile-bordertop mobile-last-col flex100-mobile">
                                     <select class="form-control" name="flt-cabin-1" >
-                                        <option value="" disabled>Cabin</option>
-                                        <option value="4" selected>Economy</option>
+                                        <option value="" disabled selected>Cabin</option>
+                                        <option value="4">Economy</option>
                                         <option value="3">Premium Economy</option>
                                         <option value="2">Business</option>
                                         <option value="1">First</option>
@@ -419,7 +425,7 @@
                             </div><!-- searchform row -->
                             <div class="searchform-row mobile-bordertop searchform-row-mid">
                                 <div class="searchbar-inputwrap">
-                                    <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-departs-from-1" value="" placeholder="Departing From" required="required">
+                                    <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-departs-from-1" value="" placeholder="Depart From" required="required">
                                 </div><!-- searchvar inputwrap -->
                                 <div class="searchbar-inputwrap mobile-last-col">
                                     <input type="text" class="form-control multistop-required" autocomplete="airport" name="flt-arrives-to-1" value="" placeholder="Arrived To" required="required">
@@ -439,8 +445,8 @@
                                 </div><!-- searchbar inputwrap -->
                                 <div class="searchbar-inputwrap mobile-bordertop mobile-last-col flex100-mobile">
                                     <select class="form-control" name="flt-cabin-1" >
-                                        <option value="" disabled>Cabin</option>
-                                        <option value="4" selected>Economy</option>
+                                        <option value="" disabled selected>Cabin</option>
+                                        <option value="4">Economy</option>
                                         <option value="3">Premium Economy</option>
                                         <option value="2">Business</option>
                                         <option value="1">First</option>
@@ -452,7 +458,7 @@
                             <div class="searchform-row searchform-row-bottom">
                                 <div class="searchbar-inputwrap">
                                     <select class="form-control" name="departure-time" id="">
-                                        <option value="" disabled selected>Departure Time</option>
+                                        <option value="" disabled selected>Depart Time</option>
                                         <option value="06:00">06:00</option>
                                         <option value="12:00">12:00</option>
                                         <option value="18:00">18:00</option>                                                    
