@@ -80,14 +80,14 @@
                         <div class="free-cancellation">
                             Free Cancellation
                         </div>
-                        <div class="experiences-details-main-top-slider">
-                            <div class="experiences-slide">
+                        <div class="experiences-details-main-top-slider v-slide-wrap">
+                            <div class="experiences-slide v-slide">
                                 <img src="<?= getBaseUrl() ?>/assets/img/hotels/mainlisting-slide.jpg" alt="">
                             </div>
-                            <div class="experiences-slide">
+                            <div class="experiences-slide v-slide">
                                 <img src="<?= getBaseUrl() ?>/assets/img/hotels/mainlisting-slide.jpg" alt="">
                             </div>
-                            <div class="experiences-slide">
+                            <div class="experiences-slide v-slide">
                                 <img src="<?= getBaseUrl() ?>/assets/img/hotels/mainlisting-slide.jpg" alt="">
                             </div>
                         </div>
@@ -333,6 +333,7 @@
     <script src="<?= getBaseUrl() ?>/assets/js/bootstrap.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/sidebar.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/experiences.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/galleryPopup.js"></script>
 
     <div class="modal fade eocbox-modal" id="eocbox-modal" tabindex="-1" aria-labelledby="eocbox-modal" aria-modal="true" role="dialog">
         <div class="modal-dialog">
