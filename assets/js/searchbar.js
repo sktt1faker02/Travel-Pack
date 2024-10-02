@@ -469,26 +469,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// SEARCH MORE / MORE OPTION ON CLICK SHOW
-// document.addEventListener('DOMContentLoaded', function() {
-//     // Get the .searchform-more element
-//     var searchFormMore = document.querySelector('.searchform-more');
-    
-//     // Add click event listener
-//     searchFormMore.addEventListener('click', function() {
-//         // Get the .searchform-more-content element
-//         var searchFormMoreContent = document.querySelector('.searchform-more-content');
-        
-//         // Get the <i> element inside .searchform-more
-//         var searchFormMoreIcon = searchFormMore.querySelector('i');
-        
-//         // Toggle the 'show' class on the .searchform-more-content element
-//         searchFormMoreContent.classList.toggle('show');
-        
-//         // Toggle the 'rotate' class on the <i> element
-//         searchFormMoreIcon.classList.toggle('rotate');
-//     });
-// });
+
 
 
 // CRUISES + RAIL + TRANSFER + FLIGHTS DROPDOWN CHANGE TEXT
@@ -550,40 +531,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    const updatePlaceholder = () => {
-        let totalTravelers = 0;
-        let totalCabins = 0;
-        const travelerInputs = wrapper.querySelectorAll('.dropdown-filter-travellers-count input[type="text"]');
-        const cabinInput = wrapper.querySelector('.dropdown-filter-cabin-count input[type="text"]');
-
-        travelerInputs.forEach(input => {
-            totalTravelers += parseInt(input.value, 10);
-        });
-
-        // Determine the label based on the class of inputField
-        const travelerLabel = inputField.classList.contains('input-change-text-passengers') ? 'Passenger' : 'Traveller';
-        const travelerText = totalTravelers === 1 ? travelerLabel : travelerLabel + 's';
-
-        if (cabinInput) {
-            totalCabins = parseInt(cabinInput.value, 10);
-            const cabinText = totalCabins === 1 ? 'Cabin' : 'Cabins';
-            inputField.placeholder = `${totalTravelers} ${travelerText}, ${totalCabins} ${cabinText}`;
-        } else {
-            inputField.placeholder = `${totalTravelers} ${travelerText}`;
-        }
-
-        // Add additional text from the dropdown if it exists
-        if (cabinClassDropdown) {
-            const selectedOption = cabinClassDropdown.options[cabinClassDropdown.selectedIndex];
-            const selectedText = selectedOption.textContent.trim();
-            inputField.placeholder += ` - ${selectedText}`;
-        }
-    };
-
-    transferSearchForm.addEventListener('submit', (e)=>{
-        e.preventDefault();
-        updatePlaceholder();
-    });
 });
 
 // TRANSFER CHECBOX
