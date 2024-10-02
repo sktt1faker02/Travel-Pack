@@ -470,7 +470,7 @@
                             </h3>
                         </div>
                         <div class="col-12 col-lg-5 d-flex justify-content-end">
-                            <input type="submit" class="btn btn-primary" value="Check Availability" onclick="redirectToPage(event)">
+                            <input type="submit" class="btn btn-primary" value="Check Availability" onclick="location.href = '<?= getBaseUrl() ?>/experiences/experiences-main-checking-activity.php'">
                         </div>
                     </div><!-- row -->
                 </div><!-- proceed -->
