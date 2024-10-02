@@ -39,13 +39,13 @@
         <div class="herowrapblur">
             <div class="heroslider">
                 <div class="heroslide">
-                    <img src="<?= getBaseUrl() ?>/assets/img/hotels/hero-hotel.jpg" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hotels/hero-hotel.jpg" alt="image">
                 </div>
                 <div class="heroslide">
-                    <img src="" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hotels/hero-hotel.jpg" alt="image">
                 </div>
                 <div class="heroslide">
-                    <img src="" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hotels/hero-hotel.jpg" alt="image">
                 </div>
             </div>
         </div>
@@ -412,7 +412,6 @@
 
 
     <?php include '../sections/global/dealstravels.php';?>
-
     <?php include '../sections//global/footer.php';?>
 
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
