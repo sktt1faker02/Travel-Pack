@@ -4,7 +4,7 @@
 
         <div class="hiddenfilterboxes-top">
             <div class="slider-label fw-semibold fs17">
-                Experiences
+                Transfer
             </div>
             <i class="fa-solid fa-chevron-down"></i>
         </div>

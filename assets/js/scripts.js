@@ -400,7 +400,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 // CHECKOUT DETAILS REMOVE SHOWFILTERBOXES
-
 document.addEventListener("DOMContentLoaded", function() {
     const hiddenFilterboxes = document.querySelector('.tp-checkout-details-sidebar .hidden-filterboxes');
     
@@ -409,7 +408,40 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+// BREAKDOWN TOGGLE CHECKOUT SUMMARY
+document.addEventListener('DOMContentLoaded', function() {
+    // Select all elements with the class 'cst-box'
+    const cstBoxes = document.querySelectorAll('.cst-box');
+
+    // Loop through each cst-box
+    cstBoxes.forEach((box) => {
+        // Find the toggle and the corresponding breakdown-wrap within the current box
+        const breakdownToggle = box.querySelector('.breakdown-toggle');
+        const breakdownWrap = box.querySelector('.breakdown-wrap');
+
+        // Check if the elements exist to avoid errors
+        if (breakdownToggle && breakdownWrap) {
+            breakdownToggle.addEventListener('click', function() {
+                breakdownWrap.classList.toggle('breakdown-show');
+            });
+        }
+    });
+});
 
 
+//TOGGLE SUMMARY
+document.addEventListener('DOMContentLoaded', function() {
+    // Select all elements with the class 'checkout-summary-toggletop'
+    const summaryToggles = document.querySelectorAll('.checkout-summary-toggletop');
 
+    // Loop through each toggle element
+    summaryToggles.forEach((toggle) => {
+        toggle.addEventListener('click', function() {
+            // Find the corresponding checkout-summary-toggle
+            const toggleBottom = this.closest('.checkout-summary-toggle'); // Get the parent toggle element
+            // Toggle the 'checkoutshow' class
+            toggleBottom.classList.toggle('checkoutshow');
+        });
+    });
+});
 
