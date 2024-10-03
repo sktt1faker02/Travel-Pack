@@ -10,7 +10,6 @@
 
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/slick.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/fontawesome.css">
     
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/style.css">
@@ -51,13 +50,13 @@
                     <div class="col-4 navibox d-flex align-items-center">
                         <div class="navibox-inner">
                             <div class="navicircle"></div>
-                            Payment
+                            Summary
                         </div>
                     </div>
                     <div class="col-4 navibox d-flex align-items-end txt-black">
                         <div class="navibox-inner">
                             <div class="navicircle"></div>
-                            Summary
+                            Payment
                         </div>
                     </div>
                 </div>
@@ -109,12 +108,11 @@
                 
                 </div><!-- tp sidebar -->
 
-
                 <div class="col-12 col-lg-8 tp-main">
                     <form action="" method="get">
                         <div class="checkout-fields">
                             <h3 class="mb-3 tp-top-heading">
-                                Summary
+                                Customer Details
                             </h3>
                             <div class="passengerbox-main">
                                 <div class="row">
@@ -290,25 +288,79 @@
                             </div>
                         </div>
 
-                        <div class="proceed1">
+                        <div class="checkoutbox-main discountvoucher mt-5 checkoutdetails-discountvoucher">
+                            <div class="row">
+                                <div class="col-12 col-md-5">
+                                    <h3 class="mb- tp-top-heading">
+                                        Discount Voucher
+                                    </h3>
+                                    <p>
+                                        Do you have an online discount voucher code, if so enter it carefully below
+                                    </p>
+                                </div><!-- col -->
+                                <div class="col-12 col-md-6 offset-md-1">
+                                    <div class="tp-input-wrap">
+                                        <label for="voucher-code">Voucher Code</label>
+                                        <input type="text" id="tp-input-vouchercode" name="vouchercode" class="tp-input" placeholder="XXXXXXXXXX">
+                                    </div>
+                                </div>
+                            </div><!-- row -->
+                        </div><!-- checkoutbox -->
+
+                        <div class="row mt-5">
+                            <div class="col-md-9 col-12">
+                                <div class="terms-container terms-container-mb">
+                                    <h3 class="tp-top-heading">
+                                        Terms & Conditions
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur. term & Conditions nibh lacinia. Lacinia neque integer id congue enim sagittis ipsum. Fringilla natoque rhoncus hac posuere at.</p>
+                                    
+                                    <div class="term-item">
+                                        <input type="checkbox" id="term1">
+                                        <label for="term1">Lorem ipsum dolor sit amet consectetur. <span>Term & Conditions</span> nibh lacinia. rhoncus hac posuere at. Penatibus dolor ridiculus at enim nisi in neque est.</label>
+                                    </div>
+                                    
+                                    <div class="term-item">
+                                        <input type="checkbox" id="term2">
+                                        <label for="term2">Lorem ipsum dolor sit amet consectetur. term & Conditions nibh lacinia. Lacinia neque integer <span>id congue enim</span> sagittis ipsum. Fringilla natoque</label>
+                                    </div>
+                                    
+                                    <div class="term-item">
+                                        <input type="checkbox" id="term3">
+                                        <label for="term3">Lorem ipsum dolor sit amet consectetur. term & Conditions <span>nibh lacinia</span>.</label>
+                                    </div>
+                                    
+                                    <div class="term-item">
+                                        <input type="checkbox" id="term4">
+                                        <label for="term4">Lorem ipsum dolor sit amet consectetur. term & Conditions <a href="#">nibh lacinia</a>.</label>
+                                    </div>
+                                </div>
+                            </div><!-- col -->
+                        </div><!-- row -->
+
+                        <div class="proceed mt-5">
                             <div class="row align-items-center">
                                 <div class="col-12 col-lg-7">
+                                    <h3 class="mb-0">
+                                        Almost there, a few more clicks
+                                    </h3>
                                 </div>
                                 <div class="col-12 col-lg-5 d-flex justify-content-end">
-                                    <input type="submit" class="btn btn-primary" value="Save and Proceed" onclick="redirectToPage(event)">
+                                    <input type="submit" class="btn btn-primary" value="Review Booking" onclick="">
                                 </div>
                             </div><!-- row -->
                         </div><!-- proceed -->
                     </form>
-                </div>
+                </div><!-- col -->
             </div><!-- row -->
+
+
         </div>
     </section>
 
     <?php include './sections/global/footer.php';?>
 
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
-    <script src="<?= getBaseUrl() ?>/assets/js/slick.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/bootstrap.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/sidebar.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/scripts.js"></script>

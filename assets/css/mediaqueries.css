@@ -305,7 +305,9 @@
     section.block {
         padding: 70px 0;
     }
-
+    .listing-right-top-left {
+        font-size: 13px;
+    }
     #innerhero.inner-baggage-allowances {
         background-position: -60px 0;
     }
@@ -316,7 +318,9 @@
     .our-achievements-box {
         padding: 30px;
     }
-
+    .listing-right-top-left {
+        font-size: 13px;
+    }
     #innerhero.inner-pvh {
         background-image:url(../img/inner/mobilehero-pvh.jpg) !important;
     }
@@ -413,5 +417,10 @@
     }
     section#deals-travel-inspiration {
         padding-bottom: 100px;
+    }
+    .listing-mid-top h3 {
+        font-size: 20px;
+        width: 200px;
+        max-width: 100%;
     }
 }

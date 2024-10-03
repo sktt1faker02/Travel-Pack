@@ -474,7 +474,7 @@
                                                     London (3.11 miles)
                                                 </span>
                                             </div>
-                                            <div class="d-flex align-items-center justify-content-between">
+                                            <div class="d-flex align-items-center justify-content-between mt-2">
                                                 <div class="guest-score mt-0">
                                                     4.4 Guest Score
                                                 </div>
@@ -490,17 +490,38 @@
                                                 </div><!-- listing-right-top-left -->
                                             </div>
                                         </div>
-                                        <div class="listing-mid-top d-none d-lg-block">
-                                            <h3>
-                                                YHA London Earl’s Court - Hostel
-                                            </h3>
-                                            <span class="listing-location">
-                                                London (3.11 miles)
-                                            </span>
+                                        <div class="listing-mid-top d-none d-lg-flex flex-column">
+                                            <div>
+                                                <h3>
+                                                    YHA London Earl’s Court - Hostel
+                                                </h3>
+                                                <span class="listing-location">
+                                                    London (3.11 miles)
+                                                </span>
+                                            </div>
+                                            <div class="guest-score mt-3">
+                                                4.4 Guest Score
+                                            </div>
                                         </div><!-- listing-mid-top -->
+
+                                        <div class=" mt-3 listing-right-bottom d-flex gap-3 d-lg-none align-items-center justify-content-between">
+                                            <div class="d-flex flex-column">
+                                                <span class="txt-gray">
+                                                    £60.95 Per Night
+                                                </span>
+                                                <span class="listing-price">
+                                                    £635.72
+                                                </span>
+                                            </div>
+                                            <div>
+                                                <button class="btn btn-primary">
+                                                    Select
+                                                </button>
+                                            </div>
+                                        </div><!-- listing-right-top-right -->
                                     </div><!-- col -->
-                                    <div class="col-12 offset-xl-1 col-lg-5 col-xl-4 listing-right d-flex flex-lg-column justify-content-lg-between">
-                                        <div class="listing-right-top d-flex justify-content-lg-between">
+                                    <div class="col-12 offset-xl-1 col-lg-5 col-xl-4 listing-right d-none d-lg-flex flex-lg-column justify-content-lg-between">
+                                        <div class="listing-right-top d-none d-lg-flex justify-content-lg-between">
                                             <div class="listing-right-top-left">
                                                 <span>
                                                     Standard Double Room
@@ -514,7 +535,7 @@
                                             
                                             <?php include '../travelpack/sections/global/star-rating.php';?>
                                         </div><!-- listing-right-top -->
-                                        <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
+                                        <div class="listing-right-bottom d-lg-flex d-none align-items-center justify-content-lg-between">
                                             <div class="d-flex flex-column">
                                                 <span class="txt-gray">
                                                     £60.95 Per Night
@@ -533,27 +554,75 @@
                                 </div><!-- row -->
                             </div>
                             <div class="whiteboxbg listingbox">
-                                <div class="row">
-                                    <div class="col-12 col-lg-4 listing-left">
+                                <div class="row g-3">
+                                    <div class="col-12 col-md-4 listing-left">
                                         <div class="listing-image">
                                             <img src="http://localhost:8888/travelpack/assets/img/hotels/listing-image.jpg" alt="">
                                         </div>
                                     </div><!-- col -->
-                                    <div class="col-12 col-lg-3 listing-mid">
-                                        <div class="listing-mid-top">
-                                            <h3>
-                                                YHA London Earl’s Court - Hostel
-                                            </h3>
-                                            <span class="listing-location">
-                                                London (3.11 miles)
-                                            </span>
-                                        </div><!-- listing-mid-top -->
-                                        <div class="guest-score">
-                                            4.4 Guest Score
+                                    <div class="col-12 col-md-8 col-lg-3 listing-mid">
+                                        <div class="listing-mid-top d-block d-lg-none">
+                                            <div class="d-flex justify-content-between">
+                                                <h3>
+                                                    YHA London Earl’s Court - Hostel
+                                                </h3>
+                                                <div>
+                                                    <?php include '../travelpack/sections/global/star-rating.php';?>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <span class="listing-location">
+                                                    London (3.11 miles)
+                                                </span>
+                                            </div>
+                                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                                <div class="guest-score mt-0">
+                                                    4.4 Guest Score
+                                                </div>
+
+                                                <div class="listing-right-top-left">
+                                                    <span>
+                                                        Standard Double Room
+                                                    </span>
+                                                    <div class="txt-gray d-flex flex-column">
+                                                        <span>Room Only</span>
+                                                        <span>Non-Refundable</span>
+                                                    </div>
+                                                </div><!-- listing-right-top-left -->
+                                            </div>
                                         </div>
+                                        <div class="listing-mid-top d-none d-lg-flex flex-column">
+                                            <div>
+                                                <h3>
+                                                    YHA London Earl’s Court - Hostel
+                                                </h3>
+                                                <span class="listing-location">
+                                                    London (3.11 miles)
+                                                </span>
+                                            </div>
+                                            <div class="guest-score mt-3">
+                                                4.4 Guest Score
+                                            </div>
+                                        </div><!-- listing-mid-top -->
+
+                                        <div class=" mt-3 listing-right-bottom d-flex gap-3 d-lg-none align-items-center justify-content-between">
+                                            <div class="d-flex flex-column">
+                                                <span class="txt-gray">
+                                                    £60.95 Per Night
+                                                </span>
+                                                <span class="listing-price">
+                                                    £635.72
+                                                </span>
+                                            </div>
+                                            <div>
+                                                <button class="btn btn-primary">
+                                                    Select
+                                                </button>
+                                            </div>
+                                        </div><!-- listing-right-top-right -->
                                     </div><!-- col -->
-                                    <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
-                                        <div class="listing-right-top d-flex justify-content-lg-between">
+                                    <div class="col-12 offset-xl-1 col-lg-5 col-xl-4 listing-right d-none d-lg-flex flex-lg-column justify-content-lg-between">
+                                        <div class="listing-right-top d-none d-lg-flex justify-content-lg-between">
                                             <div class="listing-right-top-left">
                                                 <span>
                                                     Standard Double Room
@@ -564,11 +633,10 @@
                                                 </div>
                                             </div><!-- listing-right-top-left -->
 
-                                            <div class="esd-rating">
-                                                4.5 <i class="fa-solid fa-star"></i>
-                                            </div>
+                                            
+                                            <?php include '../travelpack/sections/global/star-rating.php';?>
                                         </div><!-- listing-right-top -->
-                                        <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
+                                        <div class="listing-right-bottom d-lg-flex d-none align-items-center justify-content-lg-between">
                                             <div class="d-flex flex-column">
                                                 <span class="txt-gray">
                                                     £60.95 Per Night
@@ -587,27 +655,75 @@
                                 </div><!-- row -->
                             </div>
                             <div class="whiteboxbg listingbox">
-                                <div class="row">
-                                    <div class="col-12 col-lg-4 listing-left">
+                                <div class="row g-3">
+                                    <div class="col-12 col-md-4 listing-left">
                                         <div class="listing-image">
                                             <img src="http://localhost:8888/travelpack/assets/img/hotels/listing-image.jpg" alt="">
                                         </div>
                                     </div><!-- col -->
-                                    <div class="col-12 col-lg-3 listing-mid">
-                                        <div class="listing-mid-top">
-                                            <h3>
-                                                YHA London Earl’s Court - Hostel
-                                            </h3>
-                                            <span class="listing-location">
-                                                London (3.11 miles)
-                                            </span>
-                                        </div><!-- listing-mid-top -->
-                                        <div class="guest-score">
-                                            4.4 Guest Score
+                                    <div class="col-12 col-md-8 col-lg-3 listing-mid">
+                                        <div class="listing-mid-top d-block d-lg-none">
+                                            <div class="d-flex justify-content-between">
+                                                <h3>
+                                                    YHA London Earl’s Court - Hostel
+                                                </h3>
+                                                <div>
+                                                    <?php include '../travelpack/sections/global/star-rating.php';?>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <span class="listing-location">
+                                                    London (3.11 miles)
+                                                </span>
+                                            </div>
+                                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                                <div class="guest-score mt-0">
+                                                    4.4 Guest Score
+                                                </div>
+
+                                                <div class="listing-right-top-left">
+                                                    <span>
+                                                        Standard Double Room
+                                                    </span>
+                                                    <div class="txt-gray d-flex flex-column">
+                                                        <span>Room Only</span>
+                                                        <span>Non-Refundable</span>
+                                                    </div>
+                                                </div><!-- listing-right-top-left -->
+                                            </div>
                                         </div>
+                                        <div class="listing-mid-top d-none d-lg-flex flex-column">
+                                            <div>
+                                                <h3>
+                                                    YHA London Earl’s Court - Hostel
+                                                </h3>
+                                                <span class="listing-location">
+                                                    London (3.11 miles)
+                                                </span>
+                                            </div>
+                                            <div class="guest-score mt-3">
+                                                4.4 Guest Score
+                                            </div>
+                                        </div><!-- listing-mid-top -->
+
+                                        <div class=" mt-3 listing-right-bottom d-flex gap-3 d-lg-none align-items-center justify-content-between">
+                                            <div class="d-flex flex-column">
+                                                <span class="txt-gray">
+                                                    £60.95 Per Night
+                                                </span>
+                                                <span class="listing-price">
+                                                    £635.72
+                                                </span>
+                                            </div>
+                                            <div>
+                                                <button class="btn btn-primary">
+                                                    Select
+                                                </button>
+                                            </div>
+                                        </div><!-- listing-right-top-right -->
                                     </div><!-- col -->
-                                    <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
-                                        <div class="listing-right-top d-flex justify-content-lg-between">
+                                    <div class="col-12 offset-xl-1 col-lg-5 col-xl-4 listing-right d-none d-lg-flex flex-lg-column justify-content-lg-between">
+                                        <div class="listing-right-top d-none d-lg-flex justify-content-lg-between">
                                             <div class="listing-right-top-left">
                                                 <span>
                                                     Standard Double Room
@@ -618,11 +734,10 @@
                                                 </div>
                                             </div><!-- listing-right-top-left -->
 
-                                            <div class="esd-rating">
-                                                4.5 <i class="fa-solid fa-star"></i>
-                                            </div>
+                                            
+                                            <?php include '../travelpack/sections/global/star-rating.php';?>
                                         </div><!-- listing-right-top -->
-                                        <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
+                                        <div class="listing-right-bottom d-lg-flex d-none align-items-center justify-content-lg-between">
                                             <div class="d-flex flex-column">
                                                 <span class="txt-gray">
                                                     £60.95 Per Night
