@@ -48,10 +48,10 @@
                                             </div>
                                         </div><!-- dd-filter -->
 
-                                        <?php include '../sections/searchform/hotel-rooms-1.php';?>
-                                        <?php include '../sections/searchform/hotel-rooms-2.php';?>
-                                        <?php include '../sections/searchform/hotel-rooms-3.php';?>
-                                        <?php include '../sections/searchform/hotel-rooms-4.php';?>
+                                        <?php include './sections/searchform/hotel-rooms-1.php';?>
+                                        <?php include './sections/searchform/hotel-rooms-2.php';?>
+                                        <?php include './sections/searchform/hotel-rooms-3.php';?>
+                                        <?php include './sections/searchform/hotel-rooms-4.php';?>
 
                                     </div><!-- dd filter wrap -->
                                     <div class="dd-filtertext">
