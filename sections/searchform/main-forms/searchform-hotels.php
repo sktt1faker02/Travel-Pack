@@ -46,7 +46,7 @@
                                                 <input type="text" value="01" readonly>
                                                 <button type="button" class="increment"><i class="fa-solid fa-plus"></i></button>
                                             </div>
-                                        </div><!-- dd-filter -->
+                                        </div><!--- filter --->
 
                                         <?php include './sections/searchform/hotel-rooms-1.php';?>
                                         <?php include './sections/searchform/hotel-rooms-2.php';?>
