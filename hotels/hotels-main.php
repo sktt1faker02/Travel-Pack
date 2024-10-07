@@ -40,7 +40,7 @@
 
     <section class="block search-wrap bggray" id="hotels-search">
         <div class="container">
-            <div class="row hotel-single-top">
+            <div class="row hotel-single-top align-items-start">
                 <div class="col-12 col-md-4 hotel-single-top-left">
                     <h2>
                         YHA London Earl’s
@@ -67,9 +67,7 @@
                     </div>
                 </div><!-- col -->
                 <div class="col-12 col-md-3 d-flex justify-content-end">
-                    <div class="esd-rating">
-                        5 <i class="fa-solid fa-star"></i>
-                    </div>
+                    <?php include '../sections/global/star-rating.php'; ?>
                 </div>
             </div><!-- row -->
 
@@ -214,12 +212,7 @@
                                     </div><!-- hsngbox inner text -->
                                     <div class="hsng-box-inner-dd">
                                         <div class="hsng-dd-wrap">
-                                            <select>
-                                                <option>01</option>
-                                                <option>02</option>
-                                                <option>03</option>
-                                                <option>04</option>
-                                            </select>
+                                            01
                                         </div><!-- hsng dd wrap -->
                                     </div><!-- hsng-box-inner -->
                                 </div><!-- hsng box inner -->
@@ -228,13 +221,7 @@
                                         Adults
                                     </div><!-- hsngbox inner text -->
                                     <div class="hsng-box-inner-dd">
-                                        <div class="hsng-dd-wrap">
-                                            <select>
-                                                <option>01</option>
-                                                <option>02</option>
-                                                <option>03</option>
-                                                <option>04</option>
-                                            </select>
+                                        <div class="hsng-dd-wrap">01
                                         </div><!-- hsng dd wrap -->
                                     </div><!-- hsng-box-inner -->
                                 </div><!-- hsng box inner -->
@@ -243,13 +230,7 @@
                                         Age of Child 01
                                     </div><!-- hsngbox inner text -->
                                     <div class="hsng-box-inner-dd">
-                                        <div class="hsng-dd-wrap">
-                                            <select>
-                                                <option>01</option>
-                                                <option>02</option>
-                                                <option>03</option>
-                                                <option>04</option>
-                                            </select>
+                                        <div class="hsng-dd-wrap">01
                                         </div><!-- hsng dd wrap -->
                                     </div><!-- hsng-box-inner -->
                                 </div><!-- hsng box inner -->
@@ -258,13 +239,7 @@
                                         Age of Child 02
                                     </div><!-- hsngbox inner text -->
                                     <div class="hsng-box-inner-dd">
-                                        <div class="hsng-dd-wrap">
-                                            <select>
-                                                <option>01</option>
-                                                <option>02</option>
-                                                <option>03</option>
-                                                <option>04</option>
-                                            </select>
+                                        <div class="hsng-dd-wrap">01
                                         </div><!-- hsng dd wrap -->
                                     </div><!-- hsng-box-inner -->
                                 </div><!-- hsng box inner -->
@@ -282,13 +257,7 @@
                                         Adults
                                     </div><!-- hsngbox inner text -->
                                     <div class="hsng-box-inner-dd">
-                                        <div class="hsng-dd-wrap">
-                                            <select>
-                                                <option>01</option>
-                                                <option>02</option>
-                                                <option>03</option>
-                                                <option>04</option>
-                                            </select>
+                                        <div class="hsng-dd-wrap">01
                                         </div><!-- hsng dd wrap -->
                                     </div><!-- hsng-box-inner -->
                                 </div><!-- hsng box inner -->
@@ -297,13 +266,7 @@
                                         Adults
                                     </div><!-- hsngbox inner text -->
                                     <div class="hsng-box-inner-dd">
-                                        <div class="hsng-dd-wrap">
-                                            <select>
-                                                <option>01</option>
-                                                <option>02</option>
-                                                <option>03</option>
-                                                <option>04</option>
-                                            </select>
+                                        <div class="hsng-dd-wrap">01
                                         </div><!-- hsng dd wrap -->
                                     </div><!-- hsng-box-inner -->
                                 </div><!-- hsng box inner -->
@@ -312,13 +275,7 @@
                                         Age of Child 01
                                     </div><!-- hsngbox inner text -->
                                     <div class="hsng-box-inner-dd">
-                                        <div class="hsng-dd-wrap">
-                                            <select>
-                                                <option>01</option>
-                                                <option>02</option>
-                                                <option>03</option>
-                                                <option>04</option>
-                                            </select>
+                                        <div class="hsng-dd-wrap">01
                                         </div><!-- hsng dd wrap -->
                                     </div><!-- hsng-box-inner -->
                                 </div><!-- hsng box inner -->
@@ -327,13 +284,7 @@
                                         Age of Child 02
                                     </div><!-- hsngbox inner text -->
                                     <div class="hsng-box-inner-dd">
-                                        <div class="hsng-dd-wrap">
-                                            <select>
-                                                <option>01</option>
-                                                <option>02</option>
-                                                <option>03</option>
-                                                <option>04</option>
-                                            </select>
+                                        <div class="hsng-dd-wrap">01
                                         </div><!-- hsng dd wrap -->
                                     </div><!-- hsng-box-inner -->
                                 </div><!-- hsng box inner -->
@@ -351,13 +302,7 @@
                                         Adults
                                     </div><!-- hsngbox inner text -->
                                     <div class="hsng-box-inner-dd">
-                                        <div class="hsng-dd-wrap">
-                                            <select>
-                                                <option>01</option>
-                                                <option>02</option>
-                                                <option>03</option>
-                                                <option>04</option>
-                                            </select>
+                                        <div class="hsng-dd-wrap">01
                                         </div><!-- hsng dd wrap -->
                                     </div><!-- hsng-box-inner -->
                                 </div><!-- hsng box inner -->
@@ -366,13 +311,7 @@
                                         Adults
                                     </div><!-- hsngbox inner text -->
                                     <div class="hsng-box-inner-dd">
-                                        <div class="hsng-dd-wrap">
-                                            <select>
-                                                <option>01</option>
-                                                <option>02</option>
-                                                <option>03</option>
-                                                <option>04</option>
-                                            </select>
+                                        <div class="hsng-dd-wrap">01
                                         </div><!-- hsng dd wrap -->
                                     </div><!-- hsng-box-inner -->
                                 </div><!-- hsng box inner -->
@@ -381,13 +320,7 @@
                                         Age of Child 01
                                     </div><!-- hsngbox inner text -->
                                     <div class="hsng-box-inner-dd">
-                                        <div class="hsng-dd-wrap">
-                                            <select>
-                                                <option>01</option>
-                                                <option>02</option>
-                                                <option>03</option>
-                                                <option>04</option>
-                                            </select>
+                                        <div class="hsng-dd-wrap">01
                                         </div><!-- hsng dd wrap -->
                                     </div><!-- hsng-box-inner -->
                                 </div><!-- hsng box inner -->
@@ -396,13 +329,7 @@
                                         Age of Child 02
                                     </div><!-- hsngbox inner text -->
                                     <div class="hsng-box-inner-dd">
-                                        <div class="hsng-dd-wrap">
-                                            <select>
-                                                <option>01</option>
-                                                <option>02</option>
-                                                <option>03</option>
-                                                <option>04</option>
-                                            </select>
+                                        <div class="hsng-dd-wrap">01
                                         </div><!-- hsng dd wrap -->
                                     </div><!-- hsng-box-inner -->
                                 </div><!-- hsng box inner -->
@@ -420,13 +347,7 @@
                                         Adults
                                     </div><!-- hsngbox inner text -->
                                     <div class="hsng-box-inner-dd">
-                                        <div class="hsng-dd-wrap">
-                                            <select>
-                                                <option>01</option>
-                                                <option>02</option>
-                                                <option>03</option>
-                                                <option>04</option>
-                                            </select>
+                                        <div class="hsng-dd-wrap">01
                                         </div><!-- hsng dd wrap -->
                                     </div><!-- hsng-box-inner -->
                                 </div><!-- hsng box inner -->
@@ -435,13 +356,7 @@
                                         Adults
                                     </div><!-- hsngbox inner text -->
                                     <div class="hsng-box-inner-dd">
-                                        <div class="hsng-dd-wrap">
-                                            <select>
-                                                <option>01</option>
-                                                <option>02</option>
-                                                <option>03</option>
-                                                <option>04</option>
-                                            </select>
+                                        <div class="hsng-dd-wrap">01
                                         </div><!-- hsng dd wrap -->
                                     </div><!-- hsng-box-inner -->
                                 </div><!-- hsng box inner -->
@@ -450,13 +365,7 @@
                                         Age of Child 01
                                     </div><!-- hsngbox inner text -->
                                     <div class="hsng-box-inner-dd">
-                                        <div class="hsng-dd-wrap">
-                                            <select>
-                                                <option>01</option>
-                                                <option>02</option>
-                                                <option>03</option>
-                                                <option>04</option>
-                                            </select>
+                                        <div class="hsng-dd-wrap">01
                                         </div><!-- hsng dd wrap -->
                                     </div><!-- hsng-box-inner -->
                                 </div><!-- hsng box inner -->
@@ -465,13 +374,7 @@
                                         Age of Child 02
                                     </div><!-- hsngbox inner text -->
                                     <div class="hsng-box-inner-dd">
-                                        <div class="hsng-dd-wrap">
-                                            <select>
-                                                <option>01</option>
-                                                <option>02</option>
-                                                <option>03</option>
-                                                <option>04</option>
-                                            </select>
+                                        <div class="hsng-dd-wrap">01
                                         </div><!-- hsng dd wrap -->
                                     </div><!-- hsng-box-inner -->
                                 </div><!-- hsng box inner -->

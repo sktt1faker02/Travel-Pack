@@ -61,23 +61,26 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 /* TOGGLE FB_BOTTOM */
-document.querySelectorAll('.togglefilterbox').forEach(function(toggleButton) {
-    toggleButton.addEventListener('click', function() {
-        // Check if the .togglefilterbox is inside the .tp-checkout-sidebar
-        if (this.closest('.tp-checkout-sidebar')) {
-            return; // Don't execute if inside .tp-checkout-sidebar
-        }
-        
-        let fbBottom = this.closest('.filters-box').querySelector('.fb-bottom');
-        
-        // Toggle the "hide" class on .fb-bottom
-        fbBottom.classList.toggle('hide');
-        
-        // Optionally toggle rotation for the button
-        this.classList.toggle('rotate');
+document.addEventListener('DOMContentLoaded', function() {
+    // Select all toggle filter boxes
+    const toggleFilterBoxes = document.querySelectorAll('.togglefilterbox');
+
+    toggleFilterBoxes.forEach(toggleFilterBox => {
+        toggleFilterBox.addEventListener('click', function() {
+            // Find the closest parent filter box
+            const filtersBox = toggleFilterBox.closest('.filters-box');
+            // Select the fb-bottom element within this filter box
+            const fbBottom = filtersBox.querySelector('.fb-bottom');
+
+            if (fbBottom) { // Check if fb-bottom element is present
+                fbBottom.classList.toggle('hide'); // Toggle the hide class
+            }
+
+            // Toggle the rotate class on the toggle filter box
+            toggleFilterBox.classList.toggle('rotate'); // Toggle the rotate class
+        });
     });
 });
-
 
 document.querySelectorAll('.togglefilterbox-main').forEach(function(toggleButton) {
     toggleButton.addEventListener('click', function() {

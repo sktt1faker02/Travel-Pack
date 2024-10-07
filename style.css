@@ -735,8 +735,10 @@ ul.liststyle {
 }
 .box-group {
     display: none;
+    margin-top:0;
     transition: opacity 0.5s ease;
-} .loadmorebox {
+} 
+.loadmorebox {
     opacity: 1;
     visibility: visible;
     transition: opacity 0.5s ease, visibility 0.5s ease;
@@ -829,6 +831,9 @@ ul.liststyle {
     animation: fadeIn 1s ease forwards;
 }
 .dark-hero-slider .heroslider-nav .slick-dots li.slick-active button {
+    background-color: var(--primary);
+}
+.heroslider-nav-dark.heroslider-nav .slick-dots li.slick-active button {
     background-color: var(--primary);
 }
 .heroslider .slick-slide:nth-child(1) {
@@ -1255,8 +1260,8 @@ section#deals-travel-inspiration {
 .deals-travel-inspiration-top p {
     color: #232323;
     font-weight: 500;
-    font-size: 22px;
-    width: 430px;
+    font-size: 25px;
+    width: 450px;
     max-width: 100%;
     margin-top: 15px;
     letter-spacing: 0;
@@ -2936,7 +2941,8 @@ ul {
     margin-top: 0;
 }
 .tp-table td {
-    padding: 15px !important;
+    padding: 13px !important;
+    font-size: 14px;
 }
 
 /* ! modal gallery */
@@ -3111,7 +3117,7 @@ ul {
 
 /* RAIL CHECKOUT */
 .airline-image {
-    background-color:#f8f6f3;
+    background-color:#fff;
 }
 .flightduratio {
     font-size: 14px;
@@ -3428,7 +3434,16 @@ ul.oa-checklist li a {
     color:#000;
     font-family: 'Open Sans', sans-serif;
 }
-
+.modal .btn-close {
+    position: absolute;
+    right: 20px;
+}
+.modal-body {
+    padding:25px;
+}
+.breakdowntop {
+    padding-right:35px;
+}
 /* ! range date picker */
 .ui-datepicker-current-day{
     opacity: 1 !important;

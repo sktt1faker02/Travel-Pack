@@ -337,7 +337,14 @@
                                 <li>
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox18">
-                                        <label for="checkbox18"><span class="checkboxtext">Stops</span></label>
+                                        <label for="checkbox18"><span class="checkboxtext">1 Stops</span></label>
+                                    </div> 
+                                    <span>120</span>
+                                </li>
+                                <li>
+                                    <div class="checkbox-container">
+                                        <input type="checkbox" id="checkbox18">
+                                        <label for="checkbox18"><span class="checkboxtext">2+ Stops</span></label>
                                     </div> 
                                     <span>120</span>
                                 </li>
@@ -768,8 +775,12 @@
                                                             2x Adults
                                                         </div>
                                                         <div class="flightlinks">
-                                                            <a href="">Rules</a>
-                                                            <a href="">Breakdown</a>
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Rules
+                                                            </button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Breakdown
+                                                            </button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -796,8 +807,1564 @@
                                                             2x Adults
                                                         </div>
                                                         <div class="flightlinks">
-                                                            <a href="">Rules</a>
-                                                            <a href="">Breakdown</a>
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Rules
+                                                            </button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Breakdown
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- flights main -->
+                        <div class="flights-main loadmorebox">
+                            <div class="flights-box">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-lg-2">
+                                        <div class="airline-image">
+                                            <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-10 flightbox-left">
+                                        <div class="row mt-2 align-items-center">
+                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                                <h4>LGW</h4>
+                                                <div class="flight-details">
+                                                    <strong>Departing</strong>
+                                                    <span>
+                                                        Sun 09 Jun 2024 
+                                                    </span>
+                                                    <span>
+                                                        Terminal 3
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime">14:55</div>
+                                                <div class="flightduration text-center">
+                                                    <div class="fw-semibold">
+                                                        4 Stops
+                                                    </div>
+                                                    10hrs,30mins
+                                                </div>
+                                                <div class="flighttime">18:55</div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                                <h4>AUH</h4>
+                                                <div class="flight-details">
+                                                    <strong>Arriving</strong>
+                                                    <span>
+                                                        Sun 10 Jun 2024 
+                                                    </span>
+                                                    <span>
+                                                        Terminal 3
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- flights box -->
+                            <div class="flights-box">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-lg-2">
+                                        <div class="airline-image">
+                                            <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-10 flightbox-left">
+                                        <div class="row mt-2 align-items-center">
+                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                                <h4>AUH</h4>
+                                                <div class="flight-details">
+                                                    <strong>Departing</strong>
+                                                    <span>
+                                                        Sun 09 Jun 2024 
+                                                    </span>
+                                                    <span>
+                                                        Terminal 3
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime">14:55</div>
+                                                <div class="flightduration text-center">
+                                                    <div class="fw-semibold">
+                                                        4 Stops
+                                                    </div>
+                                                    10hrs,30mins
+                                                </div>
+                                                <div class="flighttime">18:55</div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                                <h4>XNB</h4>
+                                                <div class="flight-details">
+                                                    <strong>Arriving</strong>
+                                                    <span>
+                                                        Sun 10 Jun 2024 
+                                                    </span>
+                                                    <span>
+                                                        Terminal 3
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- flights box -->
+
+                            <div class="flightdetailsmore txt-black">
+                                <div class="d-flex flex-column">
+                                    <div class="fdm-content-wrap">
+                                        <div class="row align-items-center">
+                                            <div class="col-12 col-lg-2">
+                                                <div class="airline-image">
+                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
+                                                <div class="fdm-box d-flex align-items-center">
+                                                    <div class="col-12 col-lg-7 fdm-box-main">
+                                                        <div class="loclines">
+                                                            <div class="loclines-wrap"></div>
+                                                        </div>
+                                                        <div class="fdmbox-wrap">
+                                                            <div class="fdm-top fdmbox">              
+                                                                <strong>
+                                                                    LGW - London Gatwick Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                            <div class="fdm-bottom fdmbox">           
+                                                                <strong>
+                                                                    AUH - Abu Dhabi Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-3 fdm-right text-end">
+                                                        <strong>
+                                                            Emirates Airlines
+                                                        </strong>
+                                                        <span>
+                                                            EK10 -Economy
+                                                        </span>
+                                                        <span>
+                                                            Flight Time 6h 50m
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row stop-wrap">
+                                            <div class="offset-lg-2 px-0 col-12 col-lg-10">
+                                                <div class="fdm-box-separator">
+                                                    <span class="fw-semibold">
+                                                        Stop 1
+                                                    </span>
+                                                    <span>
+                                                        <strong>Ground Time</strong>
+                                                    </span>
+                                                    <span>
+                                                        1hr, 40Mins
+                                                    </span>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row align-items-center noborder-fdm">
+                                            <div class="col-12 col-lg-2">
+                                                <div class="airline-image">
+                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
+                                                <div class="fdm-box d-flex align-items-center">
+                                                    <div class="col-12 col-lg-7 fdm-box-main">
+                                                        <div class="loclines">
+                                                            <div class="loclines-wrap"></div>
+                                                        </div>
+                                                        <div class="fdmbox-wrap">
+                                                            <div class="fdm-top fdmbox">            
+                                                                <strong>
+                                                                    AUH - Abu Dhabi Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                            <div class="fdm-bottom fdmbox">             
+                                                                <strong>
+                                                                    LGW - London Gatwick Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-3 fdm-right text-end">
+                                                        <strong>
+                                                            Emirates Airlines
+                                                        </strong>
+                                                        <span>
+                                                            EK10 -Economy
+                                                        </span>
+                                                        <span>
+                                                            Flight Time 6h 50m
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row stop-wrap">
+                                            <div class="offset-lg-2 px-0 col-12 col-lg-10">
+                                                <div class="fdm-box-separator">
+                                                    <span class="fw-semibold">
+                                                        Stop 2
+                                                    </span>
+                                                    <span>
+                                                        <strong>Ground Time</strong>
+                                                    </span>
+                                                    <span>
+                                                        1hr, 40Mins
+                                                    </span>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row align-items-center noborder-fdm">
+                                            <div class="col-12 col-lg-2">
+                                                <div class="airline-image">
+                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
+                                                <div class="fdm-box d-flex align-items-center">
+                                                    <div class="col-12 col-lg-7 fdm-box-main">
+                                                        <div class="loclines">
+                                                            <div class="loclines-wrap"></div>
+                                                        </div>
+                                                        <div class="fdmbox-wrap">
+                                                            <div class="fdm-top fdmbox">            
+                                                                <strong>
+                                                                    AUH - Abu Dhabi Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                            <div class="fdm-bottom fdmbox">             
+                                                                <strong>
+                                                                    LGW - London Gatwick Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-3 fdm-right text-end">
+                                                        <strong>
+                                                            Emirates Airlines
+                                                        </strong>
+                                                        <span>
+                                                            EK10 -Economy
+                                                        </span>
+                                                        <span>
+                                                            Flight Time 6h 50m
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                    </div><!-- fdm-content-wrap -->
+                                </div><!-- d-flex -->
+
+
+
+
+                                <div class="row">
+                                    <div class="offset-lg-2 ps-0 col-lg-10 flights-readmore-info">
+                                        <span class="flights-rmore-btn fw-semibold">
+                                            Read More Information <i class="fs-icon fa-solid fa-chevron-down ms-2"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div><!-- flightdetailsmore -->
+
+                            <div class="flightsprice-wrap">
+                                <div class="row">
+                                    <div class="offset-lg-2 col-12 col-lg-10">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="flightprice-box">
+                                                    <div class="d-flex fpb-top">
+                                                        <div class="flightprice">
+                                                            <span>
+                                                                Economy Flex(k)
+                                                            </span>
+                                                            <div class="flightprice-main">
+                                                                £708.47
+                                                            </div>
+                                                        </div>
+                                                        <div class="flightprice-option">
+                                                            <button class="btn btn-primary">
+                                                                Select Option
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex fpb-bottom">
+                                                        <div class="flightpax">
+                                                            2x Adults
+                                                        </div>
+                                                        <div class="flightlinks">
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Rules
+                                                            </button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Breakdown
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="flightprice-box">
+                                                    <div class="d-flex fpb-top">
+                                                        <div class="flightprice">
+                                                            <span>
+                                                                Economy Flex(k)
+                                                            </span>
+                                                            <div class="flightprice-main">
+                                                                £708.47
+                                                            </div>
+                                                        </div>
+                                                        <div class="flightprice-option">
+                                                            <button class="btn btn-primary">
+                                                                Select Option
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex fpb-bottom">
+                                                        <div class="flightpax">
+                                                            2x Adults
+                                                        </div>
+                                                        <div class="flightlinks">
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Rules
+                                                            </button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Breakdown
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- flights main -->
+                        <div class="flights-main loadmorebox">
+                            <div class="flights-box">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-lg-2">
+                                        <div class="airline-image">
+                                            <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-10 flightbox-left">
+                                        <div class="row mt-2 align-items-center">
+                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                                <h4>LGW</h4>
+                                                <div class="flight-details">
+                                                    <strong>Departing</strong>
+                                                    <span>
+                                                        Sun 09 Jun 2024 
+                                                    </span>
+                                                    <span>
+                                                        Terminal 3
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime">14:55</div>
+                                                <div class="flightduration text-center">
+                                                    <div class="fw-semibold">
+                                                        4 Stops
+                                                    </div>
+                                                    10hrs,30mins
+                                                </div>
+                                                <div class="flighttime">18:55</div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                                <h4>AUH</h4>
+                                                <div class="flight-details">
+                                                    <strong>Arriving</strong>
+                                                    <span>
+                                                        Sun 10 Jun 2024 
+                                                    </span>
+                                                    <span>
+                                                        Terminal 3
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- flights box -->
+                            <div class="flights-box">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-lg-2">
+                                        <div class="airline-image">
+                                            <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-10 flightbox-left">
+                                        <div class="row mt-2 align-items-center">
+                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                                <h4>AUH</h4>
+                                                <div class="flight-details">
+                                                    <strong>Departing</strong>
+                                                    <span>
+                                                        Sun 09 Jun 2024 
+                                                    </span>
+                                                    <span>
+                                                        Terminal 3
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime">14:55</div>
+                                                <div class="flightduration text-center">
+                                                    <div class="fw-semibold">
+                                                        4 Stops
+                                                    </div>
+                                                    10hrs,30mins
+                                                </div>
+                                                <div class="flighttime">18:55</div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                                <h4>XNB</h4>
+                                                <div class="flight-details">
+                                                    <strong>Arriving</strong>
+                                                    <span>
+                                                        Sun 10 Jun 2024 
+                                                    </span>
+                                                    <span>
+                                                        Terminal 3
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- flights box -->
+
+                            <div class="flightdetailsmore txt-black">
+                                <div class="d-flex flex-column">
+                                    <div class="fdm-content-wrap">
+                                        <div class="row align-items-center">
+                                            <div class="col-12 col-lg-2">
+                                                <div class="airline-image">
+                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
+                                                <div class="fdm-box d-flex align-items-center">
+                                                    <div class="col-12 col-lg-7 fdm-box-main">
+                                                        <div class="loclines">
+                                                            <div class="loclines-wrap"></div>
+                                                        </div>
+                                                        <div class="fdmbox-wrap">
+                                                            <div class="fdm-top fdmbox">              
+                                                                <strong>
+                                                                    LGW - London Gatwick Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                            <div class="fdm-bottom fdmbox">           
+                                                                <strong>
+                                                                    AUH - Abu Dhabi Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-3 fdm-right text-end">
+                                                        <strong>
+                                                            Emirates Airlines
+                                                        </strong>
+                                                        <span>
+                                                            EK10 -Economy
+                                                        </span>
+                                                        <span>
+                                                            Flight Time 6h 50m
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row stop-wrap">
+                                            <div class="offset-lg-2 px-0 col-12 col-lg-10">
+                                                <div class="fdm-box-separator">
+                                                    <span class="fw-semibold">
+                                                        Stop 1
+                                                    </span>
+                                                    <span>
+                                                        <strong>Ground Time</strong>
+                                                    </span>
+                                                    <span>
+                                                        1hr, 40Mins
+                                                    </span>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row align-items-center noborder-fdm">
+                                            <div class="col-12 col-lg-2">
+                                                <div class="airline-image">
+                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
+                                                <div class="fdm-box d-flex align-items-center">
+                                                    <div class="col-12 col-lg-7 fdm-box-main">
+                                                        <div class="loclines">
+                                                            <div class="loclines-wrap"></div>
+                                                        </div>
+                                                        <div class="fdmbox-wrap">
+                                                            <div class="fdm-top fdmbox">            
+                                                                <strong>
+                                                                    AUH - Abu Dhabi Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                            <div class="fdm-bottom fdmbox">             
+                                                                <strong>
+                                                                    LGW - London Gatwick Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-3 fdm-right text-end">
+                                                        <strong>
+                                                            Emirates Airlines
+                                                        </strong>
+                                                        <span>
+                                                            EK10 -Economy
+                                                        </span>
+                                                        <span>
+                                                            Flight Time 6h 50m
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row stop-wrap">
+                                            <div class="offset-lg-2 px-0 col-12 col-lg-10">
+                                                <div class="fdm-box-separator">
+                                                    <span class="fw-semibold">
+                                                        Stop 2
+                                                    </span>
+                                                    <span>
+                                                        <strong>Ground Time</strong>
+                                                    </span>
+                                                    <span>
+                                                        1hr, 40Mins
+                                                    </span>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row align-items-center noborder-fdm">
+                                            <div class="col-12 col-lg-2">
+                                                <div class="airline-image">
+                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
+                                                <div class="fdm-box d-flex align-items-center">
+                                                    <div class="col-12 col-lg-7 fdm-box-main">
+                                                        <div class="loclines">
+                                                            <div class="loclines-wrap"></div>
+                                                        </div>
+                                                        <div class="fdmbox-wrap">
+                                                            <div class="fdm-top fdmbox">            
+                                                                <strong>
+                                                                    AUH - Abu Dhabi Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                            <div class="fdm-bottom fdmbox">             
+                                                                <strong>
+                                                                    LGW - London Gatwick Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-3 fdm-right text-end">
+                                                        <strong>
+                                                            Emirates Airlines
+                                                        </strong>
+                                                        <span>
+                                                            EK10 -Economy
+                                                        </span>
+                                                        <span>
+                                                            Flight Time 6h 50m
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                    </div><!-- fdm-content-wrap -->
+                                </div><!-- d-flex -->
+
+
+
+
+                                <div class="row">
+                                    <div class="offset-lg-2 ps-0 col-lg-10 flights-readmore-info">
+                                        <span class="flights-rmore-btn fw-semibold">
+                                            Read More Information <i class="fs-icon fa-solid fa-chevron-down ms-2"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div><!-- flightdetailsmore -->
+
+                            <div class="flightsprice-wrap">
+                                <div class="row">
+                                    <div class="offset-lg-2 col-12 col-lg-10">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="flightprice-box">
+                                                    <div class="d-flex fpb-top">
+                                                        <div class="flightprice">
+                                                            <span>
+                                                                Economy Flex(k)
+                                                            </span>
+                                                            <div class="flightprice-main">
+                                                                £708.47
+                                                            </div>
+                                                        </div>
+                                                        <div class="flightprice-option">
+                                                            <button class="btn btn-primary">
+                                                                Select Option
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex fpb-bottom">
+                                                        <div class="flightpax">
+                                                            2x Adults
+                                                        </div>
+                                                        <div class="flightlinks">
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Rules
+                                                            </button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Breakdown
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="flightprice-box">
+                                                    <div class="d-flex fpb-top">
+                                                        <div class="flightprice">
+                                                            <span>
+                                                                Economy Flex(k)
+                                                            </span>
+                                                            <div class="flightprice-main">
+                                                                £708.47
+                                                            </div>
+                                                        </div>
+                                                        <div class="flightprice-option">
+                                                            <button class="btn btn-primary">
+                                                                Select Option
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex fpb-bottom">
+                                                        <div class="flightpax">
+                                                            2x Adults
+                                                        </div>
+                                                        <div class="flightlinks">
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Rules
+                                                            </button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Breakdown
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- flights main -->
+                        <div class="flights-main loadmorebox">
+                            <div class="flights-box">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-lg-2">
+                                        <div class="airline-image">
+                                            <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-10 flightbox-left">
+                                        <div class="row mt-2 align-items-center">
+                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                                <h4>LGW</h4>
+                                                <div class="flight-details">
+                                                    <strong>Departing</strong>
+                                                    <span>
+                                                        Sun 09 Jun 2024 
+                                                    </span>
+                                                    <span>
+                                                        Terminal 3
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime">14:55</div>
+                                                <div class="flightduration text-center">
+                                                    <div class="fw-semibold">
+                                                        4 Stops
+                                                    </div>
+                                                    10hrs,30mins
+                                                </div>
+                                                <div class="flighttime">18:55</div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                                <h4>AUH</h4>
+                                                <div class="flight-details">
+                                                    <strong>Arriving</strong>
+                                                    <span>
+                                                        Sun 10 Jun 2024 
+                                                    </span>
+                                                    <span>
+                                                        Terminal 3
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- flights box -->
+                            <div class="flights-box">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-lg-2">
+                                        <div class="airline-image">
+                                            <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-10 flightbox-left">
+                                        <div class="row mt-2 align-items-center">
+                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                                <h4>AUH</h4>
+                                                <div class="flight-details">
+                                                    <strong>Departing</strong>
+                                                    <span>
+                                                        Sun 09 Jun 2024 
+                                                    </span>
+                                                    <span>
+                                                        Terminal 3
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime">14:55</div>
+                                                <div class="flightduration text-center">
+                                                    <div class="fw-semibold">
+                                                        4 Stops
+                                                    </div>
+                                                    10hrs,30mins
+                                                </div>
+                                                <div class="flighttime">18:55</div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                                <h4>XNB</h4>
+                                                <div class="flight-details">
+                                                    <strong>Arriving</strong>
+                                                    <span>
+                                                        Sun 10 Jun 2024 
+                                                    </span>
+                                                    <span>
+                                                        Terminal 3
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- flights box -->
+
+                            <div class="flightdetailsmore txt-black">
+                                <div class="d-flex flex-column">
+                                    <div class="fdm-content-wrap">
+                                        <div class="row align-items-center">
+                                            <div class="col-12 col-lg-2">
+                                                <div class="airline-image">
+                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
+                                                <div class="fdm-box d-flex align-items-center">
+                                                    <div class="col-12 col-lg-7 fdm-box-main">
+                                                        <div class="loclines">
+                                                            <div class="loclines-wrap"></div>
+                                                        </div>
+                                                        <div class="fdmbox-wrap">
+                                                            <div class="fdm-top fdmbox">              
+                                                                <strong>
+                                                                    LGW - London Gatwick Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                            <div class="fdm-bottom fdmbox">           
+                                                                <strong>
+                                                                    AUH - Abu Dhabi Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-3 fdm-right text-end">
+                                                        <strong>
+                                                            Emirates Airlines
+                                                        </strong>
+                                                        <span>
+                                                            EK10 -Economy
+                                                        </span>
+                                                        <span>
+                                                            Flight Time 6h 50m
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row stop-wrap">
+                                            <div class="offset-lg-2 px-0 col-12 col-lg-10">
+                                                <div class="fdm-box-separator">
+                                                    <span class="fw-semibold">
+                                                        Stop 1
+                                                    </span>
+                                                    <span>
+                                                        <strong>Ground Time</strong>
+                                                    </span>
+                                                    <span>
+                                                        1hr, 40Mins
+                                                    </span>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row align-items-center noborder-fdm">
+                                            <div class="col-12 col-lg-2">
+                                                <div class="airline-image">
+                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
+                                                <div class="fdm-box d-flex align-items-center">
+                                                    <div class="col-12 col-lg-7 fdm-box-main">
+                                                        <div class="loclines">
+                                                            <div class="loclines-wrap"></div>
+                                                        </div>
+                                                        <div class="fdmbox-wrap">
+                                                            <div class="fdm-top fdmbox">            
+                                                                <strong>
+                                                                    AUH - Abu Dhabi Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                            <div class="fdm-bottom fdmbox">             
+                                                                <strong>
+                                                                    LGW - London Gatwick Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-3 fdm-right text-end">
+                                                        <strong>
+                                                            Emirates Airlines
+                                                        </strong>
+                                                        <span>
+                                                            EK10 -Economy
+                                                        </span>
+                                                        <span>
+                                                            Flight Time 6h 50m
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row stop-wrap">
+                                            <div class="offset-lg-2 px-0 col-12 col-lg-10">
+                                                <div class="fdm-box-separator">
+                                                    <span class="fw-semibold">
+                                                        Stop 2
+                                                    </span>
+                                                    <span>
+                                                        <strong>Ground Time</strong>
+                                                    </span>
+                                                    <span>
+                                                        1hr, 40Mins
+                                                    </span>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row align-items-center noborder-fdm">
+                                            <div class="col-12 col-lg-2">
+                                                <div class="airline-image">
+                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
+                                                <div class="fdm-box d-flex align-items-center">
+                                                    <div class="col-12 col-lg-7 fdm-box-main">
+                                                        <div class="loclines">
+                                                            <div class="loclines-wrap"></div>
+                                                        </div>
+                                                        <div class="fdmbox-wrap">
+                                                            <div class="fdm-top fdmbox">            
+                                                                <strong>
+                                                                    AUH - Abu Dhabi Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                            <div class="fdm-bottom fdmbox">             
+                                                                <strong>
+                                                                    LGW - London Gatwick Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-3 fdm-right text-end">
+                                                        <strong>
+                                                            Emirates Airlines
+                                                        </strong>
+                                                        <span>
+                                                            EK10 -Economy
+                                                        </span>
+                                                        <span>
+                                                            Flight Time 6h 50m
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                    </div><!-- fdm-content-wrap -->
+                                </div><!-- d-flex -->
+
+
+
+
+                                <div class="row">
+                                    <div class="offset-lg-2 ps-0 col-lg-10 flights-readmore-info">
+                                        <span class="flights-rmore-btn fw-semibold">
+                                            Read More Information <i class="fs-icon fa-solid fa-chevron-down ms-2"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div><!-- flightdetailsmore -->
+
+                            <div class="flightsprice-wrap">
+                                <div class="row">
+                                    <div class="offset-lg-2 col-12 col-lg-10">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="flightprice-box">
+                                                    <div class="d-flex fpb-top">
+                                                        <div class="flightprice">
+                                                            <span>
+                                                                Economy Flex(k)
+                                                            </span>
+                                                            <div class="flightprice-main">
+                                                                £708.47
+                                                            </div>
+                                                        </div>
+                                                        <div class="flightprice-option">
+                                                            <button class="btn btn-primary">
+                                                                Select Option
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex fpb-bottom">
+                                                        <div class="flightpax">
+                                                            2x Adults
+                                                        </div>
+                                                        <div class="flightlinks">
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Rules
+                                                            </button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Breakdown
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="flightprice-box">
+                                                    <div class="d-flex fpb-top">
+                                                        <div class="flightprice">
+                                                            <span>
+                                                                Economy Flex(k)
+                                                            </span>
+                                                            <div class="flightprice-main">
+                                                                £708.47
+                                                            </div>
+                                                        </div>
+                                                        <div class="flightprice-option">
+                                                            <button class="btn btn-primary">
+                                                                Select Option
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex fpb-bottom">
+                                                        <div class="flightpax">
+                                                            2x Adults
+                                                        </div>
+                                                        <div class="flightlinks">
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Rules
+                                                            </button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Breakdown
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- flights main -->
+                        <div class="flights-main loadmorebox">
+                            <div class="flights-box">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-lg-2">
+                                        <div class="airline-image">
+                                            <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-10 flightbox-left">
+                                        <div class="row mt-2 align-items-center">
+                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                                <h4>LGW</h4>
+                                                <div class="flight-details">
+                                                    <strong>Departing</strong>
+                                                    <span>
+                                                        Sun 09 Jun 2024 
+                                                    </span>
+                                                    <span>
+                                                        Terminal 3
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime">14:55</div>
+                                                <div class="flightduration text-center">
+                                                    <div class="fw-semibold">
+                                                        4 Stops
+                                                    </div>
+                                                    10hrs,30mins
+                                                </div>
+                                                <div class="flighttime">18:55</div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                                <h4>AUH</h4>
+                                                <div class="flight-details">
+                                                    <strong>Arriving</strong>
+                                                    <span>
+                                                        Sun 10 Jun 2024 
+                                                    </span>
+                                                    <span>
+                                                        Terminal 3
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- flights box -->
+                            <div class="flights-box">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-lg-2">
+                                        <div class="airline-image">
+                                            <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-10 flightbox-left">
+                                        <div class="row mt-2 align-items-center">
+                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                                <h4>AUH</h4>
+                                                <div class="flight-details">
+                                                    <strong>Departing</strong>
+                                                    <span>
+                                                        Sun 09 Jun 2024 
+                                                    </span>
+                                                    <span>
+                                                        Terminal 3
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime">14:55</div>
+                                                <div class="flightduration text-center">
+                                                    <div class="fw-semibold">
+                                                        4 Stops
+                                                    </div>
+                                                    10hrs,30mins
+                                                </div>
+                                                <div class="flighttime">18:55</div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                                <h4>XNB</h4>
+                                                <div class="flight-details">
+                                                    <strong>Arriving</strong>
+                                                    <span>
+                                                        Sun 10 Jun 2024 
+                                                    </span>
+                                                    <span>
+                                                        Terminal 3
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- flights box -->
+
+                            <div class="flightdetailsmore txt-black">
+                                <div class="d-flex flex-column">
+                                    <div class="fdm-content-wrap">
+                                        <div class="row align-items-center">
+                                            <div class="col-12 col-lg-2">
+                                                <div class="airline-image">
+                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
+                                                <div class="fdm-box d-flex align-items-center">
+                                                    <div class="col-12 col-lg-7 fdm-box-main">
+                                                        <div class="loclines">
+                                                            <div class="loclines-wrap"></div>
+                                                        </div>
+                                                        <div class="fdmbox-wrap">
+                                                            <div class="fdm-top fdmbox">              
+                                                                <strong>
+                                                                    LGW - London Gatwick Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                            <div class="fdm-bottom fdmbox">           
+                                                                <strong>
+                                                                    AUH - Abu Dhabi Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-3 fdm-right text-end">
+                                                        <strong>
+                                                            Emirates Airlines
+                                                        </strong>
+                                                        <span>
+                                                            EK10 -Economy
+                                                        </span>
+                                                        <span>
+                                                            Flight Time 6h 50m
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row stop-wrap">
+                                            <div class="offset-lg-2 px-0 col-12 col-lg-10">
+                                                <div class="fdm-box-separator">
+                                                    <span class="fw-semibold">
+                                                        Stop 1
+                                                    </span>
+                                                    <span>
+                                                        <strong>Ground Time</strong>
+                                                    </span>
+                                                    <span>
+                                                        1hr, 40Mins
+                                                    </span>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row align-items-center noborder-fdm">
+                                            <div class="col-12 col-lg-2">
+                                                <div class="airline-image">
+                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
+                                                <div class="fdm-box d-flex align-items-center">
+                                                    <div class="col-12 col-lg-7 fdm-box-main">
+                                                        <div class="loclines">
+                                                            <div class="loclines-wrap"></div>
+                                                        </div>
+                                                        <div class="fdmbox-wrap">
+                                                            <div class="fdm-top fdmbox">            
+                                                                <strong>
+                                                                    AUH - Abu Dhabi Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                            <div class="fdm-bottom fdmbox">             
+                                                                <strong>
+                                                                    LGW - London Gatwick Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-3 fdm-right text-end">
+                                                        <strong>
+                                                            Emirates Airlines
+                                                        </strong>
+                                                        <span>
+                                                            EK10 -Economy
+                                                        </span>
+                                                        <span>
+                                                            Flight Time 6h 50m
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row stop-wrap">
+                                            <div class="offset-lg-2 px-0 col-12 col-lg-10">
+                                                <div class="fdm-box-separator">
+                                                    <span class="fw-semibold">
+                                                        Stop 2
+                                                    </span>
+                                                    <span>
+                                                        <strong>Ground Time</strong>
+                                                    </span>
+                                                    <span>
+                                                        1hr, 40Mins
+                                                    </span>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row align-items-center noborder-fdm">
+                                            <div class="col-12 col-lg-2">
+                                                <div class="airline-image">
+                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
+                                                <div class="fdm-box d-flex align-items-center">
+                                                    <div class="col-12 col-lg-7 fdm-box-main">
+                                                        <div class="loclines">
+                                                            <div class="loclines-wrap"></div>
+                                                        </div>
+                                                        <div class="fdmbox-wrap">
+                                                            <div class="fdm-top fdmbox">            
+                                                                <strong>
+                                                                    AUH - Abu Dhabi Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                            <div class="fdm-bottom fdmbox">             
+                                                                <strong>
+                                                                    LGW - London Gatwick Airport
+                                                                </strong>
+                                                                <span>
+                                                                    Sun 09 Jun 
+                                                                </span>
+                                                                <span>
+                                                                    Terminal 03
+                                                                </span>
+                                                                <span>
+                                                                    Departing 14:55
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-3 fdm-right text-end">
+                                                        <strong>
+                                                            Emirates Airlines
+                                                        </strong>
+                                                        <span>
+                                                            EK10 -Economy
+                                                        </span>
+                                                        <span>
+                                                            Flight Time 6h 50m
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                    </div><!-- fdm-content-wrap -->
+                                </div><!-- d-flex -->
+
+
+
+
+                                <div class="row">
+                                    <div class="offset-lg-2 ps-0 col-lg-10 flights-readmore-info">
+                                        <span class="flights-rmore-btn fw-semibold">
+                                            Read More Information <i class="fs-icon fa-solid fa-chevron-down ms-2"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div><!-- flightdetailsmore -->
+
+                            <div class="flightsprice-wrap">
+                                <div class="row">
+                                    <div class="offset-lg-2 col-12 col-lg-10">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="flightprice-box">
+                                                    <div class="d-flex fpb-top">
+                                                        <div class="flightprice">
+                                                            <span>
+                                                                Economy Flex(k)
+                                                            </span>
+                                                            <div class="flightprice-main">
+                                                                £708.47
+                                                            </div>
+                                                        </div>
+                                                        <div class="flightprice-option">
+                                                            <button class="btn btn-primary">
+                                                                Select Option
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex fpb-bottom">
+                                                        <div class="flightpax">
+                                                            2x Adults
+                                                        </div>
+                                                        <div class="flightlinks">
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Rules
+                                                            </button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Breakdown
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="flightprice-box">
+                                                    <div class="d-flex fpb-top">
+                                                        <div class="flightprice">
+                                                            <span>
+                                                                Economy Flex(k)
+                                                            </span>
+                                                            <div class="flightprice-main">
+                                                                £708.47
+                                                            </div>
+                                                        </div>
+                                                        <div class="flightprice-option">
+                                                            <button class="btn btn-primary">
+                                                                Select Option
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex fpb-bottom">
+                                                        <div class="flightpax">
+                                                            2x Adults
+                                                        </div>
+                                                        <div class="flightlinks">
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Rules
+                                                            </button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Breakdown
+                                                            </button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1149,7 +2716,9 @@
                                                         </div>
                                                         <div class="flightlinks">
                                                             <a href="">Rules</a>
-                                                            <a href="">Breakdown</a>
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Breakdown
+                                                            </button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1176,1528 +2745,12 @@
                                                             2x Adults
                                                         </div>
                                                         <div class="flightlinks">
-                                                            <a href="">Rules</a>
-                                                            <a href="">Breakdown</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- flights main -->
-                        <div class="flights-main loadmorebox">
-                            <div class="flights-box">
-                                <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
-                                        <div class="airline-image">
-                                            <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-10 flightbox-left">
-                                        <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
-                                                <h4>LGW</h4>
-                                                <div class="flight-details">
-                                                    <strong>Departing</strong>
-                                                    <span>
-                                                        Sun 09 Jun 2024 
-                                                    </span>
-                                                    <span>
-                                                        Terminal 3
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
-                                                <div class="flightduration text-center">
-                                                    <div class="fw-semibold">
-                                                        4 Stops
-                                                    </div>
-                                                    10hrs,30mins
-                                                </div>
-                                                <div class="flighttime">18:55</div>
-                                            </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
-                                                <h4>AUH</h4>
-                                                <div class="flight-details">
-                                                    <strong>Arriving</strong>
-                                                    <span>
-                                                        Sun 10 Jun 2024 
-                                                    </span>
-                                                    <span>
-                                                        Terminal 3
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- flights box -->
-                            <div class="flights-box">
-                                <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
-                                        <div class="airline-image">
-                                            <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-10 flightbox-left">
-                                        <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
-                                                <h4>AUH</h4>
-                                                <div class="flight-details">
-                                                    <strong>Departing</strong>
-                                                    <span>
-                                                        Sun 09 Jun 2024 
-                                                    </span>
-                                                    <span>
-                                                        Terminal 3
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
-                                                <div class="flightduration text-center">
-                                                    <div class="fw-semibold">
-                                                        4 Stops
-                                                    </div>
-                                                    10hrs,30mins
-                                                </div>
-                                                <div class="flighttime">18:55</div>
-                                            </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
-                                                <h4>XNB</h4>
-                                                <div class="flight-details">
-                                                    <strong>Arriving</strong>
-                                                    <span>
-                                                        Sun 10 Jun 2024 
-                                                    </span>
-                                                    <span>
-                                                        Terminal 3
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- flights box -->
-
-                            <div class="flightdetailsmore txt-black">
-                                <div class="d-flex flex-column">
-                                    <div class="fdm-content-wrap">
-                                        <div class="row align-items-center">
-                                            <div class="col-12 col-lg-2">
-                                                <div class="airline-image">
-                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
-                                                <div class="fdm-box d-flex align-items-center">
-                                                    <div class="col-12 col-lg-7 fdm-box-main">
-                                                        <div class="loclines">
-                                                            <div class="loclines-wrap"></div>
-                                                        </div>
-                                                        <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">              
-                                                                <strong>
-                                                                    LGW - London Gatwick Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                            <div class="fdm-bottom fdmbox">           
-                                                                <strong>
-                                                                    AUH - Abu Dhabi Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 col-lg-3 fdm-right text-end">
-                                                        <strong>
-                                                            Emirates Airlines
-                                                        </strong>
-                                                        <span>
-                                                            EK10 -Economy
-                                                        </span>
-                                                        <span>
-                                                            Flight Time 6h 50m
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row stop-wrap">
-                                            <div class="offset-lg-2 px-0 col-12 col-lg-10">
-                                                <div class="fdm-box-separator">
-                                                    <span class="fw-semibold">
-                                                        Stop 1
-                                                    </span>
-                                                    <span>
-                                                        <strong>Ground Time</strong>
-                                                    </span>
-                                                    <span>
-                                                        1hr, 40Mins
-                                                    </span>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row align-items-center noborder-fdm">
-                                            <div class="col-12 col-lg-2">
-                                                <div class="airline-image">
-                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
-                                                <div class="fdm-box d-flex align-items-center">
-                                                    <div class="col-12 col-lg-7 fdm-box-main">
-                                                        <div class="loclines">
-                                                            <div class="loclines-wrap"></div>
-                                                        </div>
-                                                        <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
-                                                                <strong>
-                                                                    AUH - Abu Dhabi Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                            <div class="fdm-bottom fdmbox">             
-                                                                <strong>
-                                                                    LGW - London Gatwick Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 col-lg-3 fdm-right text-end">
-                                                        <strong>
-                                                            Emirates Airlines
-                                                        </strong>
-                                                        <span>
-                                                            EK10 -Economy
-                                                        </span>
-                                                        <span>
-                                                            Flight Time 6h 50m
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row stop-wrap">
-                                            <div class="offset-lg-2 px-0 col-12 col-lg-10">
-                                                <div class="fdm-box-separator">
-                                                    <span class="fw-semibold">
-                                                        Stop 2
-                                                    </span>
-                                                    <span>
-                                                        <strong>Ground Time</strong>
-                                                    </span>
-                                                    <span>
-                                                        1hr, 40Mins
-                                                    </span>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row align-items-center noborder-fdm">
-                                            <div class="col-12 col-lg-2">
-                                                <div class="airline-image">
-                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
-                                                <div class="fdm-box d-flex align-items-center">
-                                                    <div class="col-12 col-lg-7 fdm-box-main">
-                                                        <div class="loclines">
-                                                            <div class="loclines-wrap"></div>
-                                                        </div>
-                                                        <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
-                                                                <strong>
-                                                                    AUH - Abu Dhabi Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                            <div class="fdm-bottom fdmbox">             
-                                                                <strong>
-                                                                    LGW - London Gatwick Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 col-lg-3 fdm-right text-end">
-                                                        <strong>
-                                                            Emirates Airlines
-                                                        </strong>
-                                                        <span>
-                                                            EK10 -Economy
-                                                        </span>
-                                                        <span>
-                                                            Flight Time 6h 50m
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                    </div><!-- fdm-content-wrap -->
-                                </div><!-- d-flex -->
-
-
-
-
-                                <div class="row">
-                                    <div class="offset-lg-2 ps-0 col-lg-10 flights-readmore-info">
-                                        <span class="flights-rmore-btn fw-semibold">
-                                            Read More Information <i class="fs-icon fa-solid fa-chevron-down ms-2"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div><!-- flightdetailsmore -->
-
-                            <div class="flightsprice-wrap">
-                                <div class="row">
-                                    <div class="offset-lg-2 col-12 col-lg-10">
-                                        <div class="row">
-                                            <div class="col-12 col-lg-6">
-                                                <div class="flightprice-box">
-                                                    <div class="d-flex fpb-top">
-                                                        <div class="flightprice">
-                                                            <span>
-                                                                Economy Flex(k)
-                                                            </span>
-                                                            <div class="flightprice-main">
-                                                                £708.47
-                                                            </div>
-                                                        </div>
-                                                        <div class="flightprice-option">
-                                                            <button class="btn btn-primary">
-                                                                Select Option
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Rules
                                                             </button>
-                                                        </div>
-                                                    </div>
-                                                    <div class="d-flex fpb-bottom">
-                                                        <div class="flightpax">
-                                                            2x Adults
-                                                        </div>
-                                                        <div class="flightlinks">
-                                                            <a href="">Rules</a>
-                                                            <a href="">Breakdown</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-6">
-                                                <div class="flightprice-box">
-                                                    <div class="d-flex fpb-top">
-                                                        <div class="flightprice">
-                                                            <span>
-                                                                Economy Flex(k)
-                                                            </span>
-                                                            <div class="flightprice-main">
-                                                                £708.47
-                                                            </div>
-                                                        </div>
-                                                        <div class="flightprice-option">
-                                                            <button class="btn btn-primary">
-                                                                Select Option
+                                                            <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                Breakdown
                                                             </button>
-                                                        </div>
-                                                    </div>
-                                                    <div class="d-flex fpb-bottom">
-                                                        <div class="flightpax">
-                                                            2x Adults
-                                                        </div>
-                                                        <div class="flightlinks">
-                                                            <a href="">Rules</a>
-                                                            <a href="">Breakdown</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- flights main -->
-                        <div class="flights-main loadmorebox">
-                            <div class="flights-box">
-                                <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
-                                        <div class="airline-image">
-                                            <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-10 flightbox-left">
-                                        <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
-                                                <h4>LGW</h4>
-                                                <div class="flight-details">
-                                                    <strong>Departing</strong>
-                                                    <span>
-                                                        Sun 09 Jun 2024 
-                                                    </span>
-                                                    <span>
-                                                        Terminal 3
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
-                                                <div class="flightduration text-center">
-                                                    <div class="fw-semibold">
-                                                        4 Stops
-                                                    </div>
-                                                    10hrs,30mins
-                                                </div>
-                                                <div class="flighttime">18:55</div>
-                                            </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
-                                                <h4>AUH</h4>
-                                                <div class="flight-details">
-                                                    <strong>Arriving</strong>
-                                                    <span>
-                                                        Sun 10 Jun 2024 
-                                                    </span>
-                                                    <span>
-                                                        Terminal 3
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- flights box -->
-                            <div class="flights-box">
-                                <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
-                                        <div class="airline-image">
-                                            <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-10 flightbox-left">
-                                        <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
-                                                <h4>AUH</h4>
-                                                <div class="flight-details">
-                                                    <strong>Departing</strong>
-                                                    <span>
-                                                        Sun 09 Jun 2024 
-                                                    </span>
-                                                    <span>
-                                                        Terminal 3
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
-                                                <div class="flightduration text-center">
-                                                    <div class="fw-semibold">
-                                                        4 Stops
-                                                    </div>
-                                                    10hrs,30mins
-                                                </div>
-                                                <div class="flighttime">18:55</div>
-                                            </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
-                                                <h4>XNB</h4>
-                                                <div class="flight-details">
-                                                    <strong>Arriving</strong>
-                                                    <span>
-                                                        Sun 10 Jun 2024 
-                                                    </span>
-                                                    <span>
-                                                        Terminal 3
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- flights box -->
-
-                            <div class="flightdetailsmore txt-black">
-                                <div class="d-flex flex-column">
-                                    <div class="fdm-content-wrap">
-                                        <div class="row align-items-center">
-                                            <div class="col-12 col-lg-2">
-                                                <div class="airline-image">
-                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
-                                                <div class="fdm-box d-flex align-items-center">
-                                                    <div class="col-12 col-lg-7 fdm-box-main">
-                                                        <div class="loclines">
-                                                            <div class="loclines-wrap"></div>
-                                                        </div>
-                                                        <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">              
-                                                                <strong>
-                                                                    LGW - London Gatwick Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                            <div class="fdm-bottom fdmbox">           
-                                                                <strong>
-                                                                    AUH - Abu Dhabi Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 col-lg-3 fdm-right text-end">
-                                                        <strong>
-                                                            Emirates Airlines
-                                                        </strong>
-                                                        <span>
-                                                            EK10 -Economy
-                                                        </span>
-                                                        <span>
-                                                            Flight Time 6h 50m
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row stop-wrap">
-                                            <div class="offset-lg-2 px-0 col-12 col-lg-10">
-                                                <div class="fdm-box-separator">
-                                                    <span class="fw-semibold">
-                                                        Stop 1
-                                                    </span>
-                                                    <span>
-                                                        <strong>Ground Time</strong>
-                                                    </span>
-                                                    <span>
-                                                        1hr, 40Mins
-                                                    </span>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row align-items-center noborder-fdm">
-                                            <div class="col-12 col-lg-2">
-                                                <div class="airline-image">
-                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
-                                                <div class="fdm-box d-flex align-items-center">
-                                                    <div class="col-12 col-lg-7 fdm-box-main">
-                                                        <div class="loclines">
-                                                            <div class="loclines-wrap"></div>
-                                                        </div>
-                                                        <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
-                                                                <strong>
-                                                                    AUH - Abu Dhabi Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                            <div class="fdm-bottom fdmbox">             
-                                                                <strong>
-                                                                    LGW - London Gatwick Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 col-lg-3 fdm-right text-end">
-                                                        <strong>
-                                                            Emirates Airlines
-                                                        </strong>
-                                                        <span>
-                                                            EK10 -Economy
-                                                        </span>
-                                                        <span>
-                                                            Flight Time 6h 50m
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row stop-wrap">
-                                            <div class="offset-lg-2 px-0 col-12 col-lg-10">
-                                                <div class="fdm-box-separator">
-                                                    <span class="fw-semibold">
-                                                        Stop 2
-                                                    </span>
-                                                    <span>
-                                                        <strong>Ground Time</strong>
-                                                    </span>
-                                                    <span>
-                                                        1hr, 40Mins
-                                                    </span>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row align-items-center noborder-fdm">
-                                            <div class="col-12 col-lg-2">
-                                                <div class="airline-image">
-                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
-                                                <div class="fdm-box d-flex align-items-center">
-                                                    <div class="col-12 col-lg-7 fdm-box-main">
-                                                        <div class="loclines">
-                                                            <div class="loclines-wrap"></div>
-                                                        </div>
-                                                        <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
-                                                                <strong>
-                                                                    AUH - Abu Dhabi Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                            <div class="fdm-bottom fdmbox">             
-                                                                <strong>
-                                                                    LGW - London Gatwick Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 col-lg-3 fdm-right text-end">
-                                                        <strong>
-                                                            Emirates Airlines
-                                                        </strong>
-                                                        <span>
-                                                            EK10 -Economy
-                                                        </span>
-                                                        <span>
-                                                            Flight Time 6h 50m
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                    </div><!-- fdm-content-wrap -->
-                                </div><!-- d-flex -->
-
-
-
-
-                                <div class="row">
-                                    <div class="offset-lg-2 ps-0 col-lg-10 flights-readmore-info">
-                                        <span class="flights-rmore-btn fw-semibold">
-                                            Read More Information <i class="fs-icon fa-solid fa-chevron-down ms-2"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div><!-- flightdetailsmore -->
-
-                            <div class="flightsprice-wrap">
-                                <div class="row">
-                                    <div class="offset-lg-2 col-12 col-lg-10">
-                                        <div class="row">
-                                            <div class="col-12 col-lg-6">
-                                                <div class="flightprice-box">
-                                                    <div class="d-flex fpb-top">
-                                                        <div class="flightprice">
-                                                            <span>
-                                                                Economy Flex(k)
-                                                            </span>
-                                                            <div class="flightprice-main">
-                                                                £708.47
-                                                            </div>
-                                                        </div>
-                                                        <div class="flightprice-option">
-                                                            <button class="btn btn-primary">
-                                                                Select Option
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                    <div class="d-flex fpb-bottom">
-                                                        <div class="flightpax">
-                                                            2x Adults
-                                                        </div>
-                                                        <div class="flightlinks">
-                                                            <a href="">Rules</a>
-                                                            <a href="">Breakdown</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-6">
-                                                <div class="flightprice-box">
-                                                    <div class="d-flex fpb-top">
-                                                        <div class="flightprice">
-                                                            <span>
-                                                                Economy Flex(k)
-                                                            </span>
-                                                            <div class="flightprice-main">
-                                                                £708.47
-                                                            </div>
-                                                        </div>
-                                                        <div class="flightprice-option">
-                                                            <button class="btn btn-primary">
-                                                                Select Option
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                    <div class="d-flex fpb-bottom">
-                                                        <div class="flightpax">
-                                                            2x Adults
-                                                        </div>
-                                                        <div class="flightlinks">
-                                                            <a href="">Rules</a>
-                                                            <a href="">Breakdown</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- flights main -->
-                        <div class="flights-main loadmorebox">
-                            <div class="flights-box">
-                                <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
-                                        <div class="airline-image">
-                                            <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-10 flightbox-left">
-                                        <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
-                                                <h4>LGW</h4>
-                                                <div class="flight-details">
-                                                    <strong>Departing</strong>
-                                                    <span>
-                                                        Sun 09 Jun 2024 
-                                                    </span>
-                                                    <span>
-                                                        Terminal 3
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
-                                                <div class="flightduration text-center">
-                                                    <div class="fw-semibold">
-                                                        4 Stops
-                                                    </div>
-                                                    10hrs,30mins
-                                                </div>
-                                                <div class="flighttime">18:55</div>
-                                            </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
-                                                <h4>AUH</h4>
-                                                <div class="flight-details">
-                                                    <strong>Arriving</strong>
-                                                    <span>
-                                                        Sun 10 Jun 2024 
-                                                    </span>
-                                                    <span>
-                                                        Terminal 3
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- flights box -->
-                            <div class="flights-box">
-                                <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
-                                        <div class="airline-image">
-                                            <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-10 flightbox-left">
-                                        <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
-                                                <h4>AUH</h4>
-                                                <div class="flight-details">
-                                                    <strong>Departing</strong>
-                                                    <span>
-                                                        Sun 09 Jun 2024 
-                                                    </span>
-                                                    <span>
-                                                        Terminal 3
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
-                                                <div class="flightduration text-center">
-                                                    <div class="fw-semibold">
-                                                        4 Stops
-                                                    </div>
-                                                    10hrs,30mins
-                                                </div>
-                                                <div class="flighttime">18:55</div>
-                                            </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
-                                                <h4>XNB</h4>
-                                                <div class="flight-details">
-                                                    <strong>Arriving</strong>
-                                                    <span>
-                                                        Sun 10 Jun 2024 
-                                                    </span>
-                                                    <span>
-                                                        Terminal 3
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- flights box -->
-
-                            <div class="flightdetailsmore txt-black">
-                                <div class="d-flex flex-column">
-                                    <div class="fdm-content-wrap">
-                                        <div class="row align-items-center">
-                                            <div class="col-12 col-lg-2">
-                                                <div class="airline-image">
-                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
-                                                <div class="fdm-box d-flex align-items-center">
-                                                    <div class="col-12 col-lg-7 fdm-box-main">
-                                                        <div class="loclines">
-                                                            <div class="loclines-wrap"></div>
-                                                        </div>
-                                                        <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">              
-                                                                <strong>
-                                                                    LGW - London Gatwick Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                            <div class="fdm-bottom fdmbox">           
-                                                                <strong>
-                                                                    AUH - Abu Dhabi Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 col-lg-3 fdm-right text-end">
-                                                        <strong>
-                                                            Emirates Airlines
-                                                        </strong>
-                                                        <span>
-                                                            EK10 -Economy
-                                                        </span>
-                                                        <span>
-                                                            Flight Time 6h 50m
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row stop-wrap">
-                                            <div class="offset-lg-2 px-0 col-12 col-lg-10">
-                                                <div class="fdm-box-separator">
-                                                    <span class="fw-semibold">
-                                                        Stop 1
-                                                    </span>
-                                                    <span>
-                                                        <strong>Ground Time</strong>
-                                                    </span>
-                                                    <span>
-                                                        1hr, 40Mins
-                                                    </span>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row align-items-center noborder-fdm">
-                                            <div class="col-12 col-lg-2">
-                                                <div class="airline-image">
-                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
-                                                <div class="fdm-box d-flex align-items-center">
-                                                    <div class="col-12 col-lg-7 fdm-box-main">
-                                                        <div class="loclines">
-                                                            <div class="loclines-wrap"></div>
-                                                        </div>
-                                                        <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
-                                                                <strong>
-                                                                    AUH - Abu Dhabi Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                            <div class="fdm-bottom fdmbox">             
-                                                                <strong>
-                                                                    LGW - London Gatwick Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 col-lg-3 fdm-right text-end">
-                                                        <strong>
-                                                            Emirates Airlines
-                                                        </strong>
-                                                        <span>
-                                                            EK10 -Economy
-                                                        </span>
-                                                        <span>
-                                                            Flight Time 6h 50m
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row stop-wrap">
-                                            <div class="offset-lg-2 px-0 col-12 col-lg-10">
-                                                <div class="fdm-box-separator">
-                                                    <span class="fw-semibold">
-                                                        Stop 2
-                                                    </span>
-                                                    <span>
-                                                        <strong>Ground Time</strong>
-                                                    </span>
-                                                    <span>
-                                                        1hr, 40Mins
-                                                    </span>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row align-items-center noborder-fdm">
-                                            <div class="col-12 col-lg-2">
-                                                <div class="airline-image">
-                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
-                                                <div class="fdm-box d-flex align-items-center">
-                                                    <div class="col-12 col-lg-7 fdm-box-main">
-                                                        <div class="loclines">
-                                                            <div class="loclines-wrap"></div>
-                                                        </div>
-                                                        <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
-                                                                <strong>
-                                                                    AUH - Abu Dhabi Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                            <div class="fdm-bottom fdmbox">             
-                                                                <strong>
-                                                                    LGW - London Gatwick Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 col-lg-3 fdm-right text-end">
-                                                        <strong>
-                                                            Emirates Airlines
-                                                        </strong>
-                                                        <span>
-                                                            EK10 -Economy
-                                                        </span>
-                                                        <span>
-                                                            Flight Time 6h 50m
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                    </div><!-- fdm-content-wrap -->
-                                </div><!-- d-flex -->
-
-
-
-
-                                <div class="row">
-                                    <div class="offset-lg-2 ps-0 col-lg-10 flights-readmore-info">
-                                        <span class="flights-rmore-btn fw-semibold">
-                                            Read More Information <i class="fs-icon fa-solid fa-chevron-down ms-2"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div><!-- flightdetailsmore -->
-
-                            <div class="flightsprice-wrap">
-                                <div class="row">
-                                    <div class="offset-lg-2 col-12 col-lg-10">
-                                        <div class="row">
-                                            <div class="col-12 col-lg-6">
-                                                <div class="flightprice-box">
-                                                    <div class="d-flex fpb-top">
-                                                        <div class="flightprice">
-                                                            <span>
-                                                                Economy Flex(k)
-                                                            </span>
-                                                            <div class="flightprice-main">
-                                                                £708.47
-                                                            </div>
-                                                        </div>
-                                                        <div class="flightprice-option">
-                                                            <button class="btn btn-primary">
-                                                                Select Option
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                    <div class="d-flex fpb-bottom">
-                                                        <div class="flightpax">
-                                                            2x Adults
-                                                        </div>
-                                                        <div class="flightlinks">
-                                                            <a href="">Rules</a>
-                                                            <a href="">Breakdown</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-6">
-                                                <div class="flightprice-box">
-                                                    <div class="d-flex fpb-top">
-                                                        <div class="flightprice">
-                                                            <span>
-                                                                Economy Flex(k)
-                                                            </span>
-                                                            <div class="flightprice-main">
-                                                                £708.47
-                                                            </div>
-                                                        </div>
-                                                        <div class="flightprice-option">
-                                                            <button class="btn btn-primary">
-                                                                Select Option
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                    <div class="d-flex fpb-bottom">
-                                                        <div class="flightpax">
-                                                            2x Adults
-                                                        </div>
-                                                        <div class="flightlinks">
-                                                            <a href="">Rules</a>
-                                                            <a href="">Breakdown</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- flights main -->
-                        <div class="flights-main loadmorebox">
-                            <div class="flights-box">
-                                <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
-                                        <div class="airline-image">
-                                            <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-10 flightbox-left">
-                                        <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
-                                                <h4>LGW</h4>
-                                                <div class="flight-details">
-                                                    <strong>Departing</strong>
-                                                    <span>
-                                                        Sun 09 Jun 2024 
-                                                    </span>
-                                                    <span>
-                                                        Terminal 3
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
-                                                <div class="flightduration text-center">
-                                                    <div class="fw-semibold">
-                                                        4 Stops
-                                                    </div>
-                                                    10hrs,30mins
-                                                </div>
-                                                <div class="flighttime">18:55</div>
-                                            </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
-                                                <h4>AUH</h4>
-                                                <div class="flight-details">
-                                                    <strong>Arriving</strong>
-                                                    <span>
-                                                        Sun 10 Jun 2024 
-                                                    </span>
-                                                    <span>
-                                                        Terminal 3
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- flights box -->
-                            <div class="flights-box">
-                                <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
-                                        <div class="airline-image">
-                                            <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-10 flightbox-left">
-                                        <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
-                                                <h4>AUH</h4>
-                                                <div class="flight-details">
-                                                    <strong>Departing</strong>
-                                                    <span>
-                                                        Sun 09 Jun 2024 
-                                                    </span>
-                                                    <span>
-                                                        Terminal 3
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
-                                                <div class="flightduration text-center">
-                                                    <div class="fw-semibold">
-                                                        4 Stops
-                                                    </div>
-                                                    10hrs,30mins
-                                                </div>
-                                                <div class="flighttime">18:55</div>
-                                            </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
-                                                <h4>XNB</h4>
-                                                <div class="flight-details">
-                                                    <strong>Arriving</strong>
-                                                    <span>
-                                                        Sun 10 Jun 2024 
-                                                    </span>
-                                                    <span>
-                                                        Terminal 3
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- flights box -->
-
-                            <div class="flightdetailsmore txt-black">
-                                <div class="d-flex flex-column">
-                                    <div class="fdm-content-wrap">
-                                        <div class="row align-items-center">
-                                            <div class="col-12 col-lg-2">
-                                                <div class="airline-image">
-                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
-                                                <div class="fdm-box d-flex align-items-center">
-                                                    <div class="col-12 col-lg-7 fdm-box-main">
-                                                        <div class="loclines">
-                                                            <div class="loclines-wrap"></div>
-                                                        </div>
-                                                        <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">              
-                                                                <strong>
-                                                                    LGW - London Gatwick Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                            <div class="fdm-bottom fdmbox">           
-                                                                <strong>
-                                                                    AUH - Abu Dhabi Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 col-lg-3 fdm-right text-end">
-                                                        <strong>
-                                                            Emirates Airlines
-                                                        </strong>
-                                                        <span>
-                                                            EK10 -Economy
-                                                        </span>
-                                                        <span>
-                                                            Flight Time 6h 50m
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row stop-wrap">
-                                            <div class="offset-lg-2 px-0 col-12 col-lg-10">
-                                                <div class="fdm-box-separator">
-                                                    <span class="fw-semibold">
-                                                        Stop 1
-                                                    </span>
-                                                    <span>
-                                                        <strong>Ground Time</strong>
-                                                    </span>
-                                                    <span>
-                                                        1hr, 40Mins
-                                                    </span>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row align-items-center noborder-fdm">
-                                            <div class="col-12 col-lg-2">
-                                                <div class="airline-image">
-                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
-                                                <div class="fdm-box d-flex align-items-center">
-                                                    <div class="col-12 col-lg-7 fdm-box-main">
-                                                        <div class="loclines">
-                                                            <div class="loclines-wrap"></div>
-                                                        </div>
-                                                        <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
-                                                                <strong>
-                                                                    AUH - Abu Dhabi Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                            <div class="fdm-bottom fdmbox">             
-                                                                <strong>
-                                                                    LGW - London Gatwick Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 col-lg-3 fdm-right text-end">
-                                                        <strong>
-                                                            Emirates Airlines
-                                                        </strong>
-                                                        <span>
-                                                            EK10 -Economy
-                                                        </span>
-                                                        <span>
-                                                            Flight Time 6h 50m
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row stop-wrap">
-                                            <div class="offset-lg-2 px-0 col-12 col-lg-10">
-                                                <div class="fdm-box-separator">
-                                                    <span class="fw-semibold">
-                                                        Stop 2
-                                                    </span>
-                                                    <span>
-                                                        <strong>Ground Time</strong>
-                                                    </span>
-                                                    <span>
-                                                        1hr, 40Mins
-                                                    </span>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row align-items-center noborder-fdm">
-                                            <div class="col-12 col-lg-2">
-                                                <div class="airline-image">
-                                                    <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-10 d-flex fdm-content flex-column">
-                                                <div class="fdm-box d-flex align-items-center">
-                                                    <div class="col-12 col-lg-7 fdm-box-main">
-                                                        <div class="loclines">
-                                                            <div class="loclines-wrap"></div>
-                                                        </div>
-                                                        <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
-                                                                <strong>
-                                                                    AUH - Abu Dhabi Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                            <div class="fdm-bottom fdmbox">             
-                                                                <strong>
-                                                                    LGW - London Gatwick Airport
-                                                                </strong>
-                                                                <span>
-                                                                    Sun 09 Jun 
-                                                                </span>
-                                                                <span>
-                                                                    Terminal 03
-                                                                </span>
-                                                                <span>
-                                                                    Departing 14:55
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 col-lg-3 fdm-right text-end">
-                                                        <strong>
-                                                            Emirates Airlines
-                                                        </strong>
-                                                        <span>
-                                                            EK10 -Economy
-                                                        </span>
-                                                        <span>
-                                                            Flight Time 6h 50m
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                    </div><!-- fdm-content-wrap -->
-                                </div><!-- d-flex -->
-
-
-
-
-                                <div class="row">
-                                    <div class="offset-lg-2 ps-0 col-lg-10 flights-readmore-info">
-                                        <span class="flights-rmore-btn fw-semibold">
-                                            Read More Information <i class="fs-icon fa-solid fa-chevron-down ms-2"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div><!-- flightdetailsmore -->
-
-                            <div class="flightsprice-wrap">
-                                <div class="row">
-                                    <div class="offset-lg-2 col-12 col-lg-10">
-                                        <div class="row">
-                                            <div class="col-12 col-lg-6">
-                                                <div class="flightprice-box">
-                                                    <div class="d-flex fpb-top">
-                                                        <div class="flightprice">
-                                                            <span>
-                                                                Economy Flex(k)
-                                                            </span>
-                                                            <div class="flightprice-main">
-                                                                £708.47
-                                                            </div>
-                                                        </div>
-                                                        <div class="flightprice-option">
-                                                            <button class="btn btn-primary">
-                                                                Select Option
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                    <div class="d-flex fpb-bottom">
-                                                        <div class="flightpax">
-                                                            2x Adults
-                                                        </div>
-                                                        <div class="flightlinks">
-                                                            <a href="">Rules</a>
-                                                            <a href="">Breakdown</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-6">
-                                                <div class="flightprice-box">
-                                                    <div class="d-flex fpb-top">
-                                                        <div class="flightprice">
-                                                            <span>
-                                                                Economy Flex(k)
-                                                            </span>
-                                                            <div class="flightprice-main">
-                                                                £708.47
-                                                            </div>
-                                                        </div>
-                                                        <div class="flightprice-option">
-                                                            <button class="btn btn-primary">
-                                                                Select Option
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                    <div class="d-flex fpb-bottom">
-                                                        <div class="flightpax">
-                                                            2x Adults
-                                                        </div>
-                                                        <div class="flightlinks">
-                                                            <a href="">Rules</a>
-                                                            <a href="">Breakdown</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2730,14 +2783,59 @@
         </div>
     </section>
 
+    <div class="modal fade" id="breakdown-1" tabindex="-1" aria-labelledby="breakdown-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                   
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="breakdowntop">
+                        <h4>
+                            Afternoon Show
+                        </h4>
+                        <div class="fw-semibold">
+                            Timings - 14:15
+                        </div>
+                    </div>
+                    <div class="breakdownbottom">
+                        <div class="breakdown-content fs15 txt-gray">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis massa eget dapibus commodo. In at aliquet diam. Aenean nec tortor vel sapien tempor ullamcorper. Nullam tincidunt pellentesque ornare. Aliquam imperdiet dapibus vehicula. Mauris sed felis dui.</p>
+
+                            <p>Sed sollicitudin et lacus id aliquam. Mauris lacus nunc, rutrum feugiat dolor ut, commodo sollicitudin ligula. Aenean lobortis ultricies nunc, eget dapibus sem. In vitae lacinia urna.</p>
+
+                            <p>Sed vitae bibendum augue. Sed suscipit dignissim euismod. Suspendisse auctor enim vel enim egestas, in faucibus magna rhoncus. Vivamus tincidunt dignissim mauris, non vehicula libero accumsan ut. Nulla dapibus mi sed nisl feugiat pulvinar. Vestibulum consequat nisl in ullamcorper scelerisque.</p>
+                        </div>
+                        <div class="d-flex column-gap-3 align-items-center justify-content-end">
+                            <div class="breakdownbottom-left text-center">
+                                <div class="bdb-left-price">
+                                    2 Adults x £159.00
+                                </div>
+                                <div class="bdb-left-price-main">
+                                    £318.00
+                                </div>
+                            </div><!-- breakdownbottom-left -->
+                            <div class="breakdownbottom-right">
+                                <button class="btn btn-primary">
+                                    Select
+                                </button>
+                            </div>
+                        </div><!-- dflex -->
+                    </div><!-- breakdownbottom -->
+                </div><!-- modal body -->
+            </div>
+        </div>
+    </div>
+
     <?php include '../sections/global/footer.php';?>
 
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/jquery-ui.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/moment.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/daterangepicker.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/bootstrap.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/sidebar.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/main-search.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/main-flights.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/searchbar.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/scripts.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/loadmoreboxes.js"></script>

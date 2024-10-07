@@ -59,7 +59,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-6 ps-auto ps-lg-5 footertop-right">
+                <div class="col-12 col-lg-6 ps-auto ps-lg-3 ps-xl-5 footertop-right">
                     <p>To book your holiday call us or simply email and <br/>we shall get in touch with you.</p>
                     
                     <p>Just call us on <a href="tel:+442085854080">+44 208 585 4080</a> <br/>or contact <a href="mailto:customer.support@travelpack.co.uk">customer.support@travelpack.co.uk</a></p>

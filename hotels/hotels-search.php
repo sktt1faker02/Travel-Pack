@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/slick.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/daterangepicker.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/fontawesome.css">
 
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -334,7 +335,7 @@
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
-                                                <div class="listing-right-top d-flex justify-content-lg-between">
+                                                <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
                                                     <div class="listing-right-top-left">
                                                         <span>
                                                             Standard Double Room
@@ -345,9 +346,7 @@
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
 
-                                                    <div class="esd-rating">
-                                                        4.5 <i class="fa-solid fa-star"></i>
-                                                    </div>
+                                                    <?php include '../sections/global/star-rating.php'; ?>
                                                 </div><!-- listing-right-top -->
                                                 <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
                                                     <div class="d-flex flex-column">
@@ -388,7 +387,7 @@
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
-                                                <div class="listing-right-top d-flex justify-content-lg-between">
+                                                <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
                                                     <div class="listing-right-top-left">
                                                         <span>
                                                             Standard Double Room
@@ -399,9 +398,7 @@
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
 
-                                                    <div class="esd-rating">
-                                                        4.5 <i class="fa-solid fa-star"></i>
-                                                    </div>
+                                                    <?php include '../sections/global/star-rating.php'; ?>
                                                 </div><!-- listing-right-top -->
                                                 <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
                                                     <div class="d-flex flex-column">
@@ -442,7 +439,7 @@
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
-                                                <div class="listing-right-top d-flex justify-content-lg-between">
+                                                <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
                                                     <div class="listing-right-top-left">
                                                         <span>
                                                             Standard Double Room
@@ -453,9 +450,7 @@
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
 
-                                                    <div class="esd-rating">
-                                                        4.5 <i class="fa-solid fa-star"></i>
-                                                    </div>
+                                                    <?php include '../sections/global/star-rating.php'; ?>
                                                 </div><!-- listing-right-top -->
                                                 <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
                                                     <div class="d-flex flex-column">
@@ -496,7 +491,7 @@
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
-                                                <div class="listing-right-top d-flex justify-content-lg-between">
+                                                <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
                                                     <div class="listing-right-top-left">
                                                         <span>
                                                             Standard Double Room
@@ -507,9 +502,7 @@
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
 
-                                                    <div class="esd-rating">
-                                                        4.5 <i class="fa-solid fa-star"></i>
-                                                    </div>
+                                                    <?php include '../sections/global/star-rating.php'; ?>
                                                 </div><!-- listing-right-top -->
                                                 <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
                                                     <div class="d-flex flex-column">
@@ -550,7 +543,7 @@
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
-                                                <div class="listing-right-top d-flex justify-content-lg-between">
+                                                <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
                                                     <div class="listing-right-top-left">
                                                         <span>
                                                             Standard Double Room
@@ -561,9 +554,7 @@
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
 
-                                                    <div class="esd-rating">
-                                                        4.5 <i class="fa-solid fa-star"></i>
-                                                    </div>
+                                                    <?php include '../sections/global/star-rating.php'; ?>
                                                 </div><!-- listing-right-top -->
                                                 <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
                                                     <div class="d-flex flex-column">
@@ -604,7 +595,7 @@
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
-                                                <div class="listing-right-top d-flex justify-content-lg-between">
+                                                <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
                                                     <div class="listing-right-top-left">
                                                         <span>
                                                             Standard Double Room
@@ -615,9 +606,7 @@
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
 
-                                                    <div class="esd-rating">
-                                                        4.5 <i class="fa-solid fa-star"></i>
-                                                    </div>
+                                                    <?php include '../sections/global/star-rating.php'; ?>
                                                 </div><!-- listing-right-top -->
                                                 <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
                                                     <div class="d-flex flex-column">
@@ -658,7 +647,7 @@
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
-                                                <div class="listing-right-top d-flex justify-content-lg-between">
+                                                <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
                                                     <div class="listing-right-top-left">
                                                         <span>
                                                             Standard Double Room
@@ -669,9 +658,7 @@
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
 
-                                                    <div class="esd-rating">
-                                                        4.5 <i class="fa-solid fa-star"></i>
-                                                    </div>
+                                                    <?php include '../sections/global/star-rating.php'; ?>
                                                 </div><!-- listing-right-top -->
                                                 <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
                                                     <div class="d-flex flex-column">
@@ -712,7 +699,7 @@
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
-                                                <div class="listing-right-top d-flex justify-content-lg-between">
+                                                <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
                                                     <div class="listing-right-top-left">
                                                         <span>
                                                             Standard Double Room
@@ -723,9 +710,7 @@
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
 
-                                                    <div class="esd-rating">
-                                                        4.5 <i class="fa-solid fa-star"></i>
-                                                    </div>
+                                                    <?php include '../sections/global/star-rating.php'; ?>
                                                 </div><!-- listing-right-top -->
                                                 <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
                                                     <div class="d-flex flex-column">
@@ -766,7 +751,7 @@
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
-                                                <div class="listing-right-top d-flex justify-content-lg-between">
+                                                <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
                                                     <div class="listing-right-top-left">
                                                         <span>
                                                             Standard Double Room
@@ -777,9 +762,7 @@
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
 
-                                                    <div class="esd-rating">
-                                                        4.5 <i class="fa-solid fa-star"></i>
-                                                    </div>
+                                                    <?php include '../sections/global/star-rating.php'; ?>
                                                 </div><!-- listing-right-top -->
                                                 <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
                                                     <div class="d-flex flex-column">
@@ -820,7 +803,7 @@
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
-                                                <div class="listing-right-top d-flex justify-content-lg-between">
+                                                <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
                                                     <div class="listing-right-top-left">
                                                         <span>
                                                             Standard Double Room
@@ -831,9 +814,7 @@
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
 
-                                                    <div class="esd-rating">
-                                                        4.5 <i class="fa-solid fa-star"></i>
-                                                    </div>
+                                                    <?php include '../sections/global/star-rating.php'; ?>
                                                 </div><!-- listing-right-top -->
                                                 <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
                                                     <div class="d-flex flex-column">
@@ -874,7 +855,7 @@
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
-                                                <div class="listing-right-top d-flex justify-content-lg-between">
+                                                <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
                                                     <div class="listing-right-top-left">
                                                         <span>
                                                             Standard Double Room
@@ -885,171 +866,7 @@
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
 
-                                                    <div class="esd-rating">
-                                                        4.5 <i class="fa-solid fa-star"></i>
-                                                    </div>
-                                                </div><!-- listing-right-top -->
-                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
-                                                    <div class="d-flex flex-column">
-                                                        <span class="txt-gray">
-                                                            £60.95 Per Night
-                                                        </span>
-                                                        <span class="listing-price">
-                                                            £635.72
-                                                        </span>
-                                                    </div>
-                                                    <div>
-                                                        <button class="btn btn-primary">
-                                                            Select
-                                                        </button>
-                                                    </div>
-                                                </div><!-- listing-right-top-right -->
-                                            </div><!-- listing right -->
-                                        </div><!-- row -->
-                                    </div><!-- whitebox -->
-                                    <div class="whiteboxbg listingbox loadmorebox">
-                                        <div class="row">
-                                            <div class="col-12 col-lg-4 listing-left">
-                                                <div class="listing-image">
-                                                    <img src="<?= getBaseUrl() ?>/assets/img/hotels/listing-image.jpg" alt="">
-                                                </div>
-                                            </div><!-- col -->
-                                            <div class="col-12 col-lg-3 listing-mid">
-                                                <div class="listing-mid-top">
-                                                    <h3>
-                                                        YHA London Earl’s Court - Hostel
-                                                    </h3>
-                                                    <span class="listing-location">
-                                                        London (3.11 miles)
-                                                    </span>
-                                                </div><!-- listing-mid-top -->
-                                                <div class="guest-score">
-                                                    4.4 Guest Score
-                                                </div>
-                                            </div><!-- col -->
-                                            <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
-                                                <div class="listing-right-top d-flex justify-content-lg-between">
-                                                    <div class="listing-right-top-left">
-                                                        <span>
-                                                            Standard Double Room
-                                                        </span>
-                                                        <div class="txt-gray d-flex flex-column">
-                                                            <span>Room Only</span>
-                                                            <span>Non-Refundable</span>
-                                                        </div>
-                                                    </div><!-- listing-right-top-left -->
-
-                                                    <div class="esd-rating">
-                                                        4.5 <i class="fa-solid fa-star"></i>
-                                                    </div>
-                                                </div><!-- listing-right-top -->
-                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
-                                                    <div class="d-flex flex-column">
-                                                        <span class="txt-gray">
-                                                            £60.95 Per Night
-                                                        </span>
-                                                        <span class="listing-price">
-                                                            £635.72
-                                                        </span>
-                                                    </div>
-                                                    <div>
-                                                        <button class="btn btn-primary">
-                                                            Select
-                                                        </button>
-                                                    </div>
-                                                </div><!-- listing-right-top-right -->
-                                            </div><!-- listing right -->
-                                        </div><!-- row -->
-                                    </div><!-- whitebox -->
-                                    <div class="whiteboxbg listingbox loadmorebox">
-                                        <div class="row">
-                                            <div class="col-12 col-lg-4 listing-left">
-                                                <div class="listing-image">
-                                                    <img src="<?= getBaseUrl() ?>/assets/img/hotels/listing-image.jpg" alt="">
-                                                </div>
-                                            </div><!-- col -->
-                                            <div class="col-12 col-lg-3 listing-mid">
-                                                <div class="listing-mid-top">
-                                                    <h3>
-                                                        YHA London Earl’s Court - Hostel
-                                                    </h3>
-                                                    <span class="listing-location">
-                                                        London (3.11 miles)
-                                                    </span>
-                                                </div><!-- listing-mid-top -->
-                                                <div class="guest-score">
-                                                    4.4 Guest Score
-                                                </div>
-                                            </div><!-- col -->
-                                            <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
-                                                <div class="listing-right-top d-flex justify-content-lg-between">
-                                                    <div class="listing-right-top-left">
-                                                        <span>
-                                                            Standard Double Room
-                                                        </span>
-                                                        <div class="txt-gray d-flex flex-column">
-                                                            <span>Room Only</span>
-                                                            <span>Non-Refundable</span>
-                                                        </div>
-                                                    </div><!-- listing-right-top-left -->
-
-                                                    <div class="esd-rating">
-                                                        4.5 <i class="fa-solid fa-star"></i>
-                                                    </div>
-                                                </div><!-- listing-right-top -->
-                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
-                                                    <div class="d-flex flex-column">
-                                                        <span class="txt-gray">
-                                                            £60.95 Per Night
-                                                        </span>
-                                                        <span class="listing-price">
-                                                            £635.72
-                                                        </span>
-                                                    </div>
-                                                    <div>
-                                                        <button class="btn btn-primary">
-                                                            Select
-                                                        </button>
-                                                    </div>
-                                                </div><!-- listing-right-top-right -->
-                                            </div><!-- listing right -->
-                                        </div><!-- row -->
-                                    </div><!-- whitebox -->
-                                    <div class="whiteboxbg listingbox loadmorebox">
-                                        <div class="row">
-                                            <div class="col-12 col-lg-4 listing-left">
-                                                <div class="listing-image">
-                                                    <img src="<?= getBaseUrl() ?>/assets/img/hotels/listing-image.jpg" alt="">
-                                                </div>
-                                            </div><!-- col -->
-                                            <div class="col-12 col-lg-3 listing-mid">
-                                                <div class="listing-mid-top">
-                                                    <h3>
-                                                        YHA London Earl’s Court - Hostel
-                                                    </h3>
-                                                    <span class="listing-location">
-                                                        London (3.11 miles)
-                                                    </span>
-                                                </div><!-- listing-mid-top -->
-                                                <div class="guest-score">
-                                                    4.4 Guest Score
-                                                </div>
-                                            </div><!-- col -->
-                                            <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
-                                                <div class="listing-right-top d-flex justify-content-lg-between">
-                                                    <div class="listing-right-top-left">
-                                                        <span>
-                                                            Standard Double Room
-                                                        </span>
-                                                        <div class="txt-gray d-flex flex-column">
-                                                            <span>Room Only</span>
-                                                            <span>Non-Refundable</span>
-                                                        </div>
-                                                    </div><!-- listing-right-top-left -->
-
-                                                    <div class="esd-rating">
-                                                        4.5 <i class="fa-solid fa-star"></i>
-                                                    </div>
+                                                    <?php include '../sections/global/star-rating.php'; ?>
                                                 </div><!-- listing-right-top -->
                                                 <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
                                                     <div class="d-flex flex-column">
@@ -1110,6 +927,7 @@
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/jquery-ui.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/moment.min.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/daterangepicker.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/slick.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/bootstrap.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/rangeslider.js"></script>

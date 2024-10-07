@@ -62,7 +62,7 @@
                         </h2>
                     
                         <p class="hero-text txt-white">
-                            Hikkaduwa, Sri Lanka
+                            Bodhum, Turkey
                         </p>
                     </div>
                     <div class="heroslider-nav-slide">
@@ -246,6 +246,156 @@
                         </div>
                     </div>   
                 </div>
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="" tabindex="-1">
+                                        From <strong>£600pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="<?= getBaseUrl() ?>/hotels/hotels-search.php">
+                                    Europe
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/home/sed4.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="mb-5 pb-4">
+                                    <a href="<?= getBaseUrl() ?>/hotels/hotels-search.php">
+                                        Greece
+                                    </a>
+                                </h3>
+                            </div>
+
+                            <a href="<?= getBaseUrl() ?>/hotels/hotels-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>     
+                </div>       
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="" tabindex="-1">
+                                        From <strong>£600pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="<?= getBaseUrl() ?>/hotels/hotels-search.php">
+                                    Europe
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/home/sed4.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="mb-5 pb-4">
+                                    <a href="<?= getBaseUrl() ?>/hotels/hotels-search.php">
+                                        Greece
+                                    </a>
+                                </h3>
+                            </div>
+
+                            <a href="<?= getBaseUrl() ?>/hotels/hotels-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>     
+                </div>       
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="" tabindex="-1">
+                                        From <strong>£600pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="<?= getBaseUrl() ?>/hotels/hotels-search.php">
+                                    Europe
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/home/sed4.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="mb-5 pb-4">
+                                    <a href="<?= getBaseUrl() ?>/hotels/hotels-search.php">
+                                        Greece
+                                    </a>
+                                </h3>
+                            </div>
+
+                            <a href="<?= getBaseUrl() ?>/hotels/hotels-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>     
+                </div>       
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="" tabindex="-1">
+                                        From <strong>£600pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="<?= getBaseUrl() ?>/hotels/hotels-search.php">
+                                    Europe
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/home/sed4.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="mb-5 pb-4">
+                                    <a href="<?= getBaseUrl() ?>/hotels/hotels-search.php">
+                                        Greece
+                                    </a>
+                                </h3>
+                            </div>
+
+                            <a href="<?= getBaseUrl() ?>/hotels/hotels-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>     
+                </div>       
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="" tabindex="-1">
+                                        From <strong>£600pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="<?= getBaseUrl() ?>/hotels/hotels-search.php">
+                                    Europe
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/home/sed4.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="mb-5 pb-4">
+                                    <a href="<?= getBaseUrl() ?>/hotels/hotels-search.php">
+                                        Greece
+                                    </a>
+                                </h3>
+                            </div>
+
+                            <a href="<?= getBaseUrl() ?>/hotels/hotels-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>     
+                </div>       
                 <div class="sedboxslide">
                     <div class="sedbox">
                         <div class="sedtop">
