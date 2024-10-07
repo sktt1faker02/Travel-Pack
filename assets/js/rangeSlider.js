@@ -62,8 +62,10 @@ if(isTwoSlideClassExist.length > 0){
         const sliderOnePos = (sliderOne.value / sliderMaxValue) * 100;
         const sliderTwoPos = (sliderTwo.value / sliderMaxValue) * 100;
     
-        displayValOne.style.left = `calc(${sliderOnePos}% - 15px)`; // Adjust for centering
-        displayValTwo.style.left = `calc(${sliderTwoPos}% - 15px)`; // Adjust for centering
+        // displayValOne.style.left = `calc(${sliderOnePos}% - 15px)`;
+        // displayValTwo.style.left = `calc(${sliderTwoPos}% - 15px)`;
+        displayValOne.style.left = sliderOnePos < 6 ? `calc(${sliderOnePos}% - 0px)` : `calc(${sliderOnePos}% - 15px)`;
+        displayValTwo.style.left = sliderTwoPos > 93 ? `calc(${sliderTwoPos}% - 35px)` : `calc(${sliderTwoPos}% - 15px)`;
     }
     
     // ! load first and second func slide
