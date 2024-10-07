@@ -234,7 +234,7 @@ div#slider-nav {
     color: #fff;
     font-weight: 600;
     cursor: pointer;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     z-index: 5;
     left: 25px;
@@ -245,6 +245,10 @@ div#slider-nav {
 .slidertop-spo-wrap {
     overflow: hidden;
     border-radius: 10px;
+}
+
+.slidertop-spo-wrap  i{
+    cursor: pointer;
 }
 .sliderpopup-wrap {
     position: fixed;

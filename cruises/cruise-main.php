@@ -83,14 +83,14 @@
                             <div class="cruise-tag">
                                 Free Cancellation
                             </div>
-                            <div class="cruise-details-main-top-slider">
-                                <div class="cruise-slide">
+                            <div class="cruise-details-main-top-slider v-slide-wrap">
+                                <div class="cruise-slide v-slide">
                                     <img src="<?= getBaseUrl() ?>/assets/img/hotels/mainlisting-slide.jpg" alt="">
                                 </div>
-                                <div class="cruise-slide">
+                                <div class="cruise-slide v-slide">
                                     <img src="<?= getBaseUrl() ?>/assets/img/hotels/mainlisting-slide.jpg" alt="">
                                 </div>
-                                <div class="cruise-slide">
+                                <div class="cruise-slide v-slide">
                                     <img src="<?= getBaseUrl() ?>/assets/img/hotels/mainlisting-slide.jpg" alt="">
                                 </div>
                             </div>
@@ -377,6 +377,7 @@
     <script src="<?= getBaseUrl() ?>/assets/js/sidebar.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/scripts.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/main-cruises.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/galleryPopup.js"></script>
 
 
 </body>

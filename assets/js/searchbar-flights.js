@@ -6,6 +6,7 @@ var radioMulti = document.getElementById('radio-multi');
 var searchformMore = document.querySelector('.searchform-more');
 var searchformMoreIcon = searchformMore.querySelector('i');
 var smcOpenjaw = document.querySelector('.smc-openjaw');
+var smcOneWay = document.querySelector('.smc-oneway');
 var flightReturnMain = document.querySelector('.flight-return-main');
 var flightDepartMain = document.querySelector('.flight-depart-main');
 var smcOpenjawRow = document.querySelector('.smc-openjaw-row');
@@ -28,8 +29,9 @@ function checkJourneyType() {
     }
     // Toggle .show class based on the checked radio button
     if (radioOneway.checked) {
-        searchformMore.classList.remove('show');
-        searchformMoreIcon.classList.remove('rotate');
+        // searchformMore.classList.remove('show');
+        // searchformMoreIcon.classList.remove('rotate');
+        smcOneWay.classList.add('show');
         flightDepartMain.classList.remove('flex100-mobile', 'mobile-last-col');
         smcReturn.classList.remove('show'); // Remove .show from .smc-return if oneway is checked
     } else if (radioReturn.checked) {
@@ -86,9 +88,10 @@ searchformMore.addEventListener('click', function() {
             }
             break;
         case 'O':
-            searchFormContents.forEach(el =>{
-                el.classList.remove('show');
-            });
+            smcOneWay.classList.toggle('show');
+            // searchFormContents.forEach(el =>{
+            //     el.classList.remove('show');
+            // });
             break;
         case 'J':
             smcOpenjaw.classList.toggle('show');
@@ -116,27 +119,32 @@ carHireSearchMore.addEventListener('click', function() {
 
 // ! TRANSFER
 const transferSearchMore = document.querySelector('.search-more-tr');
-const inputTransfer = document.querySelectorAll('.trf-journey');
-const transferReturn = document.querySelector('.transfer-content');
 
-inputTransfer.forEach(el => {
-    el.addEventListener('change', ()=>{
-        let itValue = el.value;
-        if(itValue == 'R'){
-            transferSearchMore.classList.remove('d-none');
-            transferReturn.classList.add('show');
-        }else{
-            transferSearchMore.classList.add('d-none');
-            transferReturn.classList.remove('show');
-        }
+if(transferSearchMore){
+    const inputTransfer = document.querySelectorAll('.trf-journey');
+    const transferReturn = document.querySelector('.transfer-content');
+
+
+    inputTransfer.forEach(el => {
+        el.addEventListener('change', ()=>{
+            let itValue = el.value;
+            if(itValue == 'R'){
+                transferSearchMore.classList.remove('d-none');
+                transferReturn.classList.add('show');
+            }else{
+                transferSearchMore.classList.add('d-none');
+                transferReturn.classList.remove('show');
+            }
+        });
     });
-});
 
-transferSearchMore.addEventListener('click', function() {
-    const carHireContent = document.querySelector('.transfer-content');
-    carHireContent.classList.toggle('show');
-    transferSearchMore.querySelector('i').classList.toggle('rotate');
-});
+    transferSearchMore.addEventListener('click', function() {
+        const carHireContent = document.querySelector('.transfer-content');
+        carHireContent.classList.toggle('show');
+        transferSearchMore.querySelector('i').classList.toggle('rotate');
+    });
+}
+
 
     
 $(document).ready(function() {
