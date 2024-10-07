@@ -131,7 +131,7 @@
                                         <input type="range" min="0" max="1440" value="720" slide-type="departure" id="slider-2" oninput="secondSlide()">
                                     </div>
                                     <div class="val">
-                                        <span>00:00h</span>
+                                        <span>00:00</span>
                                         <div class="range-val">
                                             <span id="val1">
                                                 0
@@ -140,7 +140,7 @@
                                                 100
                                             </span>
                                         </div>
-                                        <span>23:59</span>
+                                        <span>12:00</span>
                                     </div>
                                 </div>
                             </div>
