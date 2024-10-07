@@ -10,6 +10,8 @@
 
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/daterangepicker.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/slick.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/fontawesome.css">
     
@@ -433,11 +435,15 @@
             </div><!-- row -->
         </div>
     </section>
+    <?php include '../sections/global/cta.php';?>
     <?php include '../sections/global/footer.php';?>
 
 
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/slick.min.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/moment.min.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/scripts.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/daterangepicker.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/bootstrap.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/sidebar.js"></script>
     

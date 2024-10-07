@@ -1,4 +1,3 @@
-// LOAD MORE BOXES
 document.addEventListener('DOMContentLoaded', function() {
     const loadmoreBoxesWrap = document.querySelector('.loadmore-boxes-wrap');
     const loadmoreBoxes = Array.from(loadmoreBoxesWrap.querySelectorAll('.loadmorebox'));
@@ -13,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     const totalBoxes = loadmoreBoxes.length;
-    const boxesPerPage = 3;
+    let boxesPerPage = 3; // Default value
     let currentPage = 1;
 
     // Check if .loadmore-boxes-wrap is inside .specialoffer-main or .baggage-allowances
@@ -22,7 +21,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const isDestination = loadmoreBoxesWrap.classList.contains('loadmoreboxes-destinations');
     const displayStyle = isSpecialOffer ? 'flex' : 'block';
 
-    // Wrap every 3 boxes into a new parent div with class "box-group"
+    // Set boxesPerPage based on specific classes
+    if (loadmoreBoxesWrap.classList.contains('loadmoreboxes-select-cabin')) {
+        boxesPerPage = 6;
+    } else if (loadmoreBoxesWrap.classList.contains('loadmore-boxes-cruises-search')) {
+        boxesPerPage = 4; // Show 4 boxes if this class is present
+    }
+
+    // Wrap every boxesPerPage boxes into a new parent div with class "box-group"
     for (let i = 0; i < totalBoxes; i += boxesPerPage) {
         const group = document.createElement('div');
         group.classList.add('box-group'); // Add 'box-group' by default

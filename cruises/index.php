@@ -39,7 +39,7 @@
         <div class="herowrapblur">
             <div class="heroslider">
                 <div class="heroslide">
-                    <img src="<?= getBaseUrl() ?>/assets/img/cruise/hero-cruise.jpg" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-cruises.jpg" alt="">
                 </div>
                 <div class="heroslide">
                     <img src="" alt="">

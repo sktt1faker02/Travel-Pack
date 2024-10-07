@@ -42,7 +42,7 @@
         <div class="herowrapblur">
             <div class="heroslider">
                 <div class="heroslide">
-                    <img src="<?= getBaseUrl() ?>/assets/img/rail/rail-hero.jpg" alt="">                    
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-rail.jpg" alt="">              
                 </div>
                 <div class="heroslide">
                     <img src="" alt="">

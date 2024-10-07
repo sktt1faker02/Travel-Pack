@@ -11,14 +11,12 @@
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/slick.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/jquery-ui.css">
-    <link rel="stylesheet" href="./assets/css/daterangepicker.css">
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/daterangepicker.css">
 
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/style.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/main-hotels.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/sidebar.css">
-    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/main-special-offers.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/mediaqueries.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="<?= getBaseUrl() ?>/assets/img/favicon/apple-touch-icon.png">
@@ -61,30 +59,30 @@
                         <div class="fb-bottom txt-black">
                             <ul class="destinations-sidebar">
                                 <li><a href="#">
-                                        Lorem Ipsum
-                                    </a></li>
+                                    Lorem Ipsum
+                                </a></li>
                                 <li><a href="#">
-                                        Lorem Ipsum
-                                    </a></li>
+                                    Lorem Ipsum
+                                </a></li>
                                 <li><a href="#">
-                                        Lorem Ipsum
-                                    </a></li>
+                                    Lorem Ipsum
+                                </a></li>
                                 <li><a href="#">
-                                        Lorem Ipsum
-                                    </a></li>
+                                    Lorem Ipsum
+                                </a></li>
                                 <li><a href="#">
-                                        Lorem Ipsum
-                                    </a></li>
+                                    Lorem Ipsum
+                                </a></li>
                                 <li><a href="#">
-                                        Lorem Ipsum
-                                    </a></li>
+                                    Lorem Ipsum
+                                </a></li>
                                 <li><a href="#">
-                                        Lorem Ipsum
-                                    </a></li>
+                                    Lorem Ipsum
+                                </a></li>
                             </ul>
                         </div>
                     </div>
-
+                    
                     <div class="filters-box needbox">
                         <div class="fb-top fw-semibold">
                             <div>
@@ -93,7 +91,7 @@
                         </div><!-- fb-top   -->
                         <div class="fb-bottom txt-black">
                             <div class="flightpurchase-box">
-                                If you need any help with your bookings simply <a href="#"><u>Contact Us</u></a> and we shall get in touch with you or Just call us on <a href="#">+44 208 585 4080 </a>
+                                If you need any help with your bookings simply <a href="#"><u>Contact Us</u></a> and we shall get in touch with you or Just call us on  <a href="#">+44 208 585 4080 </a>
                             </div><!-- flight purchase box -->
                         </div>
                     </div>
@@ -102,37 +100,6 @@
                 <div class="col-12 col-lg-8 tp-main">
                     <div class="overview-box">
                         <div class="row">
-                            <div class="col-12">
-                                <div class="slidertop-spo-wrap position-relative">
-                                    <div class="slidertop-spo v-slide-wrap">
-                                        <div class="slidertop-spo-slide v-slide">
-                                            <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
-                                        </div>
-                                        <div class="slidertop-spo-slide v-slide">
-                                            <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
-                                        </div>
-                                        <div class="slidertop-spo-slide v-slide">
-                                            <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
-                                        </div>
-                                        <div class="slidertop-spo-slide v-slide">
-                                            <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
-                                        </div>
-                                        <div class="slidertop-spo-slide v-slide">
-                                            <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
-                                        </div>
-                                        <div class="slidertop-spo-slide v-slide">
-                                            <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="p-flex">
-                                        <div id="slider-nav">
-                                            <span id="current">01</span>/<span id="total">08</span>
-                                        </div>
-                                        <button class="v-all">View All</button>
-                                    </div>
-                                </div>
-                            </div>
-
                             <div class="col-12">
                                 <h3 class="heading-underline">Overview</h3>
                             </div>
@@ -189,7 +156,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="oid-right">
-                                                    <?php include '../travelpack/sections/global/star-rating.php'; ?>
+                                                    <?php include '../travelpack/sections/global/star-rating.php';?>
                                                 </div>
                                             </div><!-- oid-bbt-top -->
                                             <div class="oid-bb-bottom">
@@ -258,7 +225,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="oid-right">
-                                                    <?php include '../travelpack/sections/global/star-rating.php'; ?>
+                                                    <?php include '../travelpack/sections/global/star-rating.php';?>
                                                 </div>
                                             </div><!-- oid-bbt-top -->
                                             <div class="oid-bb-bottom">
@@ -316,7 +283,7 @@
                                             <div class="oid-offer-tag">
                                                 <a href="#">
                                                     <strong>
-                                                        20% off
+                                                        20% off 
                                                     </strong>
                                                     On Advance Booking
                                                 </a>
@@ -335,7 +302,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="oid-right">
-                                                    <?php include '../travelpack/sections/global/star-rating.php'; ?>
+                                                    <?php include '../travelpack/sections/global/star-rating.php';?>
                                                 </div>
                                             </div><!-- oid-bbt-top -->
                                             <div class="oid-bb-bottom">
@@ -407,7 +374,7 @@
                                             </h3>
                                         </div>
                                         <div class="col-3 d-flex justify-content-end">
-                                            <?php include '../travelpack/sections/global/star-rating.php'; ?>
+                                            <?php include '../travelpack/sections/global/star-rating.php';?>
                                         </div>
                                     </div><!-- row -->
 
@@ -468,13 +435,13 @@
                             </ul>
                         </div>
                     </div>
-
+                    
                     <div class="destinations-main-hotels-list-wrap">
                         <div class="dmh-top my-3">
                             <div class="row">
                                 <div class="col-12 col-md-6">
                                     <h3>
-                                        Live in Luxury in London with our special offers on top 5 Star Hotels
+                                        Live in Luxury in London with our special offers on top 5 Star Hotels 
                                     </h3>
                                 </div><!-- col -->
                                 <div class="col-12 col-md-6 d-flex justify-content-end fw-medium fs14">
@@ -499,7 +466,7 @@
                                                     YHA London Earl’s Court - Hostel
                                                 </h3>
                                                 <div>
-                                                    <?php include '../travelpack/sections/global/star-rating.php'; ?>
+                                                    <?php include '../travelpack/sections/global/star-rating.php';?>
                                                 </div>
                                             </div>
                                             <div>
@@ -565,8 +532,8 @@
                                                 </div>
                                             </div><!-- listing-right-top-left -->
 
-
-                                            <?php include '../travelpack/sections/global/star-rating.php'; ?>
+                                            
+                                            <?php include '../travelpack/sections/global/star-rating.php';?>
                                         </div><!-- listing-right-top -->
                                         <div class="listing-right-bottom d-lg-flex d-none align-items-center justify-content-lg-between">
                                             <div class="d-flex flex-column">
@@ -600,7 +567,7 @@
                                                     YHA London Earl’s Court - Hostel
                                                 </h3>
                                                 <div>
-                                                    <?php include '../travelpack/sections/global/star-rating.php'; ?>
+                                                    <?php include '../travelpack/sections/global/star-rating.php';?>
                                                 </div>
                                             </div>
                                             <div>
@@ -666,8 +633,8 @@
                                                 </div>
                                             </div><!-- listing-right-top-left -->
 
-
-                                            <?php include '../travelpack/sections/global/star-rating.php'; ?>
+                                            
+                                            <?php include '../travelpack/sections/global/star-rating.php';?>
                                         </div><!-- listing-right-top -->
                                         <div class="listing-right-bottom d-lg-flex d-none align-items-center justify-content-lg-between">
                                             <div class="d-flex flex-column">
@@ -701,7 +668,7 @@
                                                     YHA London Earl’s Court - Hostel
                                                 </h3>
                                                 <div>
-                                                    <?php include '../travelpack/sections/global/star-rating.php'; ?>
+                                                    <?php include '../travelpack/sections/global/star-rating.php';?>
                                                 </div>
                                             </div>
                                             <div>
@@ -767,8 +734,8 @@
                                                 </div>
                                             </div><!-- listing-right-top-left -->
 
-
-                                            <?php include '../travelpack/sections/global/star-rating.php'; ?>
+                                            
+                                            <?php include '../travelpack/sections/global/star-rating.php';?>
                                         </div><!-- listing-right-top -->
                                         <div class="listing-right-bottom d-lg-flex d-none align-items-center justify-content-lg-between">
                                             <div class="d-flex flex-column">
@@ -821,7 +788,7 @@
                     <div class="destinations-main-cta-bottom">
                         <div class="container">
 
-                            <?php include './sections/cta/cta-destinations-main.php'; ?>
+                            <?php include './sections/cta/cta-destinations-main.php';?>
 
                             <div class="proceed mt-5 pt-4">
                                 <div class="row align-items-center">
@@ -851,9 +818,6 @@
     <script src="<?= getBaseUrl() ?>/assets/js/daterangepicker.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/scripts.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/bootstrap.min.js"></script>
-    <script src="<?= getBaseUrl() ?>/assets/js/slick.min.js"></script>
-    <script src="<?= getBaseUrl() ?>/assets/js/main-special-offers.js"></script>
-    <script src="<?= getBaseUrl() ?>/assets/js/galleryPopup.js"></script>
 
 </body>
 

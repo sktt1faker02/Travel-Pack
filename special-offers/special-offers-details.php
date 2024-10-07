@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/slick.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/fontawesome.css">
-
+    
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/style.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/sidebar.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/main-special-offers.css">
@@ -34,7 +34,7 @@
 
 <body>
     <div id="nohero-inner">
-        <?php include '../sections/global/header-nav.php'; ?>
+        <?php include '../sections/global/header-nav.php';?>
     </div><!-- main hero -->
 
     <section class="block search-wrap bggray">
@@ -95,7 +95,7 @@
                         </div><!-- fb-top   -->
                         <div class="fb-bottom txt-black">
                             <div class="flightpurchase-box">
-                                If you need any help with your bookings simply <a href="#"><u>Contact Us</u></a> and we shall get in touch with you or Just call us on <a href="#">+44 208 585 4080 </a>
+                                If you need any help with your bookings simply <a href="#"><u>Contact Us</u></a> and we shall get in touch with you or Just call us on  <a href="#">+44 208 585 4080 </a>
                             </div><!-- flight purchase box -->
                         </div>
                     </div><!-- filters box -->
@@ -123,13 +123,37 @@
                                 <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
                             </div>
                         </div>
-                        <div class="p-flex">
-                            <div id="slider-nav">
-                                <span id="current">01</span>/<span id="total">08</span>
-                            </div>
-                            <button class="v-all">View All</button>
+                        <div id="slider-nav">
+                            <span id="current">01</span>/<span id="total">08</span>
                         </div>
-                    </div>
+
+                        <div class="slidertop-spo-viewall v-all">
+                            View All <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+
+                        <div class="sliderpopup-wrap">
+                            <div class="sliderpopup">
+                                <div class="slidertop-spo-slide-popup">
+                                    <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
+                                </div>
+                                <div class="slidertop-spo-slide-popup">
+                                    <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
+                                </div>
+                                <div class="slidertop-spo-slide-popup">
+                                    <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
+                                </div>
+                                <div class="slidertop-spo-slide-popup">
+                                    <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
+                                </div>
+                                <div class="slidertop-spo-slide-popup">
+                                    <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
+                                </div>
+                                <div class="slidertop-spo-slide-popup">
+                                    <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
+                                </div>
+                            </div>
+                        </div><!-- sliderpopup-wrap -->
+                    </div><!-- slidertop spo wrap -->
 
                     <div class="overview-special-offers mt-4">
                         <div class="overview-top">
@@ -182,7 +206,7 @@
                                     Duration
                                 </p>
                                 <p class="txt-gray">
-                                    18 Nights
+                                    18 Nights   
                                 </p>
                             </div><!-- c\ol -->
                             <div class="spotd-bottom-col">
@@ -227,7 +251,7 @@
                                 <p>
                                     Ut morbi gravida vel non mattis quis pulvinar arcu netLorem ipsum dolor sit amet consectetur. Nulla curabitur quis etiam proin quam sed commodo id. Proin rutrum phasellus lectus orci metuss.
                                 </p>
-
+                                
                                 <div class="yellowbgpill mt-5">
                                     Included in the Offer
                                 </div>
@@ -363,7 +387,7 @@
         </div>
     </section>
 
-    <?php include '../sections/global/footer.php'; ?>
+    <?php include '../sections/global/footer.php';?>
 
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/jquery-ui.min.js"></script>
@@ -419,8 +443,8 @@
                 }
             });
         });
+
     </script>
 
 </body>
-
 </html>

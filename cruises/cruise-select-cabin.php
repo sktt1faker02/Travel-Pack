@@ -6,12 +6,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travelpack - Cruise Select Cabin Location</title>
+    <title>Travelpack - Cruise Select Cabin</title>
 
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/slick.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/daterangepicker.css">
     
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/style.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/sidebar.css">
@@ -42,7 +44,7 @@
             <div class="row">
                 <div class="col-12 mb-4 tp-page-title">
                     <h1>
-                        Select Cabin Location
+                        Select Cabin 
                     </h1>
                 </div><!-- col -->
             </div><!-- row -->
@@ -54,17 +56,16 @@
             </div>
 
             <div class="row">
-
                 <div class="col-12 col-lg-4 tp-sidebar tp-sidebar-cruise">
                     <?php include '../sections/sidebar/cruise.php';?>
                 </div>
                 
-                <div class="col-12 col-lg-8 tp-main">
+                <div class="col-12 col-lg-8 tp-main cruise-main-wrap">
                     <h3 class="mb-3 tp-top-heading">
-                        Choose the Deck 
-                    </h3>        
-                    <form action="cruise-select-cabin-location.php" method="post">      
-                        <div class="cruise-main whiteboxbg">
+                        Choose the Cabin 
+                    </h3>   
+                    <div class="loadmore-boxes-wrap loadmoreboxes-select-cabin">
+                        <div class="cruise-main whiteboxbg loadmorebox">
                             <div class="row">
                                 <div class="col-12 col-lg-4">
                                     <div class="cabinfeaturedimage">
@@ -73,373 +74,634 @@
                                 </div><!-- col -->
                                 <div class="col-12 col-lg-8 cruisebox-right">
                                     <div class="row">
-                                        <div class="col-12 col-lg-9 cruisecontentshow">
+                                        <div class="col-12 col-lg-9 cruisecontent">
                                             <h3 class="mb-1">
-                                                Inside Cabins
+                                                Brilliant Suite
                                             </h3>
+                                            <p class="fw-semibold txt-gray">
+                                                Code: SB
+                                            </p>
                                         </div>
                                         <div class="col-12 col-md-9">
-                                            <div class="cruise-readmorecontentshow fs13 txt-gray">
+                                            <div class="cruise-readmorecontent fs13 txt-gray">
                                                 <p>
                                                     Lorem ipsum dolor sit amet consectetur. Ut vitae ac aliquam molestie pellentesque vel elementum augue nec. Justo aenean amet quam bibendum risus montes scelerisque ipsum. Adipiscing pretium integer ultrices eu elementum elit ultricies ullamcorper nunc. At mattis risus congue nunc.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
-                                </div><!-- col -->
-                            </div><!-- row -->
-                        </div><!-- cruise-main -->
 
-                         
-                        <div class="cruise-main whiteboxbg">
-                            <h3 class="mb-3 tp-top-heading">
-                                Select Deck 
-                            </h3>        
-                            <div class="row">
-                                <div class="col-12 col-md-4">
-                                    <div class="select">
-                                        <select name="deck-selector" required> 
-                                            <option value="deck01">Deck 01</option>
-                                            <option value="deck02">Deck 02</option>
-                                            <option value="deck03">Deck 03</option>
-                                            <option value="deck04">Deck 04</option>
-                                        </select>
-                                        <div class="select_arrow"></div>
-                                    </div>
-                                </div><!-- col -->
-                            </div><!-- row -->
-                            
-                            <div class="cruise-select-deck">
-                                <div class="row">
-                                    <div class="col-12 col-lg-4">
-                                        <div class="cabinfeaturedimage">
-                                            <img src="" alt="">
+                                    <div class="cruisedetailsmore txt-black">
+                                        <div class="d-flex flex-column">
+                                            <div class="col-lg-12 cruise-readmore-info mb-3">
+                                                <span class="cruise-rmore-btn fw-semibold">
+                                                    Read More Information <i class="fs-icon fa-solid fa-chevron-down ms-2"></i>
+                                                </span>
+                                            </div>
                                         </div>
-                                    </div><!-- col -->
-                                    <div class="col-12 col-lg-8 d-flex flex-column gap-3">
-                                        <div class="cabin-guaranteed csd-box">
-                                            <div class="row align-items-center">
-                                                <div class="col-12 col-lg-9">
-                                                    Guaranteed Cabin
-                                                </div>
-                                                <div class="col-12 col-lg-3 d-flex justify-content-end">
-                                                    <button class="btn btn-primary">
-                                                        Select
-                                                    </button>
-                                                </div><!-- col -->
-                                            </div>
-                                        </div><!-- csd box -->
-                                        <div class="csd-box">
-                                            <div class="row align-items-center">
-                                                <div class="col-12 col-lg-9">
-                                                    <div class="csd-items-wrap d-flex column-gap-4">
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Cabin Number
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                034A
-                                                            </strong>
-                                                        </div>
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Deck
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                Deck 8
-                                                            </strong>
-                                                        </div>
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Position
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                Lorem
-                                                            </strong>
-                                                        </div>
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Bedding
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                LoreIpsumm
-                                                            </strong>
-                                                        </div>
-                                                    </div><!-- csd-items-wrap -->
-                                                </div><!-- col -->
-                                                <div class="col-12 col-lg-3 d-flex justify-content-end">
-                                                    <button class="btn btn-primary">
-                                                        Select
-                                                    </button>
-                                                </div><!-- col -->
-                                            </div>
-                                        </div><!-- csd box -->
-                                        <div class="csd-box">
-                                            <div class="row align-items-center">
-                                                <div class="col-12 col-lg-9">
-                                                    <div class="csd-items-wrap d-flex column-gap-4">
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Cabin Number
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                034A
-                                                            </strong>
-                                                        </div>
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Deck
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                Deck 8
-                                                            </strong>
-                                                        </div>
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Position
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                Lorem
-                                                            </strong>
-                                                        </div>
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Bedding
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                LoreIpsumm
-                                                            </strong>
-                                                        </div>
-                                                    </div><!-- csd-items-wrap -->
-                                                </div><!-- col -->
-                                                <div class="col-12 col-lg-3 d-flex justify-content-end">
-                                                    <button class="btn btn-primary">
-                                                        Select
-                                                    </button>
-                                                </div><!-- col -->
-                                            </div>
-                                        </div><!-- csd box -->
-                                        <div class="csd-box">
-                                            <div class="row align-items-center">
-                                                <div class="col-12 col-lg-9">
-                                                    <div class="csd-items-wrap d-flex column-gap-4">
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Cabin Number
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                034A
-                                                            </strong>
-                                                        </div>
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Deck
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                Deck 8
-                                                            </strong>
-                                                        </div>
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Position
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                Lorem
-                                                            </strong>
-                                                        </div>
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Bedding
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                LoreIpsumm
-                                                            </strong>
-                                                        </div>
-                                                    </div><!-- csd-items-wrap -->
-                                                </div><!-- col -->
-                                                <div class="col-12 col-lg-3 d-flex justify-content-end">
-                                                    <button class="btn btn-primary">
-                                                        Select
-                                                    </button>
-                                                </div><!-- col -->
-                                            </div>
-                                        </div><!-- csd box -->
-                                        <div class="csd-box">
-                                            <div class="row align-items-center">
-                                                <div class="col-12 col-lg-9">
-                                                    <div class="csd-items-wrap d-flex column-gap-4">
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Cabin Number
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                034A
-                                                            </strong>
-                                                        </div>
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Deck
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                Deck 8
-                                                            </strong>
-                                                        </div>
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Position
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                Lorem
-                                                            </strong>
-                                                        </div>
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Bedding
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                LoreIpsumm
-                                                            </strong>
-                                                        </div>
-                                                    </div><!-- csd-items-wrap -->
-                                                </div><!-- col -->
-                                                <div class="col-12 col-lg-3 d-flex justify-content-end">
-                                                    <button class="btn btn-primary">
-                                                        Select
-                                                    </button>
-                                                </div><!-- col -->
-                                            </div>
-                                        </div><!-- csd box -->
-                                        <div class="csd-box">
-                                            <div class="row align-items-center">
-                                                <div class="col-12 col-lg-9">
-                                                    <div class="csd-items-wrap d-flex column-gap-4">
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Cabin Number
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                034A
-                                                            </strong>
-                                                        </div>
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Deck
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                Deck 8
-                                                            </strong>
-                                                        </div>
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Position
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                Lorem
-                                                            </strong>
-                                                        </div>
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Bedding
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                LoreIpsumm
-                                                            </strong>
-                                                        </div>
-                                                    </div><!-- csd-items-wrap -->
-                                                </div><!-- col -->
-                                                <div class="col-12 col-lg-3 d-flex justify-content-end">
-                                                    <button class="btn btn-primary">
-                                                        Select
-                                                    </button>
-                                                </div><!-- col -->
-                                            </div>
-                                        </div><!-- csd box -->
-                                        <div class="csd-box">
-                                            <div class="row align-items-center">
-                                                <div class="col-12 col-lg-9">
-                                                    <div class="csd-items-wrap d-flex column-gap-4">
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Cabin Number
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                034A
-                                                            </strong>
-                                                        </div>
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Deck
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                Deck 8
-                                                            </strong>
-                                                        </div>
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Position
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                Lorem
-                                                            </strong>
-                                                        </div>
-                                                        <div class="csd-items">
-                                                            <strong>
-                                                                Bedding
-                                                            </strong>
-                                                            <br>
-                                                            <strong class="txt-gray">
-                                                                LoreIpsumm
-                                                            </strong>
-                                                        </div>
-                                                    </div><!-- csd-items-wrap -->
-                                                </div><!-- col -->
-                                                <div class="col-12 col-lg-3 d-flex justify-content-end">
-                                                    <button class="btn btn-primary">
-                                                        Select
-                                                    </button>
-                                                </div><!-- col -->
-                                            </div>
-                                        </div><!-- csd box -->
-                                    </div>
-                                </div><!-- row -->
-                            </div><!-- select deck -->
+                                    </div><!-- cruise detailsmore -->
 
+                                    <div class="cruisdetail-bottom">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-5">
+
+                                            </div>
+                                            <div class="col-12 col-lg-7">
+                                                <div class="cruiseprice-box">
+                                                    <div class="d-flex fpb-top align-items-center">
+                                                        <div class="cruiseprice">
+                                                            <div class="cruiseprice-main pt-1">
+                                                                £708.47
+                                                            </div>
+                                                        </div>
+                                                        <div class="flightprice-option">
+                                                            <button class="btn btn-primary">
+                                                                Select
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex cpb-bottom">
+                                                        <div class="cpb-pax">
+                                                            2x Adults
+                                                        </div>
+                                                    </div>
+                                                </div><!-- cruiseprice box -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>
+                                </div><!-- col -->
+                            </div><!-- row -->
                         </div>
-                    </form>
+                        <div class="cruise-main whiteboxbg showcontent loadmorebox">
+                            <div class="row">
+                                <div class="col-12 col-lg-4">
+                                    <div class="cabinfeaturedimage">
+                                        <img src="" alt="">
+                                    </div>
+                                </div><!-- col -->
+                                <div class="col-12 col-lg-8 cruisebox-right">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-9 cruisecontent">
+                                            <h3 class="mb-1">
+                                                Seriously Suite
+                                            </h3>
+                                            <p class="fw-semibold txt-gray">
+                                                Code: SS
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-9">
+                                            <div class="cruise-readmorecontent fs13 txt-gray">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur. Ut vitae ac aliquam molestie pellentesque vel elementum augue nec. Justo aenean amet quam bibendum risus montes scelerisque ipsum. Adipiscing pretium integer ultrices eu elementum elit ultricies ullamcorper nunc. At mattis risus congue nunc.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="cruisedetailsmore txt-black">
+                                        <div class="d-flex flex-column">
+                                            <div class="col-lg-12 cruise-readmore-info mb-3">
+                                                <span class="cruise-rmore-btn fw-semibold">
+                                                    Read More Information <i class="fs-icon fa-solid fa-chevron-down ms-2"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div><!-- cruise detailsmore -->
+
+                                    <div class="cruisdetail-bottom">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-5">
+
+                                            </div>
+                                            <div class="col-12 col-lg-7">
+                                                <div class="cruiseprice-box">
+                                                    <div class="d-flex fpb-top align-items-center">
+                                                        <div class="cruiseprice">
+                                                            <div class="cruiseprice-main pt-1">
+                                                                £708.47
+                                                            </div>
+                                                        </div>
+                                                        <div class="flightprice-option">
+                                                            <button class="btn btn-primary">
+                                                                Select
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex cpb-bottom">
+                                                        <div class="cpb-pax">
+                                                            2x Adults
+                                                        </div>
+                                                    </div>
+                                                </div><!-- cruiseprice box -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>
+                                </div><!-- col -->
+                            </div><!-- row -->
+                        </div>
+                        <div class="cruise-main whiteboxbg loadmorebox">
+                            <div class="row">
+                                <div class="col-12 col-lg-4">
+                                    <div class="cabinfeaturedimage">
+                                        <img src="" alt="">
+                                    </div>
+                                </div><!-- col -->
+                                <div class="col-12 col-lg-8 cruisebox-right">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-9 cruisecontent">
+                                            <h3 class="mb-1">
+                                                Cheeky Corner Suite Pretty Big Terrace
+                                            </h3>
+                                            <p class="fw-semibold txt-gray">
+                                                Code: CCSPBT
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-9">
+                                            <div class="cruise-readmorecontent fs13 txt-gray">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur. Ut vitae ac aliquam molestie pellentesque vel elementum augue nec. Justo aenean amet quam bibendum risus montes scelerisque ipsum. Adipiscing pretium integer ultrices eu elementum elit ultricies ullamcorper nunc. At mattis risus congue nunc.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="cruisedetailsmore txt-black">
+                                        <div class="d-flex flex-column">
+                                            <div class="col-lg-12 cruise-readmore-info mb-3">
+                                                <span class="cruise-rmore-btn fw-semibold">
+                                                    Read More Information <i class="fs-icon fa-solid fa-chevron-down ms-2"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div><!-- cruise detailsmore -->
+
+                                    <div class="cruisdetail-bottom">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-5">
+
+                                            </div>
+                                            <div class="col-12 col-lg-7">
+                                                <div class="cruiseprice-box">
+                                                    <div class="d-flex fpb-top align-items-center">
+                                                        <div class="cruiseprice">
+                                                            <div class="cruiseprice-main pt-1">
+                                                                £708.47
+                                                            </div>
+                                                        </div>
+                                                        <div class="flightprice-option">
+                                                            <button class="btn btn-primary">
+                                                                Select
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex cpb-bottom">
+                                                        <div class="cpb-pax">
+                                                            2x Adults
+                                                        </div>
+                                                    </div>
+                                                </div><!-- cruiseprice box -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>
+                                </div><!-- col -->
+                            </div><!-- row -->
+                        </div>
+                        <div class="cruise-main whiteboxbg loadmorebox">
+                            <div class="row">
+                                <div class="col-12 col-lg-4">
+                                    <div class="cabinfeaturedimage">
+                                        <img src="" alt="">
+                                    </div>
+                                </div><!-- col -->
+                                <div class="col-12 col-lg-8 cruisebox-right">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-9 cruisecontent">
+                                            <h3 class="mb-1">
+                                                Cheeky Corner Suite Even Bigger Terrace
+                                            </h3>
+                                            <p class="fw-semibold txt-gray">
+                                                Code: CCSEBT
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-9">
+                                            <div class="cruise-readmorecontent fs13 txt-gray">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur. Ut vitae ac aliquam molestie pellentesque vel elementum augue nec. Justo aenean amet quam bibendum risus montes scelerisque ipsum. Adipiscing pretium integer ultrices eu elementum elit ultricies ullamcorper nunc. At mattis risus congue nunc.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="cruisedetailsmore txt-black">
+                                        <div class="d-flex flex-column">
+                                            <div class="col-lg-12 cruise-readmore-info mb-3">
+                                                <span class="cruise-rmore-btn fw-semibold">
+                                                    Read More Information <i class="fs-icon fa-solid fa-chevron-down ms-2"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div><!-- cruise detailsmore -->
+
+                                    <div class="cruisdetail-bottom">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-5">
+
+                                            </div>
+                                            <div class="col-12 col-lg-7">
+                                                <div class="cruiseprice-box">
+                                                    <div class="d-flex fpb-top align-items-center">
+                                                        <div class="cruiseprice">
+                                                            <div class="cruiseprice-main pt-1">
+                                                                £708.47
+                                                            </div>
+                                                        </div>
+                                                        <div class="flightprice-option">
+                                                            <button class="btn btn-primary">
+                                                                Select
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex cpb-bottom">
+                                                        <div class="cpb-pax">
+                                                            2x Adults
+                                                        </div>
+                                                    </div>
+                                                </div><!-- cruiseprice box -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>
+                                </div><!-- col -->
+                            </div><!-- row -->
+                        </div>
+                        <div class="cruise-main whiteboxbg loadmorebox">
+                            <div class="row">
+                                <div class="col-12 col-lg-4">
+                                    <div class="cabinfeaturedimage">
+                                        <img src="" alt="">
+                                    </div>
+                                </div><!-- col -->
+                                <div class="col-12 col-lg-8 cruisebox-right">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-9 cruisecontent">
+                                            <h3 class="mb-1">
+                                                Lorem Ipsum Dolor Set
+                                            </h3>
+                                            <p class="fw-semibold txt-gray">
+                                                Code: CCSEBT
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-9">
+                                            <div class="cruise-readmorecontent fs13 txt-gray">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur. Ut vitae ac aliquam molestie pellentesque vel elementum augue nec. Justo aenean amet quam bibendum risus montes scelerisque ipsum. Adipiscing pretium integer ultrices eu elementum elit ultricies ullamcorper nunc. At mattis risus congue nunc.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="cruisedetailsmore txt-black">
+                                        <div class="d-flex flex-column">
+                                            <div class="col-lg-12 cruise-readmore-info mb-3">
+                                                <span class="cruise-rmore-btn fw-semibold">
+                                                    Read More Information <i class="fs-icon fa-solid fa-chevron-down ms-2"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div><!-- cruise detailsmore -->
+
+                                    <div class="cruisdetail-bottom">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-5">
+
+                                            </div>
+                                            <div class="col-12 col-lg-7">
+                                                <div class="cruiseprice-box">
+                                                    <div class="d-flex fpb-top align-items-center">
+                                                        <div class="cruiseprice">
+                                                            <div class="cruiseprice-main pt-1">
+                                                                £708.47
+                                                            </div>
+                                                        </div>
+                                                        <div class="flightprice-option">
+                                                            <button class="btn btn-primary">
+                                                                Select
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex cpb-bottom">
+                                                        <div class="cpb-pax">
+                                                            2x Adults
+                                                        </div>
+                                                    </div>
+                                                </div><!-- cruiseprice box -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>
+                                </div><!-- col -->
+                            </div><!-- row -->
+                        </div>
+                        <div class="cruise-main whiteboxbg loadmorebox">
+                            <div class="row">
+                                <div class="col-12 col-lg-4">
+                                    <div class="cabinfeaturedimage">
+                                        <img src="" alt="">
+                                    </div>
+                                </div><!-- col -->
+                                <div class="col-12 col-lg-8 cruisebox-right">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-9 cruisecontent">
+                                            <h3 class="mb-1">
+                                                Lorem Ipsum Dolor Set
+                                            </h3>
+                                            <p class="fw-semibold txt-gray">
+                                                Code: CCSEBT
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-9">
+                                            <div class="cruise-readmorecontent fs13 txt-gray">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur. Ut vitae ac aliquam molestie pellentesque vel elementum augue nec. Justo aenean amet quam bibendum risus montes scelerisque ipsum. Adipiscing pretium integer ultrices eu elementum elit ultricies ullamcorper nunc. At mattis risus congue nunc.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="cruisedetailsmore txt-black">
+                                        <div class="d-flex flex-column">
+                                            <div class="col-lg-12 cruise-readmore-info mb-3">
+                                                <span class="cruise-rmore-btn fw-semibold">
+                                                    Read More Information <i class="fs-icon fa-solid fa-chevron-down ms-2"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div><!-- cruise detailsmore -->
+
+                                    <div class="cruisdetail-bottom">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-5">
+
+                                            </div>
+                                            <div class="col-12 col-lg-7">
+                                                <div class="cruiseprice-box">
+                                                    <div class="d-flex fpb-top align-items-center">
+                                                        <div class="cruiseprice">
+                                                            <div class="cruiseprice-main pt-1">
+                                                                £708.47
+                                                            </div>
+                                                        </div>
+                                                        <div class="flightprice-option">
+                                                            <button class="btn btn-primary">
+                                                                Select
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex cpb-bottom">
+                                                        <div class="cpb-pax">
+                                                            2x Adults
+                                                        </div>
+                                                    </div>
+                                                </div><!-- cruiseprice box -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>
+                                </div><!-- col -->
+                            </div><!-- row -->
+                        </div>
+                        <div class="cruise-main whiteboxbg loadmorebox">
+                            <div class="row">
+                                <div class="col-12 col-lg-4">
+                                    <div class="cabinfeaturedimage">
+                                        <img src="" alt="">
+                                    </div>
+                                </div><!-- col -->
+                                <div class="col-12 col-lg-8 cruisebox-right">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-9 cruisecontent">
+                                            <h3 class="mb-1">
+                                                Lorem Ipsum Dolor Set
+                                            </h3>
+                                            <p class="fw-semibold txt-gray">
+                                                Code: CCSEBT
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-9">
+                                            <div class="cruise-readmorecontent fs13 txt-gray">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur. Ut vitae ac aliquam molestie pellentesque vel elementum augue nec. Justo aenean amet quam bibendum risus montes scelerisque ipsum. Adipiscing pretium integer ultrices eu elementum elit ultricies ullamcorper nunc. At mattis risus congue nunc.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="cruisedetailsmore txt-black">
+                                        <div class="d-flex flex-column">
+                                            <div class="col-lg-12 cruise-readmore-info mb-3">
+                                                <span class="cruise-rmore-btn fw-semibold">
+                                                    Read More Information <i class="fs-icon fa-solid fa-chevron-down ms-2"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div><!-- cruise detailsmore -->
+
+                                    <div class="cruisdetail-bottom">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-5">
+
+                                            </div>
+                                            <div class="col-12 col-lg-7">
+                                                <div class="cruiseprice-box">
+                                                    <div class="d-flex fpb-top align-items-center">
+                                                        <div class="cruiseprice">
+                                                            <div class="cruiseprice-main pt-1">
+                                                                £708.47
+                                                            </div>
+                                                        </div>
+                                                        <div class="flightprice-option">
+                                                            <button class="btn btn-primary">
+                                                                Select
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex cpb-bottom">
+                                                        <div class="cpb-pax">
+                                                            2x Adults
+                                                        </div>
+                                                    </div>
+                                                </div><!-- cruiseprice box -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>
+                                </div><!-- col -->
+                            </div><!-- row -->
+                        </div>
+                        <div class="cruise-main whiteboxbg loadmorebox">
+                            <div class="row">
+                                <div class="col-12 col-lg-4">
+                                    <div class="cabinfeaturedimage">
+                                        <img src="" alt="">
+                                    </div>
+                                </div><!-- col -->
+                                <div class="col-12 col-lg-8 cruisebox-right">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-9 cruisecontent">
+                                            <h3 class="mb-1">
+                                                Lorem Ipsum Dolor Set
+                                            </h3>
+                                            <p class="fw-semibold txt-gray">
+                                                Code: CCSEBT
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-9">
+                                            <div class="cruise-readmorecontent fs13 txt-gray">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur. Ut vitae ac aliquam molestie pellentesque vel elementum augue nec. Justo aenean amet quam bibendum risus montes scelerisque ipsum. Adipiscing pretium integer ultrices eu elementum elit ultricies ullamcorper nunc. At mattis risus congue nunc.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="cruisedetailsmore txt-black">
+                                        <div class="d-flex flex-column">
+                                            <div class="col-lg-12 cruise-readmore-info mb-3">
+                                                <span class="cruise-rmore-btn fw-semibold">
+                                                    Read More Information <i class="fs-icon fa-solid fa-chevron-down ms-2"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div><!-- cruise detailsmore -->
+
+                                    <div class="cruisdetail-bottom">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-5">
+
+                                            </div>
+                                            <div class="col-12 col-lg-7">
+                                                <div class="cruiseprice-box">
+                                                    <div class="d-flex fpb-top align-items-center">
+                                                        <div class="cruiseprice">
+                                                            <div class="cruiseprice-main pt-1">
+                                                                £708.47
+                                                            </div>
+                                                        </div>
+                                                        <div class="flightprice-option">
+                                                            <button class="btn btn-primary">
+                                                                Select
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex cpb-bottom">
+                                                        <div class="cpb-pax">
+                                                            2x Adults
+                                                        </div>
+                                                    </div>
+                                                </div><!-- cruiseprice box -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>
+                                </div><!-- col -->
+                            </div><!-- row -->
+                        </div>
+                        <div class="cruise-main whiteboxbg loadmorebox">
+                            <div class="row">
+                                <div class="col-12 col-lg-4">
+                                    <div class="cabinfeaturedimage">
+                                        <img src="" alt="">
+                                    </div>
+                                </div><!-- col -->
+                                <div class="col-12 col-lg-8 cruisebox-right">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-9 cruisecontent">
+                                            <h3 class="mb-1">
+                                                Lorem Ipsum Dolor Set
+                                            </h3>
+                                            <p class="fw-semibold txt-gray">
+                                                Code: CCSEBT
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-9">
+                                            <div class="cruise-readmorecontent fs13 txt-gray">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur. Ut vitae ac aliquam molestie pellentesque vel elementum augue nec. Justo aenean amet quam bibendum risus montes scelerisque ipsum. Adipiscing pretium integer ultrices eu elementum elit ultricies ullamcorper nunc. At mattis risus congue nunc.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="cruisedetailsmore txt-black">
+                                        <div class="d-flex flex-column">
+                                            <div class="col-lg-12 cruise-readmore-info mb-3">
+                                                <span class="cruise-rmore-btn fw-semibold">
+                                                    Read More Information <i class="fs-icon fa-solid fa-chevron-down ms-2"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div><!-- cruise detailsmore -->
+
+                                    <div class="cruisdetail-bottom">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-5">
+
+                                            </div>
+                                            <div class="col-12 col-lg-7">
+                                                <div class="cruiseprice-box">
+                                                    <div class="d-flex fpb-top align-items-center">
+                                                        <div class="cruiseprice">
+                                                            <div class="cruiseprice-main pt-1">
+                                                                £708.47
+                                                            </div>
+                                                        </div>
+                                                        <div class="flightprice-option">
+                                                            <button class="btn btn-primary">
+                                                                Select
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex cpb-bottom">
+                                                        <div class="cpb-pax">
+                                                            2x Adults
+                                                        </div>
+                                                    </div>
+                                                </div><!-- cruiseprice box -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>
+                                </div><!-- col -->
+                            </div><!-- row -->
+                        </div>
+                    </div><!-- load more boxes wrap -->
+
+                    <div class="loadmore-nav mx-auto mt-5">
+                        <div class="loadmore-navdetails">
+                            1-<span class="loadmore-number"></span>
+                            of
+                            <span class="loadmore-total">
+
+                            </span>
+                        </div>
+                        <div class="loadmore-gauge">
+                            <div class="loadmore-gauge-bar"></div>
+                        </div>
+                        <button class="btn btn-white loadmorebtn mt-3">
+                            Load More
+                        </button>
+                    </div><!-- load more -->
                 </div><!-- tp-main -->
             </div><!-- row -->
         </div>
     </section>
 
+    <?php include '../sections/global/cta.php';?>
     <?php include '../sections/global/footer.php';?>
 
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/slick.min.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/moment.min.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/daterangepicker.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/main-cruises.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/bootstrap.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/sidebar.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/scripts.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/loadmoreboxes.js"></script>
     
 </body>
 </html>

@@ -302,13 +302,6 @@ button.btn-togglecruise {
     max-height:50000px;
     transition: max-height 0.25s ease-in;
 }
-.cruise-rmore-btn i {
-    transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-}
 .cruise-rmore-btn.change i {
     transform: rotate(180deg);
 }
@@ -342,7 +335,17 @@ i.fa-chevron-* {
 #cruise-checkout-summary .cruise-readmore-info {
     padding-bottom: 0;
 }
+.loadmore-boxes-cruises-search .box-group,
+.cruise-main-wrap .box-group {
+    margin-top: 17px;
+}
 
+.loadmore-boxes-cruises-search .box-group:first-child .whiteboxbg {
+    margin-top: 0;
+}
+.loadmore-boxes-cruises-search .box-group:first-child {
+    margin-top:0;
+}
 .cruisecontent p {
     font-size:13px;
     font-weight: 500;
@@ -365,10 +368,20 @@ i.fa-chevron-* {
 .filters-box strong {
     font-weight: 600;
 }
-
+.cruise-main h3 {
+    font-size: 25px;
+    margin-top: 10px;
+}
 .cruisebox-bottom {
     border-top: 1px solid #e2e2e2;
     padding-top: 10px;
+}
+.cruisebox-itinerary {
+    background-color: #f8f6f3;
+    border: 1px solid #e2e2e2;
+    border-radius: 7px;
+    height: 330px;
+    margin-top: 30px;
 }
 .cruisebox-bottom .select {
     margin-bottom: 0;
@@ -380,7 +393,10 @@ i.fa-chevron-* {
     display: block;
     font-weight:15px;
 }
-
+.cruise-pricefrom {
+    font-size: 14px;
+    margin-bottom: -12px;
+}
 .table-additional-info-cruise strong {
     color:#000;
 }
@@ -403,4 +419,136 @@ i.fa-chevron-* {
 }
 .railbox .flightprice-main {
     font-size: 25px;
+}
+
+
+/* CRUISE PRICE BOX */
+.cruiseprice-box {
+    background-color: #fffbd3;
+    padding: 20px;
+    border-radius: 7px;
+    color: var(--black-text);
+}
+.cpb-bottom {
+    border-top: 1px solid #b8b4aa;
+    margin-top: 7px;
+    padding-top: 7px;
+    font-size: 12px;
+}
+.cruiseprice-main {
+    font-size: 30px;
+    font-weight: 700;
+    display: block;
+    margin-top: -8px;
+}
+.cpb-pax {
+    font-size:15px;
+}
+
+
+/* CRUISE MAIN */
+.cruisebox-itinerary-inner {
+    padding: 15px;
+}
+.cruisebox-itinerary-inner h5 {
+    border-bottom: 1px solid  #a7a5a4;
+    padding-bottom: 6px;
+}
+.cbim-inner {
+    display: flex;
+}
+.cbim-inner {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    padding-left: 35px;
+    position: relative;
+    font-size:14px;
+    color:#323232;
+}
+.cruisebox-itinerary {
+    background-color: #f8f6f3;
+    border: 1px solid #e2e2e2;
+    border-radius: 7px;
+    height: 250px;
+    margin-top: 30px;
+    overflow-y: scroll;  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: hidden;
+}
+.cruisebox-itinerary-main-wrap {
+    height: 260px;
+    padding-bottom: 30px;
+    overflow-x: hidden;
+} 
+
+.cruisebox-itinerary-main-wrap::-webkit-scrollbar {
+    width: 3px;  /* Adjust the height of the scrollbar */
+    height: calc(100% - 25px);
+}
+
+.cruisebox-itinerary-main-wrap::-webkit-scrollbar-track {
+    background: #e0e0e0;  /* Light grey track */
+    border-radius: 1px;   /* Optional: rounded edges */
+}
+
+.cruisebox-itinerary-main-wrap::-webkit-scrollbar-thumb {
+    background-color: #6C3A9E;  /* Purple scrollbar thumb */
+    border-radius: 1px;         /* Optional: rounded edges */
+    border: 0px solid #e0e0e0;  /* Border matching the track to separate thumb from the edges */
+}
+
+.cruisebox-itinerary-main-wrap::-webkit-scrollbar-thumb:hover {
+    background-color: #4e2f82;  /* Darker shade of purple on hover */
+}
+
+.cbim-innerwrap {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+}
+.cbim-innerwrap:before {
+    content: '';
+    width: 1px;
+    background-color: var(--primary);
+    height: calc(100% - 55px);
+    position: absolute;
+    top: 27.5px;
+    left: 12px;
+}
+.cbim-inner:before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: var(--primary);
+    left: 5px;
+    border-radius: 100%;
+}
+.cruise-main-top-right {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.free-cancellation-cruise {
+    background-color: var(--accent);
+    display: inline-block;
+    padding: 6px 15px;
+    border-radius: 50px;
+    text-align: center;
+    color: var(--black-text);
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Roboto';
+    position: relative;
+    top: auto;
+    left: auto;
+}
+.cabinsfromprice {
+    font-size: 30px;
+    margin-top: -10px;
+    font-weight: bold !important;
 }

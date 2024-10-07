@@ -216,10 +216,10 @@
 
                                 </div>
                                 <div class="col-12 col-lg-7">
-                                    <div class="flightprice-box">
+                                    <div class="cruiseprice-box">
                                         <div class="d-flex fpb-top align-items-center">
-                                            <div class="flightprice">
-                                                <div class="flightprice-main pt-1">
+                                            <div class="cruiseprice">
+                                                <div class="cruiseprice-main pt-1">
                                                     £708.47
                                                 </div>
                                             </div>
@@ -229,13 +229,13 @@
                                                 </button>
                                             </div>
                                         </div>
-                                        <div class="d-flex fpb-bottom">
-                                            <div class="flightpax">
+                                        <div class="d-flex cpb-bottom">
+                                            <div class="cpb-pax">
                                                 2x Adults
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
+                                    </div><!-- cruiseprice box -->
+                                </div><!-- col -->
                             </div>
                         </div>
                     </div><!-- col -->

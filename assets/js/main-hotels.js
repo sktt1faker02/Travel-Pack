@@ -137,50 +137,68 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 // ! modal gallery
-var myModal = new bootstrap.Modal(document.getElementById('galleryHotel'), {
-    keyboard: false
-})
+document.addEventListener("DOMContentLoaded", function() {
+    // Select the modal element
+    const galleryModalElement = document.getElementById('galleryHotel');
 
-
-const galleryToggle = document.querySelectorAll('[img-gallery]');
-galleryToggle.forEach(el =>{
-    el.addEventListener('click', async (e)=>{
-
-        const galleryPath = el.getAttribute('img-gallery');
-
-        const response = await fetch(`${galleryPath}/gallery.json`);
-        const images = await response.json();
-
-        let currentIndex = 0;
-
-        const modalContent = document.querySelector('#galleryHotel .modal-body');
-        const counter = document.querySelector('#galleryHotel .counter');
-        modalContent.innerHTML = '';
-
-        const updateModalContent = () => {
-            const img = document.createElement('img');
-            img.src = `${galleryPath}/${images[currentIndex]}`;
-            img.alt = `Image ${currentIndex + 1}`;
-            modalContent.innerHTML = '';
-            modalContent.appendChild(img);
-            counter.textContent = `${currentIndex + 1}/${images.length}`;
-        };
-
-        updateModalContent();
-
-        const leftIcon = document.querySelector('#galleryHotel .fa-chevron-left');
-        const rightIcon = document.querySelector('#galleryHotel .fa-chevron-right');
-
-        leftIcon.addEventListener('click', () => {
-            currentIndex = (currentIndex - 1 + images.length) % images.length;
-            updateModalContent();
+    // Check if the modal element exists
+    if (galleryModalElement) {
+        // Create a new Bootstrap modal instance with keyboard control disabled
+        var myModal = new bootstrap.Modal(galleryModalElement, {
+            keyboard: false
         });
 
-        rightIcon.addEventListener('click', () => {
-            currentIndex = (currentIndex + 1) % images.length;
-            updateModalContent();
-        });
+        const galleryToggle = document.querySelectorAll('[img-gallery]');
+        
+        // Check if any elements with the 'img-gallery' attribute exist
+        if (galleryToggle.length > 0) {
+            galleryToggle.forEach(el => {
+                el.addEventListener('click', async (e) => {
+                    const galleryPath = el.getAttribute('img-gallery');
 
-        myModal.show();
-    });
+                    // Fetch images from the JSON file
+                    const response = await fetch(`${galleryPath}/gallery.json`);
+                    const images = await response.json();
+
+                    let currentIndex = 0;
+
+                    const modalContent = document.querySelector('#galleryHotel .modal-body');
+                    const counter = document.querySelector('#galleryHotel .counter');
+                    modalContent.innerHTML = '';
+
+                    const updateModalContent = () => {
+                        const img = document.createElement('img');
+                        img.src = `${galleryPath}/${images[currentIndex]}`;
+                        img.alt = `Image ${currentIndex + 1}`;
+                        modalContent.innerHTML = '';
+                        modalContent.appendChild(img);
+                        counter.textContent = `${currentIndex + 1}/${images.length}`;
+                    };
+
+                    updateModalContent();
+
+                    const leftIcon = document.querySelector('#galleryHotel .fa-chevron-left');
+                    const rightIcon = document.querySelector('#galleryHotel .fa-chevron-right');
+
+                    // Check if navigation icons exist before adding event listeners
+                    if (leftIcon) {
+                        leftIcon.addEventListener('click', () => {
+                            currentIndex = (currentIndex - 1 + images.length) % images.length;
+                            updateModalContent();
+                        });
+                    }
+
+                    if (rightIcon) {
+                        rightIcon.addEventListener('click', () => {
+                            currentIndex = (currentIndex + 1) % images.length;
+                            updateModalContent();
+                        });
+                    }
+
+                    // Show the modal
+                    myModal.show();
+                });
+            });
+        }
+    }
 });

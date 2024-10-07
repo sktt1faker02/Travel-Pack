@@ -600,27 +600,10 @@
                         </div><!-- col -->
                     </div><!-- dflex loadmore box-->
                 </div><!-- loadmore boxes wrap -->
-
-                <div class="loadmore-nav mx-auto mt-5">
-                    <div class="loadmore-navdetails">
-                        1-<span class="loadmore-number"></span>
-                        of
-                        <span class="loadmore-total">
-
-                        </span>
-                    </div>
-                    <div class="loadmore-gauge">
-                        <div class="loadmore-gauge-bar"></div>
-                    </div>
-                    <button class="btn btn-white loadmorebtn mt-3">
-                        Load More
-                    </button>
-                </div><!-- load more -->
             </div><!-- baggage allowances -->
         </div><!-- faqs section -->
     </section><!-- section -->
 
-    <?php include './sections/global/cta.php'; ?>
 
     <?php include './sections/global/footer.php'; ?>
 

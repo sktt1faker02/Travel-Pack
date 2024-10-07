@@ -73,20 +73,24 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //CRUISE MORE READ MORE INFORMATION
 document.addEventListener('DOMContentLoaded', function() {
-    // Get the element with class .cruisedetailsmore
-    const detailsMore = document.querySelector('.cruisedetailsmore');
-    // Get the element where you want to toggle the .showcontent class
-    const cruiseMain = document.querySelector('.cruise-main');
+    // Get all elements with the class .cruise-readmore-info
+    const readMoreButtons = document.querySelectorAll('.cruise-readmore-info');
 
-    // Check if both elements exist
-    if (detailsMore && cruiseMain) {
-        // Add click event listener
-        detailsMore.addEventListener('click', function() {
-            // Toggle the .showcontent class on the .cruise-main element
-            cruiseMain.classList.toggle('showcontent');
+    // Check if any readMoreButtons are present
+    if (readMoreButtons.length > 0) {
+        // Loop through each button
+        readMoreButtons.forEach(button => {
+            // Find the corresponding cruise-main element
+            const cruiseMain = button.closest('.cruise-main-wrap').querySelector('.cruise-main');
+
+            // Check if the corresponding cruiseMain element exists
+            if (cruiseMain) {
+                // Add click event listener to the button
+                button.addEventListener('click', function() {
+                    // Toggle the .showcontent class on the corresponding .cruise-main element
+                    cruiseMain.classList.toggle('showcontent');
+                });
+            }
         });
     }
 });
-
-
-

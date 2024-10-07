@@ -1,19 +1,18 @@
 <?php include './config.php'; ?>
 
 <?php include './sections/global/home-header.php';?>
-
 <body class="home">
     <div id="herohome">
         <div class="herowrapblur">
             <div class="heroslider">
                 <div class="heroslide">
-                    <img src="<?= getBaseUrl() ?>/assets/img/home/hero.jpg" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-home.jpg" alt="">
                 </div>
                 <div class="heroslide">
-                    <img src="<?= getBaseUrl() ?>/assets/img/home/hero2.jpeg" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-home.jpg" alt="">
                 </div>
                 <div class="heroslide">
-                    <img src="<?= getBaseUrl() ?>/assets/img/home/hero3.jpeg" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-home.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -86,7 +85,7 @@
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="search-packages" data-bs-toggle="tab" data-bs-target="#search-packages-tab" type="button" role="tab" aria-controls="search-packages" aria-selected="false">
-                                        Transfer
+                                        Cruises
                                     </button>
                                 </li>
                                 <li class="nav-item" role="presentation">
@@ -110,7 +109,7 @@
                                 <?php include './sections/searchform/main-forms/searchform-car-hire.php';?>
                             </div>
                             <div class="tab-pane fade" id="search-packages-tab" role="tabpanel" aria-labelledby="packages-tab" tabindex="0">
-                                <?php include './sections/searchform/main-forms/searchform-transfer.php';?>
+                                <?php include './sections/searchform/main-forms/searchform-cruises.php';?>
                             </div>
                             <div class="tab-pane fade" id="search-experiences-tab" role="tabpanel" aria-labelledby="experiences-tab" tabindex="0">
                                 <?php include './sections/searchform/main-forms/searchform-experiences.php';?>

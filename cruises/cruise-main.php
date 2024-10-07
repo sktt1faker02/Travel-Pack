@@ -43,12 +43,12 @@
             <div class="row cruise-single-top">
                 <div class="col-12 col-md-6 cruise-single-top-left">
                     <h2>
-                        Spain, Portugal and Canary Islands (K234)
+                        Panama Canal and Eastern Caribbean
                     </h2>
                 </div><!-- col -->
                 <div class="col-md-3 cruise-single-top-mid d-flex justify-content-between flex-row">
                     <div class="cruise-duration">
-                        <h5 class="fontfam2 text-black">
+                        <h5 class="fontfam2">
                             Duration
                         </h5>
                         <span>
@@ -56,7 +56,7 @@
                         </span>
                     </div>
                     <div class="cruise-language">
-                        <h5 class="fontfam2 text-black">
+                        <h5 class="fontfam2">
                             Sailing on
                         </h5>
                         <span>
@@ -65,20 +65,23 @@
                     </div>
                 </div><!-- col -->
                 <div class="col-12 col-md-3 d-flex justify-content-end">
-                    <div class="esd-rating">
-                        5 <i class="fa-solid fa-star"></i>
-                    </div>
+                    <?php include '../sections/global/star-rating.php';?>
                 </div>
             </div><!-- row -->
         </div><!-- container -->
 
         <div class="container">
+            <div class="goback fw-medium my-3">
+                <button onclick="goBack()">
+                    <i class="fa-solid fa-chevron-left fs-icon me-2"></i> Back to Results
+                </button>
+            </div>
             <form action="cruise-select-cabin.php" method="post">
                 <div class="cruise-details-main-top my-4">
                     <div class="row g-0">
                         <div class="col-12 col-lg-6">
                             <div class="cruise-tag">
-                                <strong>10% off</strong> Classic Drinks Package
+                                Free Cancellation
                             </div>
                             <div class="cruise-details-main-top-slider">
                                 <div class="cruise-slide">
@@ -94,118 +97,123 @@
                         </div><!-- col -->
                         <div class="col-12 col-lg-6 d-flex flex-column">
                             <div class="cruise-main-top-right p-4">
-                                <div class="row align-items-center">
-                                    <div class="col-12 col-lg-6">
-                                        <h3>
-                                            <span class="text-black fontfam2 fw-semibold">Inside from</span>
-                                            <div class="cruise-main-price">
-                                                £129.00
+                                <div class="cruisebox-main-top">
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-lg-6">
+                                            <h3>
+                                                <span class="text-black fontfam2 fw-semibold">Cabins from</span>
+                                                <div class="cruise-main-price">
+                                                    £809.50 pp
+                                                </div>
+                                            </h3>
+                                        </div><!-- col -->
+                                        <div class="col-12 col-lg-6 d-flex justify-content-between">
+                                            <div class="cruisetopbox">
+                                                <h6 class="fontfam2 text-black">
+                                                    Departs
+                                                </h6>
+                                                <span>
+                                                    Southampton, UK <br>
+                                                    15 Jun 2014
+                                                </span>
                                             </div>
-                                        </h3>
-                                    </div><!-- col -->
-                                    <div class="col-12 col-lg-6 d-flex justify-content-between">
-                                        <div class="cruisetopbox">
-                                            <h6 class="fontfam2 text-black">
-                                                Departs
-                                            </h6>
-                                            <span>
-                                                Southampton, UK <br>
-                                                15 Jun 2014
-                                            </span>
+                                            <div class="cruisetopbox">
+                                                <h6 class="fontfam2 text-black">
+                                                    Arrives
+                                                </h6>
+                                                <span>
+                                                    Southampton, UK <br>
+                                                    29 Jun 2014
+                                                </span>
+                                            </div>
                                         </div>
-                                        <div class="cruisetopbox">
-                                            <h6 class="fontfam2 text-black">
-                                                Arrives
-                                            </h6>
-                                            <span>
-                                                Southampton, UK <br>
-                                                29 Jun 2014
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div><!-- row -->
+                                    </div><!-- row -->
+                                </div><!-- cruisebox -->
 
-                                <button class="btn-togglecruise" onclick="toggleTable()">Itinerary <i id="chevronIcon" class="fa-solid fa-chevron-down"></i></button>
+                                <div class="cruisebox-main-bottom">
+                                    <div class="cruisebox-itinerary">
+                                        <div class="cruisebox-itinerary-inner">
+                                            <h5 class="mb-4">
+                                                Itinerary
+                                            </h5>
 
-                                <div class="tp-table mt-3 cruise-table" id="cruisetable">
-                                    <div class="responsive-table">
-                                        <div class="tp-table-main">
-                                            <table class="table-passenger-names">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Day</th>
-                                                        <th>Date</th>
-                                                        <th>Location</th>
-                                                        <th>Arrive</th>
-                                                        <th>Depart</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>Day 01</td>
-                                                        <td>14 Jun 2024</td>
-                                                        <td>Southampton, UK</td>
-                                                        <td>-</td>
-                                                        <td>-</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Day 02</td>
-                                                        <td>15 Jun 2024</td>
-                                                        <td>At Sea</td>
-                                                        <td>-</td>
-                                                        <td>-</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Day 03</td>
-                                                        <td>16 Jun 2024</td>
-                                                        <td>Gijon, Spain</td>
-                                                        <td>Early Morning</td>
-                                                        <td>Evening</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Day 04</td>
-                                                        <td>17 Jun 2024</td>
-                                                        <td>La Coruna, Spain</td>
-                                                        <td>Early Morning</td>
-                                                        <td>Evening</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Day 05</td>
-                                                        <td>18 Jun 2024</td>
-                                                        <td>Santander, Spain</td>
-                                                        <td>Early Morning</td>
-                                                        <td>Evening</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Day 06</td>
-                                                        <td>19 Jun 2024</td>
-                                                        <td>At Sea</td>
-                                                        <td>Early Morning</td>
-                                                        <td>Evening</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Day 07</td>
-                                                        <td>20 Jun 2024</td>
-                                                        <td>Cherbourg, France</td>
-                                                        <td>Early Morning</td>
-                                                        <td>Evening</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Day 08</td>
-                                                        <td>21 Jun 2024</td>
-                                                        <td>Southampton, UK</td>
-                                                        <td>-</td>
-                                                        <td>-</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div><!-- tp table main -->
-                                    </div><!-- responsive table -->
+                                            <div class="cruisebox-itinerary-main-wrap">
+                                                <div class="cbim-line-wrap"></div>
+                                                <div class="cbim-innerwrap">
+                                                    <div class="cbim-inner">
+                                                        <div class="cbim-inner-left">
+                                                            <strong>
+                                                                Day 01
+                                                            </strong>
+                                                            <div>
+                                                                14 Jun 2024
+                                                            </div>
+                                                            <div>
+                                                                Southampton, UK
+                                                            </div>
+                                                        </div><!-- cbim-inner-left -->
+                                                        <div class="cbim-inner-right">
+                                                            Depart: Early Morning
+                                                        </div>
+                                                    </div><!-- cbim inner -->
+                                                    <div class="cbim-inner">
+                                                        <div class="cbim-inner-left">
+                                                            <strong>
+                                                                Day 02
+                                                            </strong>
+                                                            <div>
+                                                                14 Jun 2024
+                                                            </div>
+                                                            <div>
+                                                                Southampton, UK
+                                                            </div>
+                                                        </div><!-- cbim-inner-left -->
+                                                        <div class="cbim-inner-right">
+                                                            Depart: Early Morning
+                                                        </div>
+                                                    </div><!-- cbim inner -->
+                                                    <div class="cbim-inner">
+                                                        <div class="cbim-inner-left">
+                                                            <strong>
+                                                                Day 03
+                                                            </strong>
+                                                            <div>
+                                                                14 Jun 2024
+                                                            </div>
+                                                            <div>
+                                                                Southampton, UK
+                                                            </div>
+                                                        </div><!-- cbim-inner-left -->
+                                                        <div class="cbim-inner-righ d-flex flex-column">
+                                                            <span>Arrive: Early Morning</span>
+                                                            <span>Depart: Evening</span>
+                                                        </div>
+                                                    </div><!-- cbim inner -->
+                                                    <div class="cbim-inner">
+                                                        <div class="cbim-inner-left">
+                                                            <strong>
+                                                                Day 04
+                                                            </strong>
+                                                            <div>
+                                                                14 Jun 2024
+                                                            </div>
+                                                            <div>
+                                                                Southampton, UK
+                                                            </div>
+                                                        </div><!-- cbim-inner-left -->
+                                                        <div class="cbim-inner-right">
+                                                            Depart: Early Morning
+                                                        </div>
+                                                    </div><!-- cbim inner -->
+                                                </div>
+                                            </div><!-- cruisebox itinerary main -->
+                                        </div><!-- itinerary inner -->
+                                    </div><!-- cruisebox itinerary -->
 
                                     <a href="#" class="cruise-table-link">
                                         Show Terms & Condirions
                                     </a>
-                                </div><!-- tp table -->
+                                </div>
                             </div><!-- cruise-rooms-main-top-right -->
                         </div><!-- col -->
                     </div><!-- row -->
@@ -221,7 +229,10 @@
                                 <img src="<?= getBaseUrl() ?>/assets/img/cruise/cruise2.jpg" alt="">
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 txt-black">
+                        <div class="col-12 col-lg-6">
+                            <h3>
+                                Lorem ipsum dolor sit amet consectetur. Ac fusce in ipsum fermentum tristique volutpat molestie proin. Adipiscing proin est a hendrerit nulla.
+                            </h3>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur. Odio suscipit aliquam ipsum diam sodales. Euismod semper lectus nullam integer magna ut eleifend scelerisque proin. Curabitur in odio commodo amet molestie velit tincidunt. In cursus viverra non amet odio.
                             </p>
