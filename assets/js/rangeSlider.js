@@ -15,9 +15,17 @@ const isTwoSlideClassExist = document.querySelectorAll('.two-slide');
 if(isTwoSlideClassExist.length > 0){
 
     // ? departure
+    // const updateDepartureLabel = (timeInput) => {
+    //     const hours = Math.floor(timeInput.value / 60);
+    //     const minutes = timeInput.value % 60;
+    //     return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
+    // };
     const updateDepartureLabel = (timeInput) => {
-        const hours = Math.floor(timeInput.value / 60);
-        const minutes = timeInput.value % 60;
+        const totalMinutes = timeInput.value;
+        let hours = Math.floor(totalMinutes / 60);
+        const minutes = totalMinutes % 60;
+        
+        hours = hours % 12 || 12;
         return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
     };
 
