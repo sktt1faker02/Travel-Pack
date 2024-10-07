@@ -174,7 +174,7 @@
                         </div><!-- searchforrn wrap -->
                     </div><!--  -->
 
-                    <div class="searchform-more-content search-more-content-rows smc-oneway hide-first searchform-more-content-flight">
+                    <div class="searchform-more-content search-more-content-rows smc-oneway searchform-more-content-flight">
                         <div class="searchform-wrap-main mt-3">
                             <div class="searchform-row smc-openjaw-row mt-3 searchform-row-top">
                                 <div class="searchbar-inputwrap mobile-bordertop flight-departure-time mobile-last-col">

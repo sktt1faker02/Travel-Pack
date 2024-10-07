@@ -140,7 +140,7 @@
                                                 100
                                             </span>
                                         </div>
-                                        <span>12:00</span>
+                                        <span>23:59</span>
                                     </div>
                                 </div>
                             </div>
