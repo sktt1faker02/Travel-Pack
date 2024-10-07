@@ -17,7 +17,8 @@ function checkJourneyType() {
     // Handle .flight-return-main visibility based on the radio buttons
     if (radioOneway.checked) {
         flightReturnMain.style.display = 'none'; // Hide .flight-return-main if oneway is checked
-        smcReturn.classList.remove('show'); // Remove .show from .smc-return if oneway is checked
+        smcReturn.classList.remove('show');
+        smcOneWay.classList.remove('show'); // Remove .show from .smc-return if oneway is checked
     } else {
         flightReturnMain.style.display = ''; // Show .flight-return-main for other options
     }
@@ -39,10 +40,12 @@ function checkJourneyType() {
         searchformMoreIcon.classList.add('rotate'); // Add .rotate to the icon when return is checked
         searchformMore.classList.add('show'); // Show the search form more
         flightDepartMain.classList.remove('flex100-mobile', 'mobile-last-col');
+        smcOneWay.classList.remove('show');
     } else {
         searchformMore.classList.add('show');
     }
     if (radioOpenjaw.checked) {
+        smcOneWay.classList.remove('show');
         smcOpenjaw.classList.add('show');
         smcOpenjawRow.appendChild(flightReturnMain);
         searchformMoreIcon.classList.add('rotate');
@@ -58,6 +61,7 @@ function checkJourneyType() {
         flightDepartMain.parentNode.insertBefore(flightReturnMain, flightDepartMain.nextSibling);
     }
     if (radioMulti.checked) {
+        smcOneWay.classList.remove('show');
         smcMulticity.classList.add('show');
         smcOpenjaw.classList.remove('show');
         flightReturnMain.style.display = 'none'; // Hide .flight-return-main
@@ -76,9 +80,10 @@ function checkJourneyType() {
         searchformMore.classList.remove('hide-first');
     }
 }
+
 searchformMore.addEventListener('click', function() {
-    const searchFormContents = document.querySelectorAll('.searchform-more-content');
     const radioButtons = document.querySelector('input[name="flt-journey"]:checked');
+    
     switch (radioButtons.value) {
         case 'R':
             if(smcReturn.classList.contains('hide-first')){
@@ -89,9 +94,7 @@ searchformMore.addEventListener('click', function() {
             break;
         case 'O':
             smcOneWay.classList.toggle('show');
-            // searchFormContents.forEach(el =>{
-            //     el.classList.remove('show');
-            // });
+            
             break;
         case 'J':
             smcOpenjaw.classList.toggle('show');
@@ -101,9 +104,9 @@ searchformMore.addEventListener('click', function() {
             break;
     }
 });
-// Call checkJourneyType initially to set up event listeners and initial states
+
 checkJourneyType();
-// Add event listeners to radio buttons
+
 var radioButtons = document.querySelectorAll('.searchbar-checkboxes input[name="flt-journey"]');
 radioButtons.forEach(function(radio) {
     radio.addEventListener('change', checkJourneyType);
@@ -119,7 +122,6 @@ carHireSearchMore.addEventListener('click', function() {
 
 // ! TRANSFER
 const transferSearchMore = document.querySelector('.search-more-tr');
-
 if(transferSearchMore){
     const inputTransfer = document.querySelectorAll('.trf-journey');
     const transferReturn = document.querySelector('.transfer-content');
