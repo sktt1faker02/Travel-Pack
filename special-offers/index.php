@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travelpack - Special Offers</title>
 
-
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/slick.css">
@@ -40,7 +39,7 @@
         <div class="herowrapblur">
             <div class="heroslider">
                 <div class="heroslide">
-                    <img src="<?= getBaseUrl() ?>/assets/img/special-offers/hero-special-offers.jpg" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-special-offers.jpg" alt="">
                 </div>
                 <div class="heroslide">
                     <img src="" alt="">

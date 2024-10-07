@@ -30,14 +30,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="checkout">
     <div id="nohero-inner">
         <?php include './sections/global/header-nav.php';?>
     </div><!-- main hero -->
 
     <section class="block search-wrap bggray" id="main-checkout-details">
         <div class="container">
-
             <div class="pagenavi-checkout navicheckout-flights mb-3">
                 <div class="pagenavi-line"></div>
                 <div class="pagenavi-line-active"></div>
@@ -67,6 +66,17 @@
                 <button onclick="goBack()">
                     <i class="fa-solid fa-chevron-left fs-icon me-2"></i> Go Back
                 </button>
+            </div>
+
+            <div class="checkout-validation">
+                <div class="d-flex align-items-center">
+                    <div class="me-3 validation-icon">
+                        <img src="<?= getBaseUrl() ?>/assets/img/icons/icon-checkout-error.png" alt="" class="">
+                    </div>
+                    <div class="validation-message">
+                        There was an error with the card payment, please check you details below and try making the payment again
+                    </div>
+                </div>
             </div>
 
             <div class="row">
@@ -121,25 +131,127 @@
                         <?php include './sections/checkout/checkout-summary/transfer.php';?>
                         <?php include './sections/checkout/checkout-summary/cruises.php';?>
 
+                        <div class="cst-your-car cst-box">
+                            <h3 class="cst-box-title">
+                                Discount Voucher
+                            </h3>
+                            <div class="breakdown-wrap">
+                                <div class="breakdown-wrap-content-top">
+                                    <div class="cst-row-inner">
+                                        <div class="cst-col">
+                                            <div class="cst-row-desc">
+                                                <div>
+                                                    Upper Room
+                                                </div>
+                                            </div>
+                                        </div><!-- cst-col -->
+                                        <div class="cst-col">
+                                            £708.47
+                                        </div>
+                                    </div><!-- cst row -->
+                                </div><!-- breakdown wrap -->
+                            </div><!-- breakdown wrap -->
+                        </div><!-- cst box -->     
+                        <div class="cst-your-car cst-box">
+                            <div class="breakdown-wrap">
+                                <div class="breakdown-wrap-content-top">
+                                    <div class="cst-row-inner align-items-center">
+                                        <div class="cst-col">
+                                            <h3 class="cst-box-title txt-blue mb-0">
+                                                Total Purchase
+                                            </h3>
+                                        </div><!-- cst-col -->
+                                        <div class="cst-col cst-totalprice txt-blue">
+                                            £708.47
+                                        </div>
+                                    </div><!-- cst row -->
+                                </div><!-- breakdown wrap -->
+                            </div><!-- breakdown wrap -->
+                        </div><!-- cst box -->     
+
                         <div class="proceed mt-5">
                             <div class="row align-items-center">
-                                <div class="col-12 col-lg-7">
-                                    <h3 class="mb-0">
+                                <div class="col-8 col-lg-7">
+                                    <h3 class="mb-0 ">
                                         Almost there, a few more clicks
                                     </h3>
                                 </div>
-                                <div class="col-12 col-lg-5 d-flex justify-content-end">
-                                    <input type="submit" class="btn btn-primary" value="Review Booking" onclick="">
+                                <div class="col-4 col-lg-5 d-flex justify-content-end">
+                                    <input type="submit" class="btn btn-primary" value="Make Payment" data-bs-toggle="modal" data-bs-target="#thankyou-modal">
                                 </div>
                             </div><!-- row -->
                         </div><!-- proceed -->
                     </form>
                 </div><!-- col -->
             </div><!-- row -->
-
-
         </div>
     </section>
+
+    <div class="mobile-total-purchase d-block d-lg-none">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="mtb-left col-6">
+                    <div class="mtb-left-top fs15">
+                        Total Purchase
+                    </div>
+                    <div class="mtb-left-price">
+                        £1460.00
+                    </div>
+                </div>
+                <div class="mtb-right col-6 justify-content-end d-flex">
+                    <div class="d-flex column-gap-3">
+                        <button class="btn btn-white">
+                            Summary
+                        </button>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#thankyou-modal2">
+                            Continue
+                        </button>
+                    </div><!-- dflex -->
+                </div><!-- mtb-right -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- mobile total purchase -->
+
+
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#thank-you-payment">
+  Launch demo modal
+</button>
+
+    <!-- Modal -->
+    <div class="modal fade thankyoumodal" id="thank-you-payment" tabindex="-1" aria-labelledby="thank-you-payment" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content text-center">
+                <img src="<?= getBaseUrl() ?>/assets/img/global/thankyou-icon2.png" alt="" class="thankyouicon">
+
+                <div class="thankyou-inner fw-semibold">
+                    <h2 class="txt-blue">
+                        Thank you <br>
+                        for your payment!
+                    </h2>
+                    <p class="txt-gray my-3 fw-semibold">
+                        We are verifying your details with our payment partner. 
+                        This will only take a few moments. 
+                    </p>
+
+                    <p class="txt-black fw-semibold">
+                        Please wait while we confirm your booking reference.
+                    </p>
+                </div>
+
+                <div class="loading-gauge-payment position-relative">
+                    <div class="loading-gauge-payment-circle loading-gauge-payment-circle-left"></div>
+                    <div class="loading-gauge-payment-circle loading-gauge-payment-circle-right"></div>
+                    <div class="pagenavi-line"></div>
+                    <div class="pagenavi-line-active"></div>
+                </div>
+
+                <div class="processing-text fw-semibold txt-gray">
+                    Processing...
+                </div>
+            </div>
+        </div>
+    </div>
 
     <?php include './sections/global/footer.php';?>
 

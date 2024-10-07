@@ -445,3 +445,55 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// PROGRESS BAR  THANK YOY MODAL
+document.addEventListener("DOMContentLoaded", function() {
+    // Select the modal element
+    const modal = document.getElementById('thank-you-payment');
+
+    // Check if the modal exists
+    if (modal) {
+        // Create a new Bootstrap modal instance
+        const bootstrapModal = new bootstrap.Modal(modal);
+
+        // Add an event listener for when the modal is shown
+        modal.addEventListener('shown.bs.modal', function() {
+            // Select the active line element and the right circle
+            const activeLine = modal.querySelector('.pagenavi-line-active');
+            const rightCircle = modal.querySelector('.loading-gauge-payment-circle-right');
+
+            // Check if both elements are present
+            if (activeLine && rightCircle) {
+                // Start the animation
+                activeLine.style.transition = 'width 7s ease';
+                activeLine.style.width = '100%'; // Animate to 100%
+
+                // Change the color of the right circle when the line animation ends
+                activeLine.addEventListener('transitionend', function(event) {
+                    if (event.propertyName === 'width') { // Ensure it's the width transition
+                        rightCircle.style.backgroundColor = '#621394'; // Change to #621394
+                    }
+                });
+
+                // Add .progresscomplete class after 5.8 seconds
+                setTimeout(() => {
+                    modal.classList.add('progresscomplete');
+                }, 5800); // 5800 milliseconds delay
+
+                // Close the modal after 8 seconds
+                setTimeout(() => {
+                    bootstrapModal.hide(); // Close the modal
+                }, 7000); // 7000 milliseconds delay
+            }
+        });
+    }
+});
+
+
+
+
+
+
+
+
+
+

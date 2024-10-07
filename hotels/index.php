@@ -39,13 +39,13 @@
         <div class="herowrapblur">
             <div class="heroslider">
                 <div class="heroslide">
-                    <img src="<?= getBaseUrl() ?>/assets/img/hotels/hero-hotel.jpg" alt="image">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-hotels.jpg" alt="">
                 </div>
                 <div class="heroslide">
-                    <img src="<?= getBaseUrl() ?>/assets/img/hotels/hero-hotel.jpg" alt="image">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-hotels.jpg" alt="">
                 </div>
                 <div class="heroslide">
-                    <img src="<?= getBaseUrl() ?>/assets/img/hotels/hero-hotel.jpg" alt="image">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-hotels.jpg" alt="">
                 </div>
             </div>
         </div>

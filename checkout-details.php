@@ -30,7 +30,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="checkout">
+    
     <div id="nohero-inner">
         <?php include './sections/global/header-nav.php';?>
     </div><!-- main hero -->

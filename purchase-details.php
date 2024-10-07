@@ -176,7 +176,7 @@
     <script src="<?= getBaseUrl() ?>/assets/js/scripts.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/main-flights.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/main-hotels.js"></script>
-    <script src="<?= getBaseUrl() ?>/assets/js/maincruise.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/main-cruises.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/galleryPopup.js"></script>
 
     <script>

@@ -8,11 +8,11 @@
                             <input type="text" class="form-control" autocomplete="viator" name="exc-text" id="exc-text" value="" placeholder="Where">
                         </div>
                         <div class="searchbar-inputwrap flex100-mobile mobile-bordertop mobile-last-col">
-                            <input class="form-control date pickup-date" name="exc-date" id="cruises-departure" value="" placeholder="Departure">
+                            <input class="form-control date pickup-date" name="exc-date" id="cruises-departure" value="" placeholder="When">
                             <div class="select_arrow"></div>
                         </div>
 
-                        <div class="searchnow-btn searchbar-inputwrap mobile-bordertop flex100-mobile">
+                        <div class="searchnow-btn flex5 searchbar-inputwrap mobile-bordertop flex100-mobile">
                             <a class="btn-typ2 searchnowbtn btn btn-primary" href="javascript:void(0);" title="Search Now">Search Now</a>
                         </div>
                     </div><!-- searchform-row -->

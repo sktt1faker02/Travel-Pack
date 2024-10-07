@@ -1,5 +1,5 @@
 
-    <div class="checkout-summary-toggle cst-cruise cst-bordered-title cst-new checkoutshow">
+<div class="checkout-summary-toggle cst-cruise cst-bordered-title cst-new checkoutshow">
         <div class="checkout-summary-toggletop">
             <div class="cst-toggle-label fw-semibold fs17">
                 Cruises
@@ -94,57 +94,42 @@
                                         </div>
                                         <div class="cst-row-desc">
                                             <div>
-                                                Line: Holland America Line
-                                            </div>
-                                            <div>
-                                                Ship: Nieuw Amsterdam
-                                            </div>
-                                            <div>
-                                                Duration: 16 Nights
+                                                Inside Cabin
                                             </div>
                                         </div>
                                     </div><!-- cst-col -->
-                                </div><!-- cst row -->
-                                <div class="cst-row">
                                     <div class="cst-col">
-                                        <div class="cst-row-title">
-                                            Depart
-                                        </div>
-                                        <div class="cst-row-desc">
-                                            <div>
-                                                Fri, 21 Jun 2024 
-                                            </div>
-                                            <div>
-                                                Southampton, UK
-                                            </div>
-                                        </div>
+                                        £708.47
                                     </div>
                                 </div><!-- cst row -->
                                 <div class="cst-row">
                                     <div class="cst-col">
                                         <div class="cst-row-title">
-                                            Arrival
+                                            Cabin
                                         </div>
                                         <div class="cst-row-desc">
                                             <div>
-                                                Fri, 21 Jun 2024 
-                                            </div>
-                                            <div>
-                                                Southampton, UK
+                                                Seriously Suite (4021) 
                                             </div>
                                         </div>
+                                    </div><!-- cst-col -->
+                                    <div class="cst-col">
+                                        £708.47
                                     </div>
                                 </div><!-- cst row -->
                                 <div class="cst-row">
                                     <div class="cst-col">
                                         <div class="cst-row-title">
-                                            Passengers
+                                            Deck
                                         </div>
                                         <div class="cst-row-desc">
                                             <div>
-                                                2x Adults
+                                                Upper Room
                                             </div>
                                         </div>
+                                    </div><!-- cst-col -->
+                                    <div class="cst-col">
+                                        £708.47
                                     </div>
                                 </div><!-- cst row -->
                             </div><!-- breakdown wrap -->

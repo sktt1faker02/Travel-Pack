@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/slick.css">
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/jquery-ui.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/daterangepicker.css">
 
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/style.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/sidebar.css">
@@ -33,11 +35,24 @@
 </head>
 
 <body>
-    <div id="herohome" style="background-image:url(<?= getBaseUrl() ?>/assets/img/car-hire/hero-car-hire-search.jpg)">
+    <div id="herohome" class="herowithform"  style="background-image:url(<?= getBaseUrl() ?>/assets/img/cruise/hero-cruise-search.jpg)">
         <?php include '../sections/global/header-nav.php'; ?>
     </div><!-- main hero -->
 
-    <section class="block search-wrap bggray" id="hotels-search">
+    <section class="block pt-0 search-wrap bggray searchresults-formwrap" id="cruise-search">
+        <div class="container">
+            <div id="special-offers-searchbar" class="searchbar">
+                <div class="searchbar-top mb-2 mb-md-3 row align-items-center">
+                    <div class="col-md-5">
+                        <h2>
+                            Where's next?
+                        </h2>
+                    </div>
+                </div><!-- searchbartop -->
+                
+                <?php include '../sections/searchform/main-forms/searchform-cruises.php';?>
+            </div><!-- searchbar -->
+        </div><!-- container -->
         <div class="container">
             <div class="row">
                 <div class="col-12 mb-4 tp-page-title">
@@ -49,28 +64,63 @@
 
             <div class="row">
                 <div class="col-12 col-lg-3 tp-sidebar">
-                    <div class="filters-box filters">
-                        <div class="fb-top fw-semibold">
-                            <div>
+                    <div class="filters-box filters filters-reset d-flex flex-row align-items-center justify-content-between">
+                        <div>
+                            <h5 class="fontfam2 mb-0">
                                 Filters
-                            </div>
-                            <div class="resetbtn txt-black">
-                                Reset All <i class="fa-solid fa-chevron-right"></i>
-                            </div>
-                        </div><!-- fb-top   -->
+                            </h5>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-white">
+                                Reset All
+                            </a>
+                        </div>
+                    </div>
+                    <div class="filters-box filters">
                         <div class="fb-bottom">
                             <div class="option-wrap">
-                                <span>
-                                    Ports To Visit
-                                </span>
+                                <span>Ports To Visit</span>
                                 <div class="select">
                                     <select>
+                                        <option>Any</option>
                                         <option>Port 1</option>
                                         <option>Port 2</option>
                                         <option>Port 3</option>
                                     </select>
-                                    <div class="select_arrow">
-                                    </div>
+                                    <div class="select_arrow"></div>
+                                </div>
+                            </div><!-- option-wrap -->
+
+                            <div class="option-wrap">
+                                <span>Region</span>
+                                <div class="select">
+                                    <select>
+                                        <option>Any</option>
+                                        <option>Region 1</option>
+                                        <option>Region 2</option>
+                                        <option>Region 3</option>
+                                    </select>
+                                    <div class="select_arrow"></div>
+                                </div>
+                            </div><!-- option-wrap -->
+
+                            <div class="option-wrap">
+                                <span>Cruise Line</span>
+                                <div class="select">
+                                    <select>
+                                        <option>Any</option>
+                                        <option>Cruise Line 1</option>
+                                        <option>Cruise Line 2</option>
+                                        <option>Cruise Line 3</option>
+                                    </select>
+                                    <div class="select_arrow"></div>
+                                </div>
+                            </div><!-- option-wrap -->
+
+                            <div class="option-wrap">
+                                <span>Ship Name</span>
+                                <div class="select">
+                                    <input type="text" class="input-text" placeholder="Flight Number...">
                                 </div>
                             </div><!-- option-wrap -->
                         </div>
@@ -123,435 +173,891 @@
                         </div>
                     </div>
 
-                </div><!-- col -->
+                </div><!-- col side bar-->
 
                 <div class="col-12 col-lg-9 tp-main">
-                    <form action="cruise-main.php" method="post">
-                        <div class="loadmore-boxes-wrap">
-                            <div class="whiteboxbg cruise-box loadmorebox">
-                                <div class="row">
-                                    <div class="col-lg-4 col-12 d-flex">
-                                        <div class="cruise-image">
-                                            <img src="" alt="">
-                                        </div>
-                                    </div><!-- col -->
-                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column">
-                                        <div class="row" style="flex:1;">
-                                            <div class="col-lg-9 car-hire-title">
-                                                <div class="car-hire-boxtitle-main">
-                                                    <h2>
-                                                        Spain, Portugal and Canary Islands (Valiant Lady)
-                                                    </h2>
+                    <div class="loadmore-boxes-wrap loadmore-boxes-cruises-search">
+                        <div class="whiteboxbg loadmorebox cruise-box">
+                            <div class="row">
+                                <div class="col-lg-4 col-12">
+                                    <div class="cruise-image">
+                                        <img src="" alt="">
+                                    </div>
+                                </div><!-- col -->
+                                <div class="col-lg-8 col-12 d-flex flex-column">
+                                    <div class="row">
+                                        <div class="col-lg-9 cruisbox-title">
+                                            <div class="cruise-boxtitle-main">
+                                                <h2 class="mb-1">
+                                                Panama Canal and
+                                                Eastern Caribbean
+                                                </h2>
+                                                <p class="fw-semibold txt-gray">
+                                                    Cruise Name
+                                                </p>
+                                            </div>
+                                        </div><!-- col -->
+                                        <div class="col-lg-3 col-12 justify-content-end">
+                                            <img src="http://localhost:8888/travelpack/assets/img/cruise/topright-image.png" alt="" class="cruise-image-topright">
+                                        </div><!-- col -->
+                                    </div><!-- row -->
+                                    <div class="row cruise-features mt-3">
+                                        <div class="col-lg-8">
+                                            <div class="row">
+                                                <div class="col-12 col-lg-4 cruise-features-left">
+                                                    <h6>
+                                                        Departs
+                                                    </h6>
+                                                    <span>
+                                                        Southampton, UK <br>
+                                                        15 Jun 2014
+                                                    </span>
                                                 </div>
-                                            </div><!-- col -->
-                                            <div class="col-lg-3 col-12 d-flex justify-content-end">
-                                                <div class="esd-rating">
-                                                    5 <i class="fa-solid fa-star"></i>
+                                                <div class="col-12 col-lg-4 cruise-features-mid">
+                                                    <h6>
+                                                        Arrives
+                                                    </h6>
+                                                    <span>
+                                                        Southampton, UK <br>
+                                                        29 Jun 2014
+                                                    </span>
                                                 </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row cruise-features mt-3">
-                                            <div class="col-lg-8">
-                                                <div class="row">
-                                                    <div class="col-12 col-lg-4 cruise-features-left">
-                                                        <h6>
-                                                            Departs
-                                                        </h6>
-                                                        <span>
-                                                            Southampton, UK <br>
-                                                            15 Jun 2014
-                                                        </span>
-                                                    </div>
-                                                    <div class="col-12 col-lg-4 cruise-features-mid">
-                                                        <h6>
-                                                            Arrives
-                                                        </h6>
-                                                        <span>
-                                                            Southampton, UK <br>
-                                                            29 Jun 2014
-                                                        </span>
-                                                    </div>
-                                                    <div class="col-12 col-lg-4 cruise-features-right">
-                                                        <h6>
-                                                            Sailing Ventura
-                                                        </h6>
-                                                        <span>
-                                                            14 Nights
-                                                        </span>
-                                                    </div>
-                                                </div><!-- row -->
-                                            </div><!-- col -->
-                                        </div><!-- row -->
+                                                <div class="col-12 col-lg-4 cruise-features-right">
+                                                    <h6>
+                                                        Sailing Ventura
+                                                    </h6>
+                                                    <span>
+                                                        14 Nights
+                                                    </span>
+                                                </div>
+                                            </div><!-- row -->
+                                        </div><!-- col -->
+                                    </div><!-- row -->
 
-                                        <div class="row mt-4 align-items-center">
-                                            <div class="col-lg-6">
-                                                <div class="cruise-tag">
-                                                    <strong>10% off</strong> Classic Drinks Package
+                                    <div class="cruises-stops-wrapper mt-4">
+                                        <div class="cruises-stops">
+                                            <div class="timeline-container">
+                                                <div class="timeline-line" style="width: 627px;"></div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 01</h4>
+                                                        <div>San Diego, California</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 02</h4>
+                                                        <div>Puerto Vallarta, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 03</h4>
+                                                        <div>Huatulco, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 04</h4>
+                                                        <div>Puerto Chiapas, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 05</h4>
+                                                        <div>Huatulco, Mexico</div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
-                                                <div class="row align-items-center">
-                                                    <div class="col-12 col-lg-6 d-flex justify-content-between align-items-center">
-                                                        <div class="cruisebox-price">
-                                                            <h3>
-                                                                <span>Inside cabin from</span>
-                                                                £949.50
-                                                            </h3>
-                                                        </div><!-- cruisebox -->
-                                                    </div><!-- col -->
-                                                    <div class="col-lg-6 d-flex justify-content-end">
-                                                        <button class="btn btn-primary">
-                                                            Select
-                                                        </button>
-                                                    </div><!-- col lg -->
-                                                </div><!-- row -->
-                                            </div><!-- col -->
-                                        </div>
-                                    </div><!-- col -->
-                                </div><!-- row -->
-                            </div><!-- whiteboxbg -->
-                            <div class="whiteboxbg cruise-box loadmorebox">
-                                <div class="row">
-                                    <div class="col-lg-4 col-12 d-flex">
-                                        <div class="cruise-image">
-                                            <img src="" alt="">
-                                        </div>
-                                    </div><!-- col -->
-                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column">
-                                        <div class="row" style="flex:1;">
-                                            <div class="col-lg-9 car-hire-title">
-                                                <div class="car-hire-boxtitle-main">
-                                                    <h2>
-                                                        Spain, Portugal and Canary Islands (Valiant Lady)
-                                                    </h2>
-                                                </div>
-                                            </div><!-- col -->
-                                            <div class="col-lg-3 col-12 d-flex justify-content-end">
-                                                <div class="esd-rating">
-                                                    5 <i class="fa-solid fa-star"></i>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row cruise-features mt-3">
-                                            <div class="col-lg-8">
-                                                <div class="row">
-                                                    <div class="col-12 col-lg-4 cruise-features-left">
-                                                        <h6>
-                                                            Departs
-                                                        </h6>
-                                                        <span>
-                                                            Southampton, UK <br>
-                                                            15 Jun 2014
-                                                        </span>
-                                                    </div>
-                                                    <div class="col-12 col-lg-4 cruise-features-mid">
-                                                        <h6>
-                                                            Arrives
-                                                        </h6>
-                                                        <span>
-                                                            Southampton, UK <br>
-                                                            29 Jun 2014
-                                                        </span>
-                                                    </div>
-                                                    <div class="col-12 col-lg-4 cruise-features-right">
-                                                        <h6>
-                                                            Sailing Ventura
-                                                        </h6>
-                                                        <span>
-                                                            14 Nights
-                                                        </span>
-                                                    </div>
-                                                </div><!-- row -->
-                                            </div><!-- col -->
-                                        </div><!-- row -->
+                                        </div><!-- cruises -->
+                                    </div><!-- wrapper -->
 
-                                        <div class="row mt-4 align-items-center">
-                                            <div class="col-lg-6">
-                                                <div class="cruise-tag">
-                                                    <strong>10% off</strong> Classic Drinks Package
+                                    <div class="row align-items-center mt-4 pt-3">
+                                        <div class="col-12 col-md-5">
+                                            <div>
+                                                <div class="free-cancellation-cruise">
+                                                    10% off Classic Drinks Package
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
-                                                <div class="row align-items-center">
-                                                    <div class="col-12 col-lg-6 d-flex justify-content-between align-items-center">
-                                                        <div class="cruisebox-price">
-                                                            <h3>
-                                                                <span>Inside cabin from</span>
-                                                                £949.50
-                                                            </h3>
-                                                        </div><!-- cruisebox -->
-                                                    </div><!-- col -->
-                                                    <div class="col-lg-6 d-flex justify-content-end">
-                                                        <button class="btn btn-primary">
-                                                            Select
-                                                        </button>
-                                                    </div><!-- col lg -->
-                                                </div><!-- row -->
-                                            </div><!-- col -->
+                                        </div><!-- col -->
+                                        <div class="col-12 col-md-4 ps-lg-4">
+                                            <div class="fs13 txt-gray cabinsfromtext">
+                                                Cabins from
+                                            </div>
+                                            <div class="cabinsfromprice">
+                                                £949.50
+                                            </div>
                                         </div>
-
-                                    </div><!-- col -->
-                                </div><!-- row -->
-                            </div><!-- whiteboxbg -->
-                            <div class="whiteboxbg cruise-box loadmorebox">
-                                <div class="row">
-                                    <div class="col-lg-4 col-12 d-flex">
-                                        <div class="cruise-image">
-                                            <img src="" alt="">
+                                        <div class="col-12 col-md-3 d-flex justify-content-end">
+                                            <button class="btn btn-primary">
+                                                Select
+                                            </button>
                                         </div>
-                                    </div><!-- col -->
-                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column">
-                                        <div class="row" style="flex:1;">
-                                            <div class="col-lg-9 car-hire-title">
-                                                <div class="car-hire-boxtitle-main">
-                                                    <h2>
-                                                        Spain, Portugal and Canary Islands (Valiant Lady)
-                                                    </h2>
+                                    </div>
+                                </div><!-- col -->
+                            </div><!-- row -->
+                        </div><!-- whiteboxbg -->
+                        <div class="whiteboxbg loadmorebox cruise-box">
+                            <div class="row">
+                                <div class="col-lg-4 col-12">
+                                    <div class="cruise-image">
+                                        <img src="" alt="">
+                                    </div>
+                                </div><!-- col -->
+                                <div class="col-lg-8 col-12 d-flex flex-column">
+                                    <div class="row">
+                                        <div class="col-lg-9 cruisbox-title">
+                                            <div class="cruise-boxtitle-main">
+                                                <h2 class="mb-1">
+                                                Panama Canal and
+                                                Eastern Caribbean
+                                                </h2>
+                                                <p class="fw-semibold txt-gray">
+                                                    Cruise Name
+                                                </p>
+                                            </div>
+                                        </div><!-- col -->
+                                        <div class="col-lg-3 col-12 justify-content-end">
+                                            <img src="http://localhost:8888/travelpack/assets/img/cruise/topright-image.png" alt="" class="cruise-image-topright">
+                                        </div><!-- col -->
+                                    </div><!-- row -->
+                                    <div class="row cruise-features mt-3">
+                                        <div class="col-lg-8">
+                                            <div class="row">
+                                                <div class="col-12 col-lg-4 cruise-features-left">
+                                                    <h6>
+                                                        Departs
+                                                    </h6>
+                                                    <span>
+                                                        Southampton, UK <br>
+                                                        15 Jun 2014
+                                                    </span>
                                                 </div>
-                                            </div><!-- col -->
-                                            <div class="col-lg-3 col-12 d-flex justify-content-end">
-                                                <div class="esd-rating">
-                                                    5 <i class="fa-solid fa-star"></i>
+                                                <div class="col-12 col-lg-4 cruise-features-mid">
+                                                    <h6>
+                                                        Arrives
+                                                    </h6>
+                                                    <span>
+                                                        Southampton, UK <br>
+                                                        29 Jun 2014
+                                                    </span>
                                                 </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row cruise-features mt-3">
-                                            <div class="col-lg-8">
-                                                <div class="row">
-                                                    <div class="col-12 col-lg-4 cruise-features-left">
-                                                        <h6>
-                                                            Departs
-                                                        </h6>
-                                                        <span>
-                                                            Southampton, UK <br>
-                                                            15 Jun 2014
-                                                        </span>
-                                                    </div>
-                                                    <div class="col-12 col-lg-4 cruise-features-mid">
-                                                        <h6>
-                                                            Arrives
-                                                        </h6>
-                                                        <span>
-                                                            Southampton, UK <br>
-                                                            29 Jun 2014
-                                                        </span>
-                                                    </div>
-                                                    <div class="col-12 col-lg-4 cruise-features-right">
-                                                        <h6>
-                                                            Sailing Ventura
-                                                        </h6>
-                                                        <span>
-                                                            14 Nights
-                                                        </span>
-                                                    </div>
-                                                </div><!-- row -->
-                                            </div><!-- col -->
-                                        </div><!-- row -->
+                                                <div class="col-12 col-lg-4 cruise-features-right">
+                                                    <h6>
+                                                        Sailing Ventura
+                                                    </h6>
+                                                    <span>
+                                                        14 Nights
+                                                    </span>
+                                                </div>
+                                            </div><!-- row -->
+                                        </div><!-- col -->
+                                    </div><!-- row -->
 
-                                        <div class="row mt-4 align-items-center">
-                                            <div class="col-lg-6">
-                                                <div class="cruise-tag">
-                                                    <strong>10% off</strong> Classic Drinks Package
+                                    <div class="cruises-stops-wrapper mt-4">
+                                        <div class="cruises-stops">
+                                            <div class="timeline-container">
+                                                <div class="timeline-line" style="width: 627px;"></div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 01</h4>
+                                                        <div>San Diego, California</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 02</h4>
+                                                        <div>Puerto Vallarta, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 03</h4>
+                                                        <div>Huatulco, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 04</h4>
+                                                        <div>Puerto Chiapas, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 05</h4>
+                                                        <div>Huatulco, Mexico</div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
-                                                <div class="row align-items-center">
-                                                    <div class="col-12 col-lg-6 d-flex justify-content-between align-items-center">
-                                                        <div class="cruisebox-price">
-                                                            <h3>
-                                                                <span>Inside cabin from</span>
-                                                                £949.50
-                                                            </h3>
-                                                        </div><!-- cruisebox -->
-                                                    </div><!-- col -->
-                                                    <div class="col-lg-6 d-flex justify-content-end">
-                                                        <button class="btn btn-primary">
-                                                            Select
-                                                        </button>
-                                                    </div><!-- col lg -->
-                                                </div><!-- row -->
-                                            </div><!-- col -->
-                                        </div>
+                                        </div><!-- cruises -->
+                                    </div><!-- wrapper -->
 
-                                    </div><!-- col -->
-                                </div><!-- row -->
-                            </div><!-- whiteboxbg -->
-                            <div class="whiteboxbg cruise-box loadmorebox">
-                                <div class="row">
-                                    <div class="col-lg-4 col-12 d-flex">
-                                        <div class="cruise-image">
-                                            <img src="" alt="">
-                                        </div>
-                                    </div><!-- col -->
-                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column">
-                                        <div class="row" style="flex:1;">
-                                            <div class="col-lg-9 car-hire-title">
-                                                <div class="car-hire-boxtitle-main">
-                                                    <h2>
-                                                        Spain, Portugal and Canary Islands (Valiant Lady)
-                                                    </h2>
-                                                </div>
-                                            </div><!-- col -->
-                                            <div class="col-lg-3 col-12 d-flex justify-content-end">
-                                                <div class="esd-rating">
-                                                    5 <i class="fa-solid fa-star"></i>
-                                                </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row cruise-features mt-3">
-                                            <div class="col-lg-8">
-                                                <div class="row">
-                                                    <div class="col-12 col-lg-4 cruise-features-left">
-                                                        <h6>
-                                                            Departs
-                                                        </h6>
-                                                        <span>
-                                                            Southampton, UK <br>
-                                                            15 Jun 2014
-                                                        </span>
-                                                    </div>
-                                                    <div class="col-12 col-lg-4 cruise-features-mid">
-                                                        <h6>
-                                                            Arrives
-                                                        </h6>
-                                                        <span>
-                                                            Southampton, UK <br>
-                                                            29 Jun 2014
-                                                        </span>
-                                                    </div>
-                                                    <div class="col-12 col-lg-4 cruise-features-right">
-                                                        <h6>
-                                                            Sailing Ventura
-                                                        </h6>
-                                                        <span>
-                                                            14 Nights
-                                                        </span>
-                                                    </div>
-                                                </div><!-- row -->
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-
-                                        <div class="row mt-4 align-items-center">
-                                            <div class="col-lg-6">
-                                                <div class="cruise-tag">
-                                                    <strong>10% off</strong> Classic Drinks Package
+                                    <div class="row align-items-center mt-4 pt-3">
+                                        <div class="col-12 col-md-5">
+                                            <div>
+                                                <div class="free-cancellation-cruise">
+                                                    10% off Classic Drinks Package
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
-                                                <div class="row align-items-center">
-                                                    <div class="col-12 col-lg-6 d-flex justify-content-between align-items-center">
-                                                        <div class="cruisebox-price">
-                                                            <h3>
-                                                                <span>Inside cabin from</span>
-                                                                £949.50
-                                                            </h3>
-                                                        </div><!-- cruisebox -->
-                                                    </div><!-- col -->
-                                                    <div class="col-lg-6 d-flex justify-content-end">
-                                                        <button class="btn btn-primary">
-                                                            Select
-                                                        </button>
-                                                    </div><!-- col lg -->
-                                                </div><!-- row -->
-                                            </div><!-- col -->
+                                        </div><!-- col -->
+                                        <div class="col-12 col-md-4 ps-lg-4">
+                                            <div class="fs13 txt-gray cabinsfromtext">
+                                                Cabins from
+                                            </div>
+                                            <div class="cabinsfromprice">
+                                                £949.50
+                                            </div>
                                         </div>
-
-                                    </div><!-- col -->
-                                </div><!-- row -->
-                            </div><!-- whiteboxbg -->
-                            <div class="whiteboxbg cruise-box loadmorebox">
-                                <div class="row">
-                                    <div class="col-lg-4 col-12 d-flex">
-                                        <div class="cruise-image">
-                                            <img src="" alt="">
+                                        <div class="col-12 col-md-3 d-flex justify-content-end">
+                                            <button class="btn btn-primary">
+                                                Select
+                                            </button>
                                         </div>
-                                    </div><!-- col -->
-                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column">
-                                        <div class="row" style="flex:1;">
-                                            <div class="col-lg-9 car-hire-title">
-                                                <div class="car-hire-boxtitle-main">
-                                                    <h2>
-                                                        Spain, Portugal and Canary Islands (Valiant Lady)
-                                                    </h2>
+                                    </div>
+                                </div><!-- col -->
+                            </div><!-- row -->
+                        </div><!-- whiteboxbg -->
+                        <div class="whiteboxbg loadmorebox cruise-box">
+                            <div class="row">
+                                <div class="col-lg-4 col-12">
+                                    <div class="cruise-image">
+                                        <img src="" alt="">
+                                    </div>
+                                </div><!-- col -->
+                                <div class="col-lg-8 col-12 d-flex flex-column">
+                                    <div class="row">
+                                        <div class="col-lg-9 cruisbox-title">
+                                            <div class="cruise-boxtitle-main">
+                                                <h2 class="mb-1">
+                                                Panama Canal and
+                                                Eastern Caribbean
+                                                </h2>
+                                                <p class="fw-semibold txt-gray">
+                                                    Cruise Name
+                                                </p>
+                                            </div>
+                                        </div><!-- col -->
+                                        <div class="col-lg-3 col-12 justify-content-end">
+                                            <img src="http://localhost:8888/travelpack/assets/img/cruise/topright-image.png" alt="" class="cruise-image-topright">
+                                        </div><!-- col -->
+                                    </div><!-- row -->
+                                    <div class="row cruise-features mt-3">
+                                        <div class="col-lg-8">
+                                            <div class="row">
+                                                <div class="col-12 col-lg-4 cruise-features-left">
+                                                    <h6>
+                                                        Departs
+                                                    </h6>
+                                                    <span>
+                                                        Southampton, UK <br>
+                                                        15 Jun 2014
+                                                    </span>
                                                 </div>
-                                            </div><!-- col -->
-                                            <div class="col-lg-3 col-12 d-flex justify-content-end">
-                                                <div class="esd-rating">
-                                                    5 <i class="fa-solid fa-star"></i>
+                                                <div class="col-12 col-lg-4 cruise-features-mid">
+                                                    <h6>
+                                                        Arrives
+                                                    </h6>
+                                                    <span>
+                                                        Southampton, UK <br>
+                                                        29 Jun 2014
+                                                    </span>
                                                 </div>
-                                            </div><!-- col -->
-                                        </div><!-- row -->
-                                        <div class="row cruise-features mt-3">
-                                            <div class="col-lg-8">
-                                                <div class="row">
-                                                    <div class="col-12 col-lg-4 cruise-features-left">
-                                                        <h6>
-                                                            Departs
-                                                        </h6>
-                                                        <span>
-                                                            Southampton, UK <br>
-                                                            15 Jun 2014
-                                                        </span>
-                                                    </div>
-                                                    <div class="col-12 col-lg-4 cruise-features-mid">
-                                                        <h6>
-                                                            Arrives
-                                                        </h6>
-                                                        <span>
-                                                            Southampton, UK <br>
-                                                            29 Jun 2014
-                                                        </span>
-                                                    </div>
-                                                    <div class="col-12 col-lg-4 cruise-features-right">
-                                                        <h6>
-                                                            Sailing Ventura
-                                                        </h6>
-                                                        <span>
-                                                            14 Nights
-                                                        </span>
-                                                    </div>
-                                                </div><!-- row -->
-                                            </div><!-- col -->
-                                        </div><!-- row -->
+                                                <div class="col-12 col-lg-4 cruise-features-right">
+                                                    <h6>
+                                                        Sailing Ventura
+                                                    </h6>
+                                                    <span>
+                                                        14 Nights
+                                                    </span>
+                                                </div>
+                                            </div><!-- row -->
+                                        </div><!-- col -->
+                                    </div><!-- row -->
 
-                                        <div class="row mt-4 align-items-center">
-                                            <div class="col-lg-6">
-                                                <div class="cruise-tag">
-                                                    <strong>10% off</strong> Classic Drinks Package
+                                    <div class="cruises-stops-wrapper mt-4">
+                                        <div class="cruises-stops">
+                                            <div class="timeline-container">
+                                                <div class="timeline-line" style="width: 627px;"></div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 01</h4>
+                                                        <div>San Diego, California</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 02</h4>
+                                                        <div>Puerto Vallarta, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 03</h4>
+                                                        <div>Huatulco, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 04</h4>
+                                                        <div>Puerto Chiapas, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 05</h4>
+                                                        <div>Huatulco, Mexico</div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
-                                                <div class="row align-items-center">
-                                                    <div class="col-12 col-lg-6 d-flex justify-content-between align-items-center">
-                                                        <div class="cruisebox-price">
-                                                            <h3>
-                                                                <span>Inside cabin from</span>
-                                                                £949.50
-                                                            </h3>
-                                                        </div><!-- cruisebox -->
-                                                    </div><!-- col -->
-                                                    <div class="col-lg-6 d-flex justify-content-end">
-                                                        <button class="btn btn-primary">
-                                                            Select
-                                                        </button>
-                                                    </div><!-- col lg -->
-                                                </div><!-- row -->
-                                            </div><!-- col -->
+                                        </div><!-- cruises -->
+                                    </div><!-- wrapper -->
+
+                                    <div class="row align-items-center mt-4 pt-3">
+                                        <div class="col-12 col-md-5">
+                                            <div>
+                                                <div class="free-cancellation-cruise">
+                                                    10% off Classic Drinks Package
+                                                </div>
+                                            </div>
+                                        </div><!-- col -->
+                                        <div class="col-12 col-md-4 ps-lg-4">
+                                            <div class="fs13 txt-gray cabinsfromtext">
+                                                Cabins from
+                                            </div>
+                                            <div class="cabinsfromprice">
+                                                £949.50
+                                            </div>
                                         </div>
+                                        <div class="col-12 col-md-3 d-flex justify-content-end">
+                                            <button class="btn btn-primary">
+                                                Select
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div><!-- col -->
+                            </div><!-- row -->
+                        </div><!-- whiteboxbg -->
+                        <div class="whiteboxbg loadmorebox cruise-box">
+                            <div class="row">
+                                <div class="col-lg-4 col-12">
+                                    <div class="cruise-image">
+                                        <img src="" alt="">
+                                    </div>
+                                </div><!-- col -->
+                                <div class="col-lg-8 col-12 d-flex flex-column">
+                                    <div class="row">
+                                        <div class="col-lg-9 cruisbox-title">
+                                            <div class="cruise-boxtitle-main">
+                                                <h2 class="mb-1">
+                                                Panama Canal and
+                                                Eastern Caribbean
+                                                </h2>
+                                                <p class="fw-semibold txt-gray">
+                                                    Cruise Name
+                                                </p>
+                                            </div>
+                                        </div><!-- col -->
+                                        <div class="col-lg-3 col-12 justify-content-end">
+                                            <img src="http://localhost:8888/travelpack/assets/img/cruise/topright-image.png" alt="" class="cruise-image-topright">
+                                        </div><!-- col -->
+                                    </div><!-- row -->
+                                    <div class="row cruise-features mt-3">
+                                        <div class="col-lg-8">
+                                            <div class="row">
+                                                <div class="col-12 col-lg-4 cruise-features-left">
+                                                    <h6>
+                                                        Departs
+                                                    </h6>
+                                                    <span>
+                                                        Southampton, UK <br>
+                                                        15 Jun 2014
+                                                    </span>
+                                                </div>
+                                                <div class="col-12 col-lg-4 cruise-features-mid">
+                                                    <h6>
+                                                        Arrives
+                                                    </h6>
+                                                    <span>
+                                                        Southampton, UK <br>
+                                                        29 Jun 2014
+                                                    </span>
+                                                </div>
+                                                <div class="col-12 col-lg-4 cruise-features-right">
+                                                    <h6>
+                                                        Sailing Ventura
+                                                    </h6>
+                                                    <span>
+                                                        14 Nights
+                                                    </span>
+                                                </div>
+                                            </div><!-- row -->
+                                        </div><!-- col -->
+                                    </div><!-- row -->
 
-                                    </div><!-- col -->
-                                </div><!-- row -->
-                            </div><!-- whiteboxbg -->
-                        </div><!-- loadmore boxes wrap -->
-                    </form>
+                                    <div class="cruises-stops-wrapper mt-4">
+                                        <div class="cruises-stops">
+                                            <div class="timeline-container">
+                                                <div class="timeline-line" style="width: 627px;"></div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 01</h4>
+                                                        <div>San Diego, California</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 02</h4>
+                                                        <div>Puerto Vallarta, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 03</h4>
+                                                        <div>Huatulco, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 04</h4>
+                                                        <div>Puerto Chiapas, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 05</h4>
+                                                        <div>Huatulco, Mexico</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- cruises -->
+                                    </div><!-- wrapper -->
 
+                                    <div class="row align-items-center mt-4 pt-3">
+                                        <div class="col-12 col-md-5">
+                                            <div>
+                                                <div class="free-cancellation-cruise">
+                                                    10% off Classic Drinks Package
+                                                </div>
+                                            </div>
+                                        </div><!-- col -->
+                                        <div class="col-12 col-md-4 ps-lg-4">
+                                            <div class="fs13 txt-gray cabinsfromtext">
+                                                Cabins from
+                                            </div>
+                                            <div class="cabinsfromprice">
+                                                £949.50
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-3 d-flex justify-content-end">
+                                            <button class="btn btn-primary">
+                                                Select
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div><!-- col -->
+                            </div><!-- row -->
+                        </div><!-- whiteboxbg -->
+                        <div class="whiteboxbg loadmorebox cruise-box">
+                            <div class="row">
+                                <div class="col-lg-4 col-12">
+                                    <div class="cruise-image">
+                                        <img src="" alt="">
+                                    </div>
+                                </div><!-- col -->
+                                <div class="col-lg-8 col-12 d-flex flex-column">
+                                    <div class="row">
+                                        <div class="col-lg-9 cruisbox-title">
+                                            <div class="cruise-boxtitle-main">
+                                                <h2 class="mb-1">
+                                                Panama Canal and
+                                                Eastern Caribbean
+                                                </h2>
+                                                <p class="fw-semibold txt-gray">
+                                                    Cruise Name
+                                                </p>
+                                            </div>
+                                        </div><!-- col -->
+                                        <div class="col-lg-3 col-12 justify-content-end">
+                                            <img src="http://localhost:8888/travelpack/assets/img/cruise/topright-image.png" alt="" class="cruise-image-topright">
+                                        </div><!-- col -->
+                                    </div><!-- row -->
+                                    <div class="row cruise-features mt-3">
+                                        <div class="col-lg-8">
+                                            <div class="row">
+                                                <div class="col-12 col-lg-4 cruise-features-left">
+                                                    <h6>
+                                                        Departs
+                                                    </h6>
+                                                    <span>
+                                                        Southampton, UK <br>
+                                                        15 Jun 2014
+                                                    </span>
+                                                </div>
+                                                <div class="col-12 col-lg-4 cruise-features-mid">
+                                                    <h6>
+                                                        Arrives
+                                                    </h6>
+                                                    <span>
+                                                        Southampton, UK <br>
+                                                        29 Jun 2014
+                                                    </span>
+                                                </div>
+                                                <div class="col-12 col-lg-4 cruise-features-right">
+                                                    <h6>
+                                                        Sailing Ventura
+                                                    </h6>
+                                                    <span>
+                                                        14 Nights
+                                                    </span>
+                                                </div>
+                                            </div><!-- row -->
+                                        </div><!-- col -->
+                                    </div><!-- row -->
+
+                                    <div class="cruises-stops-wrapper mt-4">
+                                        <div class="cruises-stops">
+                                            <div class="timeline-container">
+                                                <div class="timeline-line" style="width: 627px;"></div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 01</h4>
+                                                        <div>San Diego, California</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 02</h4>
+                                                        <div>Puerto Vallarta, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 03</h4>
+                                                        <div>Huatulco, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 04</h4>
+                                                        <div>Puerto Chiapas, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 05</h4>
+                                                        <div>Huatulco, Mexico</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- cruises -->
+                                    </div><!-- wrapper -->
+
+                                    <div class="row align-items-center mt-4 pt-3">
+                                        <div class="col-12 col-md-5">
+                                            <div>
+                                                <div class="free-cancellation-cruise">
+                                                    10% off Classic Drinks Package
+                                                </div>
+                                            </div>
+                                        </div><!-- col -->
+                                        <div class="col-12 col-md-4 ps-lg-4">
+                                            <div class="fs13 txt-gray cabinsfromtext">
+                                                Cabins from
+                                            </div>
+                                            <div class="cabinsfromprice">
+                                                £949.50
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-3 d-flex justify-content-end">
+                                            <button class="btn btn-primary">
+                                                Select
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div><!-- col -->
+                            </div><!-- row -->
+                        </div><!-- whiteboxbg -->
+                        <div class="whiteboxbg loadmorebox cruise-box">
+                            <div class="row">
+                                <div class="col-lg-4 col-12">
+                                    <div class="cruise-image">
+                                        <img src="" alt="">
+                                    </div>
+                                </div><!-- col -->
+                                <div class="col-lg-8 col-12 d-flex flex-column">
+                                    <div class="row">
+                                        <div class="col-lg-9 cruisbox-title">
+                                            <div class="cruise-boxtitle-main">
+                                                <h2 class="mb-1">
+                                                Panama Canal and
+                                                Eastern Caribbean
+                                                </h2>
+                                                <p class="fw-semibold txt-gray">
+                                                    Cruise Name
+                                                </p>
+                                            </div>
+                                        </div><!-- col -->
+                                        <div class="col-lg-3 col-12 justify-content-end">
+                                            <img src="http://localhost:8888/travelpack/assets/img/cruise/topright-image.png" alt="" class="cruise-image-topright">
+                                        </div><!-- col -->
+                                    </div><!-- row -->
+                                    <div class="row cruise-features mt-3">
+                                        <div class="col-lg-8">
+                                            <div class="row">
+                                                <div class="col-12 col-lg-4 cruise-features-left">
+                                                    <h6>
+                                                        Departs
+                                                    </h6>
+                                                    <span>
+                                                        Southampton, UK <br>
+                                                        15 Jun 2014
+                                                    </span>
+                                                </div>
+                                                <div class="col-12 col-lg-4 cruise-features-mid">
+                                                    <h6>
+                                                        Arrives
+                                                    </h6>
+                                                    <span>
+                                                        Southampton, UK <br>
+                                                        29 Jun 2014
+                                                    </span>
+                                                </div>
+                                                <div class="col-12 col-lg-4 cruise-features-right">
+                                                    <h6>
+                                                        Sailing Ventura
+                                                    </h6>
+                                                    <span>
+                                                        14 Nights
+                                                    </span>
+                                                </div>
+                                            </div><!-- row -->
+                                        </div><!-- col -->
+                                    </div><!-- row -->
+
+                                    <div class="cruises-stops-wrapper mt-4">
+                                        <div class="cruises-stops">
+                                            <div class="timeline-container">
+                                                <div class="timeline-line" style="width: 627px;"></div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 01</h4>
+                                                        <div>San Diego, California</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 02</h4>
+                                                        <div>Puerto Vallarta, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 03</h4>
+                                                        <div>Huatulco, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 04</h4>
+                                                        <div>Puerto Chiapas, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 05</h4>
+                                                        <div>Huatulco, Mexico</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- cruises -->
+                                    </div><!-- wrapper -->
+
+                                    <div class="row align-items-center mt-4 pt-3">
+                                        <div class="col-12 col-md-5">
+                                            <div>
+                                                <div class="free-cancellation-cruise">
+                                                    10% off Classic Drinks Package
+                                                </div>
+                                            </div>
+                                        </div><!-- col -->
+                                        <div class="col-12 col-md-4 ps-lg-4">
+                                            <div class="fs13 txt-gray cabinsfromtext">
+                                                Cabins from
+                                            </div>
+                                            <div class="cabinsfromprice">
+                                                £949.50
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-3 d-flex justify-content-end">
+                                            <button class="btn btn-primary">
+                                                Select
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div><!-- col -->
+                            </div><!-- row -->
+                        </div><!-- whiteboxbg -->
+                        <div class="whiteboxbg loadmorebox cruise-box">
+                            <div class="row">
+                                <div class="col-lg-4 col-12">
+                                    <div class="cruise-image">
+                                        <img src="" alt="">
+                                    </div>
+                                </div><!-- col -->
+                                <div class="col-lg-8 col-12 d-flex flex-column">
+                                    <div class="row">
+                                        <div class="col-lg-9 cruisbox-title">
+                                            <div class="cruise-boxtitle-main">
+                                                <h2 class="mb-1">
+                                                Panama Canal and
+                                                Eastern Caribbean
+                                                </h2>
+                                                <p class="fw-semibold txt-gray">
+                                                    Cruise Name
+                                                </p>
+                                            </div>
+                                        </div><!-- col -->
+                                        <div class="col-lg-3 col-12 justify-content-end">
+                                            <img src="http://localhost:8888/travelpack/assets/img/cruise/topright-image.png" alt="" class="cruise-image-topright">
+                                        </div><!-- col -->
+                                    </div><!-- row -->
+                                    <div class="row cruise-features mt-3">
+                                        <div class="col-lg-8">
+                                            <div class="row">
+                                                <div class="col-12 col-lg-4 cruise-features-left">
+                                                    <h6>
+                                                        Departs
+                                                    </h6>
+                                                    <span>
+                                                        Southampton, UK <br>
+                                                        15 Jun 2014
+                                                    </span>
+                                                </div>
+                                                <div class="col-12 col-lg-4 cruise-features-mid">
+                                                    <h6>
+                                                        Arrives
+                                                    </h6>
+                                                    <span>
+                                                        Southampton, UK <br>
+                                                        29 Jun 2014
+                                                    </span>
+                                                </div>
+                                                <div class="col-12 col-lg-4 cruise-features-right">
+                                                    <h6>
+                                                        Sailing Ventura
+                                                    </h6>
+                                                    <span>
+                                                        14 Nights
+                                                    </span>
+                                                </div>
+                                            </div><!-- row -->
+                                        </div><!-- col -->
+                                    </div><!-- row -->
+
+                                    <div class="cruises-stops-wrapper mt-4">
+                                        <div class="cruises-stops">
+                                            <div class="timeline-container">
+                                                <div class="timeline-line" style="width: 627px;"></div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 01</h4>
+                                                        <div>San Diego, California</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 02</h4>
+                                                        <div>Puerto Vallarta, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 03</h4>
+                                                        <div>Huatulco, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 04</h4>
+                                                        <div>Puerto Chiapas, Mexico</div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-step">
+                                                    <div class="timeline-circle"></div>
+                                                    <div class="timeline-content">
+                                                        <h4>Stop 05</h4>
+                                                        <div>Huatulco, Mexico</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- cruises -->
+                                    </div><!-- wrapper -->
+
+                                    <div class="row align-items-center mt-4 pt-3">
+                                        <div class="col-12 col-md-5">
+                                            <div>
+                                                <div class="free-cancellation-cruise">
+                                                    10% off Classic Drinks Package
+                                                </div>
+                                            </div>
+                                        </div><!-- col -->
+                                        <div class="col-12 col-md-4 ps-lg-4">
+                                            <div class="fs13 txt-gray cabinsfromtext">
+                                                Cabins from
+                                            </div>
+                                            <div class="cabinsfromprice">
+                                                £949.50
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-3 d-flex justify-content-end">
+                                            <button class="btn btn-primary">
+                                                Select
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div><!-- col -->
+                            </div><!-- row -->
+                        </div><!-- whiteboxbg -->
+                    </div><!-- loadmore boxes wrap -->
                     <div class="loadmore-nav mx-auto mt-5">
                         <div class="loadmore-navdetails">
                             1-<span class="loadmore-number"></span>
                             of
-                            <span class="loadmore-total">
-
-                            </span>
+                            <span class="loadmore-total"></span>
                         </div>
                         <div class="loadmore-gauge">
                             <div class="loadmore-gauge-bar"></div>
@@ -560,6 +1066,7 @@
                             Load More
                         </button>
                     </div><!-- load more -->
+
 
                 </div><!-- col -->
             </div><!-- row -->
@@ -675,6 +1182,8 @@
 
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/slick.min.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/moment.min.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/daterangepicker.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/bootstrap.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/loadmoreboxes.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/scripts.js"></script>

@@ -25,8 +25,8 @@
 
                     <div class="searchbar-inputwrap searchbar-select flex8 mobile-bordertop">
                         <select class="form-control" name="car-passenger-count" id="car-passenger-count">
-                            <option value="" disabled>Passengers</option>
-                            <option value="1" selected>1 Passenger</option>
+                            <option value="" disabled selected>Passengers</option>
+                            <option value="1" >1 Passenger</option>
                             <option value="2">2 Passengers</option>
                             <option value="3">3 Passengers</option>
                             <option value="4">4 Passengers</option>
@@ -75,7 +75,7 @@
                 <div class="searchform-more-wrap mt-3">
                     <div class="searchform-more d-flex align-items-center search-more-ch">
                         <span>
-                            More Option
+                            More Options
                         </span>
                         <i class="fa-solid fa-chevron-down ms-2"></i>
                     </div>

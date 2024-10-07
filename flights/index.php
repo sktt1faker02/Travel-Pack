@@ -39,17 +39,17 @@
 <body>
     <div id="herohome">
         <div class="herowrapblur">
-            <div class="heroslider">
+            <div class="heroslider"> 
                 <div class="heroslide">
-                    <img src="<?= getBaseUrl() ?>/assets/img/flights/hero-flights.jpg" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-flights.jpg" alt="">
                 </div>
                 <div class="heroslide">
-                    <img src="" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-flights.jpg" alt="">
                 </div>
                 <div class="heroslide">
-                    <img src="" alt="">
-                </div>
-            </div>
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-flights.jpg" alt="">
+                </div> 
+            </div> 
         </div> 
         
         

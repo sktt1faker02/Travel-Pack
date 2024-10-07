@@ -27,12 +27,12 @@
                                 </li>
                                 <li class="">
                                     <a href="#" class="d-flex align-items-center">
-                                        <img src="<?= getBaseUrl() ?>/assets/img/icons/icon-basket.png" alt="" class="me-2"> 0
+                                        <img src="<?= getBaseUrl() ?>/assets/img/icons/icon-basket.png" alt="" class="me-2 icon-basket"> 0
                                     </a>
                                 </li>
                                 <li class="underlinestate underlinestate2 position-relative">
                                     <a class="d-flex align-items-center underlinestate2-link">
-                                        <img src="<?= getBaseUrl() ?>/assets/img/icons/icon-globe.png" alt="" class="me-2 icon-globe"> <span class="header-language">EN</span> <i class="ms-2 fa-solid fa-chevron-down"></i>
+                                <img src="<?= getBaseUrl() ?>/assets/img/icons/icon-globe.png" alt="" class="me-2 icon-globe"> <span class="header-language">UK</span> <i class="ms-2 fa-solid fa-chevron-down"></i>
                                     </a>
 
                                     <div class="translatesubmenu">

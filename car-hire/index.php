@@ -38,7 +38,7 @@
         <div class="herowrapblur">
             <div class="heroslider">
                 <div class="heroslide">
-                    <img src="<?= getBaseUrl() ?>/assets/img/car-hire/hero-car-hire.jpg" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-car-hire.jpg" alt="">
                 </div>
                 <div class="heroslide">
                     <img src="" alt="">
@@ -144,7 +144,8 @@
                             <div class="sed-title">
                                 <h3 class="">
                                     <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
-                                    Manchester                                        </a>
+                                        Manchester                                        
+                                    </a>
                                 </h3>
                             </div>
                             <p class="txt-blue pb-5">

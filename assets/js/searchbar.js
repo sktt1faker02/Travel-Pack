@@ -375,6 +375,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // END HOTEL INCREMENT DECREMENT
+
 document.addEventListener('DOMContentLoaded', function() {
     // INFANT VALIDATION
     const updateInfantValidation = () => {
