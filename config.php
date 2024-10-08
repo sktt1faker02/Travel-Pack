@@ -10,5 +10,3 @@ function getBaseUrl() {
         return 'https://devtravelpack.wpdev.ws';
     }
 }
-
-// sample changes

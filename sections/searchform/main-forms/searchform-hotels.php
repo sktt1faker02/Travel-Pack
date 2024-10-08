@@ -10,11 +10,11 @@
                         <input type="hidden" id="hot-location-code" name="hot-location-code" value="">
                     </div>
                     <div class="searchbar-inputwrap input-witharrow hotels-checkin-wrap mobile-bordertop">
-                        <input class="form-control date pickup-date" name="hot-checkin" id="hotels-checkin" value="" placeholder="Check-in">
+                        <input class="form-control date initialize-date-picker" name="hot-checkin" id="hotels-checkin" value="" placeholder="Check-in">
                         <div class="select_arrow"></div>
                     </div>
                     <div class="searchbar-inputwrap input-witharrow hotels-checkout-wrap mobile-bordertop mobile-last-col">
-                        <input id="hotels-checkout" class="form-control date dropoff-date" name="hot-checkout" placeholder="Check-out" size="10" value="" readonly="readonly">
+                        <input id="hotels-checkout" class="form-control date initialize-date-picker" name="hot-checkout" placeholder="Check-out" size="10" value="" readonly="readonly">
                         <div class="select_arrow"></div>
                     </div>
                     <div class="searchbar-inputwrap searchbar-select hotels-rating-wrap mobile-order-2 mobile-last-col">

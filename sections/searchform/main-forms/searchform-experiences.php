@@ -8,7 +8,7 @@
                             <input type="text" class="form-control" autocomplete="viator" name="exc-text" id="exc-text" value="" placeholder="Where">
                         </div>
                         <div class="searchbar-inputwrap flex100-mobile mobile-bordertop mobile-last-col">
-                            <input class="form-control date pickup-date" name="exc-date" id="cruises-departure" value="" placeholder="When">
+                            <input class="form-control date initialize-date-picker" name="exc-date" id="cruises-departure" value="" placeholder="When">
                             <div class="select_arrow"></div>
                         </div>
 

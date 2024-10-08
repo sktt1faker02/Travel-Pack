@@ -130,7 +130,7 @@
                         </div>
                     </div><!-- searchform-row -->
 
-                    <div class="searchform-more-content">
+                    <div class="searchform-more-content return-wrapper">
                         <div class="searchform-row mt-3">
                             <div class="searchbar-inputwrap">
                                 <input class="form-control date dropoff-date" name="rail-date-return" id="rail-date-return" value="" placeholder="Return">
@@ -179,10 +179,10 @@
                         </div><!-- searchform-row -->
                     </div><!-- searchform content more -->
                     
-                    <div class="searchform-more-wrap row mt-2">
-                        <div class="searchform-more searchform-more-rail d-flex col-12 col-md-2 align-items-center">
+                    <div class="searchform-more-wrap row mt-2 rail-option">
+                        <div class="searchform-more searchform-more-rail d-flex col-12 col-md-2 align-items-center v-search-more">
                             <span>
-                                More Option 
+                                More Options
                             </span>    
                             <i class="fa-solid fa-chevron-down ms-2"></i>
                         </div><!-- searchform-more -->

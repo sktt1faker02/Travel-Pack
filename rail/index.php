@@ -69,7 +69,7 @@
         </div>
 
         <div class="container">
-            <div id="rail-searchbar" class="searchbar">
+            <div id="rail-searchbar" class="searchbar v-globel-search">
                 <div class="searchbar-top mb-md-3 mb-2 row align-items-center">
                     <div class="col-md-6">
                         <h2>
@@ -283,6 +283,7 @@
     <script src="<?= getBaseUrl() ?>/assets/js/scripts.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/home.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/searchbar.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/searchOptions.js"></script>
 </body>
 
 </html>

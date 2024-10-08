@@ -101,7 +101,7 @@
                     </div>
                 </div><!-- searchform-row -->
 
-                <div class="searchform-more-content transfer-content">
+                <div class="searchform-more-content return-wrapper">
                     <div class="searchform-row mt-3">
                         <div class="searchbar-inputwrap">
                             <input class="form-control date dropoff-date" name="transfer-date-return" id="transfer-date-return" value="" placeholder="When">
@@ -129,7 +129,7 @@
                 </div><!-- searchform content more -->
                 
                 <div class="searchform-more-wrap row mt-2">
-                    <div class="searchform-more searchform-more-transfer d-flex col-12 col-md-3 align-items-center search-more-tr">
+                    <div class="searchform-more searchform-more-transfer d-flex col-12 col-md-3 align-items-center v-search-more">
                         <span>
                             More Option 
                         </span>    
@@ -137,12 +137,12 @@
                     </div><!-- searchform-more -->
                     <div class="searchbar-checkboxes col-12 col-md-5">
                         <label for="trf-return">
-                            <input checked id="trf-return" type="radio" name="trf-journey" value="R" class="trf-journey form-check-input">
+                            <input checked id="trf-return" type="radio" name="trf-journey" value="return" class="trf-journey form-check-input">
                             <span class="custom-checkbox"><i class="fa-solid fa-check"></i></span>
                             Return
                         </label>
                         <label for="trf-oneway">
-                            <input id="trf-oneway" type="radio" name="trf-journey" value="O" class="trf-journey form-check-input">
+                            <input id="trf-oneway" type="radio" name="trf-journey" value="oneway" class="trf-journey form-check-input">
                             <span class="custom-checkbox"><i class="fa-solid fa-check"></i></span>
                             One Way
                         </label>
