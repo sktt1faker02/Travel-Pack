@@ -4,20 +4,20 @@
         <form class="frm-typ2" name="frmHotelSearch" id="frmHotelSearch" method="post" action="">
             <div class="searchform-inner">
                 <div class="searchform-row">
-                    <div class="searchbar-inputwrap mobile-order-1">
+                    <div class="searchbar-inputwrap mobile-order-1 flex6">
                         <input type="text" class="form-control autocomplete" autocomplete="location" id="hot-location" name="hot-location" value="" placeholder="Location" required="">
                         <div class="invalid-feedback">Please enter a valid location</div>
                         <input type="hidden" id="hot-location-code" name="hot-location-code" value="">
                     </div>
-                    <div class="searchbar-inputwrap input-witharrow hotels-checkin-wrap mobile-bordertop">
+                    <div class="searchbar-inputwrap input-witharrow hotels-checkin-wrap mobile-bordertop flex4">
                         <input class="form-control date initialize-date-picker" name="hot-checkin" id="hotels-checkin" value="" placeholder="Check-in">
                         <div class="select_arrow"></div>
                     </div>
-                    <div class="searchbar-inputwrap input-witharrow hotels-checkout-wrap mobile-bordertop mobile-last-col">
+                    <div class="searchbar-inputwrap input-witharrow hotels-checkout-wrap mobile-bordertop mobile-last-col flex4">
                         <input id="hotels-checkout" class="form-control date initialize-date-picker" name="hot-checkout" placeholder="Check-out" size="10" value="" readonly="readonly">
                         <div class="select_arrow"></div>
                     </div>
-                    <div class="searchbar-inputwrap searchbar-select hotels-rating-wrap mobile-order-2 mobile-last-col">
+                    <div class="searchbar-inputwrap searchbar-select hotels-rating-wrap mobile-order-2 flex4 mobile-last-col">
                         <select class="form-control" name="hot-rating">
                             <option value="" selected disabled="">Ratings</option>
                             <option value="1">1 Star+</option>
@@ -28,7 +28,7 @@
                         </select>
                         <div class="select_arrow"></div>
                     </div>
-                    <div class="searchbar-inputwrap searchbar-select flex100-mobile mobile-bordertop mobile-last-col">
+                    <div class="searchbar-inputwrap searchbar-select flex6 flex100-mobile mobile-bordertop mobile-last-col">
                         <input class="form-control dropdownfilter-click hotel-text-change" placeholder="Travellers and Rooms" readonly>
                         <div class="select_arrow"></div>
                         <div class="dropdownfilter-main dropdown-filter-hotels">
@@ -71,7 +71,7 @@
                             </div><!-- dropdown-filter -->
                         </div>
                     </div>
-                    <div class="searchnow-btn searchbar-inputwrap flex100-mobile mobile-bordertop">
+                    <div class="searchnow-btn searchbar-inputwrap flex100-mobile mobile-bordertop flex5">
                         <a class="frmFlightSearch btn-typ2 searchnowbtn submitForm btn btn-primary" href="javascript:void(0);" title="Search Now">Search Now</a>
                     </div>
                 </div>

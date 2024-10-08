@@ -140,9 +140,9 @@
                                     </select>
                                     <div class="select_arrow"></div>
                                 </div><!-- searchbar inputwrap -->
-                                <div class="searchbar-inputwrap mobile-bordertop flight-departure-time mobile-last-col">
-                                    <select class="form-control" name="flt-departure-time-I" id="">
-                                        <option value="" disabled selected>Departure Time</option>
+                                <div class="searchbar-inputwrap mobile-bordertop flight-return-time mobile-last-col">
+                                    <select class="form-control" name="flt-return-time-I" id="">
+                                        <option value="" disabled selected>Return Time</option>
                                         <option value="06:00">06:00</option>
                                         <option value="12:00">12:00</option>
                                         <option value="18:00">18:00</option>                                                    

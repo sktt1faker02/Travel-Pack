@@ -151,17 +151,17 @@
                             <div class="esd-left-slider position-relative">
                                 <div>
                                     <a href="">
-                                        <img src="<?= getBaseUrl() ?>/assets/img/home/dcd.jpg" alt="">
+                                        <img src="<?= getBaseUrl() ?>/assets/img/home/esd1.jpg" alt="">
                                     </a>
                                 </div>
                                 <div>
                                     <a href="">
-                                        <img src="<?= getBaseUrl() ?>/assets/img/home/dcd.jpg" alt="">
+                                        <img src="<?= getBaseUrl() ?>/assets/img/home/esd2.jpg" alt="">
                                     </a>
                                 </div>
                                 <div>
                                     <a href="">
-                                        <img src="<?= getBaseUrl() ?>/assets/img/home/dcd.jpg" alt="">
+                                        <img src="<?= getBaseUrl() ?>/assets/img/home/esd3.jpg" alt="">
                                     </a>
                                 </div>
                             </div><!-- esd left slider -->
@@ -225,16 +225,13 @@
                             </div>
                             <div class="esd-left-slider position-relative">
                                 <a href="">
-                                    <img src="<?= getBaseUrl() ?>/assets/img/home/dcd.jpg" alt="">
+                                    <img src="<?= getBaseUrl() ?>/assets/img/home/esd2.jpg" alt="">
                                 </a>
                                 <a href="">
-                                    <img src="<?= getBaseUrl() ?>/assets/img/home/dcd.jpg" alt="">
+                                <img src="<?= getBaseUrl() ?>/assets/img/home/esd1.jpg" alt="">
                                 </a>
                                 <a href="">
-                                    <img src="<?= getBaseUrl() ?>/assets/img/home/dcd.jpg" alt="">
-                                </a>
-                                <a href="">
-                                    <img src="<?= getBaseUrl() ?>/assets/img/home/dcd.jpg" alt="">
+                                <img src="<?= getBaseUrl() ?>/assets/img/home/esd3.jpg" alt="">
                                 </a>
                             </div><!-- esd left slider -->
                         </div>
@@ -256,7 +253,9 @@
                                     <div class="esd-right-title-main">
                                         <h3>
                                             <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
-                                                Kyoto, Japan
+                                                Rome, Italy <br>
+
+                                                Rome, Italy
                                             </a>
                                         </h3>
                                     </div>
@@ -297,16 +296,13 @@
                             </div>
                             <div class="esd-left-slider position-relative">
                                 <a href="">
-                                    <img src="<?= getBaseUrl() ?>/assets/img/home/dcd.jpg" alt="">
+                                    <img src="<?= getBaseUrl() ?>/assets/img/home/esd3.jpg" alt="">
                                 </a>
                                 <a href="">
-                                    <img src="<?= getBaseUrl() ?>/assets/img/home/dcd.jpg" alt="">
+                                    <img src="<?= getBaseUrl() ?>/assets/img/home/esd2.jpg" alt="">
                                 </a>
                                 <a href="">
-                                    <img src="<?= getBaseUrl() ?>/assets/img/home/dcd.jpg" alt="">
-                                </a>
-                                <a href="">
-                                    <img src="<?= getBaseUrl() ?>/assets/img/home/dcd.jpg" alt="">
+                                    <img src="<?= getBaseUrl() ?>/assets/img/home/esd1.jpg" alt="">
                                 </a>
                             </div><!-- esd left slider -->
                         </div>
@@ -328,7 +324,8 @@
                                     <div class="esd-right-title-main">
                                         <h3>
                                             <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
-                                                Kyoto, Japan
+                                                São Miguel, 
+                                                Portugal
                                             </a>
                                         </h3>
                                     </div>
@@ -369,16 +366,13 @@
                             </div>
                             <div class="esd-left-slider position-relative">
                                 <a href="">
-                                    <img src="<?= getBaseUrl() ?>/assets/img/home/dcd.jpg" alt="">
+                                    <img src="<?= getBaseUrl() ?>/assets/img/home/esd2.jpg" alt="">
                                 </a>
                                 <a href="">
-                                    <img src="<?= getBaseUrl() ?>/assets/img/home/dcd.jpg" alt="">
+                                    <img src="<?= getBaseUrl() ?>/assets/img/home/esd1.jpg" alt="">
                                 </a>
                                 <a href="">
-                                    <img src="<?= getBaseUrl() ?>/assets/img/home/dcd.jpg" alt="">
-                                </a>
-                                <a href="">
-                                    <img src="<?= getBaseUrl() ?>/assets/img/home/dcd.jpg" alt="">
+                                    <img src="<?= getBaseUrl() ?>/assets/img/home/esd3.jpg" alt="">
                                 </a>
                             </div><!-- esd left slider -->
                         </div>

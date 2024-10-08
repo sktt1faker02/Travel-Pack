@@ -64,9 +64,10 @@
         padding: 20px 15px;
     }
     .esd-right-top-description {
-        -webkit-line-clamp: 6;
-        line-clamp: 6;
+        -webkit-line-clamp: 7;
+        line-clamp: 7;
         margin-top: 20px;
+        margin-bottom: -10px;
     }
     .esd-right-bottom-read-more a {
         font-size: 13px;
