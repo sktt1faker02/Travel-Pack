@@ -53,7 +53,7 @@
 
         <div id="main-hero">
             <div class="container">
-                <div class="heroslider-nav">
+                <div class="heroslider-nav heroslider-nav-dark">
                     <div class="heroslider-nav-slide">
                         <h2 class="txt-white">
                             Drive in Style, <br>
@@ -144,7 +144,7 @@
                             <div class="sed-title">
                                 <h3 class="">
                                     <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
-                                        Manchester                                        
+                                        London                                        
                                     </a>
                                 </h3>
                             </div>
@@ -176,7 +176,7 @@
                             <div class="sed-title">
                                 <h3 class="">
                                     <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
-                                    Europe                                        </a>
+                                    New York                                        </a>
                                 </h3>
                             </div>
                             <p class="txt-blue pb-5">
@@ -275,7 +275,164 @@
                             <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>     
-                </div>       
+                </div>  
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        From <strong>£22pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    Europe
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/car-hire/carhirebox1.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        London                                        
+                                    </a>
+                                </h3>
+                            </div>
+                            <p class="txt-blue pb-5">
+                            </p>
+
+                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div><!-- sexboxslide --> 
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        From <strong>£22pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    Europe
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/car-hire/carhirebox2.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    New York                                        </a>
+                                </h3>
+                            </div>
+                            <p class="txt-blue pb-5">
+                            </p>
+
+                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>   
+                </div>    
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        From <strong>£22pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    Europe
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/car-hire/carhirebox1.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        London                                        
+                                    </a>
+                                </h3>
+                            </div>
+                            <p class="txt-blue pb-5">
+                            </p>
+
+                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div><!-- sexboxslide -->
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        From <strong>£22pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    North America
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/car-hire/carhirebox5.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    Europe                                        </a>
+                                </h3>
+                            </div>
+                            <p class="txt-blue pb-5">
+                            </p>
+
+                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>     
+                </div>      
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        From <strong>£22pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    Europe
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/car-hire/carhirebox4.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    Oxford                                        </a>
+                                </h3>
+                            </div>
+                            <p class="txt-blue pb-5">
+                            </p>
+
+                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div><!-- sed slider wrap -->
         </div><!-- exciting deals -->
     </div>

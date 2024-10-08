@@ -1,5 +1,5 @@
 
-    <footer id="footer" class="txt-white">
+<footer id="footer" class="txt-white">
         <div class="container">
             <div class="row footertop align-items-center">
                 <div class="col-12 col-lg-6">
@@ -34,7 +34,7 @@
                     </div>
 
                     <div class="row mt-4 mb-5">
-                        <div class="col-6 col-lg-6">
+                        <div class="col-12 col-sm-6">
                             <h4>
                                 Find Us On
                             </h4>
@@ -50,16 +50,16 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-6 col-lg-6">
+                        <div class="col-12 col-sm-6 mt-5 mt-sm-0">
                             <h4>
                                 Protected By
                             </h4>
-                            <img src="./assets/img/footer/protectedby.png" alt="" class="protectedby">
+                            <img src="<?= getBaseUrl() ?>/assets/img/footer/protectedby.png" alt="" class="protectedby">
                         </div>
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-6 ps-auto ps-lg-5 footertop-right">
+                <div class="col-12 col-lg-6 ps-auto ps-lg-3 ps-xl-5 footertop-right">
                     <p>To book your holiday call us or simply email and <br/>we shall get in touch with you.</p>
                     
                     <p>Just call us on <a href="tel:+442085854080">+44 208 585 4080</a> <br/>or contact <a href="mailto:customer.support@travelpack.co.uk">customer.support@travelpack.co.uk</a></p>
@@ -68,7 +68,7 @@
             <div class="row footerbottom">
                 <div class="col-12 col-lg-2">
                     <a href="index.html">
-                        <img src="./assets/img/footer/footerlogo.png" alt="" class="mb-4 mb-lg-0">
+                        <img src="<?= getBaseUrl() ?>/assets/img/footer/footerlogo.png" alt="" class="mb-4 mb-lg-0">
                     </a>
                 </div>
                 <div class="col-12 col-lg-10 footerbottom-right ps-lg-5">

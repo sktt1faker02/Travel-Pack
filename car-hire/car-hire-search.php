@@ -102,7 +102,7 @@
                         <div class="fb-top">
                             <div class="togglefilterbox">
                                 <div class="slider-label">
-                                    Price
+                                    Car Type
                                 </div>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
@@ -147,6 +147,71 @@
                             </ul>
                         </div><!-- fb bottom -->
                     </div><!-- filters-box -->
+
+                    <div class="filters-box">
+                        <div class="fb-top">
+                            <div class="togglefilterbox">
+                                <div class="slider-label">
+                                    Doors
+                                </div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="fb-bottom togglecheckbox">
+                            <ul class="checkbox-list togglecheckbox">
+                                <li>
+                                    <div class="checkbox-container">
+                                        <input type="checkbox" id="checkbox11">
+                                        <label for="checkbox11"><span class="checkboxtext">2 Doors</span></label>
+                                    </div>
+                                    <span>120</span>
+                                </li>
+                                <li>
+                                    <div class="checkbox-container">
+                                        <input type="checkbox" id="checkbox12">
+                                        <label for="checkbox12"><span class="checkboxtext">4 Doors</span></label>
+                                    </div>
+                                    <span>120</span>
+                                </li>
+                                <li>
+                                    <div class="checkbox-container">
+                                        <input type="checkbox" id="checkbox13">
+                                        <label for="checkbox13"><span class="checkboxtext">5 Doors</span></label>
+                                    </div>
+                                    <span>120</span>
+                                </li>
+                            </ul>
+                        </div><!-- fb bottom -->
+                    </div><!-- filters-box -->
+
+                    <div class="filters-box">
+                        <div class="fb-top">
+                            <div class="togglefilterbox">
+                                <div class="slider-label">
+                                    Transmission
+                                </div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="fb-bottom togglecheckbox">
+                            <ul class="checkbox-list togglecheckbox">
+                                <li>
+                                    <div class="checkbox-container">
+                                        <input type="checkbox" id="checkbox14">
+                                        <label for="checkbox14"><span class="checkboxtext">Automatic</span></label>
+                                    </div>
+                                    <span>120</span>
+                                </li>
+                                <li>
+                                    <div class="checkbox-container">
+                                        <input type="checkbox" id="checkbox15">
+                                        <label for="checkbox15"><span class="checkboxtext">Manual</span></label>
+                                    </div>
+                                    <span>120</span>
+                                </li>
+                            </ul>
+                        </div><!-- fb bottom -->
+                    </div><!-- filters-box -->  
                     
                     <div class="filters-box">
                         <div class="fb-top">
@@ -196,13 +261,13 @@
                                 </li>
                             </ul>
                         </div><!-- fb bottom -->
-                    </div><!-- filters-box -->
+                    </div><!-- filters-box -->      
                     
                     <div class="filters-box">
                         <div class="fb-top">
                             <div class="togglefilterbox">
                                 <div class="slider-label">
-                                    Doors
+                                    Bags
                                 </div>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
@@ -211,57 +276,42 @@
                             <ul class="checkbox-list togglecheckbox">
                                 <li>
                                     <div class="checkbox-container">
-                                        <input type="checkbox" id="checkbox11">
-                                        <label for="checkbox11"><span class="checkboxtext">2 Doors</span></label>
+                                        <input type="checkbox" id="checkbox1">
+                                        <label for="checkbox1"><span class="checkboxtext">1 Bag</span></label>
                                     </div>
                                     <span>120</span>
                                 </li>
                                 <li>
                                     <div class="checkbox-container">
-                                        <input type="checkbox" id="checkbox12">
-                                        <label for="checkbox12"><span class="checkboxtext">4 Doors</span></label>
+                                        <input type="checkbox" id="checkbox2">
+                                        <label for="checkbox2"><span class="checkboxtext">2 Bags</span></label>
                                     </div>
                                     <span>120</span>
                                 </li>
                                 <li>
                                     <div class="checkbox-container">
-                                        <input type="checkbox" id="checkbox13">
-                                        <label for="checkbox13"><span class="checkboxtext">5 Doors</span></label>
+                                        <input type="checkbox" id="checkbox3">
+                                        <label for="checkbox3"><span class="checkboxtext">3 Bags</span></label>
+                                    </div>
+                                    <span>120</span>
+                                </li>
+                                <li>
+                                    <div class="checkbox-container">
+                                        <input type="checkbox" id="checkbox4">
+                                        <label for="checkbox4"><span class="checkboxtext">4 Bags</span></label>
+                                    </div>
+                                    <span>120</span>
+                                </li>
+                                <li>
+                                    <div class="checkbox-container">
+                                        <input type="checkbox" id="checkbox5">
+                                        <label for="checkbox5"><span class="checkboxtext">6 Bags</span></label>
                                     </div>
                                     <span>120</span>
                                 </li>
                             </ul>
                         </div><!-- fb bottom -->
                     </div><!-- filters-box -->
-                    
-                    <div class="filters-box">
-                        <div class="fb-top">
-                            <div class="togglefilterbox">
-                                <div class="slider-label">
-                                    Transmission
-                                </div>
-                                <i class="fa-solid fa-chevron-down"></i>
-                            </div>
-                        </div>
-                        <div class="fb-bottom togglecheckbox">
-                            <ul class="checkbox-list togglecheckbox">
-                                <li>
-                                    <div class="checkbox-container">
-                                        <input type="checkbox" id="checkbox14">
-                                        <label for="checkbox14"><span class="checkboxtext">Automatic</span></label>
-                                    </div>
-                                    <span>120</span>
-                                </li>
-                                <li>
-                                    <div class="checkbox-container">
-                                        <input type="checkbox" id="checkbox15">
-                                        <label for="checkbox15"><span class="checkboxtext">Manual</span></label>
-                                    </div>
-                                    <span>120</span>
-                                </li>
-                            </ul>
-                        </div><!-- fb bottom -->
-                    </div><!-- filters-box -->  
                     
                     <div class="filters-box needbox">
                         <div class="fb-top fw-semibold">

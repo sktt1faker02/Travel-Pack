@@ -91,11 +91,13 @@
 }
 
 .carhirebox-price h3 {
-    color: var(--primary);
+    color: var(--tp-blue);
     margin-bottom:0;
     font-size:30px;
 }
-
+.whiteboxbg.carhire-box {
+    margin-bottom: 0;
+}
 
 .carhire-main {
     background-color: #fff;

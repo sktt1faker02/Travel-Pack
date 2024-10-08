@@ -1,15 +1,3 @@
-// ! TOGGLE HIDE show
-document.querySelectorAll('.togglefilterbox').forEach(function(toggleButton) {
-    toggleButton.addEventListener('click', function() {
-        let fbBottom = this.closest('.filters-box').querySelector('.fb-bottom');
-        
-        fbBottom.classList.toggle('hide');
-        
-        this.querySelector('i').classList.toggle('rotate');
-    });
-});
-
-
 // ! 2 SLIDER RANGE
 const isTwoSlideClassExist = document.querySelectorAll('.two-slide');
 if(isTwoSlideClassExist.length > 0){

@@ -4,7 +4,7 @@
         <form class="frm-typ2" name="frmHotelSearch" id="frmHotelSearch" method="post" action="">
             <div class="searchform-inner">
                 <div class="searchform-row">
-                    <div class="searchbar-inputwrap mobile-order-1" style="flex: 2 !important;">
+                    <div class="searchbar-inputwrap mobile-order-1">
                         <input type="text" class="form-control autocomplete" autocomplete="location" id="hot-location" name="hot-location" value="" placeholder="Location" required="">
                         <div class="invalid-feedback">Please enter a valid location</div>
                         <input type="hidden" id="hot-location-code" name="hot-location-code" value="">
@@ -28,7 +28,7 @@
                         </select>
                         <div class="select_arrow"></div>
                     </div>
-                    <div class="searchbar-inputwrap searchbar-select flex100-mobile mobile-bordertop mobile-last-col" style="flex: 2 !important;">
+                    <div class="searchbar-inputwrap searchbar-select flex100-mobile mobile-bordertop mobile-last-col">
                         <input class="form-control dropdownfilter-click hotel-text-change" placeholder="Travellers and Rooms" readonly>
                         <div class="select_arrow"></div>
                         <div class="dropdownfilter-main dropdown-filter-hotels">
