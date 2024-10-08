@@ -550,7 +550,7 @@ div#cta-datepicker {
     color: #323232;
     text-decoration: underline !important;
 }
-.cookie-policy-content {
+.cookie-policy-contentt {
     font-size: 13px;
     color: #232323;
 }
@@ -1384,10 +1384,6 @@ section#deals-travel-inspiration {
 .mainheader-inner {
     padding: 0 12px;
 }
-.bottommenu {
-    width: calc(100% - 24px);
-    left: 12px;
-}
 #main-header {
     position: fixed;
     z-index: 9999999;
@@ -1594,10 +1590,10 @@ section#deals-travel-inspiration {
     border-top:1px solid #ececea;
     position: absolute;
     opacity: 0;
-    left:0;
+    width: calc(100% - 24px);
+    left: 12px;
     max-height: 0;
     border-radius:0 0 4px 4px;
-    width: 100%;
     visibility: hidden;
     text-align: center;
     overflow: hidden;
