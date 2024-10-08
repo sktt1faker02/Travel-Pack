@@ -135,8 +135,8 @@
                         By browsing this site you accept cookies used to improve and personalise our services and marketing. Read our <a href="#">Privacy Policy</a> for more information about Cookies we use and what we do with your data.
                     </div>
                 </div>
-                <div class="col-12 col-lg-2 offset-lg-1">
-                    <div class="d-flex cookietbns column-gap-3">
+                <div class="col-12 col-lg-3">
+                    <div class="d-flex cookietbns column-gap-2 justify-content-end">
                         <button class="btn btn-primary">
                             Accept
                         </button>
