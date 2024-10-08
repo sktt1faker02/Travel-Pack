@@ -49,7 +49,7 @@
                             ABTA
                         </h4>
                         <p>
-                            Lorem ipsum dolor sit amet
+                            Guaranteed protection and assurance for every booking
                         </p>
                     </div>
                 </div><!-- col -->
