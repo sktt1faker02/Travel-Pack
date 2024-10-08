@@ -47,7 +47,7 @@
                         <input type="submit" class="btn-typ2 searchnowbtn btn btn-primary" value="Search Now" onclick="redirectToPage(event)">
                     </div>
                 </div><!-- searchform-row -->
-                <div class="searchform-more-content car-hire-content">
+                <div class="searchform-more-content more-option-content">
                     <div class="searchform-row mt-3">
                         <div class="searchbar-inputwrap">
                             <select class="form-control" name="car-pickup-time" id="car-hire-time-pickup">
@@ -73,7 +73,7 @@
                     </div><!-- searchform-row -->
                 </div><!-- searchform content more -->
                 <div class="searchform-more-wrap mt-3">
-                    <div class="searchform-more d-flex align-items-center search-more-ch">
+                    <div class="searchform-more d-flex align-items-center v-search-more">
                         <span>
                             More Options
                         </span>

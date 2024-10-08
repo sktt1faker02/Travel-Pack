@@ -45,7 +45,7 @@ jQuery(document).ready(function($){
 
     $(".pickup-date").datepicker({
         dateFormat: 'dd/mm/yy',
-        minDate: 7,
+        minDate: 0,
         maxDate: "+1y",
         changeMonth: true,
         changeYear: true,
@@ -76,7 +76,7 @@ jQuery(document).ready(function($){
         dateFormat: 'dd/mm/yy',
         changeMonth: true,
         changeYear: true,
-        minDate: 7,
+        minDate: 0,
         maxDate: "+1y",
         beforeShowDay: highlightCurrentDay,
         beforeShow: function(input, inst) {
@@ -87,13 +87,13 @@ jQuery(document).ready(function($){
         }
     });
 
-    // $(".pickup-date").attr("placeholder", "Return");
-    // $(".dropoff-date").attr("placeholder", "Types of Holiday");
-
-    // const defaultPickupDate = new Date();
-    // defaultPickupDate.setDate(defaultPickupDate.getDate() + 7);
-    // $(".pickup-date").datepicker("setDate", defaultPickupDate);
-    // $(".dropoff-date").datepicker("setDate", new Date(defaultPickupDate.getTime() + 7 * 24 * 60 * 60 * 1000));
+    $(".initialize-date-picker").datepicker({
+        dateFormat: 'dd/mm/yy',
+        minDate: 0,
+        maxDate: "+1y",
+        changeMonth: true,
+        changeYear: true,
+    });
 });
 
 
@@ -137,7 +137,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-
 
 // START HOTELS INCRemenT DECREMENT //
 document.addEventListener('DOMContentLoaded', function() {
@@ -297,7 +296,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-
 // CHANGE TEXT HOTEL DROPDOWN TEXT
 document.addEventListener('DOMContentLoaded', function() {
     const updatePlaceholderText = () => {
@@ -331,7 +329,6 @@ document.addEventListener('DOMContentLoaded', function() {
         button.addEventListener('click', updatePlaceholderText);
     });
 });
-
 
 // Validation for Children to have adult companions
 document.addEventListener('DOMContentLoaded', function() {
@@ -375,7 +372,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // END HOTEL INCREMENT DECREMENT
-
 document.addEventListener('DOMContentLoaded', function() {
     // INFANT VALIDATION
     const updateInfantValidation = () => {
@@ -469,9 +465,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-
-
-
 // CRUISES + RAIL + TRANSFER + FLIGHTS DROPDOWN CHANGE TEXT
 document.addEventListener('DOMContentLoaded', function() {
     const changeTextWraps = document.querySelectorAll('.change-text-wrap');
@@ -531,87 +524,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-});
-
-// TRANSFER CHECBOX
-document.addEventListener('DOMContentLoaded', function() {
-    // Get the radio buttons
-    const oneWayRadio = document.getElementById('rail-oneway');
-    const returnRadio = document.getElementById('rail-return');
-    
-    // Get the elements to show/hide or toggle class
-    const searchformMoreRail = document.querySelector('.searchform-more-rail');
-    const searchformMoreContent = document.querySelector('.searchform-more-content');
-
-    // Check if the radio buttons are present, if not, skip further logic
-    if (!oneWayRadio || !returnRadio) {
-        // Skip logic if radio buttons are not found
-        return;
-    }
-
-    // Function to toggle the visibility and classes
-    function toggleSearchformMoreRail() {
-        if (oneWayRadio.checked) {
-            if (searchformMoreRail) {
-                searchformMoreRail.classList.add('d-none'); // Hide the .searchform-more-rail using d-none class
-            }
-            if (searchformMoreContent) {
-                searchformMoreContent.classList.remove('show'); // Remove .show class from .searchform-more-content
-            }
-        } else if (returnRadio.checked) {
-            if (searchformMoreRail) {
-                searchformMoreRail.classList.remove('d-none'); // Show the .searchform-more-rail by removing d-none class
-            }
-        }
-    }
-
-    // Add event listeners to the radio buttons
-    oneWayRadio.addEventListener('change', toggleSearchformMoreRail);
-    returnRadio.addEventListener('change', toggleSearchformMoreRail);
-
-    // Initial check on page load to set the correct state
-    toggleSearchformMoreRail();
-});
-
-// TRAINS RAILS SEARCHFORM MORE
-document.addEventListener('DOMContentLoaded', function() {
-    // Get the radio buttons
-    const oneWayRadio = document.getElementById('rail-oneway');
-    const returnRadio = document.getElementById('rail-return');
-    
-    // Get the elements to show/hide or toggle class
-    const searchformMoreRail = document.querySelector('.searchform-more-rail');
-    const searchformMoreContent = document.querySelector('.searchform-more-content');
-
-    // Check if the radio buttons are present, if not, skip further logic
-    if (!oneWayRadio || !returnRadio) {
-        // Skip logic if radio buttons are not found
-        return;
-    }
-
-    // Function to toggle the visibility and classes
-    function toggleSearchformMoreRail() {
-        if (oneWayRadio.checked) {
-            if (searchformMoreRail) {
-                searchformMoreRail.classList.add('d-none'); // Hide the .searchform-more-rail using d-none class
-            }
-            if (searchformMoreContent) {
-                searchformMoreContent.classList.remove('show'); // Remove .show class from .searchform-more-content
-            }
-        } else if (returnRadio.checked) {
-            if (searchformMoreRail) {
-                searchformMoreRail.classList.remove('d-none'); // Show the .searchform-more-rail by removing d-none class
-            }
-            // Optionally, you can add the .show class back to .searchform-more-content if needed
-        }
-    }
-
-    // Add event listeners to the radio buttons
-    oneWayRadio.addEventListener('change', toggleSearchformMoreRail);
-    returnRadio.addEventListener('change', toggleSearchformMoreRail);
-
-    // Initial check on page load to set the correct state
-    toggleSearchformMoreRail();
 });
 
 

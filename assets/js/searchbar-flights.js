@@ -112,89 +112,53 @@ radioButtons.forEach(function(radio) {
     radio.addEventListener('change', checkJourneyType);
 });
 
-// ! CAR HIRE
-const carHireSearchMore = document.querySelector('.search-more-ch');
-carHireSearchMore.addEventListener('click', function() {
-    const carHireContent = document.querySelector('.car-hire-content');
-    carHireContent.classList.toggle('show');
-    carHireSearchMore.querySelector('i').classList.toggle('rotate');
-});
-
-// ! TRANSFER
-const transferSearchMore = document.querySelector('.search-more-tr');
-if(transferSearchMore){
-    const inputTransfer = document.querySelectorAll('.trf-journey');
-    const transferReturn = document.querySelector('.transfer-content');
-
-
-    inputTransfer.forEach(el => {
-        el.addEventListener('change', ()=>{
-            let itValue = el.value;
-            if(itValue == 'R'){
-                transferSearchMore.classList.remove('d-none');
-                transferReturn.classList.add('show');
-            }else{
-                transferSearchMore.classList.add('d-none');
-                transferReturn.classList.remove('show');
-            }
-        });
-    });
-
-    transferSearchMore.addEventListener('click', function() {
-        const carHireContent = document.querySelector('.transfer-content');
-        carHireContent.classList.toggle('show');
-        transferSearchMore.querySelector('i').classList.toggle('rotate');
-    });
-}
-
-
     
-$(document).ready(function() {
-    // Initialize datepickers with default options
-    $("#flt-departure-date-1, #flt-departure-date-2, #flt-departure-date-3, #flt-departure-date-4, #flt-departure-date-5, #flt-departure-date-6").datepicker({
-        dateFormat: 'mm/dd/yy',
-    });
+// $(document).ready(function() {
+//     // Initialize datepickers with default options
+//     $("#flt-departure-date-1, #flt-departure-date-2, #flt-departure-date-3, #flt-departure-date-4, #flt-departure-date-5, #flt-departure-date-6").datepicker({
+//         dateFormat: 'mm/dd/yy',
+//     });
 
-    // Set up date constraints for the inputs
-    $("#flt-departure-date-1").on("change", function() {
-        var selectedDate = $(this).datepicker("getDate");
-        if (selectedDate) {
-            selectedDate.setDate(selectedDate.getDate() + 1); // Add one day
-            $("#flt-departure-date-2").datepicker("option", "minDate", selectedDate);
-        }
-    });
+//     // Set up date constraints for the inputs
+//     $("#flt-departure-date-1").on("change", function() {
+//         var selectedDate = $(this).datepicker("getDate");
+//         if (selectedDate) {
+//             selectedDate.setDate(selectedDate.getDate() + 1); // Add one day
+//             $("#flt-departure-date-2").datepicker("option", "minDate", selectedDate);
+//         }
+//     });
 
-    $("#flt-departure-date-2").on("change", function() {
-        var selectedDate = $(this).datepicker("getDate");
-        if (selectedDate) {
-            selectedDate.setDate(selectedDate.getDate() + 1); // Add one day
-            $("#flt-departure-date-3").datepicker("option", "minDate", selectedDate);
-        }
-    });
+//     $("#flt-departure-date-2").on("change", function() {
+//         var selectedDate = $(this).datepicker("getDate");
+//         if (selectedDate) {
+//             selectedDate.setDate(selectedDate.getDate() + 1); // Add one day
+//             $("#flt-departure-date-3").datepicker("option", "minDate", selectedDate);
+//         }
+//     });
 
-    $("#flt-departure-date-3").on("change", function() {
-        var selectedDate = $(this).datepicker("getDate");
-        if (selectedDate) {
-            selectedDate.setDate(selectedDate.getDate() + 1); // Add one day
-            $("#flt-departure-date-4").datepicker("option", "minDate", selectedDate);
-        }
-    });
+//     $("#flt-departure-date-3").on("change", function() {
+//         var selectedDate = $(this).datepicker("getDate");
+//         if (selectedDate) {
+//             selectedDate.setDate(selectedDate.getDate() + 1); // Add one day
+//             $("#flt-departure-date-4").datepicker("option", "minDate", selectedDate);
+//         }
+//     });
 
-    $("#flt-departure-date-4").on("change", function() {
-        var selectedDate = $(this).datepicker("getDate");
-        if (selectedDate) {
-            selectedDate.setDate(selectedDate.getDate() + 1); // Add one day
-            $("#flt-departure-date-5").datepicker("option", "minDate", selectedDate);
-        }
-    });
+//     $("#flt-departure-date-4").on("change", function() {
+//         var selectedDate = $(this).datepicker("getDate");
+//         if (selectedDate) {
+//             selectedDate.setDate(selectedDate.getDate() + 1); // Add one day
+//             $("#flt-departure-date-5").datepicker("option", "minDate", selectedDate);
+//         }
+//     });
 
-    $("#flt-departure-date-5").on("change", function() {
-        var selectedDate = $(this).datepicker("getDate");
-        if (selectedDate) {
-            selectedDate.setDate(selectedDate.getDate() + 1); // Add one day
-            $("#flt-departure-date-6").datepicker("option", "minDate", selectedDate);
-        }
-    });
-});
+//     $("#flt-departure-date-5").on("change", function() {
+//         var selectedDate = $(this).datepicker("getDate");
+//         if (selectedDate) {
+//             selectedDate.setDate(selectedDate.getDate() + 1); // Add one day
+//             $("#flt-departure-date-6").datepicker("option", "minDate", selectedDate);
+//         }
+//     });
+// });
 
     
