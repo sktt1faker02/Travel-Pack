@@ -1,8 +1,8 @@
 
-    <footer id="footer" class="txt-white">
+<footer id="footer" class="txt-white">
         <div class="container">
             <div class="row footertop align-items-center">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 footertop-left-main">
                     <div class="row">
                         <div class="col-12 col-sm-6 footertopleft">
                             <h4>
@@ -34,7 +34,7 @@
                     </div>
 
                     <div class="row mt-4 mb-5">
-                        <div class="col-12 col-sm-6">
+                        <div class="col-12 col-sm-6 footertopleft">
                             <h4>
                                 Find Us On
                             </h4>
@@ -122,3 +122,31 @@
             <i class="fa-solid fa-phone"></i>
         </button>
     </div><!-- phonepopup -->
+
+
+    <div id="cookie-policy">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-9 d-flex column-gap-4">
+                    <h4 class="cookie-policy-heading">
+                        Cookie Policy
+                    </h4>
+                    <div class="cookie-policy-content">
+                        <p>
+                            By browsing this site you accept cookies used to improve and personalise our services and marketing. Read our <a href="#">Privacy Policy</a> for more information about Cookies we use and what we do with your data.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="d-flex cookietbns column-gap-2 justify-content-end">
+                        <button class="btn btn-primary">
+                            Accept
+                        </button>
+                        <button class="btn btn-white">
+                            Decline
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

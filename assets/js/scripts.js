@@ -488,6 +488,16 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+// HEADER FIXED
+document.addEventListener('scroll', function() {
+    const mainHeader = document.getElementById('main-header');
+
+    if (window.scrollY > 200) { // Check if scrolled more than 200 pixels
+        mainHeader.classList.add('headerfixed'); // Add the class
+    } else {
+        mainHeader.classList.remove('headerfixed'); // Remove the class if scrolled back up
+    }
+});
 
 
 
