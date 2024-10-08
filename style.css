@@ -539,13 +539,16 @@ div#cta-datepicker {
     color: #000;
     display: flex;
     font-size: 19px;
-    flex: 0 0 140px;
+    flex: 0 0 120px;
 }
 #cookie-policy a {
     color: #323232;
     text-decoration: underline !important;
 }
-
+.cookie-policy-content {
+    font-size: 13px;
+    color: #232323;
+}
 
 /* MODAL POP UP thank you*/
 #thankyou-modal .modal-content {
@@ -3511,10 +3514,6 @@ ul.oa-checklist li a {
 
 .ui-state-disabled.rd{
     opacity: 1 !important;
-}
-.ui-state-disabled.rd .ui-state-default{
-    background: #ffee57 !important;
-    color: #000000 !important;
 }
 
 /* FEEDFBACK */
