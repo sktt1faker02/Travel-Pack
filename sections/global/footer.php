@@ -131,7 +131,7 @@
                     <h4 class="cookie-policy-heading">
                         Cookie Policy
                     </h4>
-                    <div class="cookie-policy-content">
+                    <div class="cookie-policy-contentt">
                         <p>
                             By browsing this site you accept cookies used to improve and personalise our services and marketing. Read our <a href="#">Privacy Policy</a> for more information about Cookies we use and what we do with your data.
                         </p>
