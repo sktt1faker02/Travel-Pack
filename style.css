@@ -493,8 +493,9 @@ div#cta-datepicker {
     width: 32px !important;
     height: 33px !important;
 }
-.ui-datepicker td.rd a {
+.ui-datepicker td.rd a, .ui-datepicker td.rd span {
     background-color: #cab1e1 !important;
+    color: #232323;
 }
 .ui-datepicker td span, .ui-datepicker td a {
     padding: 0;
@@ -518,6 +519,33 @@ div#cta-datepicker {
 .datepicker {
     cursor: pointer;
 }
+
+/* COOKIE POLICY */
+#cookie-policy {
+    position: fixed;
+    bottom: 15px;
+    background-color: #f8f6f3;
+    width: 954px;
+    padding: 15px 6px;
+    border-radius: 8px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.cookietbns .btn {
+    width: 91px;
+    font-size: 15px;
+}
+#cookie-policy .cookie-policy-heading {
+    color: #000;
+    display: flex;
+    font-size: 19px;
+    flex: 0 0 140px;
+}
+#cookie-policy a {
+    color: #323232;
+    text-decoration: underline !important;
+}
+
 
 /* MODAL POP UP thank you*/
 #thankyou-modal .modal-content {
@@ -957,6 +985,9 @@ ul.liststyle {
     width: 50px;
     height: 50px;
     border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.25) !important;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.25) !important;
+    -moz-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.25) !important;
 }
 .phonepopup .thepopup {
     background-color: #fff;
@@ -2626,11 +2657,12 @@ ul {
     flex-basis: 50%;
 }
 .footertop-right {
-    font-size: 25.935px;
+    font-size: 28px;
     font-weight: 500;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    line-height: 1.4;
 }
 .footertop-right a {
     font-weight: 700;
@@ -2643,7 +2675,7 @@ ul {
     opacity: 1;
 }
 .footerbottom-right {
-    font-size:11px;
+    font-size: 11.7px;
 }
 .footerbottom {
     border-top: 2px solid #ac83c3;

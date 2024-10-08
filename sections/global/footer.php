@@ -4,7 +4,7 @@
             <div class="row footertop align-items-center">
                 <div class="col-12 col-lg-6">
                     <div class="row">
-                        <div class="col-12 col-sm-6">
+                        <div class="col-12 col-sm-6 footertopleft">
                             <h4>
                                 Customer Support
                             </h4>
@@ -16,7 +16,7 @@
                                 <li><a href="#">Feedback</a></li>
                             </ul>
                         </div><!-- col -->
-                        <div class="col-12 col-sm-6 mt-4 mt-sm-0">
+                        <div class="col-12 col-sm-6 mt-4 mt-sm-0 footertopmid">
                             <h4>
                                 Book Now
                             </h4>

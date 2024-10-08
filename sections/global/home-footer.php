@@ -2,9 +2,9 @@
 <footer id="footer" class="txt-white">
         <div class="container">
             <div class="row footertop align-items-center">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 footertop-left-main">
                     <div class="row">
-                        <div class="col-12 col-sm-6">
+                        <div class="col-12 col-sm-6 footertopleft">
                             <h4>
                                 Customer Support
                             </h4>
@@ -16,7 +16,7 @@
                                 <li><a href="#">Feedback</a></li>
                             </ul>
                         </div><!-- col -->
-                        <div class="col-12 col-sm-6 mt-4 mt-sm-0">
+                        <div class="col-12 col-sm-6 mt-4 mt-sm-0 footertopmid">
                             <h4>
                                 Book Now
                             </h4>
@@ -34,7 +34,7 @@
                     </div>
 
                     <div class="row mt-4 mb-5">
-                        <div class="col-12 col-sm-6">
+                        <div class="col-12 col-sm-6 footertopleft">
                             <h4>
                                 Find Us On
                             </h4>
@@ -122,3 +122,29 @@
             <i class="fa-solid fa-phone"></i>
         </button>
     </div><!-- phonepopup -->
+
+
+    <div id="cookie-policy">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-9 d-flex column-gap-4">
+                    <h4 class="cookie-policy-heading">
+                        Cookie Policy
+                    </h4>
+                    <div class="cookie-policy-content">
+                        By browsing this site you accept cookies used to improve and personalise our services and marketing. Read our <a href="#">Privacy Policy</a> for more information about Cookies we use and what we do with your data.
+                    </div>
+                </div>
+                <div class="col-12 col-lg-2 offset-lg-1">
+                    <div class="d-flex cookietbns column-gap-3">
+                        <button class="btn btn-primary">
+                            Accept
+                        </button>
+                        <button class="btn btn-white">
+                            Decline
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
