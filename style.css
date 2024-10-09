@@ -1088,6 +1088,7 @@ ul.liststyle {
     color: #fff;
     text-align: center;
     width: 350px;
+    max-width:100%;
     font-size: 26px;
     font-weight: 700;
     right:0;
@@ -2335,6 +2336,7 @@ img.icon-star {
 #hurry h2 {
     font-size: 50px;
     margin-bottom: 35px;
+    font-weight: 400;
 }
 .hurryslide-bottom {
     position: absolute;
@@ -3083,6 +3085,9 @@ ul {
     .slick-slide {
         max-height: 100% !important;
         overflow: hidden; /* Ensures content doesn't exceed the max height */
+    }
+    #top-places h2 {
+        font-size: 31px;
     }
 }
 
