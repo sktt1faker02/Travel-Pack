@@ -9,7 +9,7 @@
                     </div>
 
                     <div class="searchbar-inputwrap flex7 mobile-last-col">
-                        <input class="form-control date pickup-date" maxdate="+730D" name="car-hire-date-pickup" id="car-hire-date-pickup" value="" placeholder="Date">
+                        <input class="form-control date car-hire-pickup-date" maxdate="+730D" name="car-hire-date-pickup" id="car-hire-date-pickup" value="" placeholder="Date">
                         <div class="select_arrow"></div>
                     </div>
 
@@ -19,14 +19,14 @@
                     </div>
 
                     <div class="searchbar-inputwrap input-witharrow flex7 mobile-bordertop mobile-last-col">
-                        <input class="form-control date dropoff-date" name="car-hire-date-dropoff-pickup" id="car-hire-date-dropoff-pickup" value="" placeholder="Date">
+                        <input class="form-control date car-hire-date-dropoff-pickup" name="car-hire-date-dropoff-pickup" id="car-hire-date-dropoff-pickup" value="" placeholder="Date">
                         <div class="select_arrow"></div>
                     </div>
 
                     <div class="searchbar-inputwrap searchbar-select flex8 mobile-bordertop">
                         <select class="form-control" name="car-passenger-count" id="car-passenger-count">
                             <option value="" disabled selected>Passengers</option>
-                            <option value="1" >1 Passenger</option>
+                            <option value="1">1 Passenger</option>
                             <option value="2">2 Passengers</option>
                             <option value="3">3 Passengers</option>
                             <option value="4">4 Passengers</option>
@@ -47,7 +47,7 @@
                         <input type="submit" class="btn-typ2 searchnowbtn btn btn-primary" value="Search Now" onclick="redirectToPage(event)">
                     </div>
                 </div><!-- searchform-row -->
-                <div class="searchform-more-content more-option-content">
+                <div class="searchform-more-content more-option-content smoc">
                     <div class="searchform-row mt-3">
                         <div class="searchbar-inputwrap">
                             <select class="form-control" name="car-pickup-time" id="car-hire-time-pickup">
@@ -73,7 +73,7 @@
                     </div><!-- searchform-row -->
                 </div><!-- searchform content more -->
                 <div class="searchform-more-wrap mt-3">
-                    <div class="searchform-more d-flex align-items-center v-search-more">
+                    <div class="searchform-more d-flex align-items-center v-search-more sm-tab">
                         <span>
                             More Options
                         </span>

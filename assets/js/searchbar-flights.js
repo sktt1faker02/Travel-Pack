@@ -84,6 +84,8 @@ function checkJourneyType() {
 searchformMore.addEventListener('click', function() {
     const radioButtons = document.querySelector('input[name="flt-journey"]:checked');
     
+    console.log('object');
+
     switch (radioButtons.value) {
         case 'R':
             if(smcReturn.classList.contains('hide-first')){
@@ -111,6 +113,15 @@ var radioButtons = document.querySelectorAll('.searchbar-checkboxes input[name="
 radioButtons.forEach(function(radio) {
     radio.addEventListener('change', checkJourneyType);
 });
+
+
+
+const smTab = document.querySelector('.sm-tab');
+if(smTab){
+    smTab.addEventListener('click', e =>{
+        document.querySelector('.smoc').classList.toggle('show');
+    });
+}
 
     
 // $(document).ready(function() {
