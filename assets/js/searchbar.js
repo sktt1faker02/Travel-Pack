@@ -89,12 +89,12 @@ jQuery(document).ready(function($){
 
     // ! landing car hire picker
     function highlightCurrentDayCarHire(date, inst) {
-        const pickupDate = $(".car-hire-pickup-date").datepicker("getDate");
-        const dropoffDate = $(".car-hire-dropoff-date").datepicker("getDate");
+        const pickupDateCh = $(".car-hire-pickup-date").datepicker("getDate");
+        const dropoffDateCh = $(".car-hire-dropoff-date").datepicker("getDate");
 
-        if (pickupDate && dropoffDate) {
-            const startDate = pickupDate.getTime();
-            const endDate = dropoffDate.getTime();
+        if (pickupDateCh && dropoffDateCh) {
+            const startDate = pickupDateCh.getTime();
+            const endDate = dropoffDateCh.getTime();
             const currentDate = date.getTime();
 
             if (currentDate === startDate || currentDate === endDate) {
@@ -115,15 +115,15 @@ jQuery(document).ready(function($){
         changeYear: true,
         beforeShowDay: highlightCurrentDayCarHire,
         onSelect: function(selectedDate) {
-            const selectedDateObject = $.datepicker.parseDate("dd/mm/yy", selectedDate);
-            const dropOffDate = new Date(selectedDateObject);
-            dropOffDate.setDate(dropOffDate.getDate() + 7);
-            $(".car-hire-dropoff-date").datepicker("option", "minDate", dropOffDate);
-            const currentDropOffDate = $(".car-hire-dropoff-date").datepicker("getDate");
-            if (currentDropOffDate < dropOffDate) {
-                $(".car-hire-dropoff-date").datepicker("setDate", dropOffDate);
+            const selectedDateObjectCh = $.datepicker.parseDate("dd/mm/yy", selectedDate);
+            const dropOffDateCh = new Date(selectedDateObjectCh);
+            dropOffDateCh.setDate(dropOffDateCh.getDate() + 7);
+            $(".car-hire-dropoff-date").datepicker("option", "minDate", dropOffDateCh);
+            const currentDropOffDateCh = $(".car-hire-dropoff-date").datepicker("getDate");
+            if (currentDropOffDateCh < dropOffDateCh) {
+                $(".car-hire-dropoff-date").datepicker("setDate", dropOffDateCh);
             }
-            const maxDate = new Date(selectedDateObject);
+            const maxDate = new Date(selectedDateObjectCh);
             maxDate.setDate(maxDate.getDate() + 365);
             $(".car-hire-dropoff-date").datepicker("option", "maxDate", maxDate);
             $(".car-hire-dropoff-date").datepicker("refresh");

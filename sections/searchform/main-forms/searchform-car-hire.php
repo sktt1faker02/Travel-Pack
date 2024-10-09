@@ -19,7 +19,7 @@
                     </div>
 
                     <div class="searchbar-inputwrap input-witharrow flex7 mobile-bordertop mobile-last-col">
-                        <input class="form-control date car-hire-date-dropoff-pickup" name="car-hire-date-dropoff-pickup" id="car-hire-date-dropoff-pickup" value="" placeholder="Date">
+                        <input class="form-control date car-hire-dropoff-date" name="car-hire-date-dropoff-pickup" id="car-hire-date-dropoff-pickup" value="" placeholder="Date">
                         <div class="select_arrow"></div>
                     </div>
 
