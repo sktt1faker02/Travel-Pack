@@ -171,7 +171,7 @@
                                         </h3>
                                     </div>
                                 </div><!-- esd right top title top -->
-                                <div class="esd-right-top-description">
+                                <div class="esd-right-top-description text-wrap">
                                     <p>
                                         Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris egestas auctor nunc. Maecenas quis magna diam. Pellentesque pretium pretium enim, eget posuere sapien. Aenean sagittis turpis mi, sit amet vulputate eros vestibulum in. Vivamus et diam ultricies ligula pellentesque rutrum. Pellentesque ipsum est, faucibus et ipsum nec, pellentesque ultricies ante. Nulla facilisi. Proin luctus nisi at accumsan posuere.
                                     </p>
@@ -240,7 +240,7 @@
                                         </h3>
                                     </div>
                                 </div><!-- esd right top title top -->
-                                <div class="esd-right-top-description">
+                                <div class="esd-right-top-description text-wrap">
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
                                     </p>
@@ -312,7 +312,7 @@
                                         </h3>
                                     </div>
                                 </div><!-- esd right top title top -->
-                                <div class="esd-right-top-description">
+                                <div class="esd-right-top-description text-wrap">
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
                                     </p>
@@ -384,7 +384,7 @@
                                         </h3>
                                     </div>
                                 </div><!-- esd right top title top -->
-                                <div class="esd-right-top-description">
+                                <div class="esd-right-top-description text-wrap">
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
                                     </p>
@@ -456,7 +456,7 @@
                                         </h3>
                                     </div>
                                 </div><!-- esd right top title top -->
-                                <div class="esd-right-top-description">
+                                <div class="esd-right-top-description text-wrap">
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
                                     </p>
@@ -498,7 +498,7 @@
                                 </h3>
                             </div>
                             <div class="col-4 col-md-4 d-flex justify-content-end">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">View All <i class="fa-solid fa-chevron-right"></i></a>
                             </div>
                         </div><!-- row -->
                     </div><!-- exciting deals -->
@@ -513,7 +513,7 @@
                         <div class="yellowtagwrap">
                             <div class="yph-price global-price-tag">
                                 <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
-                                    From <strong>£22pp</strong>
+                                    From <strong>£20pp</strong>
                                 </a>
                             </div>
                         </div>
@@ -538,14 +538,14 @@
                         <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>
-            </div><!-- sexboxslide -->
+            </div>
             <div class="sedboxslide">
                 <div class="sedbox">
                     <div class="sedtop">
                         <div class="yellowtagwrap">
                             <div class="yph-price global-price-tag">
                                 <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
-                                    From <strong>£22pp</strong>
+                                    From <strong>£60pp</strong>
                                 </a>
                             </div>
                         </div>
@@ -560,7 +560,7 @@
                         <div class="sed-title">
                             <h3 class="">
                                 <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
-                                    Europe
+                                    Oxford
                                 </a>
                             </h3>
                         </div>
@@ -577,7 +577,7 @@
                         <div class="yellowtagwrap">
                             <div class="yph-price global-price-tag">
                                 <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
-                                    From <strong>£22pp</strong>
+                                    From <strong>£30pp</strong>
                                 </a>
                             </div>
                         </div>
@@ -587,7 +587,7 @@
                             </a>
                         </div>
                     </div>
-                    <img src="<?= getBaseUrl() ?>/assets/img/experiences/experiencescard3.jpg" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/experiences/experience6.jpg" alt="">
                     <div class="sed-details">
                         <div class="sed-title">
                             <h3 class="mb-5 pb-4">
@@ -607,7 +607,7 @@
                         <div class="yellowtagwrap">
                             <div class="yph-price global-price-tag">
                                 <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
-                                    From <strong>£22pp</strong>
+                                    From <strong>£20pp</strong>
                                 </a>
                             </div>
                         </div>
@@ -622,7 +622,7 @@
                         <div class="sed-title">
                             <h3 class="">
                                 <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
-                                    Oxford
+                                    Leeds
                                 </a>
                             </h3>
                         </div>
@@ -664,7 +664,166 @@
                         <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>     
-            </div>       
+            </div>   
+            <div class="sedboxslide">
+                <div class="sedbox">
+                    <div class="sedtop">
+                        <div class="yellowtagwrap">
+                            <div class="yph-price global-price-tag">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                    From <strong>£20pp</strong>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="esd-continent">
+                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                Europe
+                            </a>
+                        </div>
+                    </div>
+                    <img src="<?= getBaseUrl() ?>/assets/img/experiences/experiencescard1.jpg" alt="">
+                    <div class="sed-details">
+                        <div class="sed-title">
+                            <h3 class="">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                    Manchester
+                                </a>
+                            </h3>
+                        </div>
+                        <p class="txt-blue pb-5">
+                        </p>
+
+                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="sedboxslide">
+                <div class="sedbox">
+                    <div class="sedtop">
+                        <div class="yellowtagwrap">
+                            <div class="yph-price global-price-tag">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                    From <strong>£60pp</strong>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="esd-continent">
+                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                Europe
+                            </a>
+                        </div>
+                    </div>
+                    <img src="<?= getBaseUrl() ?>/assets/img/experiences/experiencescard2.jpg" alt="">
+                    <div class="sed-details">
+                        <div class="sed-title">
+                            <h3 class="">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                    Oxford
+                                </a>
+                            </h3>
+                        </div>
+                        <p class="txt-blue pb-5">
+                        </p>
+
+                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>   
+            </div>
+            <div class="sedboxslide">
+                <div class="sedbox">
+                    <div class="sedtop">
+                        <div class="yellowtagwrap">
+                            <div class="yph-price global-price-tag">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                    From <strong>£30pp</strong>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="esd-continent">
+                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                Europe
+                            </a>
+                        </div>
+                    </div>
+                    <img src="<?= getBaseUrl() ?>/assets/img/experiences/experience6.jpg" alt="">
+                    <div class="sed-details">
+                        <div class="sed-title">
+                            <h3 class="mb-5 pb-4">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                    Bath
+                                </a>
+                            </h3>
+                        </div>
+
+                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>   
+            </div>
+            <div class="sedboxslide">
+                <div class="sedbox">
+                    <div class="sedtop">
+                        <div class="yellowtagwrap">
+                            <div class="yph-price global-price-tag">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                    From <strong>£20pp</strong>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="esd-continent">
+                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                Europe
+                            </a>
+                        </div>
+                    </div>
+                    <img src="<?= getBaseUrl() ?>/assets/img/experiences/experiencescard4.jpg" alt="">
+                    <div class="sed-details">
+                        <div class="sed-title">
+                            <h3 class="">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                    Leeds
+                                </a>
+                            </h3>
+                        </div>
+                        <p class="txt-blue pb-5">
+                        </p>
+
+                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="sedboxslide">
+                <div class="sedbox">
+                    <div class="sedtop">
+                        <div class="yellowtagwrap">
+                            <div class="yph-price global-price-tag">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                    From <strong>£22pp</strong>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="esd-continent">
+                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                North America
+                            </a>
+                        </div>
+                    </div>
+                    <img src="<?= getBaseUrl() ?>/assets/img/experiences/experiencescard5.jpg" alt="">
+                    <div class="sed-details">
+                        <div class="sed-title">
+                            <h3 class="">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                    Europe
+                                </a>
+                            </h3>
+                        </div>
+                        <p class="txt-blue pb-5">
+                        </p>
+
+                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>     
+            </div> 
+            
         </div><!-- sed slider wrap -->
     </div><!-- exciting deals -->
 

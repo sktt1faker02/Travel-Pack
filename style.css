@@ -2247,6 +2247,7 @@ img.icon-star {
 }
 .esd-box .esd-left-slider img.showbox {
 	opacity:1;
+    width: 100%;
 }
 .esd-left-slider {
 	background-color:#fff;
@@ -2874,6 +2875,19 @@ ul {
     -webkit-transform: translate3d(0, 0, 0); /* Add this for Safari */
     transform: translate3d(0, 0, 0);
     display: block; /* Ensure display is block */
+}
+
+@media(min-width:990px) and (max-width: 1400px){
+    .esd-right-top-description.text-wrap {
+        max-height: 111px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5; /* Adjust this based on the font size to approximate the right number of lines */
+        -webkit-box-orient: vertical;
+        white-space: normal;
+    }
+
 }
 @media (min-width: 426px) {
     .rowslider > .slick-list {
