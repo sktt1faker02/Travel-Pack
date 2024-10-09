@@ -3410,7 +3410,7 @@ ul.oa-checklist > li::before {
     position: absolute;
     left: -30px;
     background-size: cover;
-    background-image: url(../travelpack/assets/img/inner/checkbox2.png);
+    background-image: url(assets/img/inner/checkbox2.png);
     top: 3px;
 }
 
