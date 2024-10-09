@@ -60,7 +60,6 @@ body {
     font-size:16px;
     -webkit-font-smoothing: antialiased;
     font-weight:400;
-    font-family: 'Open Sans', sans-serif;
     margin:0;
     color:#092d62;
 }
@@ -290,7 +289,6 @@ section.block {
 .ui-datepicker th {
     padding-bottom: 0;
     font-weight: 600;
-    font-family: 'Open Sans';
 }
 .ui-datepicker-header.ui-widget-header .ui-icon {
     background-image: url("assets/img/global/ui-icons_444444_256x240.png");
@@ -322,7 +320,6 @@ section.block {
     background: none;
     border: none;
     padding-right: 3px;
-    font-family: 'Open Sans', serif;
     color: var(--primary-text);
     font-weight: 600;
 }
@@ -441,7 +438,6 @@ section.block {
     border-radius: 0 6px 6px 0;
 }
 div#cta-datepicker {
-    font-family: 'Open Sans';
     font-weight: 500;
 }
 .daterangepicker .drp-selected {
@@ -504,7 +500,6 @@ div#cta-datepicker {
     text-align: center;
     line-height: 29.66px;
     font-weight: 600 !important;
-    font-family: 'Open Sans' !important;
     background-color: #fff !important;
     border-radius: 5px;
     border: 0 !important;
@@ -642,7 +637,6 @@ div#cta-datepicker {
     background-color: transparent;
     border: 0.124rem solid var(--primary);
     color: #a09c9c;
-    font-family: 'Open Sans';
 }
 .tp-tabs .nav-link.active {
     background-color: transparent;
@@ -694,7 +688,6 @@ strong {
     font-weight: 600;
 }
 .tp-top-heading {
-    font-family: 'Open Sans';
     font-weight: 600;
     font-size: 20px;
 }
@@ -714,7 +707,6 @@ ul.liststyle {
     flex:1;
 }
 .fontfam2 {
-    font-family: 'Open Sans', sans-serif;
 }
 .small {
     font-size:12px;
@@ -1876,7 +1868,6 @@ section#deals-travel-inspiration {
     font-size: 17px;
     color: #222;
     font-weight: 600;
-    font-family: 'Open Sans';
 }
 .whychoosebox p {
     color: #a09c9c;
@@ -3152,7 +3143,6 @@ ul {
     display: inline-block;
 }
 .cruises-stops h4 {
-    font-family: 'Open Sans';
     font-size: 14px;
     margin-bottom: 0;
 }
@@ -3463,7 +3453,6 @@ ul.oa-checklist li a {
     display:block;
 }
 .ctb-top h5 {
-    font-family: 'Open Sans', sans-serif;
     letter-spacing: 0;
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -3513,7 +3502,6 @@ ul.oa-checklist li a {
 .cob-bottom h5 {
     margin-bottom:20px;
     color:#000;
-    font-family: 'Open Sans', sans-serif;
 }
 .modal .btn-close {
     position: absolute;

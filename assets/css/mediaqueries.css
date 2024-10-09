@@ -127,6 +127,9 @@
 
 
 @media (max-width: 991px) {
+    #main-header {
+        top:20px;
+    }
     .nobr br {
         display: none;
     }
@@ -161,7 +164,7 @@
         justify-content: center;
     }
     #main-hero {
-        padding: 50px 0 30px;
+        padding: 130px 0 30px;
         position: relative;
     }
     .heroslider-nav .slick-dots {
@@ -326,8 +329,17 @@
     .faqs-toggle-btn i {
         font-size: 10px;
     }
+    .heroslider-nav-slide h1, .heroslider-nav-slide h2 {
+        font-size: 43px;
+    }
+    .heroslider-nav .slick-dots {
+        bottom: -5px;
+    }
     .mobilesearchtab-wrap {
         margin-bottom:0;
+    }
+    .slick-dots button {
+        transform: scale(.7);
     }
     .whychoosebox img {
         width: 100px;
@@ -355,9 +367,6 @@
     }
     .mobilesearchtab-wrap {
         overflow-y: hidden;
-    }
-    header#main-header {
-        padding: 0 15px;
     }
     .rowslider > .slick-list > .slick-track > .slick-slide > div {
         margin-right: 0;
