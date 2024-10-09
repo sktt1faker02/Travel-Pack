@@ -3381,6 +3381,9 @@ ul {
     bottom: 20px;
     left: 20px;
 }
+.our-expertise p{
+    font-weight: 400 !important;
+}
 
 /* OUR ACHIEVEMENTS CHECKLIST */
 .our-achievements-box {
