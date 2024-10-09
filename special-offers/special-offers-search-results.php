@@ -79,10 +79,10 @@
                     <!-- Duration Filter Box -->
                     <div class="filters-box time-range durationfilter">
                         <div class="fb-top fw-semibold">
-                            <div class="slider-label">
-                                Duration
-                            </div>
-                            <div class="togglefilterbox txt-black">
+                            <div class="togglefilterbox">
+                                <div class="slider-label">
+                                    Duration
+                                </div>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
                         </div><!-- fb-top -->
@@ -103,10 +103,10 @@
                     <!-- Rating Filter Box -->
                     <div id="ratingContainer" class="filters-box time-range">
                         <div class="fb-top fw-semibold">
-                            <div class="slider-label">
+                            <div class="togglefilterbox">
+                                <div class="slider-label">
                                 Rating
-                            </div>
-                            <div class="togglefilterbox txt-black">
+                                </div>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
                         </div><!-- fb-top -->
@@ -127,10 +127,10 @@
                     <!-- Price Filter Box -->
                     <div id="priceContainer" class="filters-box time-range">
                         <div class="fb-top fw-semibold">
-                            <div class="slider-label">
+                            <div class="togglefilterbox">
+                                <div class="slider-label">
                                 Price
-                            </div>
-                            <div class="togglefilterbox txt-black">
+                                </div>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
                         </div><!-- fb-top -->
@@ -151,8 +151,12 @@
                     <!-- Guest Ratings Filter Box -->
                     <div class="filters-box">
                         <div class="fb-top">
-                            Guest Ratings
-                            <div class="togglefilterbox"><i class="fa-solid fa-chevron-down"></i></div>
+                            <div class="togglefilterbox">
+                                <div class="slider-label">
+                                Guest Ratings
+                                </div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
                         </div>
                         <div class="fb-bottom">
                             <ul class="checkbox-list">
@@ -191,8 +195,12 @@
                     <!-- Holiday Type Filter Box -->
                     <div class="filters-box">
                         <div class="fb-top">
-                            Holiday Type
-                            <div class="togglefilterbox"><i class="fa-solid fa-chevron-down"></i></div>
+                            <div class="togglefilterbox">
+                                <div class="slider-label">
+                                Holiday Type
+                                </div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
                         </div>
                         <div class="fb-bottom">
                             <ul class="checkbox-list">
@@ -231,8 +239,12 @@
                     <!-- Board Basis Filter Box -->
                     <div class="filters-box">
                         <div class="fb-top">
-                            Board Basis
-                            <div class="togglefilterbox"><i class="fa-solid fa-chevron-down"></i></div>
+                            <div class="togglefilterbox">
+                                <div class="slider-label">
+                                Board Basis
+                                </div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
                         </div>
                         <div class="fb-bottom">
                             <ul class="checkbox-list">

@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 // RANGE SIDEBAR SCRIPTS
-/*document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
     // Duration Slider
     const durationRange = document.getElementById('durationRange');
     const durationValue = document.getElementById('durationValue');
@@ -192,7 +192,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize position and background on load
     updateSliderPosition(durationRange, durationValue, leftLabel, rightLabel);
     updateSliderBackground(durationRange);
-}); */
+}); 
 
 document.addEventListener('DOMContentLoaded', function() {
     // Common initialization for sliders
@@ -321,6 +321,14 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     // Slider setup for Price Range, Departure Time, and Return Time
     const sliders = [
+        {
+            range: document.getElementById('ratingRange'),
+            value: document.getElementById('ratingValueBelow'),
+            leftLabel: document.querySelector('#priceContainer .value-display span:first-child'),
+            rightLabel: document.querySelector('#priceContainer .value-display span:last-child'),
+            unit: '', // Prefix for price
+            isTime: false
+        },
         {
             range: document.getElementById('priceRange'),
             value: document.getElementById('priceValueBelow'),
