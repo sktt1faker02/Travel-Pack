@@ -42,7 +42,7 @@ jQuery(document).ready(function($){
         return [true, ""];
     }
 
-
+    // ! global picker
     $(".pickup-date").datepicker({
         dateFormat: 'dd/mm/yy',
         minDate: 0,
@@ -87,6 +87,70 @@ jQuery(document).ready(function($){
         }
     });
 
+    // ! landing car hire picker
+    function highlightCurrentDayCarHire(date, inst) {
+        const pickupDate = $(".car-hire-pickup-date").datepicker("getDate");
+        const dropoffDate = $(".car-hire-dropoff-date").datepicker("getDate");
+
+        if (pickupDate && dropoffDate) {
+            const startDate = pickupDate.getTime();
+            const endDate = dropoffDate.getTime();
+            const currentDate = date.getTime();
+
+            if (currentDate === startDate || currentDate === endDate) {
+                return [true, "ui-datepicker-current-day"];
+            } else if (currentDate > startDate && currentDate < endDate) {
+                return [true, "rd"];
+            }
+        }
+        
+        return [true, ""];
+    }
+
+    $(".car-hire-pickup-date").datepicker({
+        dateFormat: 'dd/mm/yy',
+        minDate: 0,
+        maxDate: "+1y",
+        changeMonth: true,
+        changeYear: true,
+        beforeShowDay: highlightCurrentDayCarHire,
+        onSelect: function(selectedDate) {
+            const selectedDateObject = $.datepicker.parseDate("dd/mm/yy", selectedDate);
+            const dropOffDate = new Date(selectedDateObject);
+            dropOffDate.setDate(dropOffDate.getDate() + 7);
+            $(".car-hire-dropoff-date").datepicker("option", "minDate", dropOffDate);
+            const currentDropOffDate = $(".car-hire-dropoff-date").datepicker("getDate");
+            if (currentDropOffDate < dropOffDate) {
+                $(".car-hire-dropoff-date").datepicker("setDate", dropOffDate);
+            }
+            const maxDate = new Date(selectedDateObject);
+            maxDate.setDate(maxDate.getDate() + 365);
+            $(".car-hire-dropoff-date").datepicker("option", "maxDate", maxDate);
+            $(".car-hire-dropoff-date").datepicker("refresh");
+        },
+        beforeShow: function(input, inst) {
+            replaceShortMonthNames(inst);
+        },
+        onChangeMonthYear: function(year, month, inst) {
+            replaceShortMonthNames(inst);
+        }
+    });
+
+    $(".car-hire-dropoff-date").datepicker({
+        dateFormat: 'dd/mm/yy',
+        changeMonth: true,
+        changeYear: true,
+        minDate: 0,
+        maxDate: "+1y",
+        beforeShowDay: highlightCurrentDayCarHire,
+        beforeShow: function(input, inst) {
+            replaceShortMonthNames(inst);
+        },
+        onChangeMonthYear: function(year, month, inst) {
+            replaceShortMonthNames(inst);
+        }
+    });
+
     $(".initialize-date-picker").datepicker({
         dateFormat: 'dd/mm/yy',
         minDate: 0,
@@ -95,8 +159,6 @@ jQuery(document).ready(function($){
         changeYear: true,
     });
 });
-
-
 
 // DROPDOWN FILTER ON CLICK ------------------- ||
 document.addEventListener('DOMContentLoaded', function() {

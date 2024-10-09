@@ -57,7 +57,7 @@
         </div><!-- main hero -->
 
         <div class="container">
-            <div id="home-searchbar" class="searchbar">
+            <div id="home-searchbar" class="searchbar v-globel-search">
                 <div class="searchbar-top row align-items-center">
                     <div class="col-md-12 mb-3 mb-lg-0 col-lg-3">
                         <h2>
@@ -926,7 +926,6 @@
     <script src="<?= getBaseUrl() ?>/assets/js/moment.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/searchbar-flights.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/daterangepicker.js"></script>
-
 
 </body>
 </html>

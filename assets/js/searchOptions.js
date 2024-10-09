@@ -11,7 +11,7 @@ if(globalParentElement){
     const currentCheckInput = globalParentElement.querySelector('input:checked');
 
     // ? more option toggle
-    const globalMoreOption = globalParentElement.querySelector('.v-search-more');
+    const globalMoreOption = globalParentElement.querySelectorAll('.v-search-more');
 
     radioInputsRail.forEach(radio => {
         radio.addEventListener('change', ()=>{
@@ -31,24 +31,26 @@ if(globalParentElement){
 
 
     // ? more option events
-    globalMoreOption.addEventListener('click', ()=>{
+    globalMoreOption.forEach(el =>{
+        el.addEventListener('click', ()=>{
 
-        // ? icon rotate target
-        const iconRotate = globalMoreOption.querySelector('i');
-
-        if(currentCheckInput){
-            switch (currentCheckInput.value) {
-                case 'return':
-                    returnWrapper.classList.toggle('show');
-                    iconRotate.classList.toggle('rotate');
-                    break;
+            // ? icon rotate target
+            const iconRotate = globalMoreOption.querySelector('i');
+    
+            if(currentCheckInput){
+                switch (currentCheckInput.value) {
+                    case 'return':
+                        returnWrapper.classList.toggle('show');
+                        iconRotate.classList.toggle('rotate');
+                        break;
+                }
+            }else{
+                document.querySelector('.more-option-content').classList.toggle('show');
             }
-        }else{
-            document.querySelector('.more-option-content').classList.toggle('show');
-        }
-
-        
-    }); 
+    
+            
+        }); 
+    });
 }
 
 
