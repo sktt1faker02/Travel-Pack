@@ -127,6 +127,12 @@
 
 
 @media (max-width: 991px) {
+    #main-header {
+        top:20px;
+    }
+    #main-hero h1, #main-hero h2 {
+        margin-bottom: 40px;
+    }
     .nobr br {
         display: none;
     }
@@ -161,7 +167,7 @@
         justify-content: center;
     }
     #main-hero {
-        padding: 50px 0 30px;
+        padding: 100px 0 30px;
         position: relative;
     }
     .heroslider-nav .slick-dots {
@@ -323,11 +329,30 @@
 }
 
 @media (max-width: 575px) {
+    #top-places p {
+        height: 150px;
+    }
+    .topplacesbox {
+        padding: 20px;
+    }
+    #top-places h2 {
+        font-size: 33px;
+        margin-bottom: 30px;
+    }
     .faqs-toggle-btn i {
         font-size: 10px;
     }
+    .heroslider-nav-slide h1, .heroslider-nav-slide h2 {
+        font-size: 43px;
+    }
+    .heroslider-nav .slick-dots {
+        bottom: -5px;
+    }
     .mobilesearchtab-wrap {
         margin-bottom:0;
+    }
+    .slick-dots button {
+        transform: scale(.7);
     }
     .whychoosebox img {
         width: 100px;
@@ -357,7 +382,7 @@
         overflow-y: hidden;
     }
     header#main-header {
-        padding: 0 15px;
+        padding: 0 0;
     }
     .rowslider > .slick-list > .slick-track > .slick-slide > div {
         margin-right: 0;
@@ -479,7 +504,7 @@
         font-size: 35px;
     }
     .topplacesbox {
-        padding: 25px;
+        padding: 20px;
     }
     #hurry h2 {
         font-size: 40px;
