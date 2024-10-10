@@ -130,7 +130,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php">
+                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search">
                                         London <br>
                                         Heathrow <br>
                                         Airport
@@ -140,7 +140,7 @@
                             <p class="txt-blue pb-2">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div><!-- sexboxslide -->   
@@ -150,7 +150,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php">
+                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search">
                                         Manchester <br>
                                         Airport
                                     </a>
@@ -159,7 +159,7 @@
                             <p class="txt-blue pb-2">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div><!-- sexboxslide -->   
@@ -169,7 +169,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php">
+                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search">
                                         London <br>
                                         Gatwick <br>
                                         Airport 
@@ -179,7 +179,7 @@
                             <p class="txt-blue pb-2">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div><!-- sexboxslide -->
@@ -189,7 +189,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class=""> 
-                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php">
+                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search">
                                         London <br>
                                         Stansted <br>
                                         Airport
@@ -199,7 +199,7 @@
                             <p class="txt-blue pb-2">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div><!-- sexboxslide -->   
@@ -209,14 +209,14 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php">
+                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search">
                                         Private Premium Car
                                     </a>
                                 </h3>
                             </div>
                             <p class="txt-blue pb-2">
                             </p>
-                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div><!-- sexboxslide -->   
@@ -226,7 +226,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php">
+                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search">
                                         Private Premium Car
                                     </a>
                                 </h3>
@@ -234,7 +234,7 @@
                             <p class="txt-blue pb-2">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div><!-- sexboxslide -->   
@@ -244,7 +244,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php">
+                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search">
                                         London <br>
                                         Heathrow <br>
                                         Airport
@@ -254,7 +254,7 @@
                             <p class="txt-blue pb-2">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div><!-- sexboxslide -->   
@@ -264,7 +264,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php">
+                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search">
                                         Manchester <br>
                                         Airport
                                     </a>
@@ -273,7 +273,7 @@
                             <p class="txt-blue pb-2">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div><!-- sexboxslide -->   
@@ -283,7 +283,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php">
+                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search">
                                         London <br>
                                         Gatwick <br>
                                         Airport 
@@ -293,7 +293,7 @@
                             <p class="txt-blue pb-2">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div><!-- sexboxslide -->
@@ -303,7 +303,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class=""> 
-                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php">
+                                    <a href="<?= getBaseUrl() ?>/transfer/transfer-search">
                                         London <br>
                                         Stansted <br>
                                         Airport
@@ -313,7 +313,7 @@
                             <p class="txt-blue pb-2">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/transfer/transfer-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div><!-- sexboxslide -->   

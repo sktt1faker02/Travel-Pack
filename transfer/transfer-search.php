@@ -77,7 +77,7 @@
                         </div>
                     </div>
                     
-                    <div class="filters-box cruise-transfer">
+                    <!-- <div class="filters-box cruise-transfer">
                         <div class="fb-top fw-semibold">
                             <div>
                                 Duration - <span class="sliderValue" id="durationValue"></span>
@@ -85,7 +85,7 @@
                             <div class="togglefilterbox txt-black">
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
-                        </div><!-- fb-top   -->
+                        </div>
                         <div class="fb-bottom">
                             <div class="slider-container">
                                 <div class="rangeslider-wrap">
@@ -97,7 +97,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div><!-- filtersbox -->                       
+                    </div>                      -->
                     
                     <div class="filters-box needbox">
                         <div class="fb-top fw-semibold">
@@ -550,7 +550,7 @@
     <script>
         function redirectToPage(event) {
             event.preventDefault();
-            window.location.href = '<?= getBaseUrl() ?>/transfer/transfer-purchase-details.php';
+            window.location.href = '<?= getBaseUrl() ?>/transfer/transfer-purchase-details';
         }
         
         const slider = document.getElementById("durationSlider");

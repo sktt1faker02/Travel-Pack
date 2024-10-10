@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/daterangepicker.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/slick.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/fontawesome.css">
-    
+
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/style.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/sidebar.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/main-cruise.css">
@@ -36,7 +36,7 @@
 
 <body>
     <div id="nohero-inner">
-        <?php include '../sections/global/header-nav.php';?>
+        <?php include '../sections/global/header-nav.php'; ?>
     </div><!-- main hero -->
 
     <section class="block search-wrap bggray" id="hotels-search">
@@ -58,14 +58,14 @@
             <div class="row">
 
                 <div class="col-12 col-lg-4 tp-sidebar tp-sidebar-cruise">
-                    <?php include '../sections/sidebar/cruise.php';?>
+                    <?php include '../sections/sidebar/cruise.php'; ?>
                 </div>
-                
+
                 <div class="col-12 col-lg-8 tp-main">
                     <h3 class="mb-3 tp-top-heading">
-                        Choose the Deck 
-                    </h3>        
-                    <form action="cruise-select-cabin-location.php" method="post">      
+                        Choose the Deck
+                    </h3>
+                    <form action="cruise-select-cabin-location.php" method="post">
                         <div class="cruise-main whiteboxbg">
                             <div class="row">
                                 <div class="col-12 col-lg-4">
@@ -98,11 +98,10 @@
                             </div><!-- row -->
                         </div><!-- cruise-main -->
 
-                         
                         <div class="cruise-main whiteboxbg">
                             <h3 class="mb-3 tp-top-heading">
-                                Select Deck 
-                            </h3>        
+                                Select Deck
+                            </h3>
                             <div class="row">
                                 <div class="col-12 col-md-4">
                                     <div class="select text-black">
@@ -116,7 +115,7 @@
                                     </div>
                                 </div><!-- col -->
                             </div><!-- row -->
-                            
+
                             <div class="cruise-select-deck">
                                 <div class="row">
                                     <div class="col-12 col-lg-4">
@@ -441,8 +440,8 @@
             </div><!-- row -->
         </div>
     </section>
-    <?php include '../sections/global/cta.php';?>
-    <?php include '../sections/global/footer.php';?>
+    <?php include '../sections/global/cta.php'; ?>
+    <?php include '../sections/global/footer.php'; ?>
 
 
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
@@ -452,6 +451,7 @@
     <script src="<?= getBaseUrl() ?>/assets/js/daterangepicker.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/bootstrap.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/sidebar.js"></script>
-    
+
 </body>
+
 </html>

@@ -115,7 +115,7 @@
                                     </h3>
                                 </div>
                                 <div class="col-4 col-md-4 d-flex justify-content-end">
-                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php" class="fw-semibold view-all">View All <i class="fa-solid fa-chevron-right"></i></a>
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search" class="fw-semibold view-all">View All <i class="fa-solid fa-chevron-right"></i></a>
                                 </div>
                             </div><!-- row -->
                         </div><!-- exciting deals -->
@@ -124,7 +124,7 @@
             </div><!-- container -->
 
 
-            <div class="sed-slider rowslider tpslider-4 firstload mt-4">
+           <div class="sed-slider rowslider tpslider-4 firstload mt-4">
                 <div class="sedboxslide">
                     <div class="sedbox">
                         <div class="sedtop">

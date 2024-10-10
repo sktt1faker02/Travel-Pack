@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 // RANGE SIDEBAR SCRIPTS
-/*document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
     // Duration Slider
     const durationRange = document.getElementById('durationRange');
     const durationValue = document.getElementById('durationValue');
@@ -175,6 +175,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
         // Set the output's position in px
         output.style.left = `${newOffset}px`;
+        console.log(newOffset);
     }
 
     function updateSliderBackground(slider) {
@@ -192,7 +193,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize position and background on load
     updateSliderPosition(durationRange, durationValue, leftLabel, rightLabel);
     updateSliderBackground(durationRange);
-}); */
+}); 
 
 document.addEventListener('DOMContentLoaded', function() {
     // Common initialization for sliders
@@ -260,6 +261,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (newOffset > maxOffset) newOffset = maxOffset;
 
         output.style.left = `${newOffset}px`;
+        console.log(newOffset);
     }
 });
 
@@ -310,17 +312,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // FLIGHTS DEPARTURE AND RETURN TIME
 
-
-
-  
-
-
-
-
 // RAIL SIDEBAR SLIDE
 document.addEventListener('DOMContentLoaded', function() {
     // Slider setup for Price Range, Departure Time, and Return Time
     const sliders = [
+        {
+            range: document.getElementById('ratingRange'),
+            value: document.getElementById('ratingValueBelow'),
+            leftLabel: document.querySelector('#priceContainer .value-display span:first-child'),
+            rightLabel: document.querySelector('#priceContainer .value-display span:last-child'),
+            unit: '', // Prefix for price
+            isTime: false
+        },
         {
             range: document.getElementById('priceRange'),
             value: document.getElementById('priceValueBelow'),
@@ -383,6 +386,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const min = slider.min;
         const max = slider.max;
         const val = slider.value;
+        const slideName = slider.getAttribute('slide-name');
         const percentage = (val - min) / (max - min);
 
         const leftLabelWidth = leftLabel.offsetWidth;
@@ -395,6 +399,20 @@ document.addEventListener('DOMContentLoaded', function() {
         if (newOffset < leftLabelWidth) newOffset = leftLabelWidth;
         if (newOffset > maxOffset) newOffset = maxOffset;
 
-        output.style.left = `${newOffset}px`;
+        if(slideName){
+            switch (slideName) {
+                case 'price':
+                    output.style.left = `${newOffset == 20 ? '0' : newOffset}px`;
+                    break;
+                case 'durationTime':
+                    output.style.left = `${newOffset == 30 ? '0' : newOffset}px`;
+                    break;
+                case 'returnTime':
+                    output.style.left = `${newOffset == 30 ? '0' : newOffset}px`;
+                    break;
+            }
+        }else{
+            output.style.left = `${newOffset}px`;
+        }
     }
 });

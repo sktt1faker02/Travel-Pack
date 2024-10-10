@@ -4,6 +4,56 @@ function goBack() {
     window.history.back();
 }
 
+// ! cookie'
+const cookieParent = document.querySelector('#cookie-policy');
+const acceptCookitBtn = cookieParent.querySelector('.cookietbns .btn-primary');
+const declineCookitBtn = cookieParent.querySelector('.cookietbns .btn-white');
+
+const setCookie = (name, value, days)=> {
+    const d = new Date();
+    d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+    const expires = "expires=" + d.toUTCString();
+    document.cookie = `${name}=${value}; ${expires}; path=/`;
+}
+
+const getCookie = (name) => {
+    const nameEq = name + "=";
+    const cookies = document.cookie.split(';');
+    for (let i = 0; i < cookies.length; i++) {
+        let c = cookies[i];
+        while (c.charAt(0) === ' ') {
+            c = c.substring(1, c.length);
+        }
+        if (c.indexOf(nameEq) === 0) {
+            return c.substring(nameEq.length, c.length);
+        }
+    }
+    return "";
+}
+
+const processCookie = (action) => {
+    if (action === 'accept') {
+        setCookie('cookie_policy', 'accepted', 365);
+    } else if (action === 'decline') {
+        setCookie('cookie_policy', 'declined', 365);
+    }
+    cookieParent.style.display = 'none';
+}
+
+const cookieStatus = getCookie('cookie_policy');
+if (cookieStatus === 'accepted' || cookieStatus === 'declined') {
+    cookieParent.style.display = 'none';
+}
+
+acceptCookitBtn.addEventListener('click', () => {
+    processCookie('accept');
+});
+
+declineCookitBtn.addEventListener('click', () => {
+    processCookie('decline');
+});
+
+
 // THE POP UP
 document.addEventListener('DOMContentLoaded', function() {
     // Get the elements
@@ -117,18 +167,6 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     }
-});
-
-
-// HERO FADE IN
-document.addEventListener("DOMContentLoaded", function() {
-    const slides = document.querySelectorAll(".heroslider .heroslide");
-    slides.forEach((slide, index) => {
-        const delay = index === 0 ? 1500 : 3000 * index;
-        setTimeout(() => {
-            slide.classList.add('fade-in');
-        }, delay);
-    });
 });
 
 // HOME SCRIPT

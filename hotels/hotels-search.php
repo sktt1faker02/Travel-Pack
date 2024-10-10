@@ -1118,15 +1118,15 @@
                                         </div>
                                         <div class="content">
                                             <h5>${hotel.title}</h5>
-                                            <p>${hotel.location}</p>
+                                            <p class="hotel-location">${hotel.location}</p>
                                             <hr>
                                             <div class="mid">
-                                                <h6>${hotel.description}</h6>
+                                                <h6>${hotel.hotelType}</h6>
                                                 <div class="rate">
                                                     5 <i class="fa-solid fa-star"></i>
                                                 </div>
                                             </div>
-                                            <p>${hotel.hotelType}</p>
+                                            <p>${hotel.description}</p>
                                             <p>${hotel.refundable}</p>
                                             <br>
                                             <div class="bottom-text">
@@ -1154,6 +1154,9 @@
     .leaflet-popup-content{
         width: 500px;
     }
+    .popup-map .mid h6 {
+        font-size: 14px;
+    }
     .popup-map *{
         margin: 0;
         padding: 0;
@@ -1161,27 +1164,30 @@
     .popup-map p{
         margin: 0;
         padding: 0;
-        color: #a3a3a3;
+        color: #9f9c9c;
+        font-weight: 500;
     }
-    .popup-map{
+    .popup-map {
         width: 100%;
         display: flex;
-        column-gap: 20px;
+        column-gap: 15px;
         align-items: center;
     }
-    .popup-map .img{
-        width: 50%;
-        position: relative;
-    }
+    .popup-map .img {
+    width: 50%;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
     .popup-map .img span{
         position: absolute;
-        left: 10px;
-        top: 10px;
+        left: 5px;
+        top: 5px;
         background: #ffee57;
         color: #052e5a;
-        font-size: 16px;
-        padding: 10px 20px;
-        font-weight: 600;
+        font-size: 11px;
+        padding: 8px 14px;
+        font-weight: 500;
         border-radius: 30px;
     }
     .popup-map .img img{
@@ -1193,12 +1199,12 @@
         width: 50%;
     }
     .popup-map .content h5{
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 600;
         color: #052e5a;
     }
     .popup-map .content hr{
-        margin: 10px 0;
+        margin: 13px 0;
     }
     .popup-map .content .mid,
     .popup-map .content .bottom-text
@@ -1207,20 +1213,30 @@
         align-items: center;
         justify-content: space-between;
     }
-    .popup-map .content .mid .rate{
+    .popup-map .content .mid .rate {
         color: #2ca5d0;
-        font-size: 18px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        font-weight: 600;
     }
     .popup-map .content .bottom-text h2{
         font-size: 25px;
         color: #052e5a;
     }
-    .popup-map .content .bottom-text a{
-        font-size: 18px;
+    .popup-map .content .bottom-text a {
+        font-size: 15px;
         color: #FFFFFF;
         background: #621192;
-        padding: 10px 20px;
+        padding: 12px 18px;
         border-radius: 5px;
+        font-weight: 600;
+    }
+    .popup-map .hotel-location {
+        color: #232323;
+        font-size: 12px;
+        margin-top: 3px;
     }
 </style>
 </body>
