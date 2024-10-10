@@ -3,12 +3,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="homesectiontitle text-center text-lg-start">
+                    <h2 class="homesectiontitle text-lg-start">
                         Why Choose Travelpack?
                     </h2>
                 </div>
             </div>
-            <div class="row g-5 mt-1 text-center">
+            <div class="row g-4 mt-2 text-center">
                 <div class="col-6 col-lg-3 col-sm-6 wct-col">
                     <div class="whychoosebox">
                         <img src="<?= getBaseUrl() ?>/assets/img/home/whychoose1.png" alt="">

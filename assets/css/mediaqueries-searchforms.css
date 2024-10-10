@@ -100,9 +100,9 @@
     }
 }
 
-@media (max-width: 579px) {
+@media (max-width: 575px) {
     ul#searchtab {
-        width: 550px;
+        width: 410px;
         overflow-y: scroll;
         padding-right: 27px; /* Increase/decrease this value for cross-browser compatibility */
         box-sizing: content-box; /* So the width will be 100% + 17px */

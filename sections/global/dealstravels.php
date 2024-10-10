@@ -2,8 +2,8 @@
     <section class="block" id="deals-travel-inspiration">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-5 text-center text-lg-start">
-                    <div class="mb-4 pb-1 deals-travel-inspiration-top">
+                <div class="col-12 col-lg-5 text-lg-start">
+                    <div class="mb-2 pb-1 deals-travel-inspiration-top">
                         <h2 class="largesectiontitle ">
                             Deals and travel<br>
                             Inspiration
@@ -23,7 +23,7 @@
                     </div>
                 </div><!-- col -->
 
-                <div class="col-12 col-lg-6 offset-lg-1 dti-right position-relative mt-5 mt-lg-0">
+                <div class="col-12 col-lg-6 offset-lg-1 dti-right position-relative mb-4 mt-lg-0">
                     <div class="dti-right-img-wrap">
                         <div class="dti-right-img dti-right-img1">
                             <div class="yph-price global-price-tag">

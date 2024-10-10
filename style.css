@@ -517,12 +517,11 @@ div#cta-datepicker {
 }
 
 /* COOKIE POLICY */
-#cookie-policy {
+#cookie-policy .container {
     position: fixed;
-    bottom: 15px;
+    bottom: 10px;
     background-color: #f8f6f3;
-    width: 954px;
-    padding: 15px 6px;
+    padding: 15px 17px;
     z-index: 55;
     border-radius: 8px;
     left: 50%;
@@ -1750,6 +1749,7 @@ section#deals-travel-inspiration {
     text-align: center;
     position: absolute;
     padding-left: 0;
+    width:100%;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 20px;
@@ -1873,6 +1873,7 @@ section#deals-travel-inspiration {
 .whychoosebox p {
     color: #a09c9c;
     width: 215px;
+    max-width:100%;
     margin: 0 auto;
 }
 
@@ -2916,7 +2917,9 @@ ul {
 .rowslider > .slick-list > .slick-track > .slick-slide > div {
 	margin-right: 25px;
 }
-
+.sed-slider  > .slick-list > .slick-track > .slick-slide > div {
+    margin-right: 20px;
+}
 .tpslider-2.slick-initialized.firstload > .slick-list > .slick-track > .slick-slide.slick-cloned:not(:nth-child(3)) {
 	opacity: 0;
 }

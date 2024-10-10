@@ -38,13 +38,16 @@
         <div class="herowrapblur">
             <div class="heroslider">
                 <div class="heroslide">
-                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-car-hire.jpg" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-car-hire.jpg" alt="" class="hero-img-desktop">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/heromobile/heromobile-car-hire.jpg" alt="" class="hero-img-mobile">
                 </div>
                 <div class="heroslide">
-                    <img src="" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-car-hire.jpg" alt="" class="hero-img-desktop">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/heromobile/heromobile-car-hire.jpg" alt="" class="hero-img-mobile">
                 </div>
                 <div class="heroslide">
-                    <img src="" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-car-hire.jpg" alt="" class="hero-img-desktop">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/heromobile/heromobile-car-hire.jpg" alt="" class="hero-img-mobile">
                 </div>
             </div>
         </div>
