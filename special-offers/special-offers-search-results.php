@@ -89,7 +89,7 @@
                         <div class="fb-bottom">
                             <div class="slider-container">
                                 <div class="rangeslider-wrap">
-                                    <input type="range" min="2" max="33" value="6" class="slider" id="durationRange">
+                                    <input type="range" min="2" max="33" value="6" class="slider" id="durationRange" slide-name="so-duration">
                                     <span class="sliderValue-below" id="durationValue">6 Nights</span>
                                 </div>
                                 <div class="value-display">
@@ -113,7 +113,7 @@
                         <div class="fb-bottom">
                             <div class="slider-container">
                                 <div class="rangeslider-wrap">
-                                    <input type="range" min="0" max="5" value="2" class="slider" id="ratingRange">
+                                    <input type="range" min="0" max="5" value="2" class="slider" id="ratingRange" slide-name="so-rating">
                                     <span class="sliderValue-below" id="ratingValueBelow">2</span>
                                 </div>
                                 <div class="value-display">
@@ -137,7 +137,7 @@
                         <div class="fb-bottom">
                             <div class="slider-container">
                                 <div class="rangeslider-wrap">
-                                    <input type="range" min="600" max="10000" value="600" class="slider" id="priceRange">
+                                    <input type="range" min="600" max="10000" value="600" class="slider" id="priceRange" slide-name="so-price">
                                     <span class="sliderValue-below" id="priceValueBelow">£600</span>
                                 </div>
                                 <div class="value-display">
