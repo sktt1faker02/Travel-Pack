@@ -21,68 +21,52 @@ window.addEventListener('load', function() {
 
 window.addEventListener('resize', adjustSlideHeight);
 
-
-/* MATCH HEIGHT */
-function matchHeights() {
+/* MATCH HEIGHT FOR SED-DETAILS */
+function matchSedDetailsHeights() {
     // Get all elements with the class 'sed-details'
     var elements = document.querySelectorAll('.sed-details');
-    
-    // Determine the maximum height
+
+    // Determine the maximum height for .sed-details
     var maxHeight = 0;
     elements.forEach(function(element) {
-    // Reset height to auto to get the natural height
-    element.style.height = 'auto';
-    var elementHeight = element.offsetHeight;
-    if (elementHeight > maxHeight) {
-        maxHeight = elementHeight;
-    }
+        // Reset height to auto to get the natural height
+        element.style.height = 'auto';
+        var elementHeight = element.offsetHeight;
+        if (elementHeight > maxHeight) {
+            maxHeight = elementHeight;
+        }
     });
 
-    // Set all elements to the maximum height
+    // Set all .sed-details elements to the maximum height
     elements.forEach(function(element) {
-    element.style.height = maxHeight + 'px';
+        element.style.height = maxHeight + 'px';
     });
 }
 
-// Call the function to match heights
-window.onload = matchHeights;
-// Call the function on window resize to maintain equal heights
-window.onresize = matchHeights;
-
-document.addEventListener("DOMContentLoaded", function() {
-    var container = document.querySelector('.container');
-    var slider = document.querySelector('.rowslider');
-    var containerWidth = container.offsetWidth;
-    var containerLeftOffset = container.getBoundingClientRect().left;
-    var totalWidth = containerWidth + containerLeftOffset;
-    
-});
-
-function matchHeights() {
+/* MATCH HEIGHT FOR SLIDES */
+function matchSlideHeights() {
     // Check if the window width is 767 pixels or less
     if (window.innerWidth <= 767) {
         const slides = document.querySelectorAll('.esd-box-slider .slick-slide .esd-right');
-        let maxHeight = 0;
+        let slideMaxHeight = 0;
 
-        // Reset heights first
+        // Calculate the maximum height for slides
         slides.forEach(slide => {
-            slide.style.height = 'auto'; // Reset height to auto to calculate the correct height
-        });
-
-        // Calculate the maximum height
-        slides.forEach(slide => {
+            slide.style.height = 'auto'; // Reset height to auto for calculation
             const slideHeight = slide.offsetHeight; // Get the height of the current slide
-            if (slideHeight > maxHeight) {
-                maxHeight = slideHeight; // Update maxHeight if current height is greater
+            if (slideHeight > slideMaxHeight) {
+                slideMaxHeight = slideHeight; // Update slideMaxHeight if current height is greater
             }
         });
 
-        // Set all slides to the maximum height
+        // Set all slides to the maximum height if needed
         slides.forEach(slide => {
-            slide.style.height = maxHeight + 'px'; // Set the height of each slide to maxHeight
+            if (slide.offsetHeight !== slideMaxHeight) {
+                slide.style.height = slideMaxHeight + 'px'; // Set the height of each slide to slideMaxHeight
+            }
         });
     } else {
-        // Reset heights if not in mobile view
+        // Reset heights for slides if not in mobile view
         const slides = document.querySelectorAll('.esd-box-slider .slick-slide .esd-right');
         slides.forEach(slide => {
             slide.style.height = 'auto'; // Reset height to auto
@@ -90,13 +74,57 @@ function matchHeights() {
     }
 }
 
-jQuery(document).ready(function($){   
-    initSlickSliders();
-});
+// Debounce function to limit the rate at which a function can fire
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
+}
+
+// Use ResizeObserver to watch for changes in the .container
+const container = document.querySelector('.container');
+if (container) {
+    const resizeObserver = new ResizeObserver(() => {
+        matchSlideHeights(); // Call matchSlideHeights when the container is resized
+    });
+    resizeObserver.observe(container); // Start observing the container
+}
+
+// Initial call to set heights
+window.onload = matchSlideHeights;
+
+// Call the debounced function on window resize to maintain equal heights
+window.onresize = debounce(matchSlideHeights, 100);
+
+
+// Combined function to match heights for both sed-details and slides
+function matchHeights() {
+    matchSedDetailsHeights();
+    matchSlideHeights();
+}
+
+// Call the combined function to match heights on window load
+window.onload = matchHeights;
+
+// Call the debounced function on window resize to maintain equal heights
+window.onresize = debounce(matchHeights, 100); // Adjust the wait time as needed
+
+// Call matchHeights on DOMContentLoaded to set initial heights
+document.addEventListener("DOMContentLoaded", matchHeights);
+
+
+
 $(window).on('load', function() {
     initSlickSliderss();
     $('.esd-left-slider img').addClass('showbox'); 
 });
+
 function initSlickSliderss(){
     $('.esd-left-slider').slick({
         infinite: true,
@@ -302,13 +330,10 @@ jQuery(document).ready(function($){
         slidesToScroll: 1
     });
 
+});
 
-    // Call matchHeights after window resize to adjust heights accordingly
-    window.addEventListener('resize', matchHeights);
-
-    // Call matchHeights on page load
-    document.addEventListener('DOMContentLoaded', matchHeights);
-
+jQuery(document).ready(function($){   
+    initSlickSliders();
 });
 
 window.onload = function() {
@@ -320,11 +345,26 @@ window.onload = function() {
             for (var i = 0; i < heroSlides.length; i++) {
                 heroSlides[i].style.height = homeHeroHeight + "px"; // Set height for each slide
             }
+        } else {
+            console.warn("#herohome not found.");
         }
     }
 
-    // Adjust height on window resize
-    window.addEventListener("resize", setHeroSlideHeight);
+    // Debounce function to limit the rate at which a function can fire
+    function debounce(func, wait) {
+        let timeout;
+        return function executedFunction(...args) {
+            const later = () => {
+                clearTimeout(timeout);
+                func(...args);
+            };
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+        };
+    }
+
+    // Adjust height on window resize with debouncing
+    window.addEventListener("resize", debounce(setHeroSlideHeight, 100));
 
     // Ensure the height is set right after the complete page load
     setHeroSlideHeight();
@@ -345,6 +385,7 @@ window.onload = function() {
         if (heroslider) {
             heroslider.classList.add('fade-in');
         }
-    }, 1000); // Delay for fade-in effect (1000 milliseconds = 1 second)
+    }, 1000); // Consider using a more dynamic approach to set this time
 };
+
 
