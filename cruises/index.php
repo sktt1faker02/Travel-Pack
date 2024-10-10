@@ -66,7 +66,7 @@
                         </p>
                     </div>
                     <div class="heroslider-nav-slide">
-                        <h2 class="txt-white">
+                        <h2 class="text-navy">
                             Aliquam non erat,<br>
                             volutpat risus et
                         </h2>
@@ -76,7 +76,7 @@
                         </p>
                     </div>
                     <div class="heroslider-nav-slide">
-                        <h2 class="txt-white">
+                        <h2 class="text-navy">
                             Quisque quis metus<br/>
                             fringilla mollis nec
                         </h2>
