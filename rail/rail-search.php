@@ -772,7 +772,7 @@
     <script src="<?= getBaseUrl() ?>/assets/js/bootstrap.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/sidebar.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/main-search.js"></script>
-    <script src="<?= getBaseUrl() ?>/assets/js/searchbar.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/searchbar.js?v=1.0.0"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/scripts.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/loadmoreboxes.js"></script>
 
