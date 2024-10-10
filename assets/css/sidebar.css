@@ -6,6 +6,11 @@
     font-size: 15px;
     margin-bottom:15px;
 }
+.filters-box.btns a{
+    color: #092d62;
+    font-weight: 500;
+    font-size:17px;
+}
 .option-wrap span {
     color: var(--black-text);
     display: block;

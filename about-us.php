@@ -42,16 +42,13 @@
     <section class="block">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-12 col-lg-7">
+                <div class="col-12 col-lg-8">
                     <h3 class="fs32 mb-4">
                         Travelpack have been offering travel advice and making bookings since November 1981. 
                     </h3>
-                    <p class="fs23 fw-medium txt-black mb-4 pb-2">
+                    <p class="fs23 txt-black mb-4 pb-2">
                         We are now one of the UK's largest independent travel companies specialising in tours, holidays and flights to destinations around the world including India, Indian Ocean, USA, the Far East, Middle East, Africa, Canada, Florida and the Caribbean.
                     </p>
-                    <a href="#" class="btn btn-primary">
-                        About Us
-                    </a>
                 </div><!-- col -->
                 <div class="col-12 col-lg-4 offset-lg-1">
                 </div>

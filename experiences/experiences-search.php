@@ -47,7 +47,7 @@
                         </h2>
                     </div>
                 </div><!-- searchbartop -->
-                <?php include '../sections/searchform/main-forms/searchform-car-hire.php';?>
+                <?php include '../sections/searchform/main-forms/searchform-wheres-next.php';?>
             </div><!-- searchbar -->
         </div><!-- container -->
         <div class="container">
@@ -100,6 +100,21 @@
                                         <option>Any</option>
                                         <option>Any</option>
                                         <option>Any</option>
+                                    </select>
+                                    <div class="select_arrow">
+                                    </div>
+                                </div>
+                            </div><!-- option-wrap -->
+                            <div class="option-wrap">
+                                <span>
+                                    Food & Drinks
+                                </span>
+                                <div class="select">
+                                    <select>
+                                        <option>Prices</option>
+                                        <option>Prices</option>
+                                        <option>Prices</option>
+                                        <option>Prices</option>
                                     </select>
                                     <div class="select_arrow">
                                     </div>
@@ -168,39 +183,36 @@
                         </div><!-- fb-bottom -->
                     </div><!-- filters box -->
 
-                    <div class="filters-box maximum-prices">
-                        <div class="fb-top">
+                    <div class="filters-box maximum-prices btns">
+                        <div class="">
                             <div class="togglefilterbox">
-                                <div class="slider-label">
+                                <a href="" class="slider-label">
                                     Likely to Sell Out
-                                </div>
-                                <i class="fa-solid fa-chevron-down"></i>
+                                </a>
                             </div>
                         </div>
                         <div class="fb-bottom">
                         </div>
                     </div><!-- filtersbox -->
 
-                    <div class="filters-box maximum-prices">
-                        <div class="fb-top">
+                    <div class="filters-box maximum-prices btns">
+                        <div class="">
                             <div class="togglefilterbox">
-                                <div class="slider-label">
+                                <a href="" class="slider-label">
                                 Outdoor Activities
-                                </div>
-                                <i class="fa-solid fa-chevron-down"></i>
+                                </a>
                             </div>
                         </div>
                         <div class="fb-bottom">
                         </div>
                     </div><!-- filtersbox -->
 
-                    <div class="filters-box maximum-prices">
-                        <div class="fb-top">
+                    <div class="filters-box maximum-prices btns">
+                        <div class="">
                             <div class="togglefilterbox">
-                                <div class="slider-label">
+                                <a href="" class="slider-label">
                                     Unique Experiences
-                                </div>
-                                <i class="fa-solid fa-chevron-down"></i>
+                                </a>
                             </div>
                         </div>
                         <div class="fb-bottom">

@@ -59,7 +59,7 @@
         </div><!-- container -->
     </section><!-- section -->
 
-    <section class="block" id="deals-travel-inspiration">
+    <section class="block bggray" id="deals-travel-inspiration">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-5 text-lg-start">
@@ -86,7 +86,7 @@
                                     From <strong>£40 p/n</strong> 
                                 </a>
                             </div>
-                            <img src="<?= getBaseUrl() ?>/assets/img/home/pc1.jpeg" alt="">
+                            <img src="<?= getBaseUrl() ?>/assets/img/inner/destination17.jpg" alt="">
                         </div>
                         <div class="dti-right-img dti-right-img2">
                             <div class="yph-price global-price-tag">
@@ -126,6 +126,7 @@
             </div>
         </div>
     </section>
+    <?php include './sections/global/whychoosetravelpack.php';?>
 
     <section class="faqs-section block">
         <div class="container">

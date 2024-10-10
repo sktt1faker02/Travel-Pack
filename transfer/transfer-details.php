@@ -41,7 +41,22 @@
     <section class="block search-wrap bggray" id="hotels-search">
         <div class="container">
             <div class="row">
+            <div class="row">
+                <div class="col-12 mb-0 tp-page-title">
+                    <h1>
+                    Provide Transfer Details
+                    </h1>
+                </div><!-- col -->
+            </div><!-- row -->
+            <div class="goback fw-medium mb-3">
+                <button onclick="goBack()">
+                    <i class="fa-solid fa-chevron-left fs-icon me-2"></i> Go Back
+                </button>
+            </div>
+
+            
                 <?php include '../sections/sidebar/transfer.php';?>
+                
 
                 <div class="col-12 col-lg-8 tp-main">
                     <form action="<?= getBaseUrl() ?>/transfer/transfer-checkout-details.php" method="get"></form>

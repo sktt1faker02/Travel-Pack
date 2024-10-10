@@ -38,7 +38,7 @@ span.listing-price {
     border-radius: 50px;
     text-align: center;
     color: var(--black-text);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     font-family: 'Roboto';
     position: relative;
@@ -141,6 +141,9 @@ span.listing-price {
 }
 .experiences-inclusions ul li:before {
     content: '';
+}
+.whatsincluded ul.tick-blue li:before {
+    color: #002D62 !important;
 }
 .whatsincluded ul li:before {
     font-family: 'FontAwesome';

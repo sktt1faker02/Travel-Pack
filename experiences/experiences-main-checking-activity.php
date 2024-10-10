@@ -49,7 +49,7 @@
                 </div><!-- col -->
                 <div class="col-md-3 experiences-single-top-mid d-flex justify-content-around flex-row offset-lg-1">
                     <div class="experiences-duration">
-                        <h5 class="fontfam2 fw-600">
+                        <h5 class="text-black fontfam2 fw-600">
                             Duration
                         </h5>
                         <span>
@@ -57,7 +57,7 @@
                         </span>
                     </div>
                     <div class="experiences-language">
-                        <h5 class="fontfam2 fw-600">
+                        <h5 class="text-black fontfam2 fw-600">
                             Language
                         </h5>
                         <span>
@@ -65,7 +65,7 @@
                         </span>
                     </div>
                 </div><!-- col -->
-                <div class="col-12 col-md-3 d-flex justify-content-end">
+                <div class="col-12 col-md-3 d-flex justify-content-end align-items-lg-start">
                     <div class="esd-rating">
                         5 <i class="fa-solid fa-star"></i>
                     </div>
@@ -74,6 +74,11 @@
         </div>
 
         <div class="container">
+            <div class="goback fw-medium my-3">
+                <button onclick="goBack()">
+                    <i class="fa-solid fa-chevron-left fs-icon me-2"></i> Back To Results
+                </button>
+            </div>
             <div class="experiences-details-main-top my-4">
                 <div class="row g-0">
                     <div class="col-12 col-lg-6">
@@ -104,7 +109,7 @@
                             </div>
                             
                             <div class="mt-4 pt-33 txt-black">
-                                <p style="">
+                                <p>
                                     MAGICAL MISCHIEF: 20 Jan 2024 to 16 Apr 2024<br>
                                     Product Code: 2452POTTER
                                 </p>
