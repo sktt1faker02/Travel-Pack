@@ -22,16 +22,6 @@ window.addEventListener('load', function() {
 window.addEventListener('resize', adjustSlideHeight);
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    setTimeout(function() {
-        var heroslider = document.querySelector('.heroslider');
-        if (heroslider) {
-            heroslider.classList.add('fade-in');
-        }
-    }, 1000); // 3000 milliseconds = 3 seconds
-});
-
-
 /* MATCH HEIGHT */
 function matchHeights() {
     // Get all elements with the class 'sed-details'
@@ -313,45 +303,48 @@ jQuery(document).ready(function($){
     });
 
 
-// Call matchHeights after window resize to adjust heights accordingly
-window.addEventListener('resize', matchHeights);
+    // Call matchHeights after window resize to adjust heights accordingly
+    window.addEventListener('resize', matchHeights);
 
-// Call matchHeights on page load
-document.addEventListener('DOMContentLoaded', matchHeights);
+    // Call matchHeights on page load
+    document.addEventListener('DOMContentLoaded', matchHeights);
 
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+window.onload = function() {
     function setHeroSlideHeight() {
         var homeHero = document.getElementById("herohome"); // Corrected ID
         if (homeHero) {
-            var homeHeroHeight = homeHero.offsetHeight;
+            var homeHeroHeight = homeHero.offsetHeight; // Get the height of #herohome
             var heroSlides = document.getElementsByClassName("heroslide");
             for (var i = 0; i < heroSlides.length; i++) {
-                heroSlides[i].style.height = homeHeroHeight + "px";
+                heroSlides[i].style.height = homeHeroHeight + "px"; // Set height for each slide
             }
         }
     }
 
-    // Add a slight delay to ensure all elements are fully loaded
-    setTimeout(setHeroSlideHeight, 100);
-
     // Adjust height on window resize
     window.addEventListener("resize", setHeroSlideHeight);
+
+    // Ensure the height is set right after the complete page load
+    setHeroSlideHeight();
 
     // Adjust height when #home-searchbar changes size
     var homeSearchbar = document.getElementById("home-searchbar");
     if (homeSearchbar) {
         var resizeObserver = new ResizeObserver(function() {
-            setHeroSlideHeight();
+            setHeroSlideHeight(); // Call on resize
         });
         // Start observing #home-searchbar for size changes
         resizeObserver.observe(homeSearchbar);
     }
-});
 
-
-
-
-
+    // Fade-in effect for the hero slider after the page fully loads
+    setTimeout(function() {
+        var heroslider = document.querySelector('.heroslider');
+        if (heroslider) {
+            heroslider.classList.add('fade-in');
+        }
+    }, 1000); // Delay for fade-in effect (1000 milliseconds = 1 second)
+};
 
