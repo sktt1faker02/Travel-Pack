@@ -56,7 +56,7 @@
                 <?php include '../sections/sidebar/car-hire.php';?>
 
                 <div class="col-12 col-lg-8 tp-main">
-                    <form action="car-hire-purchase-details.php" method="post">   
+                    <form action="car-hire-purchase-details" method="post">   
                         <div class="tp-table">
                             <h3 class="mb-3 tp-top-heading">
                                 Extra Paid Locally

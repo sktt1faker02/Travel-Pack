@@ -20,7 +20,7 @@
     <div class="modal fade" id="cta-modal" tabindex="-1" aria-labelledby="cta-modal" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <form action="/action_page.php">
+                <form action="/action_page">
                     <div class="row align-items-center mb-4">
                         <div class="col-6 ctamodal-top-left">
                             All required areas*

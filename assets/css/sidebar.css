@@ -192,6 +192,7 @@ ul.sidebarlist li {
     white-space: nowrap;
     transition: left 0.1s ease-in-out;
     pointer-events: none;
+    font-weight: 700;
     margin: 0 5px;
 }
 .durationfilter .sliderValue-below {

@@ -550,7 +550,7 @@
     <script>
         function redirectToPage(event) {
             event.preventDefault();
-            window.location.href = '<?= getBaseUrl() ?>/transfer/transfer-purchase-details.php';
+            window.location.href = '<?= getBaseUrl() ?>/transfer/transfer-purchase-details';
         }
         
         const slider = document.getElementById("durationSlider");

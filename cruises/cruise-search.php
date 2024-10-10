@@ -573,7 +573,7 @@
                                             </div>
                                         </div><!-- col -->
                                         <div class="col-lg-3 col-12 justify-content-end">
-                                            <img src="http://localhost:8888/travelpack/assets/img/cruise/topright-image.png" alt="" class="cruise-image-topright">
+                                            <img src="../assets/img/cruise/topright-image.png" alt="" class="cruise-image-topright">
                                         </div><!-- col -->
                                     </div><!-- row -->
                                     <div class="row cruise-features mt-3">
@@ -698,7 +698,7 @@
                                             </div>
                                         </div><!-- col -->
                                         <div class="col-lg-3 col-12 justify-content-end">
-                                            <img src="http://localhost:8888/travelpack/assets/img/cruise/topright-image.png" alt="" class="cruise-image-topright">
+                                            <img src="../assets/img/cruise/topright-image.png" alt="" class="cruise-image-topright">
                                         </div><!-- col -->
                                     </div><!-- row -->
                                     <div class="row cruise-features mt-3">
@@ -823,7 +823,7 @@
                                             </div>
                                         </div><!-- col -->
                                         <div class="col-lg-3 col-12 justify-content-end">
-                                            <img src="http://localhost:8888/travelpack/assets/img/cruise/topright-image.png" alt="" class="cruise-image-topright">
+                                            <img src="../assets/img/cruise/topright-image.png" alt="" class="cruise-image-topright">
                                         </div><!-- col -->
                                     </div><!-- row -->
                                     <div class="row cruise-features mt-3">
@@ -948,7 +948,7 @@
                                             </div>
                                         </div><!-- col -->
                                         <div class="col-lg-3 col-12 justify-content-end">
-                                            <img src="http://localhost:8888/travelpack/assets/img/cruise/topright-image.png" alt="" class="cruise-image-topright">
+                                            <img src="../assets/img/cruise/topright-image.png" alt="" class="cruise-image-topright">
                                         </div><!-- col -->
                                     </div><!-- row -->
                                     <div class="row cruise-features mt-3">

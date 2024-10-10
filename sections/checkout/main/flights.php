@@ -1,4 +1,3 @@
-
 <div class="passengerbox">
     <h3 class="fw-normal fs20 fontfam2">
         Lead Passenger
@@ -11,7 +10,7 @@
             <div class="col-md-2 col-12">
                 <label>Title*</label>
                 <div class="select">
-                    <select name="passenger1-title" required> 
+                    <select name="passenger1-title" required>
                         <option>Mr</option>
                         <option>Mrs</option>
                     </select>
@@ -27,12 +26,12 @@
                 <input type="text" id="lname" name="passenger1-lname" class="tp-input" placeholder="Last Name">
             </div><!-- col -->
         </div><!-- row -->
-        
+
         <div class="row">
             <div class="col-md-2 col-12">
                 <label>Age*</label>
                 <div class="select">
-                    <select name="passenger1-age" required> 
+                    <select name="passenger1-age" required>
                         <option value="18">18</option>
                         <option value="19">19</option>
                         <option value="20">20</option>
@@ -49,7 +48,7 @@
             <div class="col-md-4 col-12">
                 <label>Gender*</label>
                 <div class="select">
-                    <select name="passenger1-gender" required> 
+                    <select name="passenger1-gender" required>
                         <option value="" disabled selected>Prefer Not to Say</option>
                         <option>Male</option>
                         <option>Female</option>
@@ -100,7 +99,7 @@
         </div><!-- row -->
 
         <div class="addtl-details-row">
-            <div class="row"> 
+            <div class="row">
                 <div class="col-12 col-lg-3 addtlcolfirst">
                     <label for="passport-number">Passport Number</label>
                     <input class="tp-input" id="passport-number" name="passport-number" placeholder="0000000000" required>
@@ -125,13 +124,13 @@
             </div><!-- row -->
         </div>
         <div class="addtl-details-row">
-            <div class="row"> 
+            <div class="row">
                 <!-- Flight Number -->
                 <div class="col-12 col-lg-3 addtlcolfirst">
                     <label for="flight-number">Flight Number</label>
                     <input class="tp-input" id="flight-number" name="flight-number" placeholder="000000000" required>
                 </div>
-                
+
                 <!-- Carrier -->
                 <div class="col-12 col-lg-3">
                     <label for="carrier">Carrier</label>
@@ -148,7 +147,7 @@
             </div>
         </div>
         <div class="addtl-details-row">
-            <div class="row"> 
+            <div class="row">
                 <!-- Country Code -->
                 <div class="col-12 col-lg-3 countrycode">
                     <label for="country-code">Country Code</label>
@@ -163,7 +162,7 @@
                         <div class="select_arrow"></div>
                     </div>
                 </div>
-                
+
                 <!-- Phone Number -->
                 <div class="col-12 col-lg-4">
                     <label for="phone-number">Phone Number</label>
@@ -192,7 +191,7 @@
             <div class="col-md-2 col-12">
                 <label>Title*</label>
                 <div class="select">
-                    <select name="passenger1-title" required> 
+                    <select name="passenger1-title" required>
                         <option>Mr</option>
                         <option>Mrs</option>
                     </select>
@@ -208,12 +207,12 @@
                 <input type="text" id="lname" name="passenger1-lname" class="tp-input" placeholder="Last Name">
             </div><!-- col -->
         </div><!-- row -->
-        
+
         <div class="row">
             <div class="col-md-2 col-12">
                 <label>Age*</label>
                 <div class="select">
-                    <select name="passenger1-age" required> 
+                    <select name="passenger1-age" required>
                         <option value="18">18</option>
                         <option value="19">19</option>
                         <option value="20">20</option>
@@ -230,7 +229,7 @@
             <div class="col-md-4 col-12">
                 <label>Gender*</label>
                 <div class="select">
-                    <select name="passenger1-gender" required> 
+                    <select name="passenger1-gender" required>
                         <option value="" disabled selected>Prefer Not to Say</option>
                         <option>Male</option>
                         <option>Female</option>
@@ -281,7 +280,7 @@
         </div><!-- row -->
 
         <div class="addtl-details-row">
-            <div class="row"> 
+            <div class="row">
                 <div class="col-12 col-lg-3 addtlcolfirst">
                     <label for="passport-number">Passport Number</label>
                     <input class="tp-input" id="passport-number" name="passport-number" placeholder="0000000000" required>
@@ -306,13 +305,13 @@
             </div><!-- row -->
         </div>
         <div class="addtl-details-row">
-            <div class="row"> 
+            <div class="row">
                 <!-- Flight Number -->
                 <div class="col-12 col-lg-3 addtlcolfirst">
                     <label for="flight-number">Flight Number</label>
                     <input class="tp-input" id="flight-number" name="flight-number" placeholder="000000000" required>
                 </div>
-                
+
                 <!-- Carrier -->
                 <div class="col-12 col-lg-3">
                     <label for="carrier">Carrier</label>
@@ -329,7 +328,7 @@
             </div>
         </div>
         <div class="addtl-details-row">
-            <div class="row"> 
+            <div class="row">
                 <!-- Country Code -->
                 <div class="col-12 col-lg-3 countrycode">
                     <label for="country-code">Country Code</label>
@@ -344,7 +343,7 @@
                         <div class="select_arrow"></div>
                     </div>
                 </div>
-                
+
                 <!-- Phone Number -->
                 <div class="col-12 col-lg-4">
                     <label for="phone-number">Phone Number</label>
@@ -370,7 +369,7 @@
             <div class="col-md-2 col-12">
                 <label>Title*</label>
                 <div class="select">
-                    <select name="passenger1-title" required> 
+                    <select name="passenger1-title" required>
                         <option>Mr</option>
                         <option>Mrs</option>
                     </select>
@@ -386,12 +385,12 @@
                 <input type="text" id="lname" name="passenger1-lname" class="tp-input" placeholder="Last Name">
             </div><!-- col -->
         </div><!-- row -->
-        
+
         <div class="row">
             <div class="col-md-2 col-12">
                 <label>Age*</label>
                 <div class="select">
-                    <select name="passenger1-age" required> 
+                    <select name="passenger1-age" required>
                         <option value="18">18</option>
                         <option value="19">19</option>
                         <option value="20">20</option>
@@ -408,7 +407,7 @@
             <div class="col-md-4 col-12">
                 <label>Gender*</label>
                 <div class="select">
-                    <select name="passenger1-gender" required> 
+                    <select name="passenger1-gender" required>
                         <option value="" disabled selected>Prefer Not to Say</option>
                         <option>Male</option>
                         <option>Female</option>
@@ -459,7 +458,7 @@
         </div><!-- row -->
 
         <div class="addtl-details-row">
-            <div class="row"> 
+            <div class="row">
                 <div class="col-12 col-lg-3 addtlcolfirst">
                     <label for="passport-number">Passport Number</label>
                     <input class="tp-input" id="passport-number" name="passport-number" placeholder="0000000000" required>
@@ -484,13 +483,13 @@
             </div><!-- row -->
         </div>
         <div class="addtl-details-row">
-            <div class="row"> 
+            <div class="row">
                 <!-- Flight Number -->
                 <div class="col-12 col-lg-3 addtlcolfirst">
                     <label for="flight-number">Flight Number</label>
                     <input class="tp-input" id="flight-number" name="flight-number" placeholder="000000000" required>
                 </div>
-                
+
                 <!-- Carrier -->
                 <div class="col-12 col-lg-3">
                     <label for="carrier">Carrier</label>
@@ -507,7 +506,7 @@
             </div>
         </div>
         <div class="addtl-details-row">
-            <div class="row"> 
+            <div class="row">
                 <!-- Country Code -->
                 <div class="col-12 col-lg-3 countrycode">
                     <label for="country-code">Country Code</label>
@@ -522,7 +521,7 @@
                         <div class="select_arrow"></div>
                     </div>
                 </div>
-                
+
                 <!-- Phone Number -->
                 <div class="col-12 col-lg-4">
                     <label for="phone-number">Phone Number</label>
@@ -548,7 +547,7 @@
             <div class="col-md-2 col-12">
                 <label>Title*</label>
                 <div class="select">
-                    <select name="passenger1-title" required> 
+                    <select name="passenger1-title" required>
                         <option>Mr</option>
                         <option>Mrs</option>
                     </select>
@@ -564,12 +563,12 @@
                 <input type="text" id="lname" name="passenger1-lname" class="tp-input" placeholder="Last Name">
             </div><!-- col -->
         </div><!-- row -->
-        
+
         <div class="row">
             <div class="col-md-2 col-12">
                 <label>Age*</label>
                 <div class="select">
-                    <select name="passenger1-age" required> 
+                    <select name="passenger1-age" required>
                         <option value="18">18</option>
                         <option value="19">19</option>
                         <option value="20">20</option>
@@ -586,7 +585,7 @@
             <div class="col-md-4 col-12">
                 <label>Gender*</label>
                 <div class="select">
-                    <select name="passenger1-gender" required> 
+                    <select name="passenger1-gender" required>
                         <option value="" disabled selected>Prefer Not to Say</option>
                         <option>Male</option>
                         <option>Female</option>
@@ -637,7 +636,7 @@
         </div><!-- row -->
 
         <div class="addtl-details-row">
-            <div class="row"> 
+            <div class="row">
                 <div class="col-12 col-lg-3 addtlcolfirst">
                     <label for="passport-number">Passport Number</label>
                     <input class="tp-input" id="passport-number" name="passport-number" placeholder="0000000000" required>
@@ -662,13 +661,13 @@
             </div><!-- row -->
         </div>
         <div class="addtl-details-row">
-            <div class="row"> 
+            <div class="row">
                 <!-- Flight Number -->
                 <div class="col-12 col-lg-3 addtlcolfirst">
                     <label for="flight-number">Flight Number</label>
                     <input class="tp-input" id="flight-number" name="flight-number" placeholder="000000000" required>
                 </div>
-                
+
                 <!-- Carrier -->
                 <div class="col-12 col-lg-3">
                     <label for="carrier">Carrier</label>
@@ -685,7 +684,7 @@
             </div>
         </div>
         <div class="addtl-details-row">
-            <div class="row"> 
+            <div class="row">
                 <!-- Country Code -->
                 <div class="col-12 col-lg-3 countrycode">
                     <label for="country-code">Country Code</label>
@@ -700,7 +699,7 @@
                         <div class="select_arrow"></div>
                     </div>
                 </div>
-                
+
                 <!-- Phone Number -->
                 <div class="col-12 col-lg-4">
                     <label for="phone-number">Phone Number</label>
@@ -726,7 +725,7 @@
             <div class="col-md-2 col-12">
                 <label>Title*</label>
                 <div class="select">
-                    <select name="passenger1-title" required> 
+                    <select name="passenger1-title" required>
                         <option>Mr</option>
                         <option>Mrs</option>
                     </select>
@@ -742,12 +741,12 @@
                 <input type="text" id="lname" name="passenger1-lname" class="tp-input" placeholder="Last Name">
             </div><!-- col -->
         </div><!-- row -->
-        
+
         <div class="row">
             <div class="col-md-2 col-12">
                 <label>Age*</label>
                 <div class="select">
-                    <select name="passenger1-age" required> 
+                    <select name="passenger1-age" required>
                         <option value="18">18</option>
                         <option value="19">19</option>
                         <option value="20">20</option>
@@ -764,7 +763,7 @@
             <div class="col-md-4 col-12">
                 <label>Gender*</label>
                 <div class="select">
-                    <select name="passenger1-gender" required> 
+                    <select name="passenger1-gender" required>
                         <option value="" disabled selected>Prefer Not to Say</option>
                         <option>Male</option>
                         <option>Female</option>
@@ -815,7 +814,7 @@
         </div><!-- row -->
 
         <div class="addtl-details-row">
-            <div class="row"> 
+            <div class="row">
                 <div class="col-12 col-lg-3 addtlcolfirst">
                     <label for="passport-number">Passport Number</label>
                     <input class="tp-input" id="passport-number" name="passport-number" placeholder="0000000000" required>
@@ -840,13 +839,13 @@
             </div><!-- row -->
         </div>
         <div class="addtl-details-row">
-            <div class="row"> 
+            <div class="row">
                 <!-- Flight Number -->
                 <div class="col-12 col-lg-3 addtlcolfirst">
                     <label for="flight-number">Flight Number</label>
                     <input class="tp-input" id="flight-number" name="flight-number" placeholder="000000000" required>
                 </div>
-                
+
                 <!-- Carrier -->
                 <div class="col-12 col-lg-3">
                     <label for="carrier">Carrier</label>
@@ -863,7 +862,7 @@
             </div>
         </div>
         <div class="addtl-details-row">
-            <div class="row"> 
+            <div class="row">
                 <!-- Country Code -->
                 <div class="col-12 col-lg-3 countrycode">
                     <label for="country-code">Country Code</label>
@@ -878,7 +877,7 @@
                         <div class="select_arrow"></div>
                     </div>
                 </div>
-                
+
                 <!-- Phone Number -->
                 <div class="col-12 col-lg-4">
                     <label for="phone-number">Phone Number</label>
