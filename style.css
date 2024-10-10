@@ -18,6 +18,7 @@
 
     --accent: #ffee57;
 
+
 }
 
 ::-moz-selection {
@@ -116,7 +117,9 @@ a {
 #__next {
     isolation: isolate;
 }
-
+.font-xs{
+    font-size: 14px;
+}
 .fs-icon {
     font-size:11px;
     position: relative;
@@ -2870,6 +2873,9 @@ ul {
 
 .rowslider {
 	display: block;
+}
+.fa-star::before{
+    content: url('assets/img/icons/Rating.png') !important;
 }
 .esd-box-slider {
     -webkit-transform: translate3d(0, 0, 0); /* Add this for Safari */

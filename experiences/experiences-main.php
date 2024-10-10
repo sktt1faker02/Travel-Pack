@@ -49,7 +49,7 @@
                 </div><!-- col -->
                 <div class="col-md-3 experiences-single-top-mid d-flex justify-content-around flex-row offset-lg-1">
                     <div class="experiences-duration">
-                        <h5 class="fontfam2 fw-600">
+                        <h5 class="text-black fontfam2 fw-600">
                             Duration
                         </h5>
                         <span>
@@ -57,7 +57,7 @@
                         </span>
                     </div>
                     <div class="experiences-language">
-                        <h5 class="fontfam2 fw-600">
+                        <h5 class="text-black fontfam2 fw-600">
                             Language
                         </h5>
                         <span>
@@ -65,7 +65,7 @@
                         </span>
                     </div>
                 </div><!-- col -->
-                <div class="col-12 col-md-3 d-flex justify-content-end">
+                <div class="col-12 col-md-3 d-flex justify-content-end align-items-lg-start">
                     <div class="esd-rating">
                         5 <i class="fa-solid fa-star"></i>
                     </div>
@@ -74,6 +74,11 @@
         </div><!-- container -->
 
         <div class="container">
+            <div class="goback fw-medium my-3">
+                <button onclick="goBack()">
+                    <i class="fa-solid fa-chevron-left fs-icon me-2"></i> Back To Results
+                </button>
+            </div>
             <div class="experiences-details-main-top my-4">
                 <div class="row g-0">
                     <div class="col-12 col-lg-6">
@@ -109,7 +114,7 @@
                                 <form action="experiences-main-checking-activity.php" method="post">
                                     <div class="d-flex gap-3 experiences-mainform flex-wrap">
                                         <div class="tp-input-wrap inputtextarrow">
-                                            <label for="experiences-from-date-visible">From*</label>
+                                            <label for="experiences-from-date-visible">Date*</label>
                                             <input type="text" id="experiences-from-date-visible" name="experiences-from-date-visible" class="tp-input datepicker" placeholder="DD/MM/YYYY" readonly="readonly">
                                             <input type="hidden" id="experiences-from-date" name="experiences-from-date">
                                             <div class="select_arrow"></div>
@@ -199,8 +204,10 @@
                         </div>
                         <div class="col-12 col-md-6">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur. Eget dui tempor sollicitudin pellentesque odio nibh tempus viverra. Nisi ac eget in duis tortor convallis sed. Id lectus euismod pellentesque vitae quis convallis luctus id mattis.
+                            Dictumst euismod ipsum id mattis cursus diam metus. Tortor non ipsum tincidunt in egestas. Tincidunt elementum risus sed ipsum nam urna. Hac lorem massa nulla interdum. Nec aliquet scelerisque pulvinar sit elit. Justo lectus dictum diam in quis commodo. Sit est posuere est neque ac massa pharetra cras.
                             </p>
+                            <p class="fw-bold mb-0 font-xs mt-4">MAGICAL MISCHIEF: 20 Jan 2024 to 16 Apr 2024 </p>
+                            <p class="font-xs">Product Code: 2452POTTER</p>
                         </div>
                     </div>
                 </div>
@@ -218,7 +225,7 @@
                                 <p class="txt-black fw-semibold">
                                     Inclusions
                                 </p>
-                                <ul>
+                                <ul class="tick-blue">
                                     <li>
                                         Entry ticket to Harry Potter Warner Bros Tour London
                                     </li>
@@ -234,7 +241,7 @@
                                 <p class="txt-black fw-semibold">
                                     Exclusions
                                 </p>
-                                <ul>
+                                <ul class="tick-blue">
                                     <li>
                                         Food and drinks
                                     </li>

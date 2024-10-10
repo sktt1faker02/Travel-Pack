@@ -49,9 +49,6 @@
                     <p class="fs23 txt-black mb-4 pb-2">
                         We are now one of the UK's largest independent travel companies specialising in tours, holidays and flights to destinations around the world including India, Indian Ocean, USA, the Far East, Middle East, Africa, Canada, Florida and the Caribbean.
                     </p>
-                    <!-- <a href="#" class="btn btn-primary">
-                        About Us
-                    </a> -->
                 </div><!-- col -->
                 <div class="col-12 col-lg-4 offset-lg-1">
                 </div>
