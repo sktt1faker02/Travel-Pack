@@ -21,7 +21,7 @@
                             <input type="submit" value="Sign Up" class="btn btn-primary">
                         </div>
                     </div>
-                </div><!-- col -->
+                </div><!-- col --> 
 
                 <div class="col-12 col-lg-6 offset-lg-1 dti-right position-relative mb-4 mt-lg-0">
                     <div class="dti-right-img-wrap">
