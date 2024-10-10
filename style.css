@@ -125,7 +125,9 @@ a {
     position: relative;
     top:-1px;
 }
-
+.text-navy{
+    color: #002D62;
+}
 .txt-primary-hover:hover {
     color: var(--primary);    
 }
@@ -1013,6 +1015,9 @@ ul.liststyle {
     font-size: 13px;
     line-height: 1.4;
 }
+.fw-500{
+    font-weight: 500;
+}
 .thepopup p a {
     color: #000;
     font-weight: 500;
@@ -1821,6 +1826,9 @@ section#deals-travel-inspiration {
     padding: 15px 15px;
     border-radius: 7px;
 }
+.exciting-deals-heading.opacity-7{
+    background-color: rgba(255,255,255,0.7) !important;
+}
 .exciting-deals-heading a.view-al:hover {
     color: var(--primary);
 }
@@ -2076,6 +2084,15 @@ section#deals-travel-inspiration {
     border-top: 1px solid #737270;
     border-bottom: 1px solid #737270;
     padding: 9px 0;
+}
+.experiences-overview-title.border-tb{
+    border-top: 1px solid #a09c9c;
+    border-bottom: 1px solid #a09c9c;
+    padding: 10px 0;
+}
+.select.filter select {
+    background: none;
+    border: 1px solid #621194;
 }
 
 /* TESTIMONIALS */
@@ -2881,6 +2898,10 @@ ul {
     -webkit-transform: translate3d(0, 0, 0); /* Add this for Safari */
     transform: translate3d(0, 0, 0);
     display: block; /* Ensure display is block */
+}
+
+.slidertop-spo.v2{
+    max-height: 648px !important;
 }
 
 @media(min-width:990px) and (max-width: 1400px){

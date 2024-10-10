@@ -1,5 +1,5 @@
 <?php include '../config.php'; ?>
-
+<?php include '../sections/global/home-header.php';?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,15 +39,16 @@
 
     <section class="block search-wrap bggray searchresults-formwrap pt-0" id="experiences-search">
         <div class="container">
-            <div id="special-offers-searchbar" class="searchbar">
-                <div class="searchbar-top mb-2 mb-md-3 row align-items-center">
-                    <div class="col-md-5">
+            <div id="experiences-searchbar" class="searchbar">
+                <div class="searchbar-top mb-md-3 mb-2 row align-items-center">
+                    <div class="col-md-6">
                         <h2>
                             Where's next?
                         </h2>
                     </div>
                 </div><!-- searchbartop -->
-                <?php include '../sections/searchform/main-forms/searchform-wheres-next.php';?>
+
+                <?php include '../sections/searchform/main-forms/searchform-experiences.php';?>
             </div><!-- searchbar -->
         </div><!-- container -->
         <div class="container">
@@ -111,10 +112,10 @@
                                 </span>
                                 <div class="select">
                                     <select>
-                                        <option>Prices</option>
-                                        <option>Prices</option>
-                                        <option>Prices</option>
-                                        <option>Prices</option>
+                                        <option>Any</option>
+                                        <option>Any</option>
+                                        <option>Any</option>
+                                        <option>Any</option>
                                     </select>
                                     <div class="select_arrow">
                                     </div>
@@ -613,6 +614,12 @@
     <script src="<?= getBaseUrl() ?>/assets/js/loadmoreboxes.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/sidebar.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/scripts.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/searchbar.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/moment.min.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/searchbar-flights.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/daterangepicker.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/jquery-ui.min.js"></script>
+    
 
 </body>
 

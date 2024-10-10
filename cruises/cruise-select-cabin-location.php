@@ -79,6 +79,12 @@
                                             <h3 class="mb-1">
                                                 Inside Cabins
                                             </h3>
+                                            <div class="cruise-readmorecontentshow fs13 txt-gray">
+                                                <p class="fw-bold">
+                                                Code: SS
+
+                                                </p>
+                                            </div>
                                         </div>
                                         <div class="col-12 col-md-9">
                                             <div class="cruise-readmorecontentshow fs13 txt-gray">
@@ -99,7 +105,7 @@
                             </h3>        
                             <div class="row">
                                 <div class="col-12 col-md-4">
-                                    <div class="select">
+                                    <div class="select text-black">
                                         <select name="deck-selector" required> 
                                             <option value="deck01">Deck 01</option>
                                             <option value="deck02">Deck 02</option>

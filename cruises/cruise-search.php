@@ -176,6 +176,25 @@
                 </div><!-- col side bar-->
 
                 <div class="col-12 col-lg-9 tp-main">
+                <div class="experiences-overview-title border-tb mb-4">
+                    <div class="row align-items-center">
+                        <div class="col-md-8 col-12">
+                            <h3 class="fontfam2 fw-semibold mb-0">
+                                Results
+                            </h3>
+                        </div><!-- col -->
+                        <div class="col-12 col-md-4 d-flex justify-content-end align-items-center">
+                        <div class="select filter mb-0">
+                                <select>
+                                    <option>Sort By</option>
+                                    <option>Name</option>
+                                    <option>Date</option>
+                                </select>
+                                <div class="select_arrow"></div>
+                            </div>
+                        </div>
+                    </div><!-- row -->
+                </div>
                     <div class="loadmore-boxes-wrap loadmore-boxes-cruises-search">
                         <div class="whiteboxbg loadmorebox cruise-box">
                             <div class="row">
@@ -206,28 +225,27 @@
                                             <div class="row">
                                                 <div class="col-12 col-lg-4 cruise-features-left">
                                                     <h6>
-                                                        Departs
+                                                        Date
                                                     </h6>
                                                     <span>
-                                                        Southampton, UK <br>
-                                                        15 Jun 2014
+                                                        Fri, 15 Jun 2024
                                                     </span>
                                                 </div>
                                                 <div class="col-12 col-lg-4 cruise-features-mid">
                                                     <h6>
-                                                        Arrives
+                                                        Sailing Venturas
                                                     </h6>
                                                     <span>
-                                                        Southampton, UK <br>
-                                                        29 Jun 2014
+                                                        16 Days <br>
+                                                        
                                                     </span>
                                                 </div>
                                                 <div class="col-12 col-lg-4 cruise-features-right">
                                                     <h6>
-                                                        Sailing Ventura
+                                                        Stops
                                                     </h6>
                                                     <span>
-                                                        14 Nights
+                                                        9 Stops
                                                     </span>
                                                 </div>
                                             </div><!-- row -->
@@ -331,28 +349,27 @@
                                             <div class="row">
                                                 <div class="col-12 col-lg-4 cruise-features-left">
                                                     <h6>
-                                                        Departs
+                                                        Date
                                                     </h6>
                                                     <span>
-                                                        Southampton, UK <br>
-                                                        15 Jun 2014
+                                                        Fri, 15 Jun 2024
                                                     </span>
                                                 </div>
                                                 <div class="col-12 col-lg-4 cruise-features-mid">
                                                     <h6>
-                                                        Arrives
+                                                        Sailing Venturas
                                                     </h6>
                                                     <span>
-                                                        Southampton, UK <br>
-                                                        29 Jun 2014
+                                                        16 Days <br>
+                                                        
                                                     </span>
                                                 </div>
                                                 <div class="col-12 col-lg-4 cruise-features-right">
                                                     <h6>
-                                                        Sailing Ventura
+                                                        Stops
                                                     </h6>
                                                     <span>
-                                                        14 Nights
+                                                        9 Stops
                                                     </span>
                                                 </div>
                                             </div><!-- row -->
@@ -456,28 +473,27 @@
                                             <div class="row">
                                                 <div class="col-12 col-lg-4 cruise-features-left">
                                                     <h6>
-                                                        Departs
+                                                        Date
                                                     </h6>
                                                     <span>
-                                                        Southampton, UK <br>
-                                                        15 Jun 2014
+                                                        Fri, 15 Jun 2024
                                                     </span>
                                                 </div>
                                                 <div class="col-12 col-lg-4 cruise-features-mid">
                                                     <h6>
-                                                        Arrives
+                                                        Sailing Venturas
                                                     </h6>
                                                     <span>
-                                                        Southampton, UK <br>
-                                                        29 Jun 2014
+                                                        16 Days <br>
+                                                        
                                                     </span>
                                                 </div>
                                                 <div class="col-12 col-lg-4 cruise-features-right">
                                                     <h6>
-                                                        Sailing Ventura
+                                                        Stops
                                                     </h6>
                                                     <span>
-                                                        14 Nights
+                                                        9 Stops
                                                     </span>
                                                 </div>
                                             </div><!-- row -->
@@ -581,28 +597,27 @@
                                             <div class="row">
                                                 <div class="col-12 col-lg-4 cruise-features-left">
                                                     <h6>
-                                                        Departs
+                                                        Date
                                                     </h6>
                                                     <span>
-                                                        Southampton, UK <br>
-                                                        15 Jun 2014
+                                                        Fri, 15 Jun 2024
                                                     </span>
                                                 </div>
                                                 <div class="col-12 col-lg-4 cruise-features-mid">
                                                     <h6>
-                                                        Arrives
+                                                        Sailing Venturas
                                                     </h6>
                                                     <span>
-                                                        Southampton, UK <br>
-                                                        29 Jun 2014
+                                                        16 Days <br>
+                                                        
                                                     </span>
                                                 </div>
                                                 <div class="col-12 col-lg-4 cruise-features-right">
                                                     <h6>
-                                                        Sailing Ventura
+                                                        Stops
                                                     </h6>
                                                     <span>
-                                                        14 Nights
+                                                        9 Stops
                                                     </span>
                                                 </div>
                                             </div><!-- row -->
@@ -706,28 +721,27 @@
                                             <div class="row">
                                                 <div class="col-12 col-lg-4 cruise-features-left">
                                                     <h6>
-                                                        Departs
+                                                        Date
                                                     </h6>
                                                     <span>
-                                                        Southampton, UK <br>
-                                                        15 Jun 2014
+                                                        Fri, 15 Jun 2024
                                                     </span>
                                                 </div>
                                                 <div class="col-12 col-lg-4 cruise-features-mid">
                                                     <h6>
-                                                        Arrives
+                                                        Sailing Venturas
                                                     </h6>
                                                     <span>
-                                                        Southampton, UK <br>
-                                                        29 Jun 2014
+                                                        16 Days <br>
+                                                        
                                                     </span>
                                                 </div>
                                                 <div class="col-12 col-lg-4 cruise-features-right">
                                                     <h6>
-                                                        Sailing Ventura
+                                                        Stops
                                                     </h6>
                                                     <span>
-                                                        14 Nights
+                                                        9 Stops
                                                     </span>
                                                 </div>
                                             </div><!-- row -->
@@ -831,28 +845,28 @@
                                             <div class="row">
                                                 <div class="col-12 col-lg-4 cruise-features-left">
                                                     <h6>
-                                                        Departs
+                                                        Date
                                                     </h6>
                                                     <span>
-                                                        Southampton, UK <br>
-                                                        15 Jun 2014
+                                                         <br>
+                                                        Fri, 15 Jun 2024
                                                     </span>
                                                 </div>
                                                 <div class="col-12 col-lg-4 cruise-features-mid">
                                                     <h6>
-                                                        Arrives
+                                                        Sailing Venturas
                                                     </h6>
                                                     <span>
-                                                        Southampton, UK <br>
-                                                        29 Jun 2014
+                                                        16 Days <br>
+                                                        
                                                     </span>
                                                 </div>
                                                 <div class="col-12 col-lg-4 cruise-features-right">
                                                     <h6>
-                                                        Sailing Ventura
+                                                        Stops
                                                     </h6>
                                                     <span>
-                                                        14 Nights
+                                                        9 Stops
                                                     </span>
                                                 </div>
                                             </div><!-- row -->
@@ -956,28 +970,27 @@
                                             <div class="row">
                                                 <div class="col-12 col-lg-4 cruise-features-left">
                                                     <h6>
-                                                        Departs
+                                                        Date
                                                     </h6>
                                                     <span>
-                                                        Southampton, UK <br>
-                                                        15 Jun 2014
+                                                        Fri, 15 Jun 2024
                                                     </span>
                                                 </div>
                                                 <div class="col-12 col-lg-4 cruise-features-mid">
                                                     <h6>
-                                                        Arrives
+                                                        Sailing Venturas
                                                     </h6>
                                                     <span>
-                                                        Southampton, UK <br>
-                                                        29 Jun 2014
+                                                        16 Days <br>
+                                                        
                                                     </span>
                                                 </div>
                                                 <div class="col-12 col-lg-4 cruise-features-right">
                                                     <h6>
-                                                        Sailing Ventura
+                                                        Stops
                                                     </h6>
                                                     <span>
-                                                        14 Nights
+                                                        9 Stops
                                                     </span>
                                                 </div>
                                             </div><!-- row -->
@@ -1084,7 +1097,7 @@
                 </div><!-- col -->
                 <div class="col-12 col-lg-6 offset-lg-3 text-center txt-white">
                     <p>
-                        To book your holiday call us or simply share your details and we shall get in touch with youJust call us on +44 208 585 4080
+                        To book your holiday call us or simply share your details and we shall get in touch with you <br>Just call us on +44 208 585 4080
                     </p>
 
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cta-modal">
