@@ -1,3 +1,25 @@
+@media (min-width:1400px) {
+    .loadmoreboxes-car-hire .col-car-hire-image {
+        width:260px
+    }
+    .loadmoreboxes-car-hire .car-hire-title {
+        width: 200px;
+    }
+    .loadmoreboxes-car-hire .car-hire-features {
+        width: 300px;
+    }
+    .col-car-hire-details-wrap {
+        flex-grow:1;
+    }
+    .loadmoreboxes-car-hire .carhirelogo {
+        flex-grow:1;
+    }
+    .loadmoreboxes-car-hire .carhirebox-price {
+        position: relative;
+        left: -17px;
+    }
+}
+
 @media (min-width:1200px) and (max-width:1399px) {
     .esd-right-top-description {
         margin-top: 15px;

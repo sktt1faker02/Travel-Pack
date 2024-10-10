@@ -2765,17 +2765,17 @@
         </div>
     </section>
 
-    <div class="modal fade" id="breakdown-1" tabindex="-1" aria-labelledby="breakdown-1" aria-hidden="true">
+    <div class="modal fade breakdown-popup" id="breakdown-1" tabindex="-1" aria-labelledby="breakdown-1" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body">
 
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     <div class="breakdowntop">
-                        <h4>
+                        <h4 class="mb-1">
                             Afternoon Show
                         </h4>
-                        <div class="fw-semibold">
+                        <div class="fw-semibold txt-gray mb-3">
                             Timings - 14:15
                         </div>
                     </div>
@@ -2787,9 +2787,9 @@
 
                             <p>Sed vitae bibendum augue. Sed suscipit dignissim euismod. Suspendisse auctor enim vel enim egestas, in faucibus magna rhoncus. Vivamus tincidunt dignissim mauris, non vehicula libero accumsan ut. Nulla dapibus mi sed nisl feugiat pulvinar. Vestibulum consequat nisl in ullamcorper scelerisque.</p>
                         </div>
-                        <div class="d-flex column-gap-3 align-items-center justify-content-end">
-                            <div class="breakdownbottom-left text-center">
-                                <div class="bdb-left-price">
+                        <div class="d-flex column-gap-4 align-items-center justify-content-end">
+                            <div class="breakdownbottom-left text-center pt-2 pe-2">
+                                <div class="bdb-left-price txt-black">
                                     2 Adults x £159.00
                                 </div>
                                 <div class="bdb-left-price-main">

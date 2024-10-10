@@ -8,7 +8,7 @@
             </div>
         </div>
         <div id="main-testimonials">
-            <div class="testislider">
+            <div class="testislider rowslider tpslider-4 firstload">
                 <div class="testibox">
                     <?php include './sections/global/star-rating.php';?>
                     <div class="testimain">
