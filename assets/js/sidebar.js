@@ -162,6 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
         const leftLabelWidth = leftLabel.offsetWidth;
         const rightLabelWidth = rightLabel.offsetWidth;
+        const slideName = slider.getAttribute('slide-name');
     
         // Calculate the new position for the output text and center it under the knob
         let newOffset = percentage * (sliderWidth - thumbWidth) - (output.offsetWidth / 2) + thumbWidth / 2;
@@ -172,10 +173,20 @@ document.addEventListener('DOMContentLoaded', function() {
     
         if (newOffset < minOffset) newOffset = minOffset; // Prevent overflow on the left
         if (newOffset > maxOffset) newOffset = maxOffset; // Prevent overflow on the right
-    
+
+        if(slideName){
+            switch (slideName) {
+                case 'so-duration':
+                    output.style.left = `${newOffset < 20 ? '0' : newOffset}px`;
+                    break;
+            }
+        }else{
+            output.style.left = `${newOffset}px`;
+        }
+
         // Set the output's position in px
-        output.style.left = `${newOffset}px`;
-        console.log(newOffset);
+        // output.style.left = `${newOffset}px`;
+        // console.log(newOffset); vencer
     }
 
     function updateSliderBackground(slider) {
@@ -261,7 +272,6 @@ document.addEventListener('DOMContentLoaded', function() {
         if (newOffset > maxOffset) newOffset = maxOffset;
 
         output.style.left = `${newOffset}px`;
-        console.log(newOffset);
     }
 });
 
@@ -409,6 +419,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     break;
                 case 'returnTime':
                     output.style.left = `${newOffset == 30 ? '0' : newOffset}px`;
+                    break;
+                case 'so-rating':
+                    output.style.left = `${newOffset < 30 ? '0' : newOffset}px`;
+                    break;
+                case 'so-price':
+                    output.style.left = `${newOffset < 30 ? '0' : newOffset}px`;
                     break;
             }
         }else{
