@@ -33,6 +33,13 @@ jQuery(document).ready(function($){
             const endDate = dropoffDate.getTime();
             const currentDate = date.getTime();
 
+            const today = new Date();
+            const todayTime = today.setHours(0, 0, 0, 0); // Set time to midnight for comparison
+        
+            if (currentDate === todayTime) {
+                return [false, ""]; // Disable today's date
+            }
+
             if (currentDate === startDate || currentDate === endDate) {
                 return [true, "ui-datepicker-current-day"];
             } else if (currentDate > startDate && currentDate < endDate) {
@@ -158,24 +165,32 @@ jQuery(document).ready(function($){
     });
 
     // ! CRUISES
+
+    let startDate = null;
+    let endDate = null;
+
     function highlightCurrentDayCruises(date, inst) {
-        const pickupDateCh = $(".cruises-date-picker").datepicker("getDate");
-
-        if (pickupDateCh) {
-            const startDate = pickupDateCh.getTime();
-            const endDate = new Date(pickupDateCh);
-            endDate.setDate(endDate.getDate() + 11);
-            const currentDate = date.getTime();
-
-            if (currentDate === startDate) {
+        const currentDate = date.getTime();
+        const today = new Date();
+        const todayTime = today.setHours(0, 0, 0, 0);
+    
+        if (currentDate === todayTime) {
+            return [false, ""];
+        }
+    
+        if (startDate && endDate) {
+            const start = startDate.getTime();
+            const end = endDate.getTime();
+    
+            if (currentDate === start) {
                 return [true, "ui-datepicker-current-day"];
-            } else if (currentDate === endDate.getTime()) {
+            } else if (currentDate === end) {
                 return [true, "ui-datepicker-current-day"];
-            } else if (currentDate > startDate && currentDate < endDate.getTime()) {
+            } else if (currentDate > start && currentDate < end) {
                 return [true, "rd"];
             }
         }
-        
+    
         return [true, ""];
     }
 
@@ -187,9 +202,41 @@ jQuery(document).ready(function($){
         changeYear: true,
         beforeShowDay: highlightCurrentDayCruises,
         onSelect: function(selectedDate) {
-            const selectedDateObjectCh = $.datepicker.parseDate("dd/mm/yy", selectedDate);
-            const endDate = new Date(selectedDateObjectCh);
-            endDate.setDate(endDate.getDate() + 11);
+            const selectedDateObject = $.datepicker.parseDate("dd/mm/yy", selectedDate);
+            console.log(startDate);
+
+            if (!startDate) {
+                startDate = selectedDateObject;
+            } else if (!endDate) {
+                if (selectedDateObject > startDate) {
+                    endDate = selectedDateObject;
+                } else {
+                    startDate = selectedDateObject;
+                    endDate = null;
+                }
+            }
+            console.log(selectedDateObject);
+
+            $('.cruises-date-picker').datepicker("refresh");
+
+            if (startDate && endDate) {
+                if ($(".cruises-date-picker").val() !== "") {
+                    const startDateString = $.datepicker.formatDate("dd/mm/yy", startDate);
+                    const endDateString = $.datepicker.formatDate("dd/mm/yy", selectedDateObject);
+                    $(".cruises-date-picker").val(`${startDateString} - ${endDateString}`);
+                }else{
+                    const startDateString = $.datepicker.formatDate("dd/mm/yy", startDate);
+                    const endDateString = $.datepicker.formatDate("dd/mm/yy", endDate);
+                    $(".cruises-date-picker").val(`${startDateString} - ${endDateString}`);
+                    $(".cruises-date-picker").datepicker('hide');
+                }
+            }else{
+                setTimeout(function(){
+                    $( ".cruises-date-picker" ).datepicker('show');
+                }, 100); 
+            }
+
+            $(this).blur();
         },
         beforeShow: function(input, inst) {
             replaceShortMonthNames(inst);
@@ -198,6 +245,7 @@ jQuery(document).ready(function($){
             replaceShortMonthNames(inst);
         }
     });
+
 
     // ! DEFAULT DATE PICKER
     $(".initialize-date-picker").datepicker({
@@ -636,10 +684,3 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
-
-
-
-
-
-
-
