@@ -39,13 +39,16 @@
         <div class="herowrapblur">
             <div class="heroslider">
                 <div class="heroslide">
-                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-cruises.jpg" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-cruises.jpg" alt="" class="hero-img-desktop">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/heromobile/heromobile-cruises.jpg" alt="" class="hero-img-mobile">
                 </div>
                 <div class="heroslide">
-                    <img src="" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-cruises.jpg" alt="" class="hero-img-desktop">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/heromobile/heromobile-cruises.jpg" alt="" class="hero-img-mobile">
                 </div>
                 <div class="heroslide">
-                    <img src="" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-cruises.jpg" alt="" class="hero-img-desktop">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/heromobile/heromobile-cruises.jpg" alt="" class="hero-img-mobile">
                 </div>
             </div>
         </div>

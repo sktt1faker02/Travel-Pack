@@ -68,6 +68,38 @@ document.addEventListener("DOMContentLoaded", function() {
     
 });
 
+function matchHeights() {
+    // Check if the window width is 767 pixels or less
+    if (window.innerWidth <= 767) {
+        const slides = document.querySelectorAll('.esd-box-slider .slick-slide .esd-right');
+        let maxHeight = 0;
+
+        // Reset heights first
+        slides.forEach(slide => {
+            slide.style.height = 'auto'; // Reset height to auto to calculate the correct height
+        });
+
+        // Calculate the maximum height
+        slides.forEach(slide => {
+            const slideHeight = slide.offsetHeight; // Get the height of the current slide
+            if (slideHeight > maxHeight) {
+                maxHeight = slideHeight; // Update maxHeight if current height is greater
+            }
+        });
+
+        // Set all slides to the maximum height
+        slides.forEach(slide => {
+            slide.style.height = maxHeight + 'px'; // Set the height of each slide to maxHeight
+        });
+    } else {
+        // Reset heights if not in mobile view
+        const slides = document.querySelectorAll('.esd-box-slider .slick-slide .esd-right');
+        slides.forEach(slide => {
+            slide.style.height = 'auto'; // Reset height to auto
+        });
+    }
+}
+
 jQuery(document).ready(function($){   
     initSlickSliders();
 });
@@ -279,6 +311,13 @@ jQuery(document).ready(function($){
         slidesToShow: 1,
         slidesToScroll: 1
     });
+
+
+// Call matchHeights after window resize to adjust heights accordingly
+window.addEventListener('resize', matchHeights);
+
+// Call matchHeights on page load
+document.addEventListener('DOMContentLoaded', matchHeights);
 
 });
 
