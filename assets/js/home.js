@@ -255,7 +255,7 @@ jQuery(document).ready(function($){
         slidesToShow: 1,
         slidesToScroll: 1
     });
-    $('.testislider').slick({
+    /*$('.testislider').slick({
         infinite: true,
         arrows: false,
         fade: false,
@@ -306,7 +306,7 @@ jQuery(document).ready(function($){
                 }
                 }
             ]
-    });
+    }); */
 
 
     /* HERO SLIDER */

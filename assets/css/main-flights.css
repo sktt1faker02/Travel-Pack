@@ -478,6 +478,11 @@ i.fa-chevron-* {
     margin-top: -10px;
 }
 
+.breakdown-popup .btn-close {
+    color: var(--tp-blue) !important;
+    opacity: 1;
+}
+
 
 @media (min-width: 992px) {
     .fdm-right {

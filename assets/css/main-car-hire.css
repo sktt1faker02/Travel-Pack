@@ -27,6 +27,10 @@
     font-size: 15px;
     margin-bottom: 15px;
 }
+.car-hire-features-inner li {
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
 .car-hire-image {
     height: 0;
     padding-top: 80%;
@@ -82,10 +86,10 @@
     flex-direction: column;
 }
 
-.carhire-termslink a:hover {
+.carhire-termslink span:hover {
     color: var(--primary);
 }
-.carhire-termslink a {
+.carhire-termslink span {
     color:var(--text-gray);
     text-decoration: underline !important;
 }
@@ -96,9 +100,9 @@
     font-size:30px;
 }
 .whiteboxbg.carhire-box {
-    margin-bottom: 0;
+    margin-bottom: 20px;
+    padding: 24px;
 }
-
 .carhire-main {
     background-color: #fff;
     border-radius: 5px;
@@ -114,4 +118,23 @@
 .carhirelogo img {
     border: 1px solid #e2e2e2;
     border-radius: 7px;
+}
+.loadmore-boxes-wrap.loadmoreboxes-car-hire .box-group {
+    flex-direction:column;
+}
+
+
+
+.terms-and-conditions-modal .bdb-left-price {
+    font-size: 13px;
+}
+.terms-and-conditions-modal .bdb-left-price-main {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.terms-and-conditions-modal .btn-close {
+    color: var(--tp-blue) !important;
+    opacity: 1;
 }

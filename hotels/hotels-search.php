@@ -1238,6 +1238,10 @@
         font-size: 12px;
         margin-top: 3px;
     }
+    .leaflet-marker-icon.leaflet-interactive {
+        width: 27px !important;
+        height: 33px !important;
+    }
 </style>
 </body>
 
