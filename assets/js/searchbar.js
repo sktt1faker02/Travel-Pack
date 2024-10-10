@@ -24,6 +24,7 @@ jQuery(document).ready(function($){
     }
 
     function highlightCurrentDay(date, inst) {
+        
         const pickupDate = $(".pickup-date").datepicker("getDate");
         const dropoffDate = $(".dropoff-date").datepicker("getDate");
 
@@ -38,7 +39,6 @@ jQuery(document).ready(function($){
                 return [true, "rd"];
             }
         }
-        
         return [true, ""];
     }
 
@@ -52,9 +52,12 @@ jQuery(document).ready(function($){
         beforeShowDay: highlightCurrentDay,
         onSelect: function(selectedDate) {
             const selectedDateObject = $.datepicker.parseDate("dd/mm/yy", selectedDate);
+
             const dropOffDate = new Date(selectedDateObject);
             dropOffDate.setDate(dropOffDate.getDate() + 7);
+
             $(".dropoff-date").datepicker("option", "minDate", dropOffDate);
+            
             const currentDropOffDate = $(".dropoff-date").datepicker("getDate");
             if (currentDropOffDate < dropOffDate) {
                 $(".dropoff-date").datepicker("setDate", dropOffDate);
@@ -63,8 +66,11 @@ jQuery(document).ready(function($){
             maxDate.setDate(maxDate.getDate() + 365);
             $(".dropoff-date").datepicker("option", "maxDate", maxDate);
             $(".dropoff-date").datepicker("refresh");
+
+            $(".ui-datepicker-today .ui-state-default").removeClass("ui-state-highlight");
         },
         beforeShow: function(input, inst) {
+            console.log(input);
             replaceShortMonthNames(inst);
         },
         onChangeMonthYear: function(year, month, inst) {
@@ -151,6 +157,49 @@ jQuery(document).ready(function($){
         }
     });
 
+    // ! CRUISES
+    function highlightCurrentDayCruises(date, inst) {
+        const pickupDateCh = $(".cruises-date-picker").datepicker("getDate");
+
+        if (pickupDateCh) {
+            const startDate = pickupDateCh.getTime();
+            const endDate = new Date(pickupDateCh);
+            endDate.setDate(endDate.getDate() + 11);
+            const currentDate = date.getTime();
+
+            if (currentDate === startDate) {
+                return [true, "ui-datepicker-current-day"];
+            } else if (currentDate === endDate.getTime()) {
+                return [true, "ui-datepicker-current-day"];
+            } else if (currentDate > startDate && currentDate < endDate.getTime()) {
+                return [true, "rd"];
+            }
+        }
+        
+        return [true, ""];
+    }
+
+    $(".cruises-date-picker").datepicker({
+        dateFormat: 'dd/mm/yy',
+        minDate: 0,
+        maxDate: "+1y",
+        changeMonth: true,
+        changeYear: true,
+        beforeShowDay: highlightCurrentDayCruises,
+        onSelect: function(selectedDate) {
+            const selectedDateObjectCh = $.datepicker.parseDate("dd/mm/yy", selectedDate);
+            const endDate = new Date(selectedDateObjectCh);
+            endDate.setDate(endDate.getDate() + 11);
+        },
+        beforeShow: function(input, inst) {
+            replaceShortMonthNames(inst);
+        },
+        onChangeMonthYear: function(year, month, inst) {
+            replaceShortMonthNames(inst);
+        }
+    });
+
+    // ! DEFAULT DATE PICKER
     $(".initialize-date-picker").datepicker({
         dateFormat: 'dd/mm/yy',
         minDate: 0,

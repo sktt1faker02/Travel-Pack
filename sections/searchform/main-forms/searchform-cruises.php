@@ -8,7 +8,7 @@
                         <input type="text" class="form-control" autocomplete="cruise" name="cru-request" id="cruises-where" placeholder="Cruise, Destination...">
                     </div>
                     <div class="searchbar-inputwrap flex7 flex100-mobile mobile-last-col mobile-bordertop">
-                        <input type="text" class="form-control date initialize-date-picker" name="cru-from-date" id="cruises-when" placeholder="Departure">
+                        <input type="text" class="form-control date cruises-date-picker" name="cru-from-date" id="cruises-when" placeholder="Departure">
                         <div class="select_arrow"></div>
                     </div>
 
