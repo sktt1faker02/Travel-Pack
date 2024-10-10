@@ -37,6 +37,12 @@
     margin-bottom: 15px;
     width: 100%;
 }    
+.text-black select{
+    color: #232323 !important;
+}
+.text-black select option{
+    color: #ffffff;
+}
 .select select {
     font-family: 'Arial';
     display: inline-block;
@@ -63,7 +69,7 @@
 }
 .select select:hover,
 .select select:focus {
-    color: #fff;
+    color: #fff !important;
     background: #5d1790;
 }
 .select select:disabled {

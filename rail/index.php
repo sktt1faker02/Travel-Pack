@@ -263,6 +263,166 @@
                         </div>
                     </div>
                 </div><!-- sexboxslide -->
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="#">
+                                        From <strong>£22pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="">
+                                    Asia
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/rail/paris.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="">
+                                    London to <br>
+                                    Paris
+                                </h3>
+                            </div>
+                            <p class="txt-blue pb-5">
+                                Direct
+                            </p>
+
+                            <a href="#" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div><!-- sexboxslide -->
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="#">
+                                        From <strong>£22pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="">
+                                    Asia
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/rail/barcelona.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="">
+                                    Madrid to <br>
+                                    Barcelona
+                                </h3>
+                            </div>
+                            <p class="txt-blue pb-5">
+                                Direct
+                            </p>
+
+                            <a href="#" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div><!-- sexboxslide -->
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="#">
+                                        From <strong>£22pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="">
+                                    Asia
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/rail/london.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="">
+                                    London to <br>
+                                    Edinburgh
+                                </h3>
+                            </div>
+                            <p class="txt-blue pb-5">
+                                Direct
+                            </p>
+
+                            <a href="#" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div><!-- sexboxslide -->
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="#">
+                                        From <strong>£22pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="">
+                                    Asia
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/rail/edinburgh.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="">
+                                    Birmingham to <br>
+                                    London
+                                </h3>
+                            </div>
+                            <p class="txt-blue pb-5">
+                                Direct
+                            </p>
+
+                            <a href="#" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div><!-- sexboxslide -->
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="#">
+                                        From <strong>£22pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="">
+                                    Asia
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/rail/paris.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="">
+                                    London to <br>
+                                    Paris
+                                </h3>
+                            </div>
+                            <p class="txt-blue pb-5">
+                                Direct
+                            </p>
+
+                            <a href="#" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div><!-- sexboxslide -->
             </div><!-- sed slider wrap -->
         </div><!-- exciting deals -->
     </div>

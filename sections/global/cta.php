@@ -8,7 +8,7 @@
             </div><!-- col -->
             <div class="col-12 col-lg-6 offset-lg-3 text-center txt-white">
                 <p>
-                    To book your holiday call us or simply share your details and we shall get in touch with you. Just call us on +44 208 585 4080 
+                    To book your holiday call us or simply share your details and we shall get in touch with you <br>Just call us on +44 208 585 4080 
                 </p>
 
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cta-modal">

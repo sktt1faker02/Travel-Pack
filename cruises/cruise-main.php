@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/style.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/sidebar.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/main-cruise.css">
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/main-special-offers.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/mediaqueries.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="<?= getBaseUrl() ?>/assets/img/favicon/apple-touch-icon.png">
@@ -218,22 +219,65 @@
                         </div><!-- col -->
                     </div><!-- row -->
                 </div><!-- cruise details-main-top -->
+                
                 <div class="cruise-details-main-bottom mt-4 pt-4">
+                <h3 class="mb-4">
+                    What’s included on your cruise
+                    </h3>
+                <div class="slidertop-spo-wrap position-relative mb-5">
+                        <div class="slidertop-spo v-slide-wrap v2">
+                            <div class="slidertop-spo-slide v-slide">
+                                <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
+                            </div>
+                            <div class="slidertop-spo-slide v-slide">
+                                <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
+                            </div>
+                            <div class="slidertop-spo-slide v-slide">
+                                <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
+                            </div>
+                            <div class="slidertop-spo-slide v-slide">
+                                <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
+                            </div>
+                            <div class="slidertop-spo-slide v-slide">
+                                <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
+                            </div>
+                            <div class="slidertop-spo-slide v-slide">
+                                <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="v-flex">
+                            <div id="slider-nav">
+                                <span id="current">01</span>/<span id="total">08</span>
+                            </div>
+
+                            <button class="slidertop-spo-viewall v-all">
+                                View All <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div><!-- slidertop spo wrap -->
                     <h3 class="mb-4">
-                        What’s included on your cruise
+                    Deck Map
                     </h3>
 
                     <div class="row">
                         <div class="col-12 col-lg-6 d-flex flex1">
-                            <div class="cruise-details-image-wrap">
-                                <img src="<?= getBaseUrl() ?>/assets/img/cruise/cruise2.jpg" alt="">
+                        <div class="cruise-details-main-top-slider v-slide-wrap">
+                                <div class="cruise-slide v-slide">
+                                    <img src="<?= getBaseUrl() ?>/assets/img/hotels/mainlisting-slide.jpg" alt="">
+                                </div>
+                                <div class="cruise-slide v-slide">
+                                    <img src="<?= getBaseUrl() ?>/assets/img/hotels/mainlisting-slide.jpg" alt="">
+                                </div>
+                                <div class="cruise-slide v-slide">
+                                    <img src="<?= getBaseUrl() ?>/assets/img/hotels/mainlisting-slide.jpg" alt="">
+                                </div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-6">
-                            <h3>
+                            <h3 class="mb-3">
                                 Lorem ipsum dolor sit amet consectetur. Ac fusce in ipsum fermentum tristique volutpat molestie proin. Adipiscing proin est a hendrerit nulla.
                             </h3>
-                            <p>
+                            <p class="text-black">
                                 Lorem ipsum dolor sit amet consectetur. Odio suscipit aliquam ipsum diam sodales. Euismod semper lectus nullam integer magna ut eleifend scelerisque proin. Curabitur in odio commodo amet molestie velit tincidunt. In cursus viverra non amet odio.
                             </p>
                             <ul class="liststyle">
@@ -274,7 +318,7 @@
                 </div><!-- col -->
                 <div class="col-12 col-lg-6 offset-lg-3 text-center txt-white">
                     <p>
-                        To book your holiday call us or simply share your details and we shall get in touch with youJust call us on +44 208 585 4080 
+                        To book your holiday call us or simply share your details and we shall get in touch with you <br>Just call us on +44 208 585 4080 
                     </p>
 
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cta-modal">
@@ -378,6 +422,10 @@
     <script src="<?= getBaseUrl() ?>/assets/js/scripts.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/main-cruises.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/galleryPopup.js"></script>
+
+
+    <script src="<?= getBaseUrl() ?>/assets/js/jquery-ui-timepicker-addon.min.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/main-special-offers.js"></script>
 
 
 </body>

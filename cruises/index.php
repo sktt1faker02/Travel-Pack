@@ -39,16 +39,13 @@
         <div class="herowrapblur">
             <div class="heroslider">
                 <div class="heroslide">
-                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-cruises.jpg" alt="" class="hero-img-desktop">
-                    <img src="<?= getBaseUrl() ?>/assets/img/hero/heromobile/heromobile-cruises.jpg" alt="" class="hero-img-mobile">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-cruises.jpg" alt="">
                 </div>
                 <div class="heroslide">
-                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-cruises.jpg" alt="" class="hero-img-desktop">
-                    <img src="<?= getBaseUrl() ?>/assets/img/hero/heromobile/heromobile-cruises.jpg" alt="" class="hero-img-mobile">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-cruises.jpg" alt="">
                 </div>
                 <div class="heroslide">
-                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-cruises.jpg" alt="" class="hero-img-desktop">
-                    <img src="<?= getBaseUrl() ?>/assets/img/hero/heromobile/heromobile-cruises.jpg" alt="" class="hero-img-mobile">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-cruises.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -59,32 +56,32 @@
             <div class="container">
                 <div class="heroslider-nav">
                     <div class="heroslider-nav-slide">
-                        <h2 class="txt-white">
+                        <h2 class="text-navy">
                             Explore The <br>
                             Open Seas
                         </h2>
                     
-                        <p class="hero-text txt-white">
-                            Bodhum, Turkey
+                        <p class="hero-text txt-navy">
+                            Oslo, Norway
                         </p>
                     </div>
                     <div class="heroslider-nav-slide">
-                        <h2 class="txt-white">
+                        <h2 class="text-navy">
                             Aliquam non erat,<br>
                             volutpat risus et
                         </h2>
                     
-                        <p class="hero-text txt-white">
+                        <p class="hero-text txt-navy">
                             Kyoto, Japan
                         </p>
                     </div>
                     <div class="heroslider-nav-slide">
-                        <h2 class="txt-white">
+                        <h2 class="text-navy">
                             Quisque quis metus<br/>
                             fringilla mollis nec
                         </h2>
                     
-                        <p class="hero-text txt-white">
+                        <p class="hero-text txt-navy">
                             Boracay, Philippines
                         </p>
                     </div>
@@ -110,7 +107,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="exciting-deals-heading">
+                        <div class="exciting-deals-heading opacity-7">
                             <div class="row align-items-center">
                                 <div class="col-8 col-md-8">
                                     <h3 class="mb-0">
@@ -127,19 +124,19 @@
             </div><!-- container -->
 
 
-            <div class="sed-slider rowslider tpslider-4 firstload mt-4">
+           <div class="sed-slider rowslider tpslider-4 firstload mt-4">
                 <div class="sedboxslide">
                     <div class="sedbox">
                         <div class="sedtop">
                             <div class="yellowtagwrap">
                                 <div class="yph-price global-price-tag">
-                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
                                         From <strong>£22pp</strong>
                                     </a>
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
+                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
                                     Europe
                                 </a>
                             </div>
@@ -148,7 +145,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
                                         Carribbean
                                     </a>
                                 </h3>
@@ -156,7 +153,7 @@
                             <p class="txt-blue pb-5">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div><!-- sexboxslide -->
@@ -165,22 +162,22 @@
                         <div class="sedtop">
                             <div class="yellowtagwrap">
                                 <div class="yph-price global-price-tag">
-                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
                                         From <strong>£22pp</strong>
                                     </a>
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
+                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
                                     Europe
                                 </a>
                             </div>
                         </div>
-                        <img src="<?= getBaseUrl() ?>/assets/img/cruise/cruise-slide2.jpg" alt="">
+                        <img src="<?= getBaseUrl() ?>/assets/img/cruise/europe.jpg" alt="">
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
                                         Europe
                                     </a>
                                 </h3>
@@ -188,7 +185,7 @@
                             <p class="txt-blue pb-5">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>   
                 </div>
@@ -203,22 +200,22 @@
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
+                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
                                     Europe
                                 </a>
                             </div>
                         </div>
-                        <img src="<?= getBaseUrl() ?>/assets/img/cruise/cruise-slide3.jpg" alt="">
+                        <img src="<?= getBaseUrl() ?>/assets/img/cruise/translantic.jpg" alt="">
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="mb-5 pb-4">
-                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
                                         Transatlantic
                                     </a>
                                 </h3>
                             </div>
 
-                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>   
                 </div>
@@ -227,13 +224,13 @@
                         <div class="sedtop">
                             <div class="yellowtagwrap">
                                 <div class="yph-price global-price-tag">
-                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
                                         From <strong>£22pp</strong>
                                     </a>
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
+                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
                                     Europe
                                 </a>
                             </div>
@@ -242,7 +239,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
                                         North America
                                     </a>
                                 </h3>
@@ -250,7 +247,7 @@
                             <p class="txt-blue pb-5">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -259,45 +256,13 @@
                         <div class="sedtop">
                             <div class="yellowtagwrap">
                                 <div class="yph-price global-price-tag">
-                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
                                         From <strong>£22pp</strong>
                                     </a>
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
-                                    North America
-                                </a>
-                            </div>
-                        </div>
-                        <img src="<?= getBaseUrl() ?>/assets/img/cruise/cruise-slide2.jpg" alt="">
-                        <div class="sed-details">
-                            <div class="sed-title">
-                                <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
-                                        Europe
-                                    </a>
-                                </h3>
-                            </div>
-                            <p class="txt-blue pb-5">
-                            </p>
-
-                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
-                        </div>
-                    </div>     
-                </div>     
-                <div class="sedboxslide">
-                    <div class="sedbox">
-                        <div class="sedtop">
-                            <div class="yellowtagwrap">
-                                <div class="yph-price global-price-tag">
-                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
-                                        From <strong>£22pp</strong>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
+                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
                                     Europe
                                 </a>
                             </div>
@@ -306,7 +271,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
                                         Carribbean
                                     </a>
                                 </h3>
@@ -314,7 +279,7 @@
                             <p class="txt-blue pb-5">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div><!-- sexboxslide -->
@@ -323,22 +288,22 @@
                         <div class="sedtop">
                             <div class="yellowtagwrap">
                                 <div class="yph-price global-price-tag">
-                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
                                         From <strong>£22pp</strong>
                                     </a>
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
+                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
                                     Europe
                                 </a>
                             </div>
                         </div>
-                        <img src="<?= getBaseUrl() ?>/assets/img/cruise/cruise-slide2.jpg" alt="">
+                        <img src="<?= getBaseUrl() ?>/assets/img/cruise/europe.jpg" alt="">
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
                                         Europe
                                     </a>
                                 </h3>
@@ -346,7 +311,7 @@
                             <p class="txt-blue pb-5">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>   
                 </div>
@@ -361,25 +326,184 @@
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
+                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
                                     Europe
                                 </a>
                             </div>
                         </div>
-                        <img src="<?= getBaseUrl() ?>/assets/img/cruise/cruise-slide3.jpg" alt="">
+                        <img src="<?= getBaseUrl() ?>/assets/img/cruise/translantic.jpg" alt="">
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="mb-5 pb-4">
-                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
                                         Transatlantic
                                     </a>
                                 </h3>
                             </div>
 
-                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>   
-                </div>  
+                </div>
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
+                                        From <strong>£22pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
+                                    Europe
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/cruise/cruise-slide4.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
+                                        North America
+                                    </a>
+                                </h3>
+                            </div>
+                            <p class="txt-blue pb-5">
+                            </p>
+
+                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
+                                        From <strong>£22pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
+                                    Europe
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/cruise/cruise-slide1.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
+                                        Carribbean
+                                    </a>
+                                </h3>
+                            </div>
+                            <p class="txt-blue pb-5">
+                            </p>
+
+                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div><!-- sexboxslide -->
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
+                                        From <strong>£22pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
+                                    Europe
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/cruise/europe.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
+                                        Europe
+                                    </a>
+                                </h3>
+                            </div>
+                            <p class="txt-blue pb-5">
+                            </p>
+
+                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>   
+                </div>
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="">
+                                        From <strong>£22pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
+                                    Europe
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/cruise/translantic.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="mb-5 pb-4">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
+                                        Transatlantic
+                                    </a>
+                                </h3>
+                            </div>
+
+                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>   
+                </div>
+                <div class="sedboxslide">
+                    <div class="sedbox">
+                        <div class="sedtop">
+                            <div class="yellowtagwrap">
+                                <div class="yph-price global-price-tag">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
+                                        From <strong>£22pp</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="esd-continent">
+                                <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
+                                    Europe
+                                </a>
+                            </div>
+                        </div>
+                        <img src="<?= getBaseUrl() ?>/assets/img/cruise/cruise-slide4.jpg" alt="">
+                        <div class="sed-details">
+                            <div class="sed-title">
+                                <h3 class="">
+                                    <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php">
+                                        North America
+                                    </a>
+                                </h3>
+                            </div>
+                            <p class="txt-blue pb-5">
+                            </p>
+
+                            <a href="<?= getBaseUrl() ?>/cruises/cruises-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+              
             </div><!-- sed slider wrap -->
         </div><!-- exciting deals -->
     </div><!-- hero home -->
