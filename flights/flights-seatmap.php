@@ -50,7 +50,6 @@
             <div class="row">
 
                 <?php include '../sections/sidebar/flights.php';?>
-                    
 
                 <div class="col-12 col-lg-8 tp-main">
                     <ul class="nav nav-tabs tp-tabs" id="tabs-flight" role="tablist">

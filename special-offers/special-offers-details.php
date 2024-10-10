@@ -381,7 +381,7 @@
     <script>
         function redirectToPage(event) {
             event.preventDefault();
-            window.location.href = '<?= getBaseUrl() ?>/transfer/transfer-checkout-details.php';
+            window.location.href = '<?= getBaseUrl() ?>/transfer/transfer-checkout-details';
         }
 
         jQuery(document).ready(function() {

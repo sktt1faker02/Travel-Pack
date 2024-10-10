@@ -394,7 +394,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -472,7 +472,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -550,7 +550,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -628,7 +628,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -706,7 +706,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -784,7 +784,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -862,7 +862,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -940,7 +940,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -1018,7 +1018,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -1096,7 +1096,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -1174,7 +1174,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>

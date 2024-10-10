@@ -4,7 +4,7 @@
             <div class="mainheader-inner">
                 <div class="row align-items-center headerrowtop noborderradius-onclick">
                     <div class="col-5 col-lg-3 header-left">
-                        <a href="<?= getBaseUrl() ?>/index.php">
+                        <a href="<?= getBaseUrl() ?>/index">
                             <img src="<?= getBaseUrl() ?>/assets/img/header/logo.png" alt="" class="logo">
                         </a>
                     </div>
@@ -82,14 +82,14 @@
                                 </ul>
                             </div>
                         </li>
-                        <li><a href="<?= getBaseUrl() ?>/flights/index.php">Flights</a></li>
-                        <li><a href="<?= getBaseUrl() ?>/hotels/index.php">Hotels</a></li>
-                        <li><a href="<?= getBaseUrl() ?>/car-hire/index.php">Car Hire</a></li>
-                        <li><a href="<?= getBaseUrl() ?>/cruises/index.php">Cruises</a></li>
-                        <li><a href="<?= getBaseUrl() ?>/experiences/index.php">Experiences</a></li>
-                        <li><a href="<?= getBaseUrl() ?>/rail/index.php">Rail</a></li>
-                        <li><a href="<?= getBaseUrl() ?>/transfer/index.php">Transfer</a></li>
-                        <li><a href="<?= getBaseUrl() ?>/special-offers/index.php">Special Offers</a></li>
+                        <li><a href="<?= getBaseUrl() ?>/flights/index">Flights</a></li>
+                        <li><a href="<?= getBaseUrl() ?>/hotels/index">Hotels</a></li>
+                        <li><a href="<?= getBaseUrl() ?>/car-hire/index">Car Hire</a></li>
+                        <li><a href="<?= getBaseUrl() ?>/cruises/index">Cruises</a></li>
+                        <li><a href="<?= getBaseUrl() ?>/experiences/index">Experiences</a></li>
+                        <li><a href="<?= getBaseUrl() ?>/rail/index">Rail</a></li>
+                        <li><a href="<?= getBaseUrl() ?>/transfer/index">Transfer</a></li>
+                        <li><a href="<?= getBaseUrl() ?>/special-offers/index">Special Offers</a></li>
                     </ul>
                 </div>
             </div>
