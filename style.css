@@ -525,7 +525,7 @@ div#cta-datepicker {
     bottom: 10px;
     background-color: #f8f6f3;
     padding: 15px 17px;
-    z-index: 55;
+    z-index: 55555;
     border-radius: 8px;
     left: 50%;
     transform: translate(-50%);
@@ -1752,7 +1752,6 @@ section#deals-travel-inspiration {
     text-align: center;
     position: absolute;
     padding-left: 0;
-    width:100%;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 20px;
@@ -2634,7 +2633,7 @@ ul#searchtab {
 .searchbar-checkboxes .custom-checkbox {
     width: 20px;
     height: 20px;
-    border: 2px solid var(--primary-text);
+    border: 2px solid var(--black-text);
     display: inline-block;
     margin-right: 5px;
     position: relative;
@@ -2647,6 +2646,9 @@ ul#searchtab {
     transform: translate(-50%, -50%);
     color: var(--primary-text);
     font-size: 13px;
+}
+.searchbar-checkboxes input[type="radio"]:checked + .custom-checkbox {
+    border-color: var(--primary-text);
 }
 
 /* FOOTER */

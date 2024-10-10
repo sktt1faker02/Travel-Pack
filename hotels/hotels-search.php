@@ -1169,19 +1169,21 @@
         column-gap: 20px;
         align-items: center;
     }
-    .popup-map .img{
-        width: 50%;
-        position: relative;
-    }
+    .popup-map .img {
+    width: 50%;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
     .popup-map .img span{
         position: absolute;
-        left: 10px;
-        top: 10px;
+        left: 5px;
+        top: 5px;
         background: #ffee57;
         color: #052e5a;
-        font-size: 16px;
-        padding: 10px 20px;
-        font-weight: 600;
+        font-size: 11px;
+        padding: 8px 14px;
+        font-weight: 500;
         border-radius: 30px;
     }
     .popup-map .img img{

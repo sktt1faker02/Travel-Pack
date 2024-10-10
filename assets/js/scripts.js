@@ -169,18 +169,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-
-// HERO FADE IN
-document.addEventListener("DOMContentLoaded", function() {
-    const slides = document.querySelectorAll(".heroslider .heroslide");
-    slides.forEach((slide, index) => {
-        const delay = index === 0 ? 1500 : 3000 * index;
-        setTimeout(() => {
-            slide.classList.add('fade-in');
-        }, delay);
-    });
-});
-
 // HOME SCRIPT
 function toggleHamburger(x) {
     x.classList.toggle("change");

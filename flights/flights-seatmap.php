@@ -101,15 +101,7 @@
                         <div class="flights-main">
                             <div class="tab-content" id="myTabContent">
                                 <div class="tab-pane fade show active" id="tab-passenger01-pane" role="tabpanel" aria-labelledby="tab-best-pane" tabindex="0">
-                                        <div class="">
-                                            <div class="flightsseatmap-top">
-                                                <img src="<?= getBaseUrl() ?>/assets/img/flights/seatcolors.png" class="mt-3 mb-4 pb-2" alt="">
-                                            </div>
-                                            <div class="d-flex justify-content-center">
-                                                <img src="<?= getBaseUrl() ?>/assets/img/flights/seatmap.png" class="my-5" alt="">
-                                            </div>
-                                        </div><!-- flights box -->
-                                    </div><!-- flights wrap -->
+                                   
                                 </div><!-- tab pane -->
                                 <div class="tab-pane fade" id="tab-passenger02-pane" role="tabpanel" aria-labelledby="tab-best-pane" tabindex="0">
                                 </div><!-- tab pane -->
