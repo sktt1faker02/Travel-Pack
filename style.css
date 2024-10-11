@@ -255,8 +255,7 @@ p {
     background-color: var(--primary);
     color: var(--white);
     position: relative;
-    border-width:0;
-    border-style: solid;
+    border: 2px var(--primary) solid;
 }
 
 .btn.btn-primary:hover,
@@ -4042,4 +4041,92 @@ body .carousel-modal-main  .slick-arrow.fa-chevron-right {
 }
 body .carousel-modal-main .slick-arrow.fa-chevron-left {
     left: 15px;
+}
+
+
+/* SEAT MAP */
+.seatmap-legend-box strong {
+    font-weight: 400;
+    font-size: 13px;
+}
+.seatmap-legend-box {
+    display: flex;
+    align-items: center;
+    line-height: 1.3;
+    gap: 8px;
+}
+.exit {
+    color: rgb(157, 115, 197);
+    font-size: 25px;
+    padding: 10px 0;
+    display: block;
+}
+.seatmap-legend {
+    padding: 10px 0 30px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #9f9c9c;
+}
+.price{   
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(126, 9, 126); 
+    padding: 1px; 
+    color: white; 
+    font-weight: bold;
+    border-radius: 3px; 
+    width: 45px;
+}
+#tabs-passengers li button, #tabs-flight li button {
+    font-weight: 600;
+}
+.seatmap-table {
+    margin: 0 auto;
+}
+.price-2{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(15, 60, 156); 
+    padding: 1px; 
+    color: white; 
+    font-weight: bold;
+    border-radius: 3px;
+    width: 45px;
+ 
+}
+.seat-price{
+    position: relative;
+     width: 50px;
+     height: 50px
+}
+td img{
+    width: 70px;
+    height: 70px;
+    max-width: none;
+}
+#seat-modal .modal-header {
+    background-color: var(--primary) !important;
+}
+.seat:hover, .pax-block:hover {
+	cursor 				: pointer;
+}
+
+.width {
+	width 				: 60px;
+}
+
+.pax-block {
+	border 				: 1px solid #D5D8DC;
+}
+
+.hide-field {
+	border 				: 0;
+	background-color 	: #fff;
+}
+
+.selected-pax {
+	border 				: 1px solid #E74C3C;
 }
