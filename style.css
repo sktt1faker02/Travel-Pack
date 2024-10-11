@@ -3546,7 +3546,7 @@ ul.oa-checklist li a {
     position: absolute;
     object-fit: cover;
     height: 100%;
-    width: 100%;
+    width: 100%; 
     top: 0;
 }
 .cob-bottom {

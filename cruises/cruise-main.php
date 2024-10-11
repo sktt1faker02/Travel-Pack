@@ -68,7 +68,7 @@
                 <div class="col-12 col-md-3 d-flex justify-content-end">
                     <?php include '../sections/global/star-rating.php';?>
                 </div>
-            </div><!-- row -->
+            </div><!-- row --> 
         </div><!-- container -->
 
         <div class="container">
