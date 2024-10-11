@@ -13,12 +13,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js">
-    <link rel="stylesheet" href="../assets/css/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
 
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome.css">
+    <link rel="stylesheet" href="./assets/css/daterangepicker.css">
+    <link rel="stylesheet" href="./assets/css/mediaqueries.css">
+    <link rel="stylesheet" href="./assets/css/mediaqueries-searchforms.css">
+    <link rel="stylesheet" href="./assets/css/jquery-ui-timepicker-addon.min.css">
+    <link rel="stylesheet" href="./assets/css/lightbox.css">
+    <link rel="stylesheet" href="./assets/css/main-car-hire.css">
+    <link rel="stylesheet" href="./assets/css/main-cruise.css">
+    <link rel="stylesheet" href="./assets/css/main-experiences.css">
+    <link rel="stylesheet" href="./assets/css/main-flights.css">
+    <link rel="stylesheet" href="./assets/css/main-hotels.css">
+    <link rel="stylesheet" href="./assets/css/main-rail.css">
+    <link rel="stylesheet" href="./assets/css/main-special-offers.css">
+    <link rel="stylesheet" href="./assets/css/main-transfer.css">
+    <link rel="stylesheet" href="./assets/css/sidebar.css">
 
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../assets/css/mediaqueries.css">
-    <link rel="stylesheet" href="../assets/css/mediaqueries-searchforms.css">
+    <link rel="stylesheet" href="./style.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon/favicon-32x32.png">
