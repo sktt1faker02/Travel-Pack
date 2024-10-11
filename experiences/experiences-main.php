@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/slick.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/fontawesome.css">
-    
+
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/style.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/sidebar.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/main-experiences.css">
@@ -35,7 +35,7 @@
 
 <body>
     <div id="nohero-inner">
-        <?php include '../sections/global/header-nav.php';?>
+        <?php include '../sections/global/header-nav.php'; ?>
     </div><!-- main hero -->
 
     <section class="block search-wrap bggray" id="experiences-main">
@@ -43,7 +43,7 @@
             <div class="row hotel-single-top">
                 <div class="col-12 col-md-5 experiences-single-top-left">
                     <h2>
-                        Harry Potter Warner Bros, Studio Tour 
+                        Harry Potter Warner Bros, Studio Tour
                         with Transport from London
                     </h2>
                 </div><!-- col -->
@@ -81,7 +81,7 @@
             </div>
             <div class="experiences-details-main-top my-4">
                 <div class="row g-0">
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6 parent-slide">
                         <div class="free-cancellation">
                             Free Cancellation
                         </div>
@@ -108,89 +108,89 @@
                     </div><!-- col -->
                     <div class="col-12 col-lg-6 d-flex">
                         <div class="experiences-main-top-right p-4">
-                                <h3>
-                                    <span class="text-black fontfam2 fw-semibold">from</span>
-                                    <div class="experiences-main-price">
-                                        £129.00
-                                    </div>
-                                </h3>
+                            <h3>
+                                <span class="text-black fontfam2 fw-semibold">from</span>
+                                <div class="experiences-main-price">
+                                    £129.00
+                                </div>
+                            </h3>
 
-                                <h5 class="text-black mt-4 mb-3 fontfam2">
-                                    Select Date & Details
-                                </h5>
+                            <h5 class="text-black mt-4 mb-3 fontfam2">
+                                Select Date & Details
+                            </h5>
 
-                                <form action="experiences-main-checking-activity.php" method="post">
-                                    <div class="d-flex gap-3 experiences-mainform flex-wrap">
-                                        <div class="tp-input-wrap inputtextarrow">
-                                            <label for="experiences-from-date-visible">Date*</label>
-                                            <input type="text" id="experiences-from-date-visible" name="experiences-from-date-visible" class="tp-input datepicker" placeholder="DD/MM/YYYY" readonly="readonly">
-                                            <input type="hidden" id="experiences-from-date" name="experiences-from-date">
+                            <form action="experiences-main-checking-activity.php" method="post">
+                                <div class="d-flex gap-3 experiences-mainform flex-wrap">
+                                    <div class="tp-input-wrap inputtextarrow">
+                                        <label for="experiences-from-date-visible">Date*</label>
+                                        <input type="text" id="experiences-from-date-visible" name="experiences-from-date-visible" class="tp-input datepicker" placeholder="DD/MM/YYYY" readonly="readonly">
+                                        <input type="hidden" id="experiences-from-date" name="experiences-from-date">
+                                        <div class="select_arrow"></div>
+                                    </div><!-- tp input wrap -->
+
+                                    <div class="tp-input-wrap">
+                                        <label for="traveller-select">Traveller</label>
+                                        <div class="select">
+                                            <select name="traveller" id="traveller-select" required>
+                                                <option value="01">01</option>
+                                                <option value="02">02</option>
+                                                <option value="03">03</option>
+                                                <option value="04">04</option>
+                                                <option value="05">05</option>
+                                            </select>
                                             <div class="select_arrow"></div>
-                                        </div><!-- tp input wrap -->
-                                        
-                                        <div class="tp-input-wrap">
-                                            <label for="traveller-select">Traveller</label>
-                                            <div class="select">
-                                                <select name="traveller" id="traveller-select" required>
-                                                    <option value="01">01</option>
-                                                    <option value="02">02</option>
-                                                    <option value="03">03</option>
-                                                    <option value="04">04</option>
-                                                    <option value="05">05</option>
-                                                </select>
-                                                <div class="select_arrow"></div>
-                                            </div>
                                         </div>
-                                        <div class="tp-input-wrap">
-                                            <label for="adult">Adult (16 to 99)</label>
-                                            <div class="select">
-                                                <select name="cardtype" required=""> 
-                                                    <option>00</option>
-                                                    <option>00</option>
-                                                    <option>00</option>
-                                                </select>
-                                                <div class="select_arrow"></div>
-                                            </div>
-                                        </div><!-- tp input wrap -->
-                                        <div class="tp-input-wrap">
-                                            <label for="adult">Youth (5 to 15)</label>
-                                            <div class="select">
-                                                <select name="cardtype" required=""> 
-                                                    <option>00</option>
-                                                    <option>00</option>
-                                                    <option>00</option>
-                                                </select>
-                                                <div class="select_arrow"></div>
-                                            </div>
-                                        </div><!-- tp input wrap -->
-                                        <div class="tp-input-wrap">
-                                            <label for="adult">Infant (0 to 2)</label>
-                                            <div class="select">
-                                                <select name="cardtype" required=""> 
-                                                    <option>00</option>
-                                                    <option>00</option>
-                                                    <option>00</option>
-                                                </select>
-                                                <div class="select_arrow"></div>
-                                            </div>
-                                        </div><!-- tp input wrap -->
-                                        <div class="tp-input-wrap">
-                                            <label for="adult">Child (3 to 4)</label>
-                                            <div class="select">
-                                                <select name="cardtype" required=""> 
-                                                    <option>00</option>
-                                                    <option>00</option>
-                                                    <option>00</option>
-                                                </select>
-                                                <div class="select_arrow"></div>
-                                            </div>
-                                        </div><!-- tp input wrap -->
-                                    </div><!-- dflex -->
-
-                                    <div class="d-flex justify-content-end mt-5">
-                                        <input type="submit" value="Check Availability" class="btn btn-primary">
                                     </div>
-                                </form>
+                                    <div class="tp-input-wrap">
+                                        <label for="adult">Adult (16 to 99)</label>
+                                        <div class="select">
+                                            <select name="cardtype" required="">
+                                                <option>00</option>
+                                                <option>00</option>
+                                                <option>00</option>
+                                            </select>
+                                            <div class="select_arrow"></div>
+                                        </div>
+                                    </div><!-- tp input wrap -->
+                                    <div class="tp-input-wrap">
+                                        <label for="adult">Youth (5 to 15)</label>
+                                        <div class="select">
+                                            <select name="cardtype" required="">
+                                                <option>00</option>
+                                                <option>00</option>
+                                                <option>00</option>
+                                            </select>
+                                            <div class="select_arrow"></div>
+                                        </div>
+                                    </div><!-- tp input wrap -->
+                                    <div class="tp-input-wrap">
+                                        <label for="adult">Infant (0 to 2)</label>
+                                        <div class="select">
+                                            <select name="cardtype" required="">
+                                                <option>00</option>
+                                                <option>00</option>
+                                                <option>00</option>
+                                            </select>
+                                            <div class="select_arrow"></div>
+                                        </div>
+                                    </div><!-- tp input wrap -->
+                                    <div class="tp-input-wrap">
+                                        <label for="adult">Child (3 to 4)</label>
+                                        <div class="select">
+                                            <select name="cardtype" required="">
+                                                <option>00</option>
+                                                <option>00</option>
+                                                <option>00</option>
+                                            </select>
+                                            <div class="select_arrow"></div>
+                                        </div>
+                                    </div><!-- tp input wrap -->
+                                </div><!-- dflex -->
+
+                                <div class="d-flex justify-content-end mt-5">
+                                    <input type="submit" value="Check Availability" class="btn btn-primary">
+                                </div>
+                            </form>
                         </div><!-- hotel-rooms-main-top-right -->
                     </div><!-- col -->
                 </div><!-- row -->
@@ -212,7 +212,7 @@
                         </div>
                         <div class="col-12 col-md-6">
                             <p>
-                            Dictumst euismod ipsum id mattis cursus diam metus. Tortor non ipsum tincidunt in egestas. Tincidunt elementum risus sed ipsum nam urna. Hac lorem massa nulla interdum. Nec aliquet scelerisque pulvinar sit elit. Justo lectus dictum diam in quis commodo. Sit est posuere est neque ac massa pharetra cras.
+                                Dictumst euismod ipsum id mattis cursus diam metus. Tortor non ipsum tincidunt in egestas. Tincidunt elementum risus sed ipsum nam urna. Hac lorem massa nulla interdum. Nec aliquet scelerisque pulvinar sit elit. Justo lectus dictum diam in quis commodo. Sit est posuere est neque ac massa pharetra cras.
                             </p>
                             <p class="fw-bold mb-0 font-xs mt-4">MAGICAL MISCHIEF: 20 Jan 2024 to 16 Apr 2024 </p>
                             <p class="font-xs">Product Code: 2452POTTER</p>
@@ -274,7 +274,7 @@
                                 <p class="txt-black fw-semibold">
                                     Meeting Point
                                 </p>
-                                
+
                                 <div class="d-flex flex-column">
                                     <span>
                                         Victoria Coach Station
@@ -334,7 +334,7 @@
                                     <li>Ultricies velit mauris volutpat in mollis ac nec. Blandit massa velit eget integer vitae id.</li>
                                     <li>Posuere nunc posuere feugiat dui pellentesque id mollis. Amet diam eget viverra ac. </li>
                                     <li>Nisl non nulla malesuada dui ipsum quam tristique.</li>
-                                    </ul>
+                                </ul>
                             </div>
                         </div><!-- emiboxes -->
                     </div><!-- col -->
@@ -349,11 +349,11 @@
                                     <li>Ultricies velit mauris volutpat in mollis ac nec. Blandit massa velit eget integer vitae id.</li>
                                     <li>Posuere nunc posuere feugiat dui pellentesque id mollis. Amet diam eget viverra ac. </li>
                                     <li>Nisl non nulla malesuada dui ipsum quam tristique.</li>
-                                    </ul>
+                                </ul>
                             </div>
                         </div><!-- emiboxes -->
                     </div><!-- col -->
-                        
+
                 </div><!-- row -->
             </div><!-- info boxes -->
 
@@ -493,7 +493,7 @@
         </div><!-- container -->
     </section>
 
-    <?php include '../sections/global/footer.php';?>
+    <?php include '../sections/global/footer.php'; ?>
 
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/jquery-ui.min.js"></script>
@@ -505,4 +505,5 @@
 
 
 </body>
+
 </html>

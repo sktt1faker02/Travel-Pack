@@ -538,10 +538,3 @@ document.addEventListener('scroll', function() {
 });
 
 
-
-
-
-
-
-
-

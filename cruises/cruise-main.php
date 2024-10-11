@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/slick.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/fontawesome.css">
-    
+
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/style.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/sidebar.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/main-cruise.css">
@@ -36,7 +36,7 @@
 
 <body>
     <div id="nohero-inner">
-        <?php include '../sections/global/header-nav.php';?>
+        <?php include '../sections/global/header-nav.php'; ?>
     </div><!-- main hero -->
 
     <section class="block search-wrap bggray" id="cruise-main">
@@ -66,9 +66,9 @@
                     </div>
                 </div><!-- col -->
                 <div class="col-12 col-md-3 d-flex justify-content-end">
-                    <?php include '../sections/global/star-rating.php';?>
+                    <?php include '../sections/global/star-rating.php'; ?>
                 </div>
-            </div><!-- row --> 
+            </div><!-- row -->
         </div><!-- container -->
 
         <div class="container">
@@ -80,7 +80,7 @@
             <form action="cruise-select-cabin.php" method="post">
                 <div class="cruise-details-main-top my-4">
                     <div class="row g-0">
-                        <div class="col-12 col-lg-6">
+                        <div class="col-12 col-lg-6 parent-slide">
                             <div class="cruise-tag">
                                 Free Cancellation
                             </div>
@@ -227,12 +227,12 @@
                         </div><!-- col -->
                     </div><!-- row -->
                 </div><!-- cruise details-main-top -->
-                
+
                 <div class="cruise-details-main-bottom mt-4 pt-4">
-                <h3 class="mb-4">
-                    What’s included on your cruise
+                    <h3 class="mb-4">
+                        What’s included on your cruise
                     </h3>
-                    <div class="slidertop-spo-wrap position-relative mb-5">
+                    <div class="slidertop-spo-wrap position-relative mb-5 parent-slide">
                         <div class="slidertop-spo v-slide-wrap v2">
                             <div class="slidertop-spo-slide v-slide">
                                 <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
@@ -253,23 +253,22 @@
                                 <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
                             </div>
                         </div>
-                        <div class="v-flex">
-                            <div id="slider-nav">
-                                <span id="current">01</span>/<span id="total">08</span>
+                        <div class="carousel-modal-bottom-wrap">
+                            <div class="carousel-modal-counter">
+                                01/03
                             </div>
-
-                            <button class="slidertop-spo-viewall v-all">
-                                View All <i class="fa-solid fa-chevron-right"></i>
-                            </button>
+                            <div class="carousel-modal-view-all">
+                                View All <i class="fa-solid fa-chevron-right fs-icon fs13 ms-2 txt-blue"></i>
+                            </div>
                         </div>
                     </div><!-- slidertop spo wrap -->
                     <h3 class="mb-4">
-                    Deck Map
+                        Deck Map
                     </h3>
 
                     <div class="row">
                         <div class="col-12 col-lg-6 d-flex flex1">
-                        <div class="cruise-details-main-top-slider v-slide-wrap">
+                            <div class="cruise-details-main-top-slider v-slide-wrap">
                                 <div class="cruise-slide v-slide">
                                     <img src="<?= getBaseUrl() ?>/assets/img/hotels/mainlisting-slide.jpg" alt="">
                                 </div>
@@ -326,7 +325,7 @@
                 </div><!-- col -->
                 <div class="col-12 col-lg-6 offset-lg-3 text-center txt-white">
                     <p>
-                        To book your holiday call us or simply share your details and we shall get in touch with you <br>Just call us on +44 208 585 4080 
+                        To book your holiday call us or simply share your details and we shall get in touch with you <br>Just call us on +44 208 585 4080
                     </p>
 
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cta-modal">
@@ -383,7 +382,7 @@
                                     <label for="emailaddress">
                                         Email Address*
                                     </label>
-                                    <input type="email" placeholder="example@email.com" id="emailaddress" name="surnemailaddressame" required>                                                
+                                    <input type="email" placeholder="example@email.com" id="emailaddress" name="surnemailaddressame" required>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6">
@@ -420,7 +419,7 @@
         </div>
     </section>
 
-    <?php include '../sections/global/footer.php';?>
+    <?php include '../sections/global/footer.php'; ?>
 
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/jquery-ui.min.js"></script>
@@ -437,4 +436,5 @@
 
 
 </body>
+
 </html>
