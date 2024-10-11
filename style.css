@@ -413,10 +413,10 @@ section.block {
     font-size: 13px;
     color: #30273b;
 }
-/* .daterangepicker tbody td {
-    background-color: transparent !important;
+.daterangepicker tbody td {
+    font-weight: 600 !important;
 }
-.daterangepicker tbody td.available:hover {
+/* .daterangepicker tbody td.available:hover {
     color: #000000 !important;
 } */
 #cta-datepicker tbody td.available:hover {
