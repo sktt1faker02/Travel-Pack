@@ -295,7 +295,9 @@ jQuery(document).ready(function($){
     // ! daterangepicker library
     $('.cruises-date-picker').daterangepicker({
         opens: 'left',
-        minDate: moment().startOf('day')
+        minDate: moment().startOf('day'),
+        startDate: moment(), // Initial start date
+        endDate: moment().add(11, 'days')
     });
     $('.cruises-date-picker').val('Departure')
 });
