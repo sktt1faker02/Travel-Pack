@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     const totalBoxes = loadmoreBoxes.length;
-    let boxesPerPage = 3; // Default value
+    let boxesPerPage = 12; // Default value
     let currentPage = 1;
 
     // Check if .loadmore-boxes-wrap is inside .specialoffer-main or .baggage-allowances

@@ -176,25 +176,26 @@
                 </div><!-- col side bar-->
 
                 <div class="col-12 col-lg-9 tp-main">
-                <div class="experiences-overview-title border-tb mb-4">
-                    <div class="row align-items-center">
-                        <div class="col-md-8 col-12">
-                            <h3 class="fontfam2 fw-semibold mb-0">
-                                Results
-                            </h3>
-                        </div><!-- col -->
-                        <div class="col-12 col-md-4 d-flex justify-content-end align-items-center">
-                        <div class="select filter mb-0">
-                                <select>
-                                    <option>Sort By</option>
-                                    <option>Name</option>
-                                    <option>Date</option>
-                                </select>
-                                <div class="select_arrow"></div>
+                <div class="tp-main-heading mb-4">
+                        <div class="row align-items-center">
+                            <div class="col-6">
+                                <h5 class="mb-0 fontfam2">
+                                    Results
+                                </h5>
+                            </div><!-- col -->
+                            <div class="col-6 d-flex justify-content-end sortby">
+                                <div class="select mb-0">
+                                    <select>
+                                        <option>Sort By</option>
+                                        <option>Name</option>
+                                        <option>Date</option>
+                                    </select>
+                                    <div class="select_arrow">
+                                    </div>
+                                </div><!-- select -->
                             </div>
-                        </div>
-                    </div><!-- row -->
-                </div>
+                        </div><!-- special offers -->
+                    </div>
                     <div class="loadmore-boxes-wrap loadmore-boxes-cruises-search">
                         <div class="whiteboxbg loadmorebox cruise-box">
                             <div class="row">

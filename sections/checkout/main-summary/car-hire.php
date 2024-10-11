@@ -63,16 +63,22 @@
                     <table class="table-pickup-dropoff">
                         <thead>
                             <tr>
-                                <th>Pickup</th>
-                                <th>DropOff</th>
+                                <th colspan="2">Pickup</th>
+                                <th colspan="2">DropOff</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>
+                                <strong>Address</strong>
+                                </td>
+                                <td>
                                     <strong>Address</strong><br>
                                     Novotel London Stansted Hotel,<br>
                                     Round Coppice Road, Stansted London
+                                </td>
+                                <td>
+                                <strong>Address</strong>
                                 </td>
                                 <td>
                                     <strong>Address</strong><br>
@@ -82,8 +88,14 @@
                             </tr>
                             <tr>
                                 <td>
+                                    <strong>Location</strong>
+                                </td>
+                                <td>
                                     <strong>Location</strong><br>
                                     Airport
+                                </td>
+                                <td>
+                                    <strong>Location</strong>
                                 </td>
                                 <td>
                                     <strong>Location</strong><br>
@@ -91,9 +103,15 @@
                                 </td>
                             </tr>
                             <tr>
+                                <td>
+                                    <strong>Date</strong>
+                                </td>
                                 <td>
                                     <strong>Date</strong><br>
                                     13 Jun 2024 at 12:00
+                                </td>
+                                <td>
+                                    <strong>Date</strong>
                                 </td>
                                 <td>
                                     <strong>Date</strong><br>
@@ -103,6 +121,11 @@
                         </tbody>
                     </table>
                 </div><!-- tp table main -->
+                <div class="d-flex justify-content-end mt-4">
+                    <button class="btn btn-white">
+                        Change Details
+                    </button>
+                </div>
             </div><!-- responsive table -->
         </div><!-- tp table -->     
     </div><!-- sumbasketbox -->
@@ -110,7 +133,7 @@
 
     <div class="sumbasket-box">
         <h3 class="mb-3 tp-top-heading mt-4">
-            Your car
+            Your Car
         </h3>
         <div class="whiteboxbg carhire-box">
             <div class="row">
@@ -140,7 +163,7 @@
                                 </span>
                             </div>
                         </div><!-- col -->
-                        <div class="col-lg-6 car-hire-features col-12 d-flex flex-row column-gap-4">
+                        <div class="col-lg-5 car-hire-features col-12 d-flex flex-row column-gap-3 px-0">
                             <div class="car-hire-features-inner">
                                 <h6 class="txt-black fontfam2">
                                     Rate Includes
@@ -169,7 +192,7 @@
                                 </ul>
                             </div>
                         </div><!-- col -->
-                        <div class="col-lg-3 col-12 carhirelogo">
+                        <div class="col-lg-3 col-12 carhirelogo px-0">
                             <img src="<?= getBaseUrl() ?>/assets/img/car-hire/green-motors.png" alt="">
                         </div>
                     </div><!-- row -->
@@ -215,68 +238,34 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>
-                                    <select>
-                                        <option>00</option>
-                                        <option>01</option>
-                                        <option>02</option>
-                                        <!-- Add more options as needed -->
-                                    </select>
-                                </td>
+                                <td>01</td>
                                 <td>Additional Driver</td>
                                 <td>£13.88*</td>
                             </tr>
                             <tr>
-                                <td>
-                                    <select>
-                                        <option>00</option>
-                                        <option>01</option>
-                                        <option>02</option>
-                                        <!-- Add more options as needed -->
-                                    </select>
-                                </td>
+                                <td>01</td>
                                 <td>GPS</td>
                                 <td>£14.87*</td>
                             </tr>
                             <tr>
-                                <td>
-                                    <select>
-                                        <option>00</option>
-                                        <option>01</option>
-                                        <option>02</option>
-                                        <!-- Add more options as needed -->
-                                    </select>
-                                </td>
+                                <td>01</td>
                                 <td>Child Toddler Seat</td>
                                 <td>£12.89*</td>
                             </tr>
                             <tr>
-                                <td>
-                                    <select>
-                                        <option>00</option>
-                                        <option>01</option>
-                                        <option>02</option>
-                                        <!-- Add more options as needed -->
-                                    </select>
-                                </td>
+                                <td>01</td>
                                 <td>Booster Seat</td>
                                 <td>£12.89*</td>
                             </tr>
                             <tr>
-                                <td>
-                                    <select>
-                                        <option>00</option>
-                                        <option>01</option>
-                                        <option>02</option>
-                                        <!-- Add more options as needed -->
-                                    </select>
-                                </td>
+                                <td>01</td>
                                 <td>Infant Child Seat</td>
                                 <td>£12.89*</td>
                             </tr>
                         </tbody>
                     </table>
                 </div><!-- tp table main -->
+                
             </div><!-- responsive table -->
 
             <div class="d-flex align-items-centr justify-content-between mt-4">

@@ -57,7 +57,7 @@
                         </div><!-- tp table main -->
                         <div class="d-flex justify-content-end mt-4">
                             <button class="btn btn-white">
-                                Change Seats
+                                Change Details
                             </button>
                         </div>
                     </div><!-- responsive table -->
@@ -119,7 +119,7 @@
                         </div><!-- tp table main -->
                         <div class="d-flex justify-content-end mt-4">
                             <button class="btn btn-white">
-                                Change Seats
+                                Change Details
                             </button>
                         </div>
                     </div><!-- responsive table -->
@@ -176,7 +176,7 @@
                         </div><!-- tp table main -->
                         <div class="d-flex justify-content-end mt-4">
                             <button class="btn btn-white">
-                                Change Seats
+                                Change Details
                             </button>
                         </div>
                     </div><!-- responsive table -->
@@ -233,7 +233,7 @@
                         </div><!-- tp table main -->
                         <div class="d-flex justify-content-end mt-4">
                             <button class="btn btn-white">
-                                Change Seats
+                                Change Details
                             </button>
                         </div>
                     </div><!-- responsive table -->
@@ -290,7 +290,7 @@
                         </div><!-- tp table main -->
                         <div class="d-flex justify-content-end mt-4">
                             <button class="btn btn-white">
-                                Change Seats
+                                Change Details
                             </button>
                         </div>
                     </div><!-- responsive table -->
@@ -1000,7 +1000,7 @@
                         </div><!-- tp table main -->
                         <div class="d-flex justify-content-end mt-4">
                             <button class="btn btn-white">
-                                Change Seats
+                                Change Details
                             </button>
                         </div>
                     </div><!-- responsive table -->
@@ -1077,7 +1077,7 @@
                         </div><!-- tp table main -->
                         <div class="d-flex justify-content-end mt-4">
                             <button class="btn btn-white">
-                                Change Seats
+                                Change Details
                             </button>
                         </div>
                     </div><!-- responsive table -->
@@ -1154,7 +1154,7 @@
                         </div><!-- tp table main -->
                         <div class="d-flex justify-content-end mt-4">
                             <button class="btn btn-white">
-                                Change Seats
+                                Change Details
                             </button>
                         </div>
                     </div><!-- responsive table -->
@@ -1228,7 +1228,7 @@
                         </div><!-- tp table main -->
                         <div class="d-flex justify-content-end mt-4">
                             <button class="btn btn-white">
-                                Change Seats
+                                Change Details
                             </button>
                         </div>
                     </div><!-- responsive table -->

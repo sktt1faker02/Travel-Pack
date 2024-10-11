@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const checkboxList = container.querySelector('.checkbox-list');
         const listItems = checkboxList ? checkboxList.querySelectorAll('li') : [];
 
-        if (listItems.length > 4) {
+        if (listItems.length > 5) {
             const hiddenContainer = document.createElement('div');
             hiddenContainer.classList.add('hidden-items');
 

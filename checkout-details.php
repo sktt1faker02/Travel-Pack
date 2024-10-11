@@ -257,32 +257,105 @@
                                     </div>
                                 </div>
                                 <div class="addtl-details-row">
-                                    <div class="row"> 
-                                        <!-- Country Code -->
-                                        <div class="col-12 col-lg-3 countrycode">
-                                            <label for="country-code">Country Code</label>
+                                    <div class="row">
+                                        <div class="col-12 pb-2">
+                                            <label>Address*</label>
+                                            <input type="text" id="fname" name="passenger1-fname" class="tp-input" placeholder="First Name">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <label for="city">City*</label>
                                             <div class="select">
-                                                <select class="tp-input" id="country-code" name="country-code" required="">
-                                                    <option value="" disabled="" selected="">United Kingdom(+44)</option>
-                                                    <option value="US">United States (+1)</option>
-                                                    <option value="CA">Canada (+1)</option>
-                                                    <option value="FR">France (+33)</option>
-                                                    <!-- Add more country options -->
+                                                <select class="tp-input" id="city" name="city" required="">
+                                                    <option value="British">Select</option>
+                                                    <option value="American">City 2</option>
+                                                    <option value="Canadian">City 3</option>
                                                 </select>
                                                 <div class="select_arrow"></div>
                                             </div>
                                         </div>
-                                        
-                                        <!-- Phone Number -->
-                                        <div class="col-12 col-lg-4">
-                                            <label for="phone-number">Phone Number</label>
-                                            <input class="tp-input" id="phone-number" name="phone-number" placeholder="0123456789" required="">
+                                        <div class="col-12 col-lg-3">
+                                            <label for="country">Country*</label>
+                                            <div class="select">
+                                                <select class="tp-input" id="country" name="country" required="">
+                                                    <option value="British">Select</option>
+                                                    <option value="American">Country 2</option>
+                                                    <option value="Canadian">Country 3</option>
+                                                </select>
+                                                <div class="select_arrow"></div>
+                                            </div>
                                         </div>
+                                        <div class="col-12 col-lg-3">
+                                            <label for="country-prov">Country/Province*</label>
+                                            <div class="select">
+                                                <select class="tp-input" id="country-prov" name="country-prov" required="">
+                                                    <option value="British">Select</option>
+                                                    <option value="American">Country 2</option>
+                                                    <option value="Canadian">Country 3</option>
+                                                </select>
+                                                <div class="select_arrow"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-3 addtlcolfirst">
+                                            <label for="flight-number">Postal Code</label>
+                                            <input class="tp-input" id="flight-number" name="flight-number" placeholder="Type Here" required="">
+                                        </div>
+                                    </div>
+                                    <div class="addtl-details-row">
+                                        <div class="row"> 
+                                            <!-- Country Code -->
+                                            <div class="col-12 col-lg-3 countrycode">
+                                                <label for="country-code">Country Code</label>
+                                                <div class="select">
+                                                    <select class="tp-input" id="country-code" name="country-code" required="">
+                                                        <option value="" disabled="" selected="">United Kingdom(+44)</option>
+                                                        <option value="US">United States (+1)</option>
+                                                        <option value="CA">Canada (+1)</option>
+                                                        <option value="FR">France (+33)</option>
+                                                        <!-- Add more country options -->
+                                                    </select>
+                                                    <div class="select_arrow"></div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- Phone Number -->
+                                            <div class="col-12 col-lg-4">
+                                                <label for="phone-number">Phone Number</label>
+                                                <input class="tp-input" id="phone-number" name="phone-number" placeholder="0123456789" required="">
+                                            </div>
 
-                                        <!-- Email Address -->
-                                        <div class="col-12 col-lg-4">
-                                            <label for="email-address">Email Address</label>
-                                            <input class="tp-input" id="email-address" name="email-address" placeholder="example@email.com" required="">
+                                            <!-- Email Address -->
+                                            <div class="col-12 col-lg-4">
+                                                <label for="email-address">Email Address</label>
+                                                <input class="tp-input" id="email-address" name="email-address" placeholder="example@email.com" required="">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-3 countrycode">
+                                                <label for="special-meals">Special Meals</label>
+                                                <div class="select">
+                                                    <select class="tp-input" id="special-meals" name="special-meals" required="">
+                                                        <option value="" disabled="" selected="">Standard meal</option>
+                                                        <option value="">Meal 1</option>
+                                                        <option value="">Meal 1</option>
+                                                        <option value="">Meal 1</option>
+                                                    </select>
+                                                    <div class="select_arrow"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 countrycode">
+                                                <label for="special-request">Special Requests</label>
+                                                <div class="select">
+                                                    <select class="tp-input" id="special-request" name="special-request" required="">
+                                                        <option value="" disabled="" selected="">No Assistance Required</option>
+                                                        <option value="">Request 1</option>
+                                                        <option value="">Request 1</option>
+                                                        <option value="">Request 1</option>
+                                                    </select>
+                                                    <div class="select_arrow"></div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -314,7 +387,7 @@
                                     <h3 class="tp-top-heading">
                                         Terms & Conditions
                                     </h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur. term & Conditions nibh lacinia. Lacinia neque integer id congue enim sagittis ipsum. Fringilla natoque rhoncus hac posuere at.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur. <a href="<?= getBaseUrl() ?>/terms-and-conditions.php"> Terms & Conditions</a> nibh lacinia. Lacinia neque integer id congue enim sagittis ipsum. Fringilla natoque rhoncus hac posuere at.</p>
                                     
                                     <div class="term-item">
                                         <input type="checkbox" id="term1">

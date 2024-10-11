@@ -75,6 +75,26 @@
                             </a>
                         </div>
                     </div>
+                    <div class="filters-box filters">
+                        <div class="fb-bottom">
+                            <div class="option-wrap mt-2">
+                                <span class="mb-2">
+                                Destination
+                                </span>
+                                <div class="select">
+                                    <select>
+                                        <option>View All</option>
+                                        <option>Any</option>
+                                        <option>Any</option>
+                                        <option>Any</option>
+                                    </select>
+                                    <div class="select_arrow">
+                                    </div>
+                                </div>
+                            </div><!-- option-wrap -->
+                            
+                        </div>
+                    </div><!-- filters box -->
                     
                     <!-- Duration Filter Box -->
                     <div class="filters-box time-range durationfilter">
@@ -184,6 +204,7 @@
                                     </div>
                                     <span>120</span>
                                 </li>
+                                
                             </ul>
                         </div>
                     </div><!-- filtersbox -->
