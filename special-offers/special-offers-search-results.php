@@ -1275,10 +1275,10 @@
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/slick.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/bootstrap.min.js"></script>
-    <script src="<?= getBaseUrl() ?>/assets/js/sidebar.js"></script>
-    <script src="<?= getBaseUrl() ?>/assets/js/scripts.js"></script>
-    <script src="<?= getBaseUrl() ?>/assets/js/searchbar.js"></script>
-    <script src="<?= getBaseUrl() ?>/assets/js/loadmoreboxes.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/sidebar.js?v=1.0.0"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/scripts.js?v=1.0.0"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/searchbar.js?v=1.0.0"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/loadmoreboxes.js?v=1.0.0"></script>
 
 </body>
 
