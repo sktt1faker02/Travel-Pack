@@ -18,6 +18,20 @@
         position: relative;
         left: -17px;
     }
+    .footertop-right {
+        line-height: 32px;
+        width: 55%;
+        padding-left: 60px !important;
+    }
+    .footertop-left-main {
+        width: 45%;
+    }
+    .footertopmid {
+        width: 42%;
+    }
+    .footertopleft {
+        width: 53%;
+    }
 }
 
 @media (min-width:1200px) and (max-width:1399px) {

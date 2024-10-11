@@ -1058,11 +1058,8 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     <div class="breakdowntop">
                         <h4 class="mb-1">
-                            Afternoon Show
+                            Terms
                         </h4>
-                        <div class="fw-semibold txt-gray mb-3">
-                            Timings - 14:15
-                        </div>
                     </div>
                     <div class="breakdownbottom">
                         <div class="breakdown-content fs15 txt-gray">
@@ -1072,21 +1069,6 @@
 
                             <p>Sed vitae bibendum augue. Sed suscipit dignissim euismod. Suspendisse auctor enim vel enim egestas, in faucibus magna rhoncus. Vivamus tincidunt dignissim mauris, non vehicula libero accumsan ut. Nulla dapibus mi sed nisl feugiat pulvinar. Vestibulum consequat nisl in ullamcorper scelerisque.</p>
                         </div>
-                        <div class="d-flex column-gap-4 align-items-center justify-content-end">
-                            <div class="breakdownbottom-left text-center pt-2 pe-2">
-                                <div class="bdb-left-price txt-black">
-                                    2 Adults x £159.00
-                                </div>
-                                <div class="bdb-left-price-main">
-                                    £318.00
-                                </div>
-                            </div><!-- breakdownbottom-left -->
-                            <div class="breakdownbottom-right">
-                                <button class="btn btn-primary">
-                                    Select
-                                </button>
-                            </div>
-                        </div><!-- dflex -->
                     </div><!-- breakdownbottom -->
                 </div><!-- modal body -->
             </div>
