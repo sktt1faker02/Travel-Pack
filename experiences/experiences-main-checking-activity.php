@@ -85,7 +85,15 @@
                         <div class="free-cancellation">
                             Free Cancellation
                         </div>
-                        <div class="experiences-details-main-top-slider v-slide-wrap">
+                        <div class="carousel-modal-bottom-wrap">
+                            <div class="carousel-modal-counter">
+                                01/03
+                            </div>
+                            <div class="carousel-modal-view-all">
+                                View All <i class="fa-solid fa-chevron-right fs-icon fs13 ms-2 txt-blue"></i>
+                            </div>
+                        </div><!-- wrap -->
+                        <div class="experiences-details-main-top-slider carousel-modal-main v-slide-wrap">
                             <div class="experiences-slide v-slide">
                                 <img src="<?= getBaseUrl() ?>/assets/img/hotels/mainlisting-slide.jpg" alt="">
                             </div>
@@ -354,10 +362,10 @@
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis massa eget dapibus commodo. In at aliquet diam. Aenean nec tortor vel sapien tempor ullamcorper. Nullam tincidunt pellentesque ornare. Aliquam imperdiet dapibus vehicula. Mauris sed felis dui.</p>
                 <p>
-                    Sed sollicitudin et lacus id aliquam. Mauris lacus nunc, rutrum feugiat dolor ut, commodo sollicitudin ligula. Aenean lobortis ultricies nunc, eget dapibus sem. In vitae lacinia urna. 
+                    Sed sollicitudin et lacus id aliquam. Mauris lacus nunc, rutrum feugiat dolor ut, commodo sollicitudin ligula. Aenean lobortis ultricies nunc, eget dapibus sem. In vitae lacinia urna.
                 </p>
                 <p>
-                    Sed sollicitudin et lacus id aliquam. Mauris lacus nunc, rutrum feugiat dolor ut, commodo sollicitudin ligula. Aenean lobortis ultricies nunc, eget dapibus sem. In vitae lacinia urna. 
+                    Sed sollicitudin et lacus id aliquam. Mauris lacus nunc, rutrum feugiat dolor ut, commodo sollicitudin ligula. Aenean lobortis ultricies nunc, eget dapibus sem. In vitae lacinia urna.
                 </p>
                 
                 <div class="d-flex justify-content-end flex-row gap-4 eoc-box-right align-items-center mt-3">

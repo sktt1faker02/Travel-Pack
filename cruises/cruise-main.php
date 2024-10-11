@@ -68,7 +68,7 @@
                 <div class="col-12 col-md-3 d-flex justify-content-end">
                     <?php include '../sections/global/star-rating.php';?>
                 </div>
-            </div><!-- row -->
+            </div><!-- row --> 
         </div><!-- container -->
 
         <div class="container">
@@ -84,7 +84,15 @@
                             <div class="cruise-tag">
                                 Free Cancellation
                             </div>
-                            <div class="cruise-details-main-top-slider v-slide-wrap">
+                            <div class="carousel-modal-bottom-wrap">
+                                <div class="carousel-modal-counter">
+                                    01/03
+                                </div>
+                                <div class="carousel-modal-view-all">
+                                    View All <i class="fa-solid fa-chevron-right fs-icon fs13 ms-2 txt-blue"></i>
+                                </div>
+                            </div><!-- wrap -->
+                            <div class="cruise-details-main-top-slider carousel-modal-main v-slide-wrap">
                                 <div class="cruise-slide v-slide">
                                     <img src="<?= getBaseUrl() ?>/assets/img/hotels/mainlisting-slide.jpg" alt="">
                                 </div>
@@ -224,7 +232,7 @@
                 <h3 class="mb-4">
                     What’s included on your cruise
                     </h3>
-                <div class="slidertop-spo-wrap position-relative mb-5">
+                    <div class="slidertop-spo-wrap position-relative mb-5">
                         <div class="slidertop-spo v-slide-wrap v2">
                             <div class="slidertop-spo-slide v-slide">
                                 <img src="<?= getBaseUrl() ?>/assets/img/special-offers/bghero-specialoffers.jpg" alt="">
