@@ -164,123 +164,6 @@ jQuery(document).ready(function($){
         }
     });
 
-    // ! CRUISES
-    // let startDate = null;
-    // let endDate = null;
-
-    // function highlightCurrentDayCruises(date, inst) {
-    //     const currentDate = date.getTime();
-    //     const today = new Date();
-    //     const todayTime = today.setHours(0, 0, 0, 0);
-    
-    //     if (currentDate === todayTime) {
-    //         return [false, ""];
-    //     }
-    
-    //     if (startDate && endDate) {
-    //         const start = startDate.getTime();
-    //         const end = endDate.getTime();
-    
-    //         if (currentDate === start) {
-    //             return [true, "ui-datepicker-current-day"];
-    //         } else if (currentDate === end) {
-    //             return [true, "ui-datepicker-current-day"];
-    //         } else if (currentDate > start && currentDate < end) {
-    //             return [true, "rd"];
-    //         }
-    //     }else{
-    //         if (startDate) {
-    //             const start = startDate.getTime();
-    //             highlightedEndDate = new Date(startDate); // Reset highlighted end date on each call
-    //             highlightedEndDate.setDate(highlightedEndDate.getDate() + 11); // Calculate 11 days from start
-        
-    //             if (currentDate === start || currentDate === highlightedEndDate.getTime()) {
-    //                 return [true, "ui-datepicker-current-day"];
-    //             } else if (currentDate >= start && currentDate <= highlightedEndDate.getTime()) {
-    //                 return [true, "rd"];
-    //             }
-    //         }
-    //     }
-
-    //     // if (startDate) {
-    //     //     const start = startDate.getTime();
-    //     //     highlightedEndDate = new Date(startDate); // Reset highlighted end date on each call
-    //     //     highlightedEndDate.setDate(highlightedEndDate.getDate() + 11); // Calculate 11 days from start
-    
-    //     //     if (currentDate === start || currentDate === highlightedEndDate.getTime()) {
-    //     //         return [true, "ui-datepicker-current-day"];
-    //     //     } else if (currentDate >= start && currentDate <= highlightedEndDate.getTime()) {
-    //     //         return [true, "rd"];
-    //     //     }
-    //     // }
-    
-    //     return [true, ""];
-    // }
-
-    // $(".cruises-date-picker").datepicker({
-    //     dateFormat: 'dd/mm/yy',
-    //     minDate: 0,
-    //     maxDate: "+1y",
-    //     changeMonth: true,
-    //     changeYear: true,
-    //     beforeShowDay: highlightCurrentDayCruises,
-    //     onSelect: function(selectedDate) {
-    //         const selectedDateObject = $.datepicker.parseDate("dd/mm/yy", selectedDate);
-
-    //         if (!startDate) {
-    //             const newDate = new Date(selectedDateObject);
-    //             newDate.setDate(newDate.getDate() + 11);
-    //             $(".cruises-date-picker").datepicker("setDate", newDate);
-    //             startDate = selectedDateObject;
-    //         } else if (!endDate) {
-    //             if (selectedDateObject > startDate) {
-    //                 endDate = selectedDateObject;
-    //             } else {
-    //                 startDate = selectedDateObject;
-    //                 endDate = null;
-    //             }
-    //         }
-
-    //         $('.cruises-date-picker').datepicker("refresh");
-
-    //         if (startDate && endDate) {
-    //             if ($(".cruises-date-picker").val() !== "") {
-    //                 if(selectedDateObject > startDate){
-    //                     endDate = selectedDateObject;
-    //                     const startDateString = $.datepicker.formatDate("dd/mm/yy", startDate);
-    //                     const endDateString = $.datepicker.formatDate("dd/mm/yy", endDate);
-    //                     $(".cruises-date-picker").val(`${startDateString} - ${endDateString}`);
-    //                 }else{
-    //                     endDate = null;
-    //                     startDate = null;
-    //                     $(".cruises-date-picker").val('');
-    //                     setTimeout(function(){
-    //                         $( ".cruises-date-picker" ).datepicker('show');
-    //                     }, 100);
-    //                 }
-    //             }else{
-    //                 const startDateString = $.datepicker.formatDate("dd/mm/yy", startDate);
-    //                 const endDateString = $.datepicker.formatDate("dd/mm/yy", endDate);
-    //                 $(".cruises-date-picker").val(`${startDateString} - ${endDateString}`);
-    //                 $(".cruises-date-picker").datepicker('hide');
-    //             }
-    //         }else{
-    //             setTimeout(function(){
-    //                 $( ".cruises-date-picker" ).datepicker('show');
-    //             }, 100); 
-    //         }
-
-    //         $(this).blur();
-    //     },
-    //     beforeShow: function(input, inst) {
-    //         replaceShortMonthNames(inst);
-    //     },
-    //     onChangeMonthYear: function(year, month, inst) {
-    //         replaceShortMonthNames(inst);
-    //     }
-    // });
-
-
     // ! DEFAULT DATE PICKER
     $(".initialize-date-picker").datepicker({
         dateFormat: 'dd/mm/yy',
@@ -296,8 +179,11 @@ jQuery(document).ready(function($){
     $('.cruises-date-picker').daterangepicker({
         opens: 'left',
         minDate: moment().startOf('day'),
-        startDate: moment(), // Initial start date
-        endDate: moment().add(11, 'days')
+        startDate: moment(),
+        endDate: moment().add(11, 'days'),
+        locale: {
+            format: 'DD/MM/YYYY'
+        }
     });
     $('.cruises-date-picker').val('Departure')
 });
