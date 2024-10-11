@@ -3068,6 +3068,7 @@ ul {
     z-index: 1;
     right: 0;
     width: 100%;
+    bottom:0;
 }
 #galleryHotel .modal-body {
     padding: 0 !important;
@@ -3570,6 +3571,7 @@ ul.oa-checklist li a {
     top: 3px;
     color: var(--tp-blue) !important;
     opacity: 1;
+    position:absolute;
 }
 .modal-body {
     padding:25px;
