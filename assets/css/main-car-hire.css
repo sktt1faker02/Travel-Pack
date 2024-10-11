@@ -138,3 +138,12 @@
     color: var(--tp-blue) !important;
     opacity: 1;
 }
+
+.table-pickup-dropoff-car-hire-extras tbody td {
+    width: 25%;
+    vertical-align: top;
+    padding-bottom: 40px !important;
+}
+td.tbpd-col1 {
+    width: 26.5% !important;
+}

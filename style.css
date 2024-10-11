@@ -62,6 +62,7 @@ body {
     -webkit-font-smoothing: antialiased;
     font-weight:400;
     margin:0;
+    font-family: 'Roboto', sans-serif;
     color:#092d62;
 }
 
@@ -3060,7 +3061,6 @@ ul {
     position: absolute;
     z-index: 1;
     right: 0;
-    bottom: 1rem;
     width: 100%;
 }
 #galleryHotel .modal-body {
@@ -3079,14 +3079,13 @@ ul {
     align-items: center;
 }
 #galleryHotel .modal-footer .counter {
-    background: #0000008f;
-    color: #FFFFFF;
+    color: var(--tp-blue);
     padding: 5px 20px;
     border-radius: 5px;
+    font-weight: 600;
 }
 #galleryHotel .modal-footer .navigation {
-    background: #0000008f;
-    color: #FFFFFF;
+    color: var(--tp-blue);
     
     border-radius: 5px;
     display: flex;
@@ -3095,7 +3094,7 @@ ul {
 }
 #galleryHotel .modal-footer .navigation i {
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 10px;
     transition: 0.1s;
 }
 #galleryHotel .modal-footer .navigation i:hover {
@@ -3560,9 +3559,11 @@ ul.oa-checklist li a {
     margin-bottom:20px;
     color:#000;
 }
-.modal .btn-close {
-    position: absolute;
-    right: 20px;
+#galleryHotel .btn-close {
+    right: 4px;
+    top: 3px;
+    color: var(--tp-blue) !important;
+    opacity: 1;
 }
 .modal-body {
     padding:25px;
@@ -4007,4 +4008,30 @@ img.thankyouicon {
 }
 .progresscomplete .loading-gauge-payment-circle-right {
     background-color: var(--primary);
+}
+
+/* CAROUSEL MODAL */
+.carousel-modal-bottom-wrap {
+    position: absolute;
+    bottom: 20px;
+    z-index: 555;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:0 20px;
+    font-weight: 600;
+}
+body .carousel-modal-main .slick-arrow {
+    top: 50%;
+    bottom: auto;
+    font-size:18px;
+}
+
+body .carousel-modal-main  .slick-arrow.fa-chevron-right {
+    right: 15px;
+    left:auto;
+}
+body .carousel-modal-main .slick-arrow.fa-chevron-left {
+    left: 15px;
 }

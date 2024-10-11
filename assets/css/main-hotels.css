@@ -329,15 +329,15 @@ span.listing-price {
     width: 100%;
 }
 .hotel-rooms-main-top-slider .slick-arrow.fa-chevron-right {
-    left: 44px;
+    right: 10px;
 }
 .hotel-rooms-main-top-slider .slick-arrow.fa-chevron-left {
-    left: 20px;
+    left: 10px;
 }
 .hotel-rooms-main-top-slider .slick-arrow {
     color: #fff;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     height: 20px;
     line-height: 20px;
@@ -345,7 +345,11 @@ span.listing-price {
     text-align: center;
     width: 20px;
     z-index: 10;
-    bottom: 30px;
+}
+
+.hotel-rooms-main-top-slider .slick-arrow {
+    top: 50%;
+    bottom: auto;
 }
 .hotel-rooms-main-top-right {
     background-color: #fff;

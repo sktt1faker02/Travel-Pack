@@ -50,7 +50,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-6 col-sm-6 mt-lg-5 mt-sm-0">
+                        <div class="col-6 col-sm-6 mt-sm-0 footertopmid">
                             <h4>
                                 Protected By
                             </h4>
@@ -84,8 +84,6 @@
             </div><!-- footerbottom -->
         </div>
     </footer>  
-
-
 
     <div class="phonepopup">
         <div class="thepopup">
