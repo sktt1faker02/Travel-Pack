@@ -150,17 +150,32 @@
     </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
-<script src="./assets/js/slick.min.js"></script>
-<script src="./assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.6.3/jquery-ui-timepicker-addon.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+
 <script src="./assets/js/home.js"></script>
-<script src="./assets/js/scripts.js"></script>
 <script src="./assets/js/searchbar.js"></script>
 <script src="./assets/js/searchbar-flights.js"></script>
-<script src="./assets/js/daterangepicker.js"></script>
+<script src="./assets/js/experiences.js"></script>
+<script src="./assets/js/innerhero.js"></script>
+<script src="./assets/js/loadmoreboxes.js"></script>
+<script src="./assets/js/main-cruises.js"></script>
+<script src="./assets/js/main-experiences.js"></script>
+<script src="./assets/js/main-flights.js"></script>
+<script src="./assets/js/main-hotels.js"></script>
+<script src="./assets/js/main-search.js"></script>
+<script src="./assets/js/main-special-offers.js"></script>
+<script src="./assets/js/matchheight.js"></script>
+<script src="./assets/js/rangeSlider.js"></script>
+<script src="./assets/js/searchOptions.js"></script>
+<script src="./assets/js/sidebar.js"></script>
+<script src="./assets/js/scripts.js"></script>
 
 </body>
 
