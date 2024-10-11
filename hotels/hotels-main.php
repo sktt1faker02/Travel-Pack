@@ -85,7 +85,7 @@
         <div class="container">
             <div class="hotel-rooms-main-top my-4">
                 <div class="row g-0">
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-lg-4 parent-slide">
                         <div class="free-cancellation">
                             Free Cancellation
                         </div>

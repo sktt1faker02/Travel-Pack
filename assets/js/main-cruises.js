@@ -1,14 +1,14 @@
 /* Experiences SLIDERS */
-$('.cruise-details-main-top-slider').slick({
-    infinite: true,
-    arrows: true,
-    draggable: false,
-    dots: false,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    prevArrow: '<i class="fa-solid fa-chevron-left"></i>',
-    nextArrow: '<i class="fa-solid fa-chevron-right"></i>'
-});
+// $('.cruise-details-main-top-slider').slick({
+//     infinite: true,
+//     arrows: true,
+//     draggable: false,
+//     dots: false,
+//     slidesToShow: 1,
+//     slidesToScroll: 1,
+//     prevArrow: '<i class="fa-solid fa-chevron-left"></i>',
+//     nextArrow: '<i class="fa-solid fa-chevron-right"></i>'
+// });
 
 function setEqualHeight3() {
     var rightHeight3Element = document.querySelector('.cruise-main-top-right');
