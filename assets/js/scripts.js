@@ -538,3 +538,7 @@ document.addEventListener('scroll', function() {
 });
 
 
+// CHECKOUT DETAILS DATE PICKER
+$(".checkout-datepicker").datepicker({
+    dateFormat: "dd/mm/yy" // Format for the datepicker
+});

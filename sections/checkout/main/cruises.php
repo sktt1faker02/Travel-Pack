@@ -67,45 +67,6 @@
                 </div>                                
             </div><!-- row -->
 
-            <div class="row mt-2">
-                <div class="col-md-2 col-12">
-                    <label for="weight">Weight (kg)</label>
-                    <div class="select">
-                        <select id="weight" name="weight" required>
-                            <option value="" disabled selected>00</option>
-                            <option value="50">50</option>
-                            <option value="60">60</option>
-                            <option value="70">70</option>
-                        </select>
-                        <div class="select_arrow"></div>
-                    </div>
-                </div><!-- col -->
-                <div class="col-md-2 col-12">
-                    <label for="height">Height (cm)</label>
-                    <div class="select">
-                        <select id="height" name="height" required>
-                            <option value="" disabled selected>00</option>
-                            <option value="150">150</option>
-                            <option value="160">160</option>
-                            <option value="170">170</option>
-                        </select>
-                        <div class="select_arrow"></div>
-                    </div>
-                </div><!-- col -->
-                <div class="col-md-3 col-12">
-                    <label for="language">Language</label>
-                    <div class="select">
-                        <select id="language" name="language" required>
-                            <option value="" disabled selected>English</option>
-                            <option value="english">English</option>
-                            <option value="spanish">Spanish</option>
-                            <option value="french">French</option>
-                        </select>
-                        <div class="select_arrow"></div>
-                    </div>
-                </div><!-- col -->
-            </div><!-- row -->
-
             <div class="addtl-details-row">
                 <div class="row"> 
                     <div class="col-12 col-lg-3 addtlcolfirst">
@@ -131,95 +92,6 @@
                     </div>
                 </div><!-- row -->
             </div>
-
-            <div class="addtl-details-row">
-                <div class="row"> 
-                    <!-- Flight Number -->
-                    <div class="col-12 col-lg-3 addtlcolfirst">
-                        <label for="flight-number">Flight Number</label>
-                        <input class="tp-input" id="flight-number" name="flight-number" placeholder="000000000" required>
-                    </div>
-                    
-                    <!-- Carrier -->
-                    <div class="col-12 col-lg-3">
-                        <label for="carrier">Carrier</label>
-                        <div class="select">
-                            <select class="tp-input" id="carrier" name="carrier" required>
-                                <option value="" disabled selected>Select</option>
-                                <option value="Carrier1">Carrier 1</option>
-                                <option value="Carrier2">Carrier 2</option>
-                                <option value="Carrier3">Carrier 3</option>
-                            </select>
-                            <div class="select_arrow"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="addtl-details-row">
-                <div class="row">
-                    <div class="col-12 col-lg-10">
-                        <label for="address">Address*</label>
-                        <input class="tp-input" id="address" name="address" placeholder="Start typing here..." required>
-                    </div>
-                </div>
-
-                <div class="row mt-3">
-                    <div class="col-12 col-lg-10">
-                        <div class="row">
-                            <div class="col-12 col-lg-3">
-                                <label for="city">City*</label>
-                                <div class="select">
-                                    <select class="tp-input" id="city" name="city" required>
-                                        <option value="" disabled selected>Select</option>
-                                        <option value="london">London</option>
-                                        <option value="manchester">Manchester</option>
-                                        <option value="birmingham">Birmingham</option>
-                                        <!-- Add more city options -->
-                                    </select>
-                                    <div class="select_arrow"></div>
-                                </div>
-                            </div>
-
-                            <!-- Country -->
-                            <div class="col-12 col-lg-3">
-                                <label for="country">Country*</label>
-                                <div class="select">
-                                    <select class="tp-input" id="country" name="country" required>
-                                        <option value="" disabled selected>Select</option>
-                                        <option value="uk">United Kingdom</option>
-                                        <option value="us">United States</option>
-                                        <option value="ca">Canada</option>
-                                        <!-- Add more country options -->
-                                    </select>
-                                    <div class="select_arrow"></div>
-                                </div>
-                            </div>
-
-                            <!-- County/Province -->
-                            <div class="col-12 col-lg-3">
-                                <label for="county">County/Province</label>
-                                <div class="select">
-                                    <select class="tp-input" id="county" name="county">
-                                        <option value="" disabled selected>Select</option>
-                                        <option value="greater-london">Greater London</option>
-                                        <option value="west-midlands">West Midlands</option>
-                                        <option value="lancashire">Lancashire</option>
-                                        <!-- Add more county options -->
-                                    </select>
-                                    <div class="select_arrow"></div>
-                                </div>
-                            </div>
-                            <!-- Postal Code -->
-                            <div class="col-12 col-lg-3">
-                                <label for="postal-code">Postal Code</label>
-                                <input class="tp-input" id="postal-code" name="postal-code" placeholder="Type Here">
-                            </div>
-                        </div>
-                    </div><!-- col -->
-
-                </div><!-- row -->
-            </div><!-- addtl-details-row -->
 
             <div class="addtl-details-row">
                 <div class="row"> 
@@ -329,45 +201,6 @@
                 </div>                                
             </div><!-- row -->
 
-            <div class="row mt-2">
-                <div class="col-md-2 col-12">
-                    <label for="weight">Weight (kg)</label>
-                    <div class="select">
-                        <select id="weight" name="weight" required>
-                            <option value="" disabled selected>00</option>
-                            <option value="50">50</option>
-                            <option value="60">60</option>
-                            <option value="70">70</option>
-                        </select>
-                        <div class="select_arrow"></div>
-                    </div>
-                </div><!-- col -->
-                <div class="col-md-2 col-12">
-                    <label for="height">Height (cm)</label>
-                    <div class="select">
-                        <select id="height" name="height" required>
-                            <option value="" disabled selected>00</option>
-                            <option value="150">150</option>
-                            <option value="160">160</option>
-                            <option value="170">170</option>
-                        </select>
-                        <div class="select_arrow"></div>
-                    </div>
-                </div><!-- col -->
-                <div class="col-md-3 col-12">
-                    <label for="language">Language</label>
-                    <div class="select">
-                        <select id="language" name="language" required>
-                            <option value="" disabled selected>English</option>
-                            <option value="english">English</option>
-                            <option value="spanish">Spanish</option>
-                            <option value="french">French</option>
-                        </select>
-                        <div class="select_arrow"></div>
-                    </div>
-                </div><!-- col -->
-            </div><!-- row -->
-
             <div class="addtl-details-row">
                 <div class="row"> 
                     <div class="col-12 col-lg-3 addtlcolfirst">
@@ -393,95 +226,6 @@
                     </div>
                 </div><!-- row -->
             </div>
-
-            <div class="addtl-details-row">
-                <div class="row"> 
-                    <!-- Flight Number -->
-                    <div class="col-12 col-lg-3 addtlcolfirst">
-                        <label for="flight-number">Flight Number</label>
-                        <input class="tp-input" id="flight-number" name="flight-number" placeholder="000000000" required>
-                    </div>
-                    
-                    <!-- Carrier -->
-                    <div class="col-12 col-lg-3">
-                        <label for="carrier">Carrier</label>
-                        <div class="select">
-                            <select class="tp-input" id="carrier" name="carrier" required>
-                                <option value="" disabled selected>Select</option>
-                                <option value="Carrier1">Carrier 1</option>
-                                <option value="Carrier2">Carrier 2</option>
-                                <option value="Carrier3">Carrier 3</option>
-                            </select>
-                            <div class="select_arrow"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="addtl-details-row">
-                <div class="row">
-                    <div class="col-12 col-lg-10">
-                        <label for="address">Address*</label>
-                        <input class="tp-input" id="address" name="address" placeholder="Start typing here..." required>
-                    </div>
-                </div>
-
-                <div class="row mt-3">
-                    <div class="col-12 col-lg-10">
-                        <div class="row">
-                            <div class="col-12 col-lg-3">
-                                <label for="city">City*</label>
-                                <div class="select">
-                                    <select class="tp-input" id="city" name="city" required>
-                                        <option value="" disabled selected>Select</option>
-                                        <option value="london">London</option>
-                                        <option value="manchester">Manchester</option>
-                                        <option value="birmingham">Birmingham</option>
-                                        <!-- Add more city options -->
-                                    </select>
-                                    <div class="select_arrow"></div>
-                                </div>
-                            </div>
-
-                            <!-- Country -->
-                            <div class="col-12 col-lg-3">
-                                <label for="country">Country*</label>
-                                <div class="select">
-                                    <select class="tp-input" id="country" name="country" required>
-                                        <option value="" disabled selected>Select</option>
-                                        <option value="uk">United Kingdom</option>
-                                        <option value="us">United States</option>
-                                        <option value="ca">Canada</option>
-                                        <!-- Add more country options -->
-                                    </select>
-                                    <div class="select_arrow"></div>
-                                </div>
-                            </div>
-
-                            <!-- County/Province -->
-                            <div class="col-12 col-lg-3">
-                                <label for="county">County/Province</label>
-                                <div class="select">
-                                    <select class="tp-input" id="county" name="county">
-                                        <option value="" disabled selected>Select</option>
-                                        <option value="greater-london">Greater London</option>
-                                        <option value="west-midlands">West Midlands</option>
-                                        <option value="lancashire">Lancashire</option>
-                                        <!-- Add more county options -->
-                                    </select>
-                                    <div class="select_arrow"></div>
-                                </div>
-                            </div>
-                            <!-- Postal Code -->
-                            <div class="col-12 col-lg-3">
-                                <label for="postal-code">Postal Code</label>
-                                <input class="tp-input" id="postal-code" name="postal-code" placeholder="Type Here">
-                            </div>
-                        </div>
-                    </div><!-- col -->
-
-                </div><!-- row -->
-            </div><!-- addtl-details-row -->
 
             <div class="addtl-details-row">
                 <div class="row"> 
@@ -582,8 +326,9 @@
                                     <option value="Special Event">Special Event</option>
                                 </select>
                             </td>
-                            <!-- Use type="date" for date input -->
-                            <td>dd/mm/yyyy</td>
+                            <td>
+                                <input type="text" class="checkout-datepicker" placeholder="dd/mm/yyyy" />
+                            </td>
                         </tr>
                         <tr>
                             <td>Passenger 02</td>
@@ -596,7 +341,9 @@
                                 </select>
                             </td>
                             <!-- Use type="date" for date input -->
-                            <td>dd/mm/yyyy</td>
+                            <td>
+                                <input type="text" class="checkout-datepicker" placeholder="dd/mm/yyyy" />
+                            </td>
                         </tr>
                         <!-- Add more rows as needed -->
                     </tbody>

@@ -103,7 +103,7 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight:600;
+    font-weight:500;
     line-height: 1.2;
     font-family: 'Roboto';
 }
@@ -189,7 +189,7 @@ h1, .h1 {
     font-size: 70px;
 }
 h2 {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 h2 {
@@ -249,12 +249,12 @@ p {
     border-width:0px;
     font-size:16px;
     border-radius:6px;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     border-style: solid;
     display:inline-block;
 }
 .btn.btn-primary {
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     background-color: var(--primary);
     color: var(--white);
     position: relative;
@@ -296,7 +296,7 @@ section.block {
 }
 .ui-datepicker th {
     padding-bottom: 0;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
 }
 .ui-datepicker-header.ui-widget-header .ui-icon {
     background-image: url("assets/img/global/ui-icons_444444_256x240.png");
@@ -329,7 +329,7 @@ section.block {
     border: none;
     padding-right: 3px;
     color: var(--primary-text);
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
 }
 .ui-datepicker .ui-datepicker-prev span, 
 .ui-datepicker .ui-datepicker-next span {
@@ -417,7 +417,7 @@ section.block {
     color: #30273b;
 }
 .daterangepicker tbody td {
-    font-weight: 600 !important;
+    font-weight: 500 /* 600 */ !important !important;
 }
 /* .daterangepicker tbody td.available:hover {
     color: #000000 !important;
@@ -455,7 +455,7 @@ div#cta-datepicker {
     font-weight: 500;
 }
 .daterangepicker .drp-selected {
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
 }
 
 /* TABLE */
@@ -482,7 +482,7 @@ div#cta-datepicker {
     background-color: #e2e2e2;
     color:var(--black-text);
     font-size:15px;
-    font-weight:600;
+    font-weight:500 /* 600 */ !important;
     border-top: 0; /* Remove top border from th */
 }
 .tp-table td {
@@ -513,7 +513,7 @@ div#cta-datepicker {
     height: 29.66px;
     text-align: center;
     line-height: 29.66px;
-    font-weight: 600 !important;
+    font-weight: 500 /* 600 */ !important !important;
     background-color: #fff !important;
     border-radius: 5px;
     border: 0 !important;
@@ -532,7 +532,7 @@ div#cta-datepicker {
 .span.listing-price{
     font-size: 32px;
     line-height: 1.2;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /* COOKIE POLICY */
@@ -673,6 +673,21 @@ div#cta-datepicker {
 }
 
 /* DEFAULTS */
+.raillinks {
+    display: flex;
+    column-gap:15px;
+}
+.breakdownlink {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.checkout-datepicker {
+    border: 0;
+    cursor: pointer;
+}
 img.br5 {
     border-radius: 5px;
 }
@@ -692,7 +707,7 @@ button:focus:not(:focus-visible) {
     background-color:var(--accent);
     color: var(--black-text);
     display:inline-block;
-    font-weight:600;
+    font-weight:500 /* 600 */ !important;
 }
 .tp-textarea {
     width: 100%;
@@ -707,10 +722,10 @@ button:focus:not(:focus-visible) {
     background: #F7F6F3;
 }
 strong {
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
 }
 .tp-top-heading {
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     font-size: 20px;
 }
 .tp-page-title h1 {
@@ -757,7 +772,7 @@ ul.liststyle {
     overflow: hidden;
 }
 .whiteboxbg label {
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     color: var(--black-text);
     margin-bottom: 5px;
     display: block;
@@ -961,7 +976,7 @@ ul.liststyle {
 }
 #main-hero .hero-text {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     margin-top:40px;
     text-align: right;
 }
@@ -1069,7 +1084,7 @@ ul.liststyle {
 }
 #popupform button {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
 }
 .thepopup-close {
     position: absolute;
@@ -1078,7 +1093,7 @@ ul.liststyle {
     right: 20px;
     cursor:pointer;
     color: #000;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
 }
 
@@ -1115,7 +1130,7 @@ ul.liststyle {
     width: 350px;
     max-width:100%;
     font-size: 26px;
-    font-weight: 700;
+    font-weight: 500;
     right:0;
     bottom:20px;
 }
@@ -1251,7 +1266,7 @@ textarea.tp-input {
 
 /* CTA WHITE BOX */
 .tp-main-cta-wrap p {
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
 }
 .tp-main-cta-wrap {
     position: relative;
@@ -1451,7 +1466,7 @@ section#deals-travel-inspiration {
 /* GOBACK */
 .goback button {
     border: 0;
-    font-weight:600;
+    font-weight:500 /* 600 */ !important;
     padding: 0;
     background-color: transparent;
 }
@@ -1462,7 +1477,7 @@ section#deals-travel-inspiration {
 /* PAGE NAVI */
 .pagenavi-main .navibox {
     color: #a09c9c;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     font-size: 19px;
     display: flex;
     flex-direction: column;
@@ -1530,7 +1545,7 @@ section#deals-travel-inspiration {
     display: flex;
     padding-left: 0;
     column-gap: 30px;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     margin-bottom: 0;
     align-items: center;
 }
@@ -1636,7 +1651,7 @@ section#deals-travel-inspiration {
     list-style: none;
     padding: 0;
     margin: 0;
-    font-weight:600;
+    font-weight:500 /* 600 */ !important;
     display:flex;
     justify-content: center;
     gap: 50px;
@@ -1808,7 +1823,7 @@ section#deals-travel-inspiration {
     border: 0;
     border-bottom: 2px solid transparent;
     margin-bottom: 0;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     padding: 12px 0;
     font-size: 17px;
     color:var(--text-primary);
@@ -1896,7 +1911,7 @@ section#deals-travel-inspiration {
 #whychoose .whychoosebox h4 {
     font-size: 17px;
     color: #222;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
 }
 .whychoosebox p {
     color: #a09c9c;
@@ -1945,7 +1960,7 @@ section#deals-travel-inspiration {
     flex-direction: column;
 }
 .sed-details p {
-    font-weight:600;
+    font-weight:500 /* 600 */ !important;
     margin-top:5px;
     font-size:14px;
 }
@@ -1991,7 +2006,7 @@ section#deals-travel-inspiration {
     font-size: 13px;
     border-radius: 5px;
     color: #232323;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     z-index: 3;
     position: relative;
     transition: all 0.3s ease;
@@ -2093,7 +2108,7 @@ section#deals-travel-inspiration {
     color: #232323;
     left: 17px;
     top: 17px;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
 }
 
 
@@ -2187,12 +2202,12 @@ img.icon-star {
     padding: 8px 17px;
     font-size:15px;
     border-radius: 5px;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     color: #232323;
 }
 .esd-rating {
     color: #2ea9d3;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
 }
 .esd-right-title-main h3 a {
     font-size: 30px;
@@ -2243,7 +2258,7 @@ img.icon-star {
 .esd-right-bottom-read-more a {
     font-size:15px;
     color:#232323;
-    font-weight:600;
+    font-weight:500 /* 600 */ !important;
 }
 .esd-right-bottom-read-more i {
     font-size:11px;
@@ -2252,7 +2267,7 @@ img.icon-star {
 }
 .esd-right-bottom-price a {
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 500;
     color: var(--primary-text);
 }
 .esd-box .slick-arrow.fa-chevron-right {
@@ -2345,7 +2360,7 @@ img.icon-star {
     color: #232323;
     left: 17px;
     top: 17px;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
 }
 .countdown {
     display: flex;
@@ -2484,7 +2499,7 @@ img.icon-star {
     font-size: 15px;
     cursor: pointer;
     border: 0;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     line-height: 1.3;
     border-right: 1px solid #d5d4d2 !important;
 }
@@ -2520,7 +2535,7 @@ ul#searchtab button:hover {
 }
 ul#searchtab button {
     color: var(--primary-text);
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     padding-bottom: 5px;
     font-size: 17px;
     background-color: transparent;
@@ -2606,7 +2621,7 @@ ul#searchtab {
 }
 .searchform-more span {
     font-size:13px;
-    font-weight:600;
+    font-weight:500 /* 600 */ !important;
     color: var(--black-text);
 }
 .hide-first.searchform-more i.rotate {
@@ -2661,7 +2676,7 @@ ul#searchtab {
     position: relative;
     cursor: pointer;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     color: var(--black-text);
 }
 .searchbar-checkboxes input[type="radio"] {
@@ -2709,7 +2724,7 @@ ul {
 }
 #footer h4 {
     font-size:18px;
-    font-weight:600;
+    font-weight:500 /* 600 */ !important;
     margin-bottom:20px;
 }
 .col2list {
@@ -2728,7 +2743,7 @@ ul {
     line-height: 1.4;
 }
 .footertop-right a {
-    font-weight: 700;
+    font-weight: 500;
     opacity: 0.66;
 }
 .footertop a:hover {
@@ -2816,7 +2831,7 @@ ul {
     flex-direction: column;
 }
 .dd-filter-left label {
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     color: var(--black-text);
     line-height: 1.3;
 }
@@ -2824,7 +2839,7 @@ ul {
     width: 33.333%;
     border: 0;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
 }
 .dd-filter-right {
     width: 150px;
@@ -2853,7 +2868,7 @@ ul {
 .dd-filter-wrap select:focus, .dd-filter-wrap select:hover {
     background-color: var(--primary);
     color: #fff;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     cursor: pointer;
 }
 .dropdown-filter-hotels .dd-filter-wrap {
@@ -2864,7 +2879,7 @@ ul {
 }
 .dd-filter-child-age label {
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     color: var(--black-text);
     margin-bottom: 5px;
 }
@@ -2877,7 +2892,7 @@ ul {
     border-top: 1px solid #cfcdcd;
     border-bottom: 1px solid #cfcdcd;
     padding: 5px 0;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     color: var(--black-text);
     margin-bottom: 12px;
     margin-top:10px;
@@ -2892,7 +2907,7 @@ ul {
     gap: 20px;
 }
 .dd-filter-left small {
-    font-weight:600;
+    font-weight:500 /* 600 */ !important;
     color: var(--text-gray);
 }
 .dd-filtertext {
@@ -3012,7 +3027,7 @@ ul {
     padding: 25px;
 }
 .checkoutbox-main label {
-    font-weight:600;
+    font-weight:500 /* 600 */ !important;
     color:var(--black-text);
     margin-bottom:5px;
     display:block;
@@ -3037,7 +3052,7 @@ ul {
     padding: 25px;
 }
 .passengerbox-main label {
-    font-weight:600;
+    font-weight:500 /* 600 */ !important;
     color:var(--black-text);
     margin-bottom:5px;
     display:block;
@@ -3101,7 +3116,7 @@ ul {
     color: var(--tp-blue);
     padding: 5px 20px;
     border-radius: 5px;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
 }
 #galleryHotel .modal-footer .navigation {
     color: var(--tp-blue);
@@ -3281,7 +3296,7 @@ ul {
     border: 1px solid #e2e2e2;
     padding: 20px;
     border-radius: 8px;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     color: var(--black-text);
 }
 .cabin-guaranteed {
@@ -3522,7 +3537,7 @@ ul.oa-checklist li a {
     background-color:#fff;
 }
 .get-in-touch-contact label {
-    font-weight:600;
+    font-weight:500 /* 600 */ !important;
     color:var(--black-text);
     margin-bottom:5px;
     display:block;
@@ -3713,7 +3728,7 @@ ul.perks-checklist p {
     margin-bottom:0;
 }
 ul.perks-checklist label {
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
 }
 .dm-exp-offer {
     background-color: var(--accent);
@@ -3723,7 +3738,7 @@ ul.perks-checklist label {
     max-width: 185px;
     text-align: center;
     color: var(--black-text);
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     font-size: 14px;
     font-family: 'Roboto';
 }
@@ -3735,7 +3750,7 @@ ul.perks-checklist label {
 .oid-price {
     font-size: 28px;
     line-height: 1.2;
-    font-weight: 700;
+    font-weight: 500;
 }
 .oid-bb-top {
     border-bottom: 1px solid #e1e1e1;
@@ -3786,7 +3801,7 @@ a.oid-btn {
     max-width: 100%;
     text-align: center;
     color: var(--black-text);
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     font-size: 14px;
     position: absolute;
     top: 10px;
@@ -3811,7 +3826,7 @@ ul.destinations-sidebar {
     align-items: center;
     justify-content: space-between;
     padding: 0 0 10px;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     margin-bottom: 10px;
     border-bottom: 1px solid var(--tp-blue);
     cursor: pointer;
@@ -3902,7 +3917,7 @@ ul.destinations-sidebar {
     display: flex;
     font-size: 17px;
     margin-top: 10px;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     align-items: center;
     justify-content: space-between;
     column-gap: 20px;
@@ -3944,7 +3959,7 @@ ul.destinations-sidebar {
 }
 .cst-totalprice {
     font-size: 23px;
-    font-weight:600;
+    font-weight:500 /* 600 */ !important;
 }
 .mobile-total-purchase {
     position: fixed;
@@ -3953,7 +3968,7 @@ ul.destinations-sidebar {
     width: 100%;
     padding: 20px 0;
     z-index: 5;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
 }
 .mtb-left-price {
     font-size: 25px;
@@ -4044,7 +4059,7 @@ img.thankyouicon {
     justify-content: space-between;
     width: 100%;
     padding:0 20px;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
 }
 body .carousel-modal-main .slick-arrow {
     top: 50%;
@@ -4096,7 +4111,7 @@ body .carousel-modal-main .slick-arrow.fa-chevron-left {
     width: 45px;
 }
 #tabs-passengers li button, #tabs-flight li button {
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
 }
 .seatmap-table {
     margin: 0 auto;

@@ -32,7 +32,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -276,9 +276,9 @@
                             </div>
                         </div><!-- fb-top   -->
                         <div class="fb-bottom txt-black">
-                            <div class="flightpurchase-box">
+                            <div class="railpurchase-box">
                                 If you need any help with your bookings simply <a href="#"><u>Contact Us</u></a> and we shall get in touch with you or Just call us on <a href="#">+44 208 585 4080 </a>
-                            </div><!-- flight purchase box -->
+                            </div><!-- rail purchase box -->
                         </div>
                     </div><!-- filters box -->
                 </div><!-- col -->
@@ -306,23 +306,23 @@
                         </div><!-- special offers -->
                     </div>
 
-                    <div class="flights-wrap">
+                    <div class="rails-wrap">
                         <div class="loadmore-boxes-wrap">
-                            <div class="flights-main loadmorebox">
-                                <div class="flights-box">
+                            <div class="rails-main loadmorebox">
+                                <div class="rails-box">
                                     <div class="row align-items-center">
                                         <div class="col-12 col-lg-2">
-                                            <div class="airline-image">
+                                            <div class="rail-image">
                                             </div>
                                         </div>
-                                        <div class="col-12 col-lg-10 flightbox-left">
+                                        <div class="col-12 col-lg-10 railbox-left">
                                             <div class="row align-items-center">
                                                 <div class="col-12">
                                                     <span class="fs13 fw-medium txt-black">Outbound</span>
                                                 </div>
                                                 <div class="col-12 col-lg-3 fb-inner-left">
                                                     <h4>London</h4>
-                                                    <div class="flight-details">
+                                                    <div class="rail-details">
                                                         <strong>St Pancras International Station</strong>
                                                         <span>
                                                             Sun 09 Jun 2024
@@ -330,18 +330,18 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                    <div class="flighttime">14:55</div>
-                                                    <div class="flightduration text-center">
+                                                    <div class="railtime">14:55</div>
+                                                    <div class="railduration text-center">
                                                         <div class="fw-semibold">
                                                             Direct
                                                         </div>
                                                         10hrs,30mins
                                                     </div>
-                                                    <div class="flighttime">18:55</div>
+                                                    <div class="railtime">18:55</div>
                                                 </div>
                                                 <div class="col-12 col-lg-3 fb-inner-right">
                                                     <h4>Paris</h4>
-                                                    <div class="flight-details">
+                                                    <div class="rail-details">
                                                         <strong>Gare du <br>
                                                             Nord Station</strong>
                                                         <span>
@@ -357,14 +357,14 @@
                                             <div class="airline-image">
                                             </div>
                                         </div>
-                                        <div class="col-12 col-lg-10 flightbox-left">
+                                        <div class="col-12 col-lg-10 railbox-left">
                                             <div class="row align-items-center">
                                                 <div class="col-12">
                                                     <span class="fs13 fw-medium txt-black">Return</span>
                                                 </div>
                                                 <div class="col-12 col-lg-3 fb-inner-left">
                                                     <h4>Paris</h4>
-                                                    <div class="flight-details">
+                                                    <div class="rail-details">
                                                         <strong>St Pancras International Station</strong>
                                                         <span>
                                                             Sun 09 Jun 2024
@@ -372,18 +372,18 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                    <div class="flighttime">14:55</div>
-                                                    <div class="flightduration text-center">
+                                                    <div class="railtime">14:55</div>
+                                                    <div class="railduration text-center">
                                                         <div class="fw-semibold">
                                                             Direct
                                                         </div>
                                                         10hrs,30mins
                                                     </div>
-                                                    <div class="flighttime">18:55</div>
+                                                    <div class="railtime">18:55</div>
                                                 </div>
                                                 <div class="col-12 col-lg-3 fb-inner-right">
                                                     <h4>London</h4>
-                                                    <div class="flight-details">
+                                                    <div class="rail-details">
                                                         <strong>Gare du <br>
                                                             Nord Station</strong>
                                                         <span>
@@ -394,9 +394,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div><!-- flights box -->
+                                </div><!-- rails box -->
 
-                                <div class="flightdetailsmore cruisedetailsmore txt-black">
+                                <div class="raildetailsmore cruisedetailsmore txt-black">
                                     <div class="d-flex flex-column">
                                         <div class="fdm-content-wrap show">
                                             <div class="row align-items-center">
@@ -538,40 +538,40 @@
                                         </div><!-- fdm-content-wrap -->
                                     </div><!-- d-flex -->
                                     <div class="row">
-                                        <div class="offset-lg-2 ps-0 col-lg-10 flights-readmore-info">
-                                            <span class="flights-rmore-btn fw-semibold change">
+                                        <div class="offset-lg-2 ps-0 col-lg-10 rails-readmore-info">
+                                            <span class="rails-rmore-btn fw-semibold change">
                                                 Read More Information <i class="fs-icon fa-solid fa-chevron-down ms-2"></i>
                                             </span>
                                         </div>
                                     </div>
-                                </div><!-- flightdetailsmore -->
+                                </div><!-- raildetailsmore -->
 
-                                <div class="flightsprice-wrap">
+                                <div class="railsprice-wrap">
                                     <div class="row">
                                         <div class="offset-lg-2 px-0 col-12 col-lg-10">
                                             <div class="row g-2">
                                                 <div class="col-12 col-lg-4">
-                                                    <div class="flightprice-box">
+                                                    <div class="railprice-box">
                                                         <div class="d-flex fpb-top">
-                                                            <div class="flightprice">
+                                                            <div class="railprice">
                                                                 <span>
                                                                     Standard
                                                                 </span>
-                                                                <div class="flightprice-main">
+                                                                <div class="railprice-main">
                                                                     £708.47
                                                                 </div>
                                                             </div>
-                                                            <div class="flightprice-option">
+                                                            <div class="railprice-option">
                                                                 <button class="btn btn-primary">
                                                                     Select
                                                                 </button>
                                                             </div>
                                                         </div>
                                                         <div class="d-flex fpb-bottom">
-                                                            <div class="flightpax">
+                                                            <div class="railpax">
                                                                 2x Adults
                                                             </div>
-                                                            <div class="flightlinks">
+                                                            <div class="raillinks">
                                                                 <a href="">Rules</a>
                                                                 <a href="">Breakdown</a>
                                                             </div>
@@ -579,27 +579,27 @@
                                                     </div>
                                                 </div><!-- col -->
                                                 <div class="col-12 col-lg-4">
-                                                    <div class="flightprice-box">
+                                                    <div class="railprice-box">
                                                         <div class="d-flex fpb-top">
-                                                            <div class="flightprice">
+                                                            <div class="railprice">
                                                                 <span>
                                                                     Standard Premier
                                                                 </span>
-                                                                <div class="flightprice-main">
+                                                                <div class="railprice-main">
                                                                     £708.47
                                                                 </div>
                                                             </div>
-                                                            <div class="flightprice-option">
+                                                            <div class="railprice-option">
                                                                 <button class="btn btn-primary">
                                                                     Select
                                                                 </button>
                                                             </div>
                                                         </div>
                                                         <div class="d-flex fpb-bottom">
-                                                            <div class="flightpax">
+                                                            <div class="railpax">
                                                                 2x Adults
                                                             </div>
-                                                            <div class="flightlinks">
+                                                            <div class="raillinks">
                                                                 <a href="">Rules</a>
                                                                 <a href="">Breakdown</a>
                                                             </div>
@@ -607,29 +607,33 @@
                                                     </div>
                                                 </div><!-- col -->
                                                 <div class="col-12 col-lg-4">
-                                                    <div class="flightprice-box">
+                                                    <div class="railprice-box">
                                                         <div class="d-flex fpb-top">
-                                                            <div class="flightprice">
+                                                            <div class="railprice">
                                                                 <span>
                                                                     Standard Premier
                                                                 </span>
-                                                                <div class="flightprice-main">
+                                                                <div class="railprice-main">
                                                                     £708.47
                                                                 </div>
                                                             </div>
-                                                            <div class="flightprice-option">
+                                                            <div class="railprice-option">
                                                                 <button class="btn btn-primary">
                                                                     Select
                                                                 </button>
                                                             </div>
                                                         </div>
                                                         <div class="d-flex fpb-bottom">
-                                                            <div class="flightpax">
+                                                            <div class="railpax">
                                                                 2x Adults
                                                             </div>
-                                                            <div class="flightlinks">
-                                                                <a href="">Rules</a>
-                                                                <a href="">Breakdown</a>
+                                                            <div class="raillinks">
+                                                                <button data-bs-toggle="modal" data-bs-target="#rules-1" class="breakdownlink">
+                                                                    Rules
+                                                                </button>
+                                                                <button data-bs-toggle="modal" data-bs-target="#breakdown-1" class="breakdownlink">
+                                                                    Breakdown
+                                                                </button>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -638,7 +642,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div><!-- flightsmain -->
+                            </div><!-- railsmain -->
                         </div>
                         <div class="loadmore-nav mx-auto mt-5">
                             <div class="loadmore-navdetails">
@@ -655,7 +659,7 @@
                                 Load More
                             </button>
                         </div><!-- load more -->
-                    </div><!-- flights wrap -->
+                    </div><!-- rails wrap -->
                 </div>
             </div><!-- row -->
         </div>
@@ -765,6 +769,94 @@
         </div>
     </section>
 
+
+    <div class="modal fade rail-breakdown-popup" id="breakdown-1" tabindex="-1" aria-labelledby="breakdown-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close tp-modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="breakdown-rule-top">
+                        <h3>
+                            Rules
+                        </h3>
+                    </div><!-- breakdown rule top -->
+                    <div class="rules-top">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="rules-links">
+                                    <div class="rule-link">
+                                        <div class="row">
+                                            <div class="col-7">
+                                                <span>
+                                                    Erostar Fares
+                                                </span>
+                                            </div><!-- col -->
+                                            <div class="col-5">
+                                                <a href="#">View Rules <i class="fa-chevron-right ms-2 fa fa-solid fs-icon"></i></a>
+                                            </div>
+                                        </div><!-- row -->
+                                    </div><!-- rule link -->
+                                    <div class="rule-link">
+                                        <div class="row">
+                                            <div class="col-7">
+                                                <span>
+                                                    Terms and Conditions
+                                                </span>
+                                            </div><!-- col -->
+                                            <div class="col-5">
+                                                <a href="#">View Rules <i class="fa-chevron-right ms-2 fa fa-solid fs-icon"></i></a>
+                                            </div>
+                                        </div><!-- row -->
+                                    </div><!-- rule link -->
+                                    <div class="rule-link">
+                                        <div class="row">
+                                            <div class="col-7">
+                                                <span>
+                                                    Conditions of Carriage
+                                                </span>
+                                            </div><!-- col -->
+                                            <div class="col-5">
+                                                <a href="#">View Rules <i class="fa-chevron-right ms-2 fa fa-solid fs-icon"></i></a>
+                                            </div>
+                                        </div><!-- row -->
+                                    </div><!-- rule link -->
+                                </div><!-- rules link wrap-->
+                            </div><!-- col -->
+                            <div class="col-12 col-md-6">
+                                <div class="rules-links">
+                                    <div class="rule-link">
+                                        <div class="row">
+                                            <div class="col-7">
+                                                <span>
+                                                    Manage my booking
+                                                </span>
+                                            </div><!-- col -->
+                                            <div class="col-5">
+                                                <a href="#">View Rules <i class="fa-chevron-right ms-2 fa fa-solid fs-icon"></i></a>
+                                            </div>
+                                        </div><!-- row -->
+                                    </div><!-- rule link -->
+                                    <div class="rule-link">
+                                        <div class="row">
+                                            <div class="col-7">
+                                                <span>
+                                                    Travel Classes
+                                                </span>
+                                            </div><!-- col -->
+                                            <div class="col-5">
+                                                <a href="#">View Rules <i class="fa-chevron-right ms-2 fa fa-solid fs-icon"></i></a>
+                                            </div>
+                                        </div><!-- row -->
+                                    </div><!-- rule link -->
+                                </div><!-- rules link wrap-->
+                            </div><!-- col -->
+                        </div>
+                    </div>
+                </div><!-- modal body -->
+            </div>
+        </div>
+    </div><!-- modal -->
+
     <?php include '../sections/global/footer.php'; ?>
 
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
@@ -775,6 +867,7 @@
     <script src="<?= getBaseUrl() ?>/assets/js/moment.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/daterangepicker.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/main-search.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/main-rails.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/searchbar.js?v=1.0.0"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/scripts.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/loadmoreboxes.js"></script>

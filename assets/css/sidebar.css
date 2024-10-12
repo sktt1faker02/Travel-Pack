@@ -29,7 +29,7 @@
 }
 .option-wrap span {
     color: var(--black-text);
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
 }
 .select {
     position: relative;
@@ -129,7 +129,7 @@ input.input-text {
 /* TOTAL PURCHASE */
 .filters-box.totalpurchase {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -158,7 +158,7 @@ input.input-text {
 }
 .flightpurchase-box-left strong {
     margin-bottom: 3px;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
 }
 .flightduration {
     font-size: 12px;
@@ -174,7 +174,7 @@ input.input-text {
     color:var(--text-gray);
 }
 .main-purchase-box strong {
-    font-weight:600;
+    font-weight:500 /* 600 */ !important;
 }
 
 /* SIDEBAR LIST */
@@ -306,7 +306,7 @@ input[type="range"]::-webkit-slider-thumb {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     cursor: pointer;
 }
 .tp-checkout-sidebar .fb-top, .tp-checkout-sidebar .togglefilterbox {
@@ -599,7 +599,7 @@ input[type="range"] {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     cursor:pointer;
 }
 .togglefilterbox-main i.rotate {
@@ -774,7 +774,7 @@ input[type="range"] {
     align-items: center;
     justify-content: space-between;
     padding: 0 10px 10px;
-    font-weight: 600;
+    font-weight: 500 /* 600 */ !important;
     margin-bottom: 10px;
     border-bottom: 1px solid var(--tp-blue);
     cursor: pointer;

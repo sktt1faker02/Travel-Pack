@@ -28,19 +28,6 @@
         </div><!-- row -->
 
         <div class="row">
-            <div class="col-md-2 col-12">
-                <label>Age*</label>
-                <div class="select">
-                    <select name="passenger1-age" required>
-                        <option value="18">18</option>
-                        <option value="19">19</option>
-                        <option value="20">20</option>
-                        <!-- Add more age options -->
-                        <option value="40">40</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
             <div class="col-md-4 col-12">
                 <label>Date of Birth</label>
                 <input class="tp-input datetoday" datepicker="first" name="flight-additional-dob1" id="flight-additional-dob1" placeholder="DD/MM/YYYY" required="required">
@@ -59,44 +46,6 @@
             </div><!-- col -->
         </div><!-- row -->
 
-        <div class="row">
-            <div class="col-md-2 col-12">
-                <label for="weight">Weight (kg)</label>
-                <div class="select">
-                    <select id="weight" name="weight" required>
-                        <option value="" disabled selected>00</option>
-                        <option value="50">50</option>
-                        <option value="60">60</option>
-                        <option value="70">70</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
-            <div class="col-md-2 col-12">
-                <label for="height">Height (cm)</label>
-                <div class="select">
-                    <select id="height" name="height" required>
-                        <option value="" disabled selected>00</option>
-                        <option value="150">150</option>
-                        <option value="160">160</option>
-                        <option value="170">170</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
-            <div class="col-md-3 col-12">
-                <label for="language">Language</label>
-                <div class="select">
-                    <select id="language" name="language" required>
-                        <option value="" disabled selected>English</option>
-                        <option value="english">English</option>
-                        <option value="spanish">Spanish</option>
-                        <option value="french">French</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
-        </div><!-- row -->
 
         <div class="addtl-details-row">
             <div class="row">
@@ -209,19 +158,6 @@
         </div><!-- row -->
 
         <div class="row">
-            <div class="col-md-2 col-12">
-                <label>Age*</label>
-                <div class="select">
-                    <select name="passenger1-age" required>
-                        <option value="18">18</option>
-                        <option value="19">19</option>
-                        <option value="20">20</option>
-                        <!-- Add more age options -->
-                        <option value="40">40</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
             <div class="col-md-4 col-12">
                 <label>Date of Birth</label>
                 <input class="tp-input datetoday" datepicker="first" name="flight-additional-dob1" id="flight-additional-dob1" placeholder="DD/MM/YYYY" required="required">
@@ -234,45 +170,6 @@
                         <option>Male</option>
                         <option>Female</option>
                         <option>Other</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
-        </div><!-- row -->
-
-        <div class="row">
-            <div class="col-md-2 col-12">
-                <label for="weight">Weight (kg)</label>
-                <div class="select">
-                    <select id="weight" name="weight" required>
-                        <option value="" disabled selected>00</option>
-                        <option value="50">50</option>
-                        <option value="60">60</option>
-                        <option value="70">70</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
-            <div class="col-md-2 col-12">
-                <label for="height">Height (cm)</label>
-                <div class="select">
-                    <select id="height" name="height" required>
-                        <option value="" disabled selected>00</option>
-                        <option value="150">150</option>
-                        <option value="160">160</option>
-                        <option value="170">170</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
-            <div class="col-md-3 col-12">
-                <label for="language">Language</label>
-                <div class="select">
-                    <select id="language" name="language" required>
-                        <option value="" disabled selected>English</option>
-                        <option value="english">English</option>
-                        <option value="spanish">Spanish</option>
-                        <option value="french">French</option>
                     </select>
                     <div class="select_arrow"></div>
                 </div>
@@ -387,19 +284,6 @@
         </div><!-- row -->
 
         <div class="row">
-            <div class="col-md-2 col-12">
-                <label>Age*</label>
-                <div class="select">
-                    <select name="passenger1-age" required>
-                        <option value="18">18</option>
-                        <option value="19">19</option>
-                        <option value="20">20</option>
-                        <!-- Add more age options -->
-                        <option value="40">40</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
             <div class="col-md-4 col-12">
                 <label>Date of Birth</label>
                 <input class="tp-input datetoday" datepicker="first" name="flight-additional-dob1" id="flight-additional-dob1" placeholder="DD/MM/YYYY" required="required">
@@ -412,45 +296,6 @@
                         <option>Male</option>
                         <option>Female</option>
                         <option>Other</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
-        </div><!-- row -->
-
-        <div class="row">
-            <div class="col-md-2 col-12">
-                <label for="weight">Weight (kg)</label>
-                <div class="select">
-                    <select id="weight" name="weight" required>
-                        <option value="" disabled selected>00</option>
-                        <option value="50">50</option>
-                        <option value="60">60</option>
-                        <option value="70">70</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
-            <div class="col-md-2 col-12">
-                <label for="height">Height (cm)</label>
-                <div class="select">
-                    <select id="height" name="height" required>
-                        <option value="" disabled selected>00</option>
-                        <option value="150">150</option>
-                        <option value="160">160</option>
-                        <option value="170">170</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
-            <div class="col-md-3 col-12">
-                <label for="language">Language</label>
-                <div class="select">
-                    <select id="language" name="language" required>
-                        <option value="" disabled selected>English</option>
-                        <option value="english">English</option>
-                        <option value="spanish">Spanish</option>
-                        <option value="french">French</option>
                     </select>
                     <div class="select_arrow"></div>
                 </div>
@@ -565,19 +410,6 @@
         </div><!-- row -->
 
         <div class="row">
-            <div class="col-md-2 col-12">
-                <label>Age*</label>
-                <div class="select">
-                    <select name="passenger1-age" required>
-                        <option value="18">18</option>
-                        <option value="19">19</option>
-                        <option value="20">20</option>
-                        <!-- Add more age options -->
-                        <option value="40">40</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
             <div class="col-md-4 col-12">
                 <label>Date of Birth</label>
                 <input class="tp-input datetoday" datepicker="first" name="flight-additional-dob1" id="flight-additional-dob1" placeholder="DD/MM/YYYY" required="required">
@@ -590,45 +422,6 @@
                         <option>Male</option>
                         <option>Female</option>
                         <option>Other</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
-        </div><!-- row -->
-
-        <div class="row">
-            <div class="col-md-2 col-12">
-                <label for="weight">Weight (kg)</label>
-                <div class="select">
-                    <select id="weight" name="weight" required>
-                        <option value="" disabled selected>00</option>
-                        <option value="50">50</option>
-                        <option value="60">60</option>
-                        <option value="70">70</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
-            <div class="col-md-2 col-12">
-                <label for="height">Height (cm)</label>
-                <div class="select">
-                    <select id="height" name="height" required>
-                        <option value="" disabled selected>00</option>
-                        <option value="150">150</option>
-                        <option value="160">160</option>
-                        <option value="170">170</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
-            <div class="col-md-3 col-12">
-                <label for="language">Language</label>
-                <div class="select">
-                    <select id="language" name="language" required>
-                        <option value="" disabled selected>English</option>
-                        <option value="english">English</option>
-                        <option value="spanish">Spanish</option>
-                        <option value="french">French</option>
                     </select>
                     <div class="select_arrow"></div>
                 </div>
@@ -743,19 +536,6 @@
         </div><!-- row -->
 
         <div class="row">
-            <div class="col-md-2 col-12">
-                <label>Age*</label>
-                <div class="select">
-                    <select name="passenger1-age" required>
-                        <option value="18">18</option>
-                        <option value="19">19</option>
-                        <option value="20">20</option>
-                        <!-- Add more age options -->
-                        <option value="40">40</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
             <div class="col-md-4 col-12">
                 <label>Date of Birth</label>
                 <input class="tp-input datetoday" datepicker="first" name="flight-additional-dob1" id="flight-additional-dob1" placeholder="DD/MM/YYYY" required="required">
@@ -768,45 +548,6 @@
                         <option>Male</option>
                         <option>Female</option>
                         <option>Other</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
-        </div><!-- row -->
-
-        <div class="row">
-            <div class="col-md-2 col-12">
-                <label for="weight">Weight (kg)</label>
-                <div class="select">
-                    <select id="weight" name="weight" required>
-                        <option value="" disabled selected>00</option>
-                        <option value="50">50</option>
-                        <option value="60">60</option>
-                        <option value="70">70</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
-            <div class="col-md-2 col-12">
-                <label for="height">Height (cm)</label>
-                <div class="select">
-                    <select id="height" name="height" required>
-                        <option value="" disabled selected>00</option>
-                        <option value="150">150</option>
-                        <option value="160">160</option>
-                        <option value="170">170</option>
-                    </select>
-                    <div class="select_arrow"></div>
-                </div>
-            </div><!-- col -->
-            <div class="col-md-3 col-12">
-                <label for="language">Language</label>
-                <div class="select">
-                    <select id="language" name="language" required>
-                        <option value="" disabled selected>English</option>
-                        <option value="english">English</option>
-                        <option value="spanish">Spanish</option>
-                        <option value="french">French</option>
                     </select>
                     <div class="select_arrow"></div>
                 </div>

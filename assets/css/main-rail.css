@@ -1,5 +1,5 @@
-/* FLIGHTS MAIN */
-.flights-main {
+/* rails MAIN */
+.rails-main {
     background-color: #fff;
     border-radius: 4px;
     padding: 20px 25px 30px;
@@ -22,17 +22,17 @@
     border: 1px solid #f0f0f0;
     border-radius: 5px;
 }
-.flight-description {
+.rail-description {
     font-weight: 600;
     color: #a09c9c;
     font-size:13px;
 }
-.flightbox-left h4 {
+.railbox-left h4 {
     font-weight:700;
     font-size:32px;
     color:var(--primary);
 }
-.flight-details {
+.rail-details {
     display: flex;
     flex-direction: column;
     line-height: 1.5;
@@ -43,17 +43,17 @@
 .fb-inner-mid {
     color:var(--black-text);
 }
-.flightduration {
+.railduration {
     font-size:14px;
 }
-.flighttime {
+.railtime {
     font-size:19px;
     font-weight:600;
 }
 .fb-inner-mid {
     column-gap: 20px;
 }
-.flights-main {
+.rails-main {
     display:flex;
     flex-direction: column;
     gap:15px;
@@ -68,7 +68,7 @@
     display: flex;
     flex-direction: column;
 }
-.flightdetailsmore {
+.raildetailsmore {
     font-size:14px;
 }
 .fdm-box-main {
@@ -99,7 +99,7 @@
 .loclines-wrap::after {
     bottom: -7px;
 }
-.flights-readmore-info {
+.rails-readmore-info {
     border-top: 1px solid #919191;
     padding: 20px 0 15px;
     margin-top: 10px;
@@ -122,20 +122,20 @@
     max-height:50000px;
     transition: max-height 0.25s ease-in;
 }
-.flights-rmore-btn i {
+.rails-rmore-btn i {
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
 }
-.flights-rmore-btn.change i {
+.rails-rmore-btn.change i {
     transform: rotate(180deg);
 }
 i.fa-chevron-* {
     font-size:13px;
 }
-.flights-rmore-btn {
+.rails-rmore-btn {
     cursor: pointer;
     font-size: 15px;
 }
@@ -151,29 +151,29 @@ i.fa-chevron-* {
     column-gap: 30px;
     margin: 23px 0;
 }
-.flightpurchase-box-left {
+.railpurchase-box-left {
     display: flex;
     flex-direction: column;
 }
-.flightpurchase-box-right {
+.railpurchase-box-right {
     font-weight: 600;
     color:#a09c9c;
 }
-.flightpurchase-box-left strong {
+.railpurchase-box-left strong {
     margin-bottom: 3px;
     font-weight: 600;
 }
-.flightpurchase-box:first-child {
+.railpurchase-box:first-child {
     border-top:0;
     margin-top: 0;
     padding-top:0;
 }
-.flightpurchase-box {
+.railpurchase-box {
     border-top: 1px solid #e6e6e6;
     margin-top: 10px;
     padding-top: 10px;
 }
-.flightpurchase-box strong {
+.railpurchase-box strong {
     font-weight: 600;
 }
 
@@ -202,21 +202,40 @@ i.fa-chevron-* {
 
 
 /* YELLOW BOXES */
+.rules-links {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+body .modal .btn-close.tp-modal-close {
+    position: absolute;
+    right: 20px;
+    opacity: 1;
+    color: #012d62 !important;
+}
+.rules-links a:hover {
+    color: var(--primary);
+}   
+.rules-links a {
+    font-weight:500;
+    color:var(--black-text);
+}
 .fpb-top, .fpb-bottom {
     justify-content: space-between;
 }
-.flights-wrap .box-group:first-child {
+.rails-wrap .box-group:first-child {
     margin-top:0;
 }
-.flights-wrap .box-group {
+.rails-wrap .box-group {
     margin-top: 15px;
 }
-.flights-wrap {
+.rails-wrap {
     display:flex;
     flex-direction: column;
     gap:20px;
 }
-.flightprice-box {
+.railprice-box {
     background-color: #fffbd3;
     padding: 20px;
     border-radius: 7px;
@@ -226,7 +245,7 @@ i.fa-chevron-* {
     color:var(--black-text);
     text-decoration: underline !important;
 }
-.flightlinks {
+.raillinks {
     display: flex;
     column-gap:15px;
 }
@@ -236,11 +255,11 @@ i.fa-chevron-* {
     padding-top: 7px;
     font-size: 14px;
 }
-.flightprice span {
+.railprice span {
     font-size: 13px;
     display: block;
 }
-.flightprice-main {
+.railprice-main {
     font-size: 30px;
     font-weight: 700;
     display: block;
@@ -249,19 +268,19 @@ i.fa-chevron-* {
 .fpb-top {
     align-items: center;
 }
-.flightsprice-wrap {
+.railsprice-wrap {
     margin-top: -10px;
 }
 
 
-/* RAILS NEW + FLIGHT /////*/
-.airline-image {
-    background-color:#f8f6f3;
+/* RAILS NEW + rail /////*/
+.rail-image {
+    background-color:#fff;
 }
-.flightduratio {
+.railduratio {
     font-size: 14px;
 }
-.flightprice-option .btn {
+.railprice-option .btn {
     padding: 7px 15px;
     font-size: 15px;
 }
