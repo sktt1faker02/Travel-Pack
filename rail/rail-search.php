@@ -769,9 +769,6 @@
         </div>
     </section>
 
-
-    
-
     <div class="modal fade rail-breakdown-popup" id="breakdown-1" tabindex="-1" aria-labelledby="breakdown-1" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
