@@ -1,0 +1,625 @@
+@media (min-width:1400px) {
+    .loadmoreboxes-car-hire .col-car-hire-image {
+        width:260px
+    }
+    .loadmoreboxes-car-hire .car-hire-title {
+        width: 200px;
+    }
+    .loadmoreboxes-car-hire .car-hire-features {
+        width: 300px;
+    }
+    .col-car-hire-details-wrap {
+        flex-grow:1;
+    }
+    .loadmoreboxes-car-hire .carhirelogo {
+        flex-grow:1;
+    }
+    .loadmoreboxes-car-hire .carhirebox-price {
+        position: relative;
+        left: -17px;
+    }
+    .footertop-right {
+        line-height: 32px;
+        width: 55%;
+        padding-left: 60px !important;
+    }
+    .footertop-left-main {
+        width: 45%;
+    }
+    .footertopmid {
+        width: 42%;
+    }
+    .footertopleft {
+        width: 53%;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1399px) {
+    .esd-right-top-description {
+        margin-top: 15px;
+        -webkit-line-clamp: 6;
+        line-clamp: 6;
+    }
+}
+
+@media (max-width: 1399px) {
+    .footertop-right {
+        font-size: 25px;
+    }
+    .footertop-right br {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    #cta h2 {
+        font-size: 80px;
+    }
+    .esd-right-title-main h3 a {
+        font-size: 25px;
+    }
+    .whiteboxbg {
+        padding: 15px;
+    }
+    .guest-score {
+        padding: 6px 15px;
+        margin-top: 15px;
+    }
+    span.listing-price {
+        font-size: 27px;
+    }
+    .dm-exp-offer {
+        padding: 8px 15px;
+        line-height: 1.3;
+    }
+    .esd-right {
+        padding: 20px 15px;
+    }
+    .esd-right-top-description {
+        -webkit-line-clamp: 7;
+        line-clamp: 7;
+        margin-top: 20px;
+        margin-bottom: -10px;
+    }
+    .esd-right-bottom-read-more a {
+        font-size: 13px;
+    }
+    .esd-right-bottom-price a {
+        font-size: 22px;
+    }
+    .esd-right-bottom-read-more i {
+        font-size: 9px;
+        top: -1px;
+        left: -2px;
+    }
+    .esd-box .slick-arrow {
+        font-size: 14px;
+        bottom: 20px;
+    }
+    .esd-box .slick-arrow.fa-chevron-left {
+        left: 15px;
+    }
+    .esd-box .slick-arrow.fa-chevron-right {
+        left: 35px;
+    }
+    .global-price-tag a {
+        padding: 6px 15px 5px;
+    }
+} 
+ 
+
+@media (min-width: 992px) and (max-width:1199px)  {
+    .dti-right-img {
+        padding-top: 90%;
+    }
+    .esd-right-top-description {
+        -webkit-line-clamp: 5;
+        line-clamp: 5;
+        margin-top: 15px;
+        margin-bottom: -10px;
+    }
+    .esd-right-title-main h3 a {
+        font-size: 22px;
+    }
+    .dm-exp-bottom {
+        font-size: 14px;
+    }
+    .bottommenu ul {
+        gap: 20px;
+    }
+    #herohome {
+        padding: 40px 0 80px;
+    }
+    .footertop-right {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    ul#searchtab {
+        gap: 40px;
+    }
+    #cta {
+        padding: 120px 0;
+    }
+    .dti-right-img {
+        width: 330px;
+    }
+    .testibox {
+        border-radius: 8px;
+        padding: 15px;
+    }
+    .dti-right-img-wrap {
+        width: 620px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .esd-right {
+        padding: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .tp-sidebar {
+        width: 26%;
+    }
+    .tp-main {
+        width: 74%;
+    }
+    #cookie-policy .container {
+        max-width: 960px;
+    }
+    .hero-img-mobile {
+        display: none;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .hero-img-desktop {
+        display:none;
+    }
+    ul#searchtab {
+        height:32px;
+    }
+    .footerbottom {
+        margin-top: 0;
+    }
+    #main-header {
+        top:20px;
+    }
+    #main-hero h1, #main-hero h2 {
+        margin-bottom: 40px;
+    }
+    .nobr br {
+        display: none;
+    }
+    header#main-header {
+        padding: 0 15px;
+        z-index: 555555;
+    }
+    #top-places:before {
+        background:none;
+    }
+    .topplaces-slider-nav {
+        position: relative !important;
+        bottom: 0;
+        right: auto;
+        left: auto;
+        margin-top: 300px;
+    }
+    #top-places {
+        padding-top: 50px;
+    }
+    .testibox {
+        padding: 20px;
+    }
+    .testislider .slick-slide {
+        padding: 0 5px;
+    }
+    .deals-travel-inspiration-top p {
+        margin: 0 auto 15px;
+        width:100%;
+    }
+    #main-hero {
+        padding: 100px 0 30px;
+        position: relative;
+    }
+    .heroslider-nav .slick-dots {
+        bottom: 0;
+        left: 0;
+        transform: translateX(0);
+    }
+    .heroslider-nav-slide h1, .heroslider-nav-slide h2 {
+        font-size: 50px;
+    }
+    ul#searchtab {
+        padding: 0;
+        gap: 20px;
+        flex-direction: row;
+        border-bottom: 1px solid #ac85ce;
+    }
+    ul#searchtab > li {
+        flex: 0 0 auto;
+    }
+    div#mobile-help-centre ul {
+        display: block;
+    }
+    .headerbottomlinks > li:first-child a {
+        padding-top: 3px;
+    }
+    .headerbottomlinks > li:last-child a {
+        border-bottom: 0 !important;
+    }
+    .bottommenu ul li a {
+        border-top: 0;
+        border-bottom: 1px solid #b6b3b2;
+    }
+    .bottommenu ul li a:hover {
+        border-bottom: 2px solid var(--primary);
+    }
+    .bottommenu ul li a::after {
+        display:none;
+    }
+    .bottommenu.show {
+        max-height: 1000px;
+    }
+    .bottommenu ul li a {
+        padding: 8px 0px;
+        text-align: left;
+    }
+    ul.headerbottomlinks {
+        flex-direction: column;
+        gap: 0;
+        padding: 15px 0;
+    }
+    ul.headerbottomlinks {
+        flex-direction: column;
+        gap: 0;
+        padding: 15px 20px;
+    }
+    .headerrowtop {
+        padding: 0 5px;
+    }
+    .headerlinks ul {
+        column-gap: 15px;
+    }
+    .headerlinks {
+        padding-right: 5px;
+    }
+    #main-header .logo {
+        width: 130px;
+    }
+    .headerlinks .i-icon {
+        margin-right: 4px;
+    }
+    .bottommenu.show {
+        max-height: 1000px;
+    }
+    .footerbottom img {
+        max-width: 180px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .searchbar {
+        margin-bottom:40px;
+    }
+    .rowslider .slick-dots {
+        width: 100%;
+    }
+    ul#searchtab button {
+        font-size: 15px;
+        padding-bottom: 4px;
+    }
+    .esd-left-slider .slick-slide {
+        height: 350px;
+    }
+    .esd-left-slider .slick-slide > div {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+    .esd-left-slider .slick-slide {
+        max-height: 350px;
+    }
+    .checkout .phonepopup {
+        display: none;
+    }
+    .checkout .tp-sidebar {
+        display: none;
+    }
+    .dm-exp-img {
+        height: 0;
+        padding-top: 50%;
+        margin-bottom: 20px;
+    }
+    #main-hero h2 {
+        font-size: 60px;
+    }
+    .esd-box {
+        flex-direction: column;
+    }
+    .esd-right.esd-right-content {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .esd-left {
+        border-radius: 10px 10px 0 0;
+        overflow: hidden;
+    }
+    .esd-box-slider img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+    .esd-left-slider .slick-slide > div > a {
+        max-height: 100%;
+    }
+
+    .footertop-right {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    #herohome {
+        padding: 40px 0 70px;
+    }
+    .largesectiontitle {
+        font-size:40px;
+    }
+    .deals-travel-inspiration-top h2 {
+        font-size: 40px;
+    }
+    .fs32 {
+        font-size: 25px;
+    }
+    .fs23 {
+        font-size:18px;
+    }
+    .deals-travel-inspiration-top h2 {
+        font-size: 30px;
+    }
+    .deals-travel-inspiration-top p {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 480px) {
+    .dti-right-img2 {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 576px) {
+}
+
+@media (max-width: 575px) {
+    .topplaces-slider-nav {
+        font-size: 20px;
+    }
+    #footer h4 {
+        margin-bottom:10px;
+    }
+    #cookie-policy .container {
+        max-width: calc(100% - 20px);
+    }
+    .homesectiontitle {
+        font-size: 22px;
+    }
+    .whychoosebox p {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+    .whychoosebox img {
+        width: auto;
+        height: 100px;
+        margin-bottom: 30px;
+    }
+    #top-places p {
+        height: 150px;
+    }
+    .topplacesbox {
+        padding: 20px;
+        min-height: 400px;
+    }
+    #top-places h2 {
+        font-size: 33px;
+        margin-bottom: 30px;
+    }
+    .faqs-toggle-btn i {
+        font-size: 10px;
+    }
+    #main-hero h1, #main-hero h2 {
+        font-size: 43px;
+    }
+    .heroslider-nav .slick-dots {
+        bottom: -5px;
+    }
+    .mobilesearchtab-wrap {
+        margin-bottom:0;
+    }
+    .slick-dots button {
+        transform: scale(.7);
+    }
+    .sed-slider {
+        margin-right:0;
+        margin-left:0;
+    }
+    #herohome {
+        padding-top: 25px;
+    }
+    #main-hero .hero-text {
+        font-size: 15px;
+    }
+    .mobilesearchtab-wrap::-webkit-scrollbar {
+        background-color: transparent;
+        width: 0;
+    }
+    ul#searchtab::-webkit-scrollbar {
+        background: transparent;
+        width: 0;
+    }
+    .mobilesearchtab-wrap {
+        overflow-y: hidden;
+    }
+    header#main-header {
+        padding: 0 0;
+    }
+    .rowslider > .slick-list > .slick-track > .slick-slide > div {
+        margin-right: 0;
+        padding: 0 15px 0;
+    }
+    #cta h2 {
+        font-size: 50px;
+    }
+    #cta {
+        padding: 100px 0;
+    }
+    .sedbox {
+        padding-top: 100%;
+    }
+    section.block {
+        padding: 70px 0;
+    }
+    .listing-right-top-left {
+        font-size: 13px;
+    }
+    #innerhero.inner-baggage-allowances {
+        background-position: -60px 0;
+    }
+    div#innerhero {
+        padding-bottom: 260px;
+        padding-top:25px;
+    }
+    .our-achievements-box {
+        padding: 30px;
+    }
+    .listing-right-top-left {
+        font-size: 13px;
+    }
+    #innerhero.inner-pvh {
+        background-image:url(../img/inner/mobilehero-pvh.jpg) !important;
+    }
+    #innerhero.inner-about {
+        background-image:url(../img/inner/mobilehero-about.jpg) !important;
+    }
+    #innerhero.inner-hc {
+        background-image:url(../img/inner/mobilehero-hc.jpg) !important;
+    }
+    .col2list li {
+        flex-basis: 35%;
+        line-height: 1.25;
+        margin-bottom: 10px;
+    }
+    .footertopleft ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .footertopleft ul li:nth-child(2) {
+        order: 3;
+        margin-bottom: 0;
+    }
+    .footertopleft ul li:nth-child(3) {
+        order: 4;
+        margin-bottom: 0;
+    }
+    .footertopleft ul li:nth-child(4) {
+        order: 2;
+    }
+    .footertopleft ul li:nth-child(5) {
+        order: 5;
+    }
+    .footertopleft ul li {
+        flex-basis: 180px;
+        order: 1;
+        line-height: 1.3;
+        margin-bottom: 11px;
+    }
+    .searchform-more {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 479px) {
+    .footertopleft ul li {
+        flex-basis: 168px;
+        font-size: 13.6px;
+    }
+    .yph-details > .yph-more {
+        flex-basis: 110px;
+    }
+    .search-box-ba {
+        width: 150px;
+    }
+    #searchtab {
+        width: 390px;
+    }
+    .exciting-deals-heading a.view-all {
+        font-size: 14px;
+    }
+    .sed-slider {
+        padding-bottom: 0;
+    }
+    /* GENERAL */
+    .slick-dots {
+        text-align: center;
+        position: absolute;
+        padding-left: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 5px;
+    }
+    .yph-details {
+        left: 10px;
+        padding:17px 10px;
+        width: calc(100% - 20px);
+    }
+    .global-price-tag a {
+        font-size: 13px;
+        padding: 8px 15px;
+    }   
+    .yphbox h3 {
+        font-size: 23px;
+        padding-right: 20px;
+    }
+    .yph-more {
+        font-size: 12px;
+    }    
+    .perfectholidayslider .global-price-tag a {
+        left: 10px;
+        font-size:13px;
+    }
+    .countdown {
+        padding: 15px 10px 20px;
+    }
+    .countdown div span {
+        font-size: 35px;
+    }
+    .topplacesbox {
+        padding: 20px;
+    }
+    #hurry h2 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    section#deals-travel-inspiration {
+        padding-bottom: 100px;
+    }
+    .listing-mid-top h3 {
+        font-size: 20px;
+        width: 200px;
+        max-width: 100%;
+    }
+    .dti-right-img {
+        padding-top: 100%;
+    }
+    .dti-right-img2 {
+        top: 100px;
+    }
+    .dti-right-img1 {
+        top:0;
+    }
+}

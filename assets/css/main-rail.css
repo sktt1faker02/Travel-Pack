@@ -1,0 +1,271 @@
+/* FLIGHTS MAIN */
+.flights-main {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px 25px 30px;
+    border: 1px solid #f1f1ee;
+}
+.airline-image img {
+    object-fit: contain;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.airline-image {
+    height: 0;
+    padding-top: 100%;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+}
+.flight-description {
+    font-weight: 600;
+    color: #a09c9c;
+    font-size:13px;
+}
+.flightbox-left h4 {
+    font-weight:700;
+    font-size:32px;
+    color:var(--primary);
+}
+.flight-details {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    font-size: 13px;
+    color: var(--black-text);
+    margin-top: -5px;
+}
+.fb-inner-mid {
+    color:var(--black-text);
+}
+.flightduration {
+    font-size:14px;
+}
+.flighttime {
+    font-size:19px;
+    font-weight:600;
+}
+.fb-inner-mid {
+    column-gap: 20px;
+}
+.flights-main {
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+}
+.fdmbox-wrap {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 40px;
+}
+.fdmbox, .fdm-right {
+    display: flex;
+    flex-direction: column;
+}
+.flightdetailsmore {
+    font-size:14px;
+}
+.fdm-box-main {
+    display:flex;
+}
+.loclines-wrap {
+    width: 2px;
+    background-color: var(--primary);
+    height: 60%;
+    position: absolute;
+    left: 13px;
+    top: 20px;
+}
+.loclines-wrap::before, 
+.loclines-wrap::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: var(--primary);
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    left: -5px;
+}
+.loclines-wrap::before {
+    top: -7px;
+}
+.loclines-wrap::after {
+    bottom: -7px;
+}
+.flights-readmore-info {
+    border-top: 1px solid #919191;
+    padding: 20px 0 15px;
+    margin-top: 10px;
+
+}
+.fdm-content {
+    border-top: 1px solid #919191;
+    padding: 30px 0 25px;
+    margin-top: 10px;
+}
+.fdm-content {
+    gap:20px;
+}
+.fdm-content-wrap {
+    max-height:0;
+    overflow:hidden;
+    transition: max-height 0.15s ease-out;
+}
+.fdm-content-wrap.show {
+    max-height:50000px;
+    transition: max-height 0.25s ease-in;
+}
+.flights-rmore-btn i {
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+}
+.flights-rmore-btn.change i {
+    transform: rotate(180deg);
+}
+i.fa-chevron-* {
+    font-size:13px;
+}
+.flights-rmore-btn {
+    cursor: pointer;
+    font-size: 15px;
+}
+.fdm-box {
+    width: 100%;
+    font-size: 13px;
+}
+.fdm-box-separator {
+    background-color: #f7f6f3;
+    padding: 12px 15px 12px 35px;
+    border-radius: 7px;
+    display: flex;
+    column-gap: 30px;
+    margin: 23px 0;
+}
+.flightpurchase-box-left {
+    display: flex;
+    flex-direction: column;
+}
+.flightpurchase-box-right {
+    font-weight: 600;
+    color:#a09c9c;
+}
+.flightpurchase-box-left strong {
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+.flightpurchase-box:first-child {
+    border-top:0;
+    margin-top: 0;
+    padding-top:0;
+}
+.flightpurchase-box {
+    border-top: 1px solid #e6e6e6;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.flightpurchase-box strong {
+    font-weight: 600;
+}
+
+
+
+/* PASSENGER BOX */
+.passengerbox {
+    margin-bottom:20px;
+}
+.passengerbox-main select {
+    font-size:14px;
+    font-weight:500;
+}
+.passengerbox-main {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #e2e2e2;
+    padding: 25px;
+}
+.passengerbox-main label {
+    font-weight:600;
+    color:var(--black-text);
+    margin-bottom:5px;
+    display:block;
+}
+
+
+/* YELLOW BOXES */
+.fpb-top, .fpb-bottom {
+    justify-content: space-between;
+}
+.flights-wrap .box-group:first-child {
+    margin-top:0;
+}
+.flights-wrap .box-group {
+    margin-top: 15px;
+}
+.flights-wrap {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.flightprice-box {
+    background-color: #fffbd3;
+    padding: 20px;
+    border-radius: 7px;
+    color:var(--black-text)
+}
+.fpb-bottom a {
+    color:var(--black-text);
+    text-decoration: underline !important;
+}
+.flightlinks {
+    display: flex;
+    column-gap:15px;
+}
+.fpb-bottom {
+    border-top: 1px solid #b8b4aa;
+    margin-top: 7px;
+    padding-top: 7px;
+    font-size: 14px;
+}
+.flightprice span {
+    font-size: 13px;
+    display: block;
+}
+.flightprice-main {
+    font-size: 30px;
+    font-weight: 700;
+    display: block;
+    margin-top: -8px;
+}
+.fpb-top {
+    align-items: center;
+}
+.flightsprice-wrap {
+    margin-top: -10px;
+}
+
+
+/* RAILS NEW + FLIGHT /////*/
+.airline-image {
+    background-color:#f8f6f3;
+}
+.flightduratio {
+    font-size: 14px;
+}
+.flightprice-option .btn {
+    padding: 7px 15px;
+    font-size: 15px;
+}
+.fdm-box-main {
+    display: flex;
+    position: relative;
+}

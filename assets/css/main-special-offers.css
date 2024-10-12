@@ -1,0 +1,261 @@
+.hero-perfect-holiday {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px 15px 8px;
+    border-radius: 8px;
+}
+
+.special-offers-main #perfect-holiday .row {
+    padding: 10px;
+}
+
+.special-offers-main #extraordinary-destinations {
+    background-color: #f8f6f3;
+}
+
+.spobox-content-bot .btn {
+    padding: 7px 15px;
+    font-size: 14px;
+}
+.spobox-content-mid {
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    padding:10px 0;
+    font-size:13px;
+}
+.whiteboxbg.specialoffers-box {
+    padding:0;
+}
+.spobox-content {
+    padding:17px;
+}
+.spboxmid-left {
+    width: 77px;
+    color: #000;
+}
+.spobox-price {
+    font-weight: 700;
+    font-size: 27px;
+    font-family: 'Roboto';
+}
+.spboxmid-right {
+    color: var(--text-gray);
+}
+.spobox-content-top {
+    font-size:13px;
+}
+.spobox-detail {
+    color: var(--black-text);
+}
+.spobox-title {
+    font-size:14px;
+}
+.spobox-content-top .esd-rating {
+    font-size: 15px;
+}
+.spobox-image {
+    text-align: center;
+    height: 170px;
+    background-color: #f8f6f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: #c5c5c2;
+}
+.spobox-image .global-price-tag a {
+    left: 30px;
+}
+.specialoffer-main .box-group {
+    padding:8px 0;
+}
+
+
+.fbox-spo-image {
+    height: 0;
+    padding-top: 80%;
+    position: relative;
+    overflow: hidden;
+}
+.fbox-spo-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.spobox-feature-image-wrap {
+    width: 100%;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: #adadad;
+}
+.filters-box-special-offers {
+    margin-bottom: 15px;
+    background-color: #fff;
+    border: 1px solid #e5e5e4;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.fbox-spo-content {
+    padding: 20px;
+}
+.spo-travel-details {
+    background-color: #fffbd3;
+    border-radius: 7px;
+    border: 1px solid #e7e7e6;
+    padding: 23px;
+}
+.spotd-top {
+    border-bottom: 1px solid #9f9c9c;
+    margin-bottom: 15px;
+}
+.spotd-bottom p {
+    font-weight:600;
+    margin-bottom:5px;
+    font-size:18px;
+}
+.spotd-bottom {
+    column-gap: 70px;
+}
+.spobox-itinerary-top {
+    border-bottom: 1px solid #ececec;
+}
+.spo-itinerary-days-btn {
+    background-color: var(--primary);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spo-itinerary-days-image {
+    min-height:300px;
+}
+.spobox-itinerary-days {
+    padding-bottom:25px;
+    border-bottom: 1px solid #9f9c9c;
+}
+.spo-itinerary-days-top {
+    cursor: pointer;
+    margin-top:20px;
+}
+.spo-itinerary-days-btn i {
+    transition: transform 0.5s ease;
+}
+
+.spobox-itinerary-days.show .spo-itinerary-days-btn i {
+    transform: rotate(180deg);
+}
+
+.spo-itinerary-days-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.spobox-itinerary-days.show .spo-itinerary-days-content {
+    max-height: 3500px; 
+    overflow: visible;
+}
+.perk-list {
+    list-style: none;
+    padding: 0;
+}
+
+.perk-list li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.perk-list li i {
+    color: #1d4078;
+    margin-right: 10px;
+    margin-top: 5px; 
+}
+
+.perk-list li p {
+    margin: 0;
+    color: #333;
+}
+
+.perk-list li p.title {
+    margin-bottom: 5px;
+}
+
+.spoimagebottom .spobox-feature-image-wrap {
+    height: 0;
+    padding-top: 70%;
+    position: relative;
+}
+.spoimagebottom .spobox-feature-image-wrap i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slidertop-spo-slide {
+    height: 0;
+    padding-top: 70%;
+    background-color: #d9d9d9;
+    position: relative;
+}
+.slidertop-spo-slide img {
+    object-fit: cover;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    height: 100%;
+}
+.slidertop-spo .slick-arrow {
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    transform: translateY(-50%);
+    font-size: 30px;
+    z-index: 5;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.56);
+}
+
+.fa-chevron-right.slick-arrow {
+    right: 20px;
+}
+.fa-chevron-left.slick-arrow {
+    left: 20px;
+}
+div#slider-nav {
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    /* position: absolute; */
+    bottom: 0;
+    z-index: 5;
+    left: 25px;
+    bottom: 20px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.56);
+
+}
+.slidertop-spo-wrap {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slidertop-spo-wrap  i{
+    cursor: pointer;
+}
+.sliderpopup-wrap {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 55555;
+}
