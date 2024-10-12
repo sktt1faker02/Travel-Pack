@@ -1,68 +1,71 @@
 $(function () {
+  $(".seat").on("click", function (event) {
+    var click = $(this).attr("id");
+    var res = click.split("-");
 
-	$(".seat").on("click", function (event) {
+    var field = res[0] + "-" + pax;
+    var current = $("#" + field).val();
 
-		var click = $(this).attr("id");
-		var res = click.split("-")
+    /**
+     * Has passenger already got a seat ?
+     */
 
-		var field = res[0] + "-" + pax;
-		var current = $("#" + field).val();
+    if (current !== "") {
+      var old_seat = res[0] + "-" + current;
+      $("#" + field + "-price").html("0.00");
+      $("#" + field).val("");
+      $("#" + old_seat)
+        .children(":first-child")
+        .attr("src", "/public/imagedb/seating/seat2.png");
+    }
 
-		/**
-		 * Has passenger already got a seat ?
-		 */
+    /**
+     * Now set a new one
+     */
 
-		if (current !== '') {
+    if (current != res[1]) {
+      $("#seat-flight").html(res[0]);
+      $("#seat-number").html(res[1]);
 
-			var old_seat = res[0] + '-' + current
-			$("#" + field + "-price").html('0.00');
-			$("#" + field).val('');
-			$("#" + old_seat).children(':first-child').attr("src", "/public/imagedb/seating/seat2.png");
-		}
+      $("#seat-price").html($(this).attr("price"));
+      $("#seat-config").html($(this).attr("config"));
 
-		/**
-		 * Now set a new one
-		 */
+      $("#seat-modal").modal("show");
+    }
+  });
 
-		if (current != res[1]) {
+  $(".select-seat").on("click", function (event) {
+    console.log("Hello");
+    var seat = $("#seat-number").html();
+    var flight_no = $("#seat-flight").html();
 
-			$("#seat-flight").html(res[0]);
-			$("#seat-number").html(res[1]);
+    var field = flight_no + "-" + pax;
+    var seat_img = flight_no + "-" + seat;
 
-			$("#seat-price").html($(this).attr("price"));
-			$("#seat-config").html($(this).attr("config"));
+    // Change the image source to the selected seat image
+    $("#" + seat_img)
+      .children(":first-child")
+      .attr("src", "../assets/img/seats/seat-selected.png");
 
-			$('#seat-modal').modal('show');
-		}
-	});
+    $("#" + seat_img)
+      .children(":last-child")
+      .css("background-color", "#002d62");
 
-	$(".select-seat").on("click", function (event) {
-		var seat = $("#seat-number").html();
-		var flight_no = $("#seat-flight").html();
-	
-		var field = flight_no + "-" + pax;
-		var seat_img = flight_no + "-" + seat;
-	
-		// Change the image source to the selected seat image
-		$("#" + seat_img).children(':first-child').attr("src", "../assets/img/seats/seat-selected.png");
-	
-		// Update the price to use .price-2 instead of .price
-		$("#" + field + "-price").html($("#" + seat_img + " .price-2").html()); // Assuming .price-2 is inside the selected seat's HTML
-		$("#" + field).val($("#seat-number").html());
-	
-		// Hide the modal
-		$('#seat-modal').modal('hide');
-	});
-	
+    // Update the price to use .price-2 instead of .price
+    $("#" + field + "-price").html($("#" + seat_img + " .price-2").html()); // Assuming .price-2 is inside the selected seat's HTML
+    $("#" + field).val($("#seat-number").html());
 
-	$(".pax-block").on("click", function () {
+    // Hide the modal
+    $("#seat-modal").modal("hide");
+  });
 
-		$("#pax-" + pax).removeClass('selected-pax');
-		$(this).addClass('selected-pax');
+  $(".pax-block").on("click", function () {
+    $("#pax-" + pax).removeClass("selected-pax");
+    $(this).addClass("selected-pax");
 
-		var id = $(this).attr("id");
-		var res = id.split("-");
+    var id = $(this).attr("id");
+    var res = id.split("-");
 
-		pax = res[1];
-	});
+    pax = res[1];
+  });
 });

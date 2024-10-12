@@ -40,6 +40,7 @@
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/leaflet/leaflet.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/leaflet/geocoder.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/michael.css">
 </head>
 
 <body>
@@ -321,22 +322,39 @@
                                                     <img src="<?= getBaseUrl() ?>/assets/img/hotels/listing-image.jpg" alt="">
                                                 </div>
                                             </div><!-- col -->
-                                            <div class="col-12 col-lg-3 listing-mid">
-                                                <div class="listing-mid-top">
-                                                    <h3>
-                                                        YHA London Earl’s Court - Hostel
-                                                    </h3>
-                                                    <span class="listing-location">
-                                                        London (3.11 miles)
-                                                    </span>
+                                            <div class="col-12 col-lg-3 listing-mid mt-4 mt-lg-0">
+                                                <div class="listing-mid-top d-flex d-lg-block justify-content-between">
+                                                    <div>
+                                                        <h3>
+                                                            YHA London Earl’s Court - Hostel
+                                                        </h3>
+                                                        <span class="listing-location">
+                                                            London (3.11 miles)
+                                                        </span>
+                                                    </div>
+                                                    <div class="search-rating-desktop d-lg-none ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
+
                                                 </div><!-- listing-mid-top -->
-                                                <div class="guest-score">
-                                                    4.4 Guest Score
+                                                <div class="d-flex d-lg-block gap-5">
+                                                    <div class="guest-score align-self-start">
+                                                        4.4 Guest Score
+                                                    </div>
+                                                    <div class="listing-right-top-left d-lg-none search-listing-room">
+                                                        <span>
+                                                            Standard Double Room
+                                                        </span>
+                                                        <div class="txt-gray d-flex flex-column">
+                                                            <span>Room Only</span>
+                                                            <span>Non-Refundable</span>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
                                                 <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
-                                                    <div class="listing-right-top-left">
+                                                    <div class="listing-right-top-left d-none d-lg-block">
                                                         <span>
                                                             Standard Double Room
                                                         </span>
@@ -345,11 +363,12 @@
                                                             <span>Non-Refundable</span>
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
-
-                                                    <?php include '../sections/global/star-rating.php'; ?>
+                                                    <div class="search-rating-desktop d-none d-lg-block ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
                                                 </div><!-- listing-right-top -->
-                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
-                                                    <div class="d-flex flex-column">
+                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between gap-5 gap-lg-0 mt-4 mt-lg-0">
+                                                    <div class="d-flex flex-column search-per-night">
                                                         <span class="txt-gray">
                                                             £60.95 Per Night
                                                         </span>
@@ -358,7 +377,7 @@
                                                         </span>
                                                     </div>
                                                     <div>
-                                                        <button class="btn btn-primary">
+                                                        <button class="btn btn-primary btn-search-select">
                                                             Select
                                                         </button>
                                                     </div>
@@ -366,6 +385,7 @@
                                             </div><!-- listing right -->
                                         </div><!-- row -->
                                     </div><!-- whitebox -->
+
                                     <div class="whiteboxbg listingbox loadmorebox">
                                         <div class="row">
                                             <div class="col-12 col-lg-4 listing-left">
@@ -373,22 +393,39 @@
                                                     <img src="<?= getBaseUrl() ?>/assets/img/hotels/listing-image.jpg" alt="">
                                                 </div>
                                             </div><!-- col -->
-                                            <div class="col-12 col-lg-3 listing-mid">
-                                                <div class="listing-mid-top">
-                                                    <h3>
-                                                        YHA London Earl’s Court - Hostel
-                                                    </h3>
-                                                    <span class="listing-location">
-                                                        London (3.11 miles)
-                                                    </span>
+                                            <div class="col-12 col-lg-3 listing-mid mt-4 mt-lg-0">
+                                                <div class="listing-mid-top d-flex d-lg-block justify-content-between">
+                                                    <div>
+                                                        <h3>
+                                                            YHA London Earl’s Court - Hostel
+                                                        </h3>
+                                                        <span class="listing-location">
+                                                            London (3.11 miles)
+                                                        </span>
+                                                    </div>
+                                                    <div class="search-rating-desktop d-lg-none ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
+
                                                 </div><!-- listing-mid-top -->
-                                                <div class="guest-score">
-                                                    4.4 Guest Score
+                                                <div class="d-flex d-lg-block gap-5">
+                                                    <div class="guest-score align-self-start">
+                                                        4.4 Guest Score
+                                                    </div>
+                                                    <div class="listing-right-top-left d-lg-none search-listing-room">
+                                                        <span>
+                                                            Standard Double Room
+                                                        </span>
+                                                        <div class="txt-gray d-flex flex-column">
+                                                            <span>Room Only</span>
+                                                            <span>Non-Refundable</span>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
                                                 <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
-                                                    <div class="listing-right-top-left">
+                                                    <div class="listing-right-top-left d-none d-lg-block">
                                                         <span>
                                                             Standard Double Room
                                                         </span>
@@ -397,11 +434,12 @@
                                                             <span>Non-Refundable</span>
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
-
-                                                    <?php include '../sections/global/star-rating.php'; ?>
+                                                    <div class="search-rating-desktop d-none d-lg-block ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
                                                 </div><!-- listing-right-top -->
-                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
-                                                    <div class="d-flex flex-column">
+                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between gap-5 gap-lg-0 mt-4 mt-lg-0">
+                                                    <div class="d-flex flex-column search-per-night">
                                                         <span class="txt-gray">
                                                             £60.95 Per Night
                                                         </span>
@@ -410,7 +448,7 @@
                                                         </span>
                                                     </div>
                                                     <div>
-                                                        <button class="btn btn-primary">
+                                                        <button class="btn btn-primary btn-search-select">
                                                             Select
                                                         </button>
                                                     </div>
@@ -418,6 +456,7 @@
                                             </div><!-- listing right -->
                                         </div><!-- row -->
                                     </div><!-- whitebox -->
+
                                     <div class="whiteboxbg listingbox loadmorebox">
                                         <div class="row">
                                             <div class="col-12 col-lg-4 listing-left">
@@ -425,22 +464,39 @@
                                                     <img src="<?= getBaseUrl() ?>/assets/img/hotels/listing-image.jpg" alt="">
                                                 </div>
                                             </div><!-- col -->
-                                            <div class="col-12 col-lg-3 listing-mid">
-                                                <div class="listing-mid-top">
-                                                    <h3>
-                                                        YHA London Earl’s Court - Hostel
-                                                    </h3>
-                                                    <span class="listing-location">
-                                                        London (3.11 miles)
-                                                    </span>
+                                            <div class="col-12 col-lg-3 listing-mid mt-4 mt-lg-0">
+                                                <div class="listing-mid-top d-flex d-lg-block justify-content-between">
+                                                    <div>
+                                                        <h3>
+                                                            YHA London Earl’s Court - Hostel
+                                                        </h3>
+                                                        <span class="listing-location">
+                                                            London (3.11 miles)
+                                                        </span>
+                                                    </div>
+                                                    <div class="search-rating-desktop d-lg-none ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
+
                                                 </div><!-- listing-mid-top -->
-                                                <div class="guest-score">
-                                                    4.4 Guest Score
+                                                <div class="d-flex d-lg-block gap-5">
+                                                    <div class="guest-score align-self-start">
+                                                        4.4 Guest Score
+                                                    </div>
+                                                    <div class="listing-right-top-left d-lg-none search-listing-room">
+                                                        <span>
+                                                            Standard Double Room
+                                                        </span>
+                                                        <div class="txt-gray d-flex flex-column">
+                                                            <span>Room Only</span>
+                                                            <span>Non-Refundable</span>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
                                                 <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
-                                                    <div class="listing-right-top-left">
+                                                    <div class="listing-right-top-left d-none d-lg-block">
                                                         <span>
                                                             Standard Double Room
                                                         </span>
@@ -449,11 +505,12 @@
                                                             <span>Non-Refundable</span>
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
-
-                                                    <?php include '../sections/global/star-rating.php'; ?>
+                                                    <div class="search-rating-desktop d-none d-lg-block ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
                                                 </div><!-- listing-right-top -->
-                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
-                                                    <div class="d-flex flex-column">
+                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between gap-5 gap-lg-0 mt-4 mt-lg-0">
+                                                    <div class="d-flex flex-column search-per-night">
                                                         <span class="txt-gray">
                                                             £60.95 Per Night
                                                         </span>
@@ -462,7 +519,7 @@
                                                         </span>
                                                     </div>
                                                     <div>
-                                                        <button class="btn btn-primary">
+                                                        <button class="btn btn-primary btn-search-select">
                                                             Select
                                                         </button>
                                                     </div>
@@ -470,6 +527,7 @@
                                             </div><!-- listing right -->
                                         </div><!-- row -->
                                     </div><!-- whitebox -->
+
                                     <div class="whiteboxbg listingbox loadmorebox">
                                         <div class="row">
                                             <div class="col-12 col-lg-4 listing-left">
@@ -477,22 +535,39 @@
                                                     <img src="<?= getBaseUrl() ?>/assets/img/hotels/listing-image.jpg" alt="">
                                                 </div>
                                             </div><!-- col -->
-                                            <div class="col-12 col-lg-3 listing-mid">
-                                                <div class="listing-mid-top">
-                                                    <h3>
-                                                        YHA London Earl’s Court - Hostel
-                                                    </h3>
-                                                    <span class="listing-location">
-                                                        London (3.11 miles)
-                                                    </span>
+                                            <div class="col-12 col-lg-3 listing-mid mt-4 mt-lg-0">
+                                                <div class="listing-mid-top d-flex d-lg-block justify-content-between">
+                                                    <div>
+                                                        <h3>
+                                                            YHA London Earl’s Court - Hostel
+                                                        </h3>
+                                                        <span class="listing-location">
+                                                            London (3.11 miles)
+                                                        </span>
+                                                    </div>
+                                                    <div class="search-rating-desktop d-lg-none ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
+
                                                 </div><!-- listing-mid-top -->
-                                                <div class="guest-score">
-                                                    4.4 Guest Score
+                                                <div class="d-flex d-lg-block gap-5">
+                                                    <div class="guest-score align-self-start">
+                                                        4.4 Guest Score
+                                                    </div>
+                                                    <div class="listing-right-top-left d-lg-none search-listing-room">
+                                                        <span>
+                                                            Standard Double Room
+                                                        </span>
+                                                        <div class="txt-gray d-flex flex-column">
+                                                            <span>Room Only</span>
+                                                            <span>Non-Refundable</span>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
                                                 <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
-                                                    <div class="listing-right-top-left">
+                                                    <div class="listing-right-top-left d-none d-lg-block">
                                                         <span>
                                                             Standard Double Room
                                                         </span>
@@ -501,11 +576,12 @@
                                                             <span>Non-Refundable</span>
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
-
-                                                    <?php include '../sections/global/star-rating.php'; ?>
+                                                    <div class="search-rating-desktop d-none d-lg-block ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
                                                 </div><!-- listing-right-top -->
-                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
-                                                    <div class="d-flex flex-column">
+                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between gap-5 gap-lg-0 mt-4 mt-lg-0">
+                                                    <div class="d-flex flex-column search-per-night">
                                                         <span class="txt-gray">
                                                             £60.95 Per Night
                                                         </span>
@@ -514,7 +590,7 @@
                                                         </span>
                                                     </div>
                                                     <div>
-                                                        <button class="btn btn-primary">
+                                                        <button class="btn btn-primary btn-search-select">
                                                             Select
                                                         </button>
                                                     </div>
@@ -522,6 +598,7 @@
                                             </div><!-- listing right -->
                                         </div><!-- row -->
                                     </div><!-- whitebox -->
+
                                     <div class="whiteboxbg listingbox loadmorebox">
                                         <div class="row">
                                             <div class="col-12 col-lg-4 listing-left">
@@ -529,22 +606,39 @@
                                                     <img src="<?= getBaseUrl() ?>/assets/img/hotels/listing-image.jpg" alt="">
                                                 </div>
                                             </div><!-- col -->
-                                            <div class="col-12 col-lg-3 listing-mid">
-                                                <div class="listing-mid-top">
-                                                    <h3>
-                                                        YHA London Earl’s Court - Hostel
-                                                    </h3>
-                                                    <span class="listing-location">
-                                                        London (3.11 miles)
-                                                    </span>
+                                            <div class="col-12 col-lg-3 listing-mid mt-4 mt-lg-0">
+                                                <div class="listing-mid-top d-flex d-lg-block justify-content-between">
+                                                    <div>
+                                                        <h3>
+                                                            YHA London Earl’s Court - Hostel
+                                                        </h3>
+                                                        <span class="listing-location">
+                                                            London (3.11 miles)
+                                                        </span>
+                                                    </div>
+                                                    <div class="search-rating-desktop d-lg-none ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
+
                                                 </div><!-- listing-mid-top -->
-                                                <div class="guest-score">
-                                                    4.4 Guest Score
+                                                <div class="d-flex d-lg-block gap-5">
+                                                    <div class="guest-score align-self-start">
+                                                        4.4 Guest Score
+                                                    </div>
+                                                    <div class="listing-right-top-left d-lg-none search-listing-room">
+                                                        <span>
+                                                            Standard Double Room
+                                                        </span>
+                                                        <div class="txt-gray d-flex flex-column">
+                                                            <span>Room Only</span>
+                                                            <span>Non-Refundable</span>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
                                                 <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
-                                                    <div class="listing-right-top-left">
+                                                    <div class="listing-right-top-left d-none d-lg-block">
                                                         <span>
                                                             Standard Double Room
                                                         </span>
@@ -553,11 +647,12 @@
                                                             <span>Non-Refundable</span>
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
-
-                                                    <?php include '../sections/global/star-rating.php'; ?>
+                                                    <div class="search-rating-desktop d-none d-lg-block ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
                                                 </div><!-- listing-right-top -->
-                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
-                                                    <div class="d-flex flex-column">
+                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between gap-5 gap-lg-0 mt-4 mt-lg-0">
+                                                    <div class="d-flex flex-column search-per-night">
                                                         <span class="txt-gray">
                                                             £60.95 Per Night
                                                         </span>
@@ -566,7 +661,7 @@
                                                         </span>
                                                     </div>
                                                     <div>
-                                                        <button class="btn btn-primary">
+                                                        <button class="btn btn-primary btn-search-select">
                                                             Select
                                                         </button>
                                                     </div>
@@ -574,6 +669,7 @@
                                             </div><!-- listing right -->
                                         </div><!-- row -->
                                     </div><!-- whitebox -->
+
                                     <div class="whiteboxbg listingbox loadmorebox">
                                         <div class="row">
                                             <div class="col-12 col-lg-4 listing-left">
@@ -581,22 +677,39 @@
                                                     <img src="<?= getBaseUrl() ?>/assets/img/hotels/listing-image.jpg" alt="">
                                                 </div>
                                             </div><!-- col -->
-                                            <div class="col-12 col-lg-3 listing-mid">
-                                                <div class="listing-mid-top">
-                                                    <h3>
-                                                        YHA London Earl’s Court - Hostel
-                                                    </h3>
-                                                    <span class="listing-location">
-                                                        London (3.11 miles)
-                                                    </span>
+                                            <div class="col-12 col-lg-3 listing-mid mt-4 mt-lg-0">
+                                                <div class="listing-mid-top d-flex d-lg-block justify-content-between">
+                                                    <div>
+                                                        <h3>
+                                                            YHA London Earl’s Court - Hostel
+                                                        </h3>
+                                                        <span class="listing-location">
+                                                            London (3.11 miles)
+                                                        </span>
+                                                    </div>
+                                                    <div class="search-rating-desktop d-lg-none ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
+
                                                 </div><!-- listing-mid-top -->
-                                                <div class="guest-score">
-                                                    4.4 Guest Score
+                                                <div class="d-flex d-lg-block gap-5">
+                                                    <div class="guest-score align-self-start">
+                                                        4.4 Guest Score
+                                                    </div>
+                                                    <div class="listing-right-top-left d-lg-none search-listing-room">
+                                                        <span>
+                                                            Standard Double Room
+                                                        </span>
+                                                        <div class="txt-gray d-flex flex-column">
+                                                            <span>Room Only</span>
+                                                            <span>Non-Refundable</span>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
                                                 <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
-                                                    <div class="listing-right-top-left">
+                                                    <div class="listing-right-top-left d-none d-lg-block">
                                                         <span>
                                                             Standard Double Room
                                                         </span>
@@ -605,11 +718,12 @@
                                                             <span>Non-Refundable</span>
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
-
-                                                    <?php include '../sections/global/star-rating.php'; ?>
+                                                    <div class="search-rating-desktop d-none d-lg-block ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
                                                 </div><!-- listing-right-top -->
-                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
-                                                    <div class="d-flex flex-column">
+                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between gap-5 gap-lg-0 mt-4 mt-lg-0">
+                                                    <div class="d-flex flex-column search-per-night">
                                                         <span class="txt-gray">
                                                             £60.95 Per Night
                                                         </span>
@@ -618,7 +732,7 @@
                                                         </span>
                                                     </div>
                                                     <div>
-                                                        <button class="btn btn-primary">
+                                                        <button class="btn btn-primary btn-search-select">
                                                             Select
                                                         </button>
                                                     </div>
@@ -626,6 +740,7 @@
                                             </div><!-- listing right -->
                                         </div><!-- row -->
                                     </div><!-- whitebox -->
+
                                     <div class="whiteboxbg listingbox loadmorebox">
                                         <div class="row">
                                             <div class="col-12 col-lg-4 listing-left">
@@ -633,22 +748,39 @@
                                                     <img src="<?= getBaseUrl() ?>/assets/img/hotels/listing-image.jpg" alt="">
                                                 </div>
                                             </div><!-- col -->
-                                            <div class="col-12 col-lg-3 listing-mid">
-                                                <div class="listing-mid-top">
-                                                    <h3>
-                                                        YHA London Earl’s Court - Hostel
-                                                    </h3>
-                                                    <span class="listing-location">
-                                                        London (3.11 miles)
-                                                    </span>
+                                            <div class="col-12 col-lg-3 listing-mid mt-4 mt-lg-0">
+                                                <div class="listing-mid-top d-flex d-lg-block justify-content-between">
+                                                    <div>
+                                                        <h3>
+                                                            YHA London Earl’s Court - Hostel
+                                                        </h3>
+                                                        <span class="listing-location">
+                                                            London (3.11 miles)
+                                                        </span>
+                                                    </div>
+                                                    <div class="search-rating-desktop d-lg-none ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
+
                                                 </div><!-- listing-mid-top -->
-                                                <div class="guest-score">
-                                                    4.4 Guest Score
+                                                <div class="d-flex d-lg-block gap-5">
+                                                    <div class="guest-score align-self-start">
+                                                        4.4 Guest Score
+                                                    </div>
+                                                    <div class="listing-right-top-left d-lg-none search-listing-room">
+                                                        <span>
+                                                            Standard Double Room
+                                                        </span>
+                                                        <div class="txt-gray d-flex flex-column">
+                                                            <span>Room Only</span>
+                                                            <span>Non-Refundable</span>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
                                                 <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
-                                                    <div class="listing-right-top-left">
+                                                    <div class="listing-right-top-left d-none d-lg-block">
                                                         <span>
                                                             Standard Double Room
                                                         </span>
@@ -657,11 +789,12 @@
                                                             <span>Non-Refundable</span>
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
-
-                                                    <?php include '../sections/global/star-rating.php'; ?>
+                                                    <div class="search-rating-desktop d-none d-lg-block ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
                                                 </div><!-- listing-right-top -->
-                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
-                                                    <div class="d-flex flex-column">
+                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between gap-5 gap-lg-0 mt-4 mt-lg-0">
+                                                    <div class="d-flex flex-column search-per-night">
                                                         <span class="txt-gray">
                                                             £60.95 Per Night
                                                         </span>
@@ -670,7 +803,7 @@
                                                         </span>
                                                     </div>
                                                     <div>
-                                                        <button class="btn btn-primary">
+                                                        <button class="btn btn-primary btn-search-select">
                                                             Select
                                                         </button>
                                                     </div>
@@ -678,6 +811,7 @@
                                             </div><!-- listing right -->
                                         </div><!-- row -->
                                     </div><!-- whitebox -->
+
                                     <div class="whiteboxbg listingbox loadmorebox">
                                         <div class="row">
                                             <div class="col-12 col-lg-4 listing-left">
@@ -685,22 +819,39 @@
                                                     <img src="<?= getBaseUrl() ?>/assets/img/hotels/listing-image.jpg" alt="">
                                                 </div>
                                             </div><!-- col -->
-                                            <div class="col-12 col-lg-3 listing-mid">
-                                                <div class="listing-mid-top">
-                                                    <h3>
-                                                        YHA London Earl’s Court - Hostel
-                                                    </h3>
-                                                    <span class="listing-location">
-                                                        London (3.11 miles)
-                                                    </span>
+                                            <div class="col-12 col-lg-3 listing-mid mt-4 mt-lg-0">
+                                                <div class="listing-mid-top d-flex d-lg-block justify-content-between">
+                                                    <div>
+                                                        <h3>
+                                                            YHA London Earl’s Court - Hostel
+                                                        </h3>
+                                                        <span class="listing-location">
+                                                            London (3.11 miles)
+                                                        </span>
+                                                    </div>
+                                                    <div class="search-rating-desktop d-lg-none ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
+
                                                 </div><!-- listing-mid-top -->
-                                                <div class="guest-score">
-                                                    4.4 Guest Score
+                                                <div class="d-flex d-lg-block gap-5">
+                                                    <div class="guest-score align-self-start">
+                                                        4.4 Guest Score
+                                                    </div>
+                                                    <div class="listing-right-top-left d-lg-none search-listing-room">
+                                                        <span>
+                                                            Standard Double Room
+                                                        </span>
+                                                        <div class="txt-gray d-flex flex-column">
+                                                            <span>Room Only</span>
+                                                            <span>Non-Refundable</span>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
                                                 <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
-                                                    <div class="listing-right-top-left">
+                                                    <div class="listing-right-top-left d-none d-lg-block">
                                                         <span>
                                                             Standard Double Room
                                                         </span>
@@ -709,11 +860,12 @@
                                                             <span>Non-Refundable</span>
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
-
-                                                    <?php include '../sections/global/star-rating.php'; ?>
+                                                    <div class="search-rating-desktop d-none d-lg-block ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
                                                 </div><!-- listing-right-top -->
-                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
-                                                    <div class="d-flex flex-column">
+                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between gap-5 gap-lg-0 mt-4 mt-lg-0">
+                                                    <div class="d-flex flex-column search-per-night">
                                                         <span class="txt-gray">
                                                             £60.95 Per Night
                                                         </span>
@@ -722,7 +874,7 @@
                                                         </span>
                                                     </div>
                                                     <div>
-                                                        <button class="btn btn-primary">
+                                                        <button class="btn btn-primary btn-search-select">
                                                             Select
                                                         </button>
                                                     </div>
@@ -730,6 +882,7 @@
                                             </div><!-- listing right -->
                                         </div><!-- row -->
                                     </div><!-- whitebox -->
+
                                     <div class="whiteboxbg listingbox loadmorebox">
                                         <div class="row">
                                             <div class="col-12 col-lg-4 listing-left">
@@ -737,22 +890,39 @@
                                                     <img src="<?= getBaseUrl() ?>/assets/img/hotels/listing-image.jpg" alt="">
                                                 </div>
                                             </div><!-- col -->
-                                            <div class="col-12 col-lg-3 listing-mid">
-                                                <div class="listing-mid-top">
-                                                    <h3>
-                                                        YHA London Earl’s Court - Hostel
-                                                    </h3>
-                                                    <span class="listing-location">
-                                                        London (3.11 miles)
-                                                    </span>
+                                            <div class="col-12 col-lg-3 listing-mid mt-4 mt-lg-0">
+                                                <div class="listing-mid-top d-flex d-lg-block justify-content-between">
+                                                    <div>
+                                                        <h3>
+                                                            YHA London Earl’s Court - Hostel
+                                                        </h3>
+                                                        <span class="listing-location">
+                                                            London (3.11 miles)
+                                                        </span>
+                                                    </div>
+                                                    <div class="search-rating-desktop d-lg-none ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
+
                                                 </div><!-- listing-mid-top -->
-                                                <div class="guest-score">
-                                                    4.4 Guest Score
+                                                <div class="d-flex d-lg-block gap-5">
+                                                    <div class="guest-score align-self-start">
+                                                        4.4 Guest Score
+                                                    </div>
+                                                    <div class="listing-right-top-left d-lg-none search-listing-room">
+                                                        <span>
+                                                            Standard Double Room
+                                                        </span>
+                                                        <div class="txt-gray d-flex flex-column">
+                                                            <span>Room Only</span>
+                                                            <span>Non-Refundable</span>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
                                                 <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
-                                                    <div class="listing-right-top-left">
+                                                    <div class="listing-right-top-left d-none d-lg-block">
                                                         <span>
                                                             Standard Double Room
                                                         </span>
@@ -761,11 +931,12 @@
                                                             <span>Non-Refundable</span>
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
-
-                                                    <?php include '../sections/global/star-rating.php'; ?>
+                                                    <div class="search-rating-desktop d-none d-lg-block ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
                                                 </div><!-- listing-right-top -->
-                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
-                                                    <div class="d-flex flex-column">
+                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between gap-5 gap-lg-0 mt-4 mt-lg-0">
+                                                    <div class="d-flex flex-column search-per-night">
                                                         <span class="txt-gray">
                                                             £60.95 Per Night
                                                         </span>
@@ -774,7 +945,7 @@
                                                         </span>
                                                     </div>
                                                     <div>
-                                                        <button class="btn btn-primary">
+                                                        <button class="btn btn-primary btn-search-select">
                                                             Select
                                                         </button>
                                                     </div>
@@ -782,6 +953,7 @@
                                             </div><!-- listing right -->
                                         </div><!-- row -->
                                     </div><!-- whitebox -->
+
                                     <div class="whiteboxbg listingbox loadmorebox">
                                         <div class="row">
                                             <div class="col-12 col-lg-4 listing-left">
@@ -789,22 +961,39 @@
                                                     <img src="<?= getBaseUrl() ?>/assets/img/hotels/listing-image.jpg" alt="">
                                                 </div>
                                             </div><!-- col -->
-                                            <div class="col-12 col-lg-3 listing-mid">
-                                                <div class="listing-mid-top">
-                                                    <h3>
-                                                        YHA London Earl’s Court - Hostel
-                                                    </h3>
-                                                    <span class="listing-location">
-                                                        London (3.11 miles)
-                                                    </span>
+                                            <div class="col-12 col-lg-3 listing-mid mt-4 mt-lg-0">
+                                                <div class="listing-mid-top d-flex d-lg-block justify-content-between">
+                                                    <div>
+                                                        <h3>
+                                                            YHA London Earl’s Court - Hostel
+                                                        </h3>
+                                                        <span class="listing-location">
+                                                            London (3.11 miles)
+                                                        </span>
+                                                    </div>
+                                                    <div class="search-rating-desktop d-lg-none ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
+
                                                 </div><!-- listing-mid-top -->
-                                                <div class="guest-score">
-                                                    4.4 Guest Score
+                                                <div class="d-flex d-lg-block gap-5">
+                                                    <div class="guest-score align-self-start">
+                                                        4.4 Guest Score
+                                                    </div>
+                                                    <div class="listing-right-top-left d-lg-none search-listing-room">
+                                                        <span>
+                                                            Standard Double Room
+                                                        </span>
+                                                        <div class="txt-gray d-flex flex-column">
+                                                            <span>Room Only</span>
+                                                            <span>Non-Refundable</span>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
                                                 <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
-                                                    <div class="listing-right-top-left">
+                                                    <div class="listing-right-top-left d-none d-lg-block">
                                                         <span>
                                                             Standard Double Room
                                                         </span>
@@ -813,11 +1002,12 @@
                                                             <span>Non-Refundable</span>
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
-
-                                                    <?php include '../sections/global/star-rating.php'; ?>
+                                                    <div class="search-rating-desktop d-none d-lg-block ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
                                                 </div><!-- listing-right-top -->
-                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
-                                                    <div class="d-flex flex-column">
+                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between gap-5 gap-lg-0 mt-4 mt-lg-0">
+                                                    <div class="d-flex flex-column search-per-night">
                                                         <span class="txt-gray">
                                                             £60.95 Per Night
                                                         </span>
@@ -826,7 +1016,7 @@
                                                         </span>
                                                     </div>
                                                     <div>
-                                                        <button class="btn btn-primary">
+                                                        <button class="btn btn-primary btn-search-select">
                                                             Select
                                                         </button>
                                                     </div>
@@ -834,6 +1024,7 @@
                                             </div><!-- listing right -->
                                         </div><!-- row -->
                                     </div><!-- whitebox -->
+
                                     <div class="whiteboxbg listingbox loadmorebox">
                                         <div class="row">
                                             <div class="col-12 col-lg-4 listing-left">
@@ -841,22 +1032,39 @@
                                                     <img src="<?= getBaseUrl() ?>/assets/img/hotels/listing-image.jpg" alt="">
                                                 </div>
                                             </div><!-- col -->
-                                            <div class="col-12 col-lg-3 listing-mid">
-                                                <div class="listing-mid-top">
-                                                    <h3>
-                                                        YHA London Earl’s Court - Hostel
-                                                    </h3>
-                                                    <span class="listing-location">
-                                                        London (3.11 miles)
-                                                    </span>
+                                            <div class="col-12 col-lg-3 listing-mid mt-4 mt-lg-0">
+                                                <div class="listing-mid-top d-flex d-lg-block justify-content-between">
+                                                    <div>
+                                                        <h3>
+                                                            YHA London Earl’s Court - Hostel
+                                                        </h3>
+                                                        <span class="listing-location">
+                                                            London (3.11 miles)
+                                                        </span>
+                                                    </div>
+                                                    <div class="search-rating-desktop d-lg-none ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
+
                                                 </div><!-- listing-mid-top -->
-                                                <div class="guest-score">
-                                                    4.4 Guest Score
+                                                <div class="d-flex d-lg-block gap-5">
+                                                    <div class="guest-score align-self-start">
+                                                        4.4 Guest Score
+                                                    </div>
+                                                    <div class="listing-right-top-left d-lg-none search-listing-room">
+                                                        <span>
+                                                            Standard Double Room
+                                                        </span>
+                                                        <div class="txt-gray d-flex flex-column">
+                                                            <span>Room Only</span>
+                                                            <span>Non-Refundable</span>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div><!-- col -->
                                             <div class="col-12 offset-lg-1 col-lg-4 listing-right d-flex flex-lg-column justify-content-lg-between">
                                                 <div class="listing-right-top d-flex align-items-start justify-content-lg-between">
-                                                    <div class="listing-right-top-left">
+                                                    <div class="listing-right-top-left d-none d-lg-block">
                                                         <span>
                                                             Standard Double Room
                                                         </span>
@@ -865,11 +1073,12 @@
                                                             <span>Non-Refundable</span>
                                                         </div>
                                                     </div><!-- listing-right-top-left -->
-
-                                                    <?php include '../sections/global/star-rating.php'; ?>
+                                                    <div class="search-rating-desktop d-none d-lg-block ">
+                                                        <?php include '../sections/global/star-rating.php'; ?>
+                                                    </div>
                                                 </div><!-- listing-right-top -->
-                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between">
-                                                    <div class="d-flex flex-column">
+                                                <div class="listing-right-bottom d-flex align-items-center justify-content-lg-between gap-5 gap-lg-0 mt-4 mt-lg-0">
+                                                    <div class="d-flex flex-column search-per-night">
                                                         <span class="txt-gray">
                                                             £60.95 Per Night
                                                         </span>
@@ -878,7 +1087,7 @@
                                                         </span>
                                                     </div>
                                                     <div>
-                                                        <button class="btn btn-primary">
+                                                        <button class="btn btn-primary btn-search-select">
                                                             Select
                                                         </button>
                                                     </div>
@@ -886,10 +1095,13 @@
                                             </div><!-- listing right -->
                                         </div><!-- row -->
                                     </div><!-- whitebox -->
+
+
+
                                 </div><!-- load moreboxes wrap -->
                             </form>
 
-                            <div class="loadmore-nav mx-auto mt-5">
+                            <div class="loadmore-nav mx-auto my-5">
                                 <div class="loadmore-navdetails">
                                     1-<span class="loadmore-number"></span>
                                     of
@@ -1117,12 +1329,17 @@
                                             <span>${hotel.guestScore} Guest Score</span>
                                         </div>
                                         <div class="content">
+                                        <div class="d-flex d-lg-block justify-content-between">
                                             <h5>${hotel.title}</h5>
+                                                <div class="rate popup-rate d-lg-none d-flex  align-items-center">
+                                                    5 <i class="fa-solid fa-star"></i>
+                                                </div>
+                                        </div>
                                             <p class="hotel-location">${hotel.location}</p>
                                             <hr>
                                             <div class="mid">
                                                 <h6>${hotel.hotelType}</h6>
-                                                <div class="rate">
+                                                <div class="rate d-none d-lg-flex">
                                                     5 <i class="fa-solid fa-star"></i>
                                                 </div>
                                             </div>
@@ -1150,99 +1367,142 @@
     </script>
 
 
-<style>
-    .leaflet-popup-content{
-        width: 500px;
-    }
-    .popup-map .mid h6 {
-        font-size: 14px;
-    }
-    .popup-map *{
-        margin: 0;
-        padding: 0;
-    }
-    .popup-map p{
-        margin: 0;
-        padding: 0;
-        color: #9f9c9c;
-        font-weight: 500;
-    }
-    .popup-map {
-        width: 100%;
-        display: flex;
-        column-gap: 15px;
-        align-items: center;
-    }
-    .popup-map .img {
-    width: 50%;
-    position: relative;
-    border-radius: 5px;
-    overflow: hidden;
-}
-    .popup-map .img span{
-        position: absolute;
-        left: 5px;
-        top: 5px;
-        background: #ffee57;
-        color: #052e5a;
-        font-size: 11px;
-        padding: 8px 14px;
-        font-weight: 500;
-        border-radius: 30px;
-    }
-    .popup-map .img img{
-        width: 300px;
-        height: 200px;
-        object-fit: cover;
-    }
-    .popup-map .content{
-        width: 50%;
-    }
-    .popup-map .content h5{
-        font-size: 20px;
-        font-weight: 600;
-        color: #052e5a;
-    }
-    .popup-map .content hr{
-        margin: 13px 0;
-    }
-    .popup-map .content .mid,
-    .popup-map .content .bottom-text
-    {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .popup-map .content .mid .rate {
-        color: #2ca5d0;
-        font-size: 15px;
-        display: flex;
-        align-items: center;
-        gap: 4px;
-        font-weight: 600;
-    }
-    .popup-map .content .bottom-text h2{
-        font-size: 25px;
-        color: #052e5a;
-    }
-    .popup-map .content .bottom-text a {
-        font-size: 15px;
-        color: #FFFFFF;
-        background: #621192;
-        padding: 12px 18px;
-        border-radius: 5px;
-        font-weight: 600;
-    }
-    .popup-map .hotel-location {
-        color: #232323;
-        font-size: 12px;
-        margin-top: 3px;
-    }
-    .leaflet-marker-icon.leaflet-interactive {
-        width: 27px !important;
-        height: 33px !important;
-    }
-</style>
+    <style>
+        .leaflet-popup-content {
+            width: 500px;
+        }
+
+        .popup-map .mid h6 {
+            font-size: 14px;
+        }
+
+        .popup-map * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .popup-map p {
+            margin: 0;
+            padding: 0;
+            color: #9f9c9c;
+            font-weight: 500;
+        }
+
+        .popup-map {
+            width: 100%;
+            display: flex;
+            column-gap: 15px;
+            align-items: center;
+        }
+
+        .popup-map .img {
+            width: 50%;
+            position: relative;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .popup-map .img span {
+            position: absolute;
+            left: 5px;
+            top: 5px;
+            background: #ffee57;
+            color: #052e5a;
+            font-size: 11px;
+            padding: 8px 14px;
+            font-weight: 500;
+            border-radius: 30px;
+        }
+
+        .popup-map .img img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .popup-map .content {
+            width: 50%;
+        }
+
+        .popup-map .content h5 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #052e5a;
+        }
+
+        .popup-map .content hr {
+            margin: 13px 0;
+        }
+
+        .popup-map .content .mid,
+        .popup-map .content .bottom-text {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .popup-map .content .mid .rate {
+            color: #2ca5d0;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-weight: 600;
+        }
+
+        .popup-map .content .bottom-text h2 {
+            font-size: 25px;
+            color: #052e5a;
+        }
+
+        .popup-map .content .bottom-text a {
+            font-size: 15px;
+            color: #FFFFFF;
+            background: #621192;
+            padding: 12px 18px;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+
+        .popup-map .hotel-location {
+            color: #232323;
+            font-size: 12px;
+            margin-top: 3px;
+        }
+
+        .leaflet-marker-icon.leaflet-interactive {
+            width: 27px !important;
+            height: 33px !important;
+        }
+
+        /* Popup Search Map */
+
+        @media (max-width: 991px) {
+
+            .leaflet-popup-content {
+                margin: 25px;
+                width: 300px;
+            }
+
+            .popup-map .img {
+                width: 100%;
+            }
+
+            .popup-map {
+                flex-direction: column;
+            }
+
+            .popup-map .content {
+                width: 100%;
+            }
+
+            .popup-map .content h5 {
+                margin-top: 1rem;
+            }
+
+
+        }
+    </style>
 </body>
 
 </html>

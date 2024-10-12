@@ -1,0 +1,145 @@
+/* Flight page css */
+
+/* TABLE AREA */
+.seatmap-table {
+  display: flex;
+  justify-content: center;
+}
+.price,
+.price-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1px;
+  font-weight: bold;
+  border-radius: 3px;
+  width: 45px;
+}
+
+@media screen and (max-width: 420px) {
+  .seatmap-legend-box {
+    display: block;
+  }
+  td img {
+    width: 40px !important;
+    height: auto !important;
+  }
+  .price,
+  .price-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 !important;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 10px !important;
+    width: 25px !important;
+  }
+  .flights-main {
+    padding: 0;
+  }
+  .seatmap-table {
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    display: block;
+  }
+  .legend-img {
+    width: 25px;
+    height: auto;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .price,
+  .price-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1px;
+    font-weight: bold;
+    border-radius: 3px;
+    width: 30px;
+    font-size: 10px;
+  }
+  td img {
+    width: 50px;
+    height: 50px;
+    max-width: none;
+  }
+  .exit {
+    color: rgb(157, 115, 197);
+    font-size: 20px;
+    padding: 10px 0;
+    display: block;
+  }
+}
+/* SEARCH FLIGHT */
+/* .fb-inner-left,.fb-inner-right
+{display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center !important;
+margin: 1rem 0 1rem;} */
+.flighttime-2,
+.flighttime-b {
+  display: none;
+}
+br {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .flighttime-2 {
+    display: flex;
+  }
+
+  .flighttime-b {
+    display: flex;
+    justify-content: end;
+  }
+
+  .flighttime-1 {
+    display: none;
+  }
+
+  br {
+    display: flex;
+  }
+}
+
+/* Hotel page css */
+
+@media (max-width: 992px) {
+  .search-listing-room {
+    margin-top: 15px;
+  }
+
+  .search-per-night {
+    min-width: 121.42px;
+  }
+
+  .btn-search-select {
+    width: 125px;
+  }
+
+  .popup-rate {
+    color: #2ca5d0;
+    margin-top: 1rem !important;
+    font-size: 15px;
+    font-weight: 600;
+    gap: 4px;
+    line-height: 1.1;
+  }
+}
+
+@media (max-width: 470px) {
+  .hotel-individual .tp-table td {
+    padding: 10px !important;
+    font-size: 11px;
+  }
+}

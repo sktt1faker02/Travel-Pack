@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/sidebar.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/main-hotels.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/mediaqueries.css">
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/michael.css">
+
 
     <link rel="apple-touch-icon" sizes="180x180" href="<?= getBaseUrl() ?>/assets/img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="<?= getBaseUrl() ?>/assets/img/favicon/favicon-32x32.png">
@@ -33,7 +35,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body class="hotel-individual">
     <div id="nohero-inner">
         <?php include '../sections/global/header-nav.php'; ?>
     </div><!-- main hero -->
@@ -465,7 +467,7 @@
                                 <div class="col-12 col-lg-8 hotel-rooms-box-right d-flex flex-column justify-content-between">
                                     <div class="hotel-rooms-box-righttop row align-items-center">
                                         <div class="hotelrooms-name col-12 col-md-7">
-                                            <h5 class="fontfam2">
+                                            <h5 class="fontfam2 mt-4 mt-lg-0">
                                                 Standard Room
                                             </h5>
                                             <span class="small txt-black">
@@ -541,7 +543,7 @@
                                 <div class="col-12 col-lg-8 hotel-rooms-box-right d-flex flex-column justify-content-between">
                                     <div class="hotel-rooms-box-righttop row align-items-center">
                                         <div class="hotelrooms-name col-12 col-md-7">
-                                            <h5 class="fontfam2">
+                                            <h5 class="fontfam2 mt-4 mt-lg-0">
                                                 Standard Room
                                             </h5>
                                             <span class="small txt-black">
@@ -627,7 +629,7 @@
                                 <div class="col-12 col-lg-8 hotel-rooms-box-right d-flex flex-column justify-content-between">
                                     <div class="hotel-rooms-box-righttop row align-items-center">
                                         <div class="hotelrooms-name col-12 col-md-7">
-                                            <h5 class="fontfam2">
+                                            <h5 class="fontfam2 mt-4 mt-lg-0">
                                                 Standard Room
                                             </h5>
                                             <span class="small txt-black">
@@ -744,7 +746,7 @@
                                 <div class="col-12 col-lg-8 hotel-rooms-box-right d-flex flex-column justify-content-between">
                                     <div class="hotel-rooms-box-righttop row align-items-center">
                                         <div class="hotelrooms-name col-12 col-md-7">
-                                            <h5 class="fontfam2">
+                                            <h5 class="fontfam2 mt-4 mt-lg-0">
                                                 Standard Room
                                             </h5>
                                             <span class="small txt-black">
@@ -820,7 +822,7 @@
                                 <div class="col-12 col-lg-8 hotel-rooms-box-right d-flex flex-column justify-content-between">
                                     <div class="hotel-rooms-box-righttop row align-items-center">
                                         <div class="hotelrooms-name col-12 col-md-7">
-                                            <h5 class="fontfam2">
+                                            <h5 class="fontfam2 mt-4 mt-lg-0">
                                                 Standard Room
                                             </h5>
                                             <span class="small txt-black">
@@ -906,7 +908,7 @@
                                 <div class="col-12 col-lg-8 hotel-rooms-box-right d-flex flex-column justify-content-between">
                                     <div class="hotel-rooms-box-righttop row align-items-center">
                                         <div class="hotelrooms-name col-12 col-md-7">
-                                            <h5 class="fontfam2">
+                                            <h5 class="fontfam2 mt-4 mt-lg-0">
                                                 Standard Room
                                             </h5>
                                             <span class="small txt-black">
@@ -1023,7 +1025,7 @@
                                 <div class="col-12 col-lg-8 hotel-rooms-box-right d-flex flex-column justify-content-between">
                                     <div class="hotel-rooms-box-righttop row align-items-center">
                                         <div class="hotelrooms-name col-12 col-md-7">
-                                            <h5 class="fontfam2">
+                                            <h5 class="fontfam2 mt-4 mt-lg-0">
                                                 Standard Room
                                             </h5>
                                             <span class="small txt-black">
@@ -1099,7 +1101,7 @@
                                 <div class="col-12 col-lg-8 hotel-rooms-box-right d-flex flex-column justify-content-between">
                                     <div class="hotel-rooms-box-righttop row align-items-center">
                                         <div class="hotelrooms-name col-12 col-md-7">
-                                            <h5 class="fontfam2">
+                                            <h5 class="fontfam2 mt-4 mt-lg-0">
                                                 Standard Room
                                             </h5>
                                             <span class="small txt-black">
@@ -1185,7 +1187,7 @@
                                 <div class="col-12 col-lg-8 hotel-rooms-box-right d-flex flex-column justify-content-between">
                                     <div class="hotel-rooms-box-righttop row align-items-center">
                                         <div class="hotelrooms-name col-12 col-md-7">
-                                            <h5 class="fontfam2">
+                                            <h5 class="fontfam2 mt-4 mt-lg-0">
                                                 Standard Room
                                             </h5>
                                             <span class="small txt-black">

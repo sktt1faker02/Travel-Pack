@@ -33,6 +33,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+
+
+    <!-- custom styles -->
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/michael.css">
+
 </head>
 
 <body>
@@ -438,14 +443,14 @@
                         <div class="flights-main loadmorebox">
                             <div class="flights-box">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
+                                    <div class="col-5 col-lg-2">
                                         <div class="airline-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-10 flightbox-left">
                                         <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                            <div class="col-4 col-lg-3 fb-inner-left">
                                                 <h4>LGW</h4>
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
@@ -455,19 +460,20 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-2">14:55</div>
                                                 </div>
                                             </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
+                                            <div class="col-4 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime flighttime-1">14:55</div>
                                                 <div class="flightduration text-center">
                                                     <div class="fw-semibold">
                                                         4 Stops
                                                     </div>
-                                                    10hrs,30mins
+                                                    10hrs,<br>30mins
                                                 </div>
-                                                <div class="flighttime">18:55</div>
+                                                <div class="flighttime flighttime-1">18:55</div>
                                             </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                            <div class="col-4 col-lg-3 fb-inner-right text-end">
                                                 <h4>AUH</h4>
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
@@ -477,6 +483,7 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-b">18:55</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -485,14 +492,14 @@
                             </div><!-- flights box -->
                             <div class="flights-box">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
+                                    <div class="col-5 col-lg-2">
                                         <div class="airline-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-10 flightbox-left">
                                         <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                            <div class="col-4 col-lg-3 fb-inner-left">
                                                 <h4>AUH</h4>
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
@@ -502,19 +509,20 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-2">14:55</div>
                                                 </div>
                                             </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
+                                            <div class="col-4 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime flighttime-1">14:55</div>
                                                 <div class="flightduration text-center">
                                                     <div class="fw-semibold">
                                                         4 Stops
                                                     </div>
-                                                    10hrs,30mins
+                                                    10hrs,<br>30mins
                                                 </div>
-                                                <div class="flighttime">18:55</div>
+                                                <div class="flighttime flighttime-1">18:55</div>
                                             </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                            <div class="col-4 col-lg-3 fb-inner-right text-end">
                                                 <h4>XNB</h4>
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
@@ -524,6 +532,7 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-b">18:55</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -823,14 +832,14 @@
                         <div class="flights-main loadmorebox">
                             <div class="flights-box">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
+                                    <div class="col-5 col-lg-2">
                                         <div class="airline-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-10 flightbox-left">
                                         <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                            <div class="col-4 col-lg-3 fb-inner-left">
                                                 <h4>LGW</h4>
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
@@ -840,19 +849,20 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-2">14:55</div>
                                                 </div>
                                             </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
+                                            <div class="col-4 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime flighttime-1">14:55</div>
                                                 <div class="flightduration text-center">
                                                     <div class="fw-semibold">
                                                         4 Stops
                                                     </div>
-                                                    10hrs,30mins
+                                                    10hrs,<br>30mins
                                                 </div>
-                                                <div class="flighttime">18:55</div>
+                                                <div class="flighttime flighttime-1">18:55</div>
                                             </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                            <div class="col-4 col-lg-3 fb-inner-right text-end">
                                                 <h4>AUH</h4>
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
@@ -862,6 +872,7 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-b">18:55</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -870,14 +881,14 @@
                             </div><!-- flights box -->
                             <div class="flights-box">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
+                                    <div class="col-5 col-lg-2">
                                         <div class="airline-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-10 flightbox-left">
                                         <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                            <div class="col-4 col-lg-3 fb-inner-left">
                                                 <h4>AUH</h4>
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
@@ -887,19 +898,20 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-2">14:55</div>
                                                 </div>
                                             </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
+                                            <div class="col-4 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime flighttime-1">14:55</div>
                                                 <div class="flightduration text-center">
                                                     <div class="fw-semibold">
                                                         4 Stops
                                                     </div>
-                                                    10hrs,30mins
+                                                    10hrs,<br>30mins
                                                 </div>
-                                                <div class="flighttime">18:55</div>
+                                                <div class="flighttime flighttime-1">18:55</div>
                                             </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                            <div class="col-4 col-lg-3 fb-inner-right text-end">
                                                 <h4>XNB</h4>
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
@@ -909,6 +921,7 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-b">18:55</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1208,14 +1221,14 @@
                         <div class="flights-main loadmorebox">
                             <div class="flights-box">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
+                                    <div class="col-5 col-lg-2">
                                         <div class="airline-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-10 flightbox-left">
                                         <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                            <div class="col-4 col-lg-3 fb-inner-left">
                                                 <h4>LGW</h4>
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
@@ -1225,19 +1238,20 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-2">14:55</div>
                                                 </div>
                                             </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
+                                            <div class="col-4 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime flighttime-1">14:55</div>
                                                 <div class="flightduration text-center">
                                                     <div class="fw-semibold">
                                                         4 Stops
                                                     </div>
-                                                    10hrs,30mins
+                                                    10hrs,<br>30mins
                                                 </div>
-                                                <div class="flighttime">18:55</div>
+                                                <div class="flighttime flighttime-1">18:55</div>
                                             </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                            <div class="col-4 col-lg-3 fb-inner-right text-end">
                                                 <h4>AUH</h4>
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
@@ -1247,6 +1261,7 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-b">18:55</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1255,14 +1270,14 @@
                             </div><!-- flights box -->
                             <div class="flights-box">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
+                                    <div class="col-5 col-lg-2">
                                         <div class="airline-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-10 flightbox-left">
                                         <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                            <div class="col-4 col-lg-3 fb-inner-left">
                                                 <h4>AUH</h4>
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
@@ -1272,19 +1287,20 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-2">14:55</div>
                                                 </div>
                                             </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
+                                            <div class="col-4 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime flighttime-1">14:55</div>
                                                 <div class="flightduration text-center">
                                                     <div class="fw-semibold">
                                                         4 Stops
                                                     </div>
-                                                    10hrs,30mins
+                                                    10hrs,<br>30mins
                                                 </div>
-                                                <div class="flighttime">18:55</div>
+                                                <div class="flighttime flighttime-1">18:55</div>
                                             </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                            <div class="col-4 col-lg-3 fb-inner-right text-end">
                                                 <h4>XNB</h4>
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
@@ -1294,6 +1310,7 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-b">18:55</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1593,14 +1610,14 @@
                         <div class="flights-main loadmorebox">
                             <div class="flights-box">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
+                                    <div class="col-5 col-lg-2">
                                         <div class="airline-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-10 flightbox-left">
                                         <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                            <div class="col-4 col-lg-3 fb-inner-left">
                                                 <h4>LGW</h4>
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
@@ -1610,19 +1627,20 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-2">14:55</div>
                                                 </div>
                                             </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
+                                            <div class="col-4 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime flighttime-1">14:55</div>
                                                 <div class="flightduration text-center">
                                                     <div class="fw-semibold">
                                                         4 Stops
                                                     </div>
-                                                    10hrs,30mins
+                                                    10hrs,<br>30mins
                                                 </div>
-                                                <div class="flighttime">18:55</div>
+                                                <div class="flighttime flighttime-1">18:55</div>
                                             </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                            <div class="col-4 col-lg-3 fb-inner-right text-end">
                                                 <h4>AUH</h4>
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
@@ -1632,6 +1650,7 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-b">18:55</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1640,14 +1659,14 @@
                             </div><!-- flights box -->
                             <div class="flights-box">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
+                                    <div class="col-5 col-lg-2">
                                         <div class="airline-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-10 flightbox-left">
                                         <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                            <div class="col-4 col-lg-3 fb-inner-left">
                                                 <h4>AUH</h4>
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
@@ -1657,19 +1676,20 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-2">14:55</div>
                                                 </div>
                                             </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
+                                            <div class="col-4 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime flighttime-1">14:55</div>
                                                 <div class="flightduration text-center">
                                                     <div class="fw-semibold">
                                                         4 Stops
                                                     </div>
-                                                    10hrs,30mins
+                                                    10hrs,<br>30mins
                                                 </div>
-                                                <div class="flighttime">18:55</div>
+                                                <div class="flighttime flighttime-1">18:55</div>
                                             </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                            <div class="col-4 col-lg-3 fb-inner-right text-end">
                                                 <h4>XNB</h4>
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
@@ -1679,6 +1699,7 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-b">18:55</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1978,14 +1999,14 @@
                         <div class="flights-main loadmorebox">
                             <div class="flights-box">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
+                                    <div class="col-5 col-lg-2">
                                         <div class="airline-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-10 flightbox-left">
                                         <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                            <div class="col-4 col-lg-3 fb-inner-left">
                                                 <h4>LGW</h4>
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
@@ -1995,19 +2016,20 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-2">14:55</div>
                                                 </div>
                                             </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
+                                            <div class="col-4 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime flighttime-1">14:55</div>
                                                 <div class="flightduration text-center">
                                                     <div class="fw-semibold">
                                                         4 Stops
                                                     </div>
-                                                    10hrs,30mins
+                                                    10hrs,<br>30mins
                                                 </div>
-                                                <div class="flighttime">18:55</div>
+                                                <div class="flighttime flighttime-1">18:55</div>
                                             </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                            <div class="col-4 col-lg-3 fb-inner-right text-end">
                                                 <h4>AUH</h4>
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
@@ -2017,6 +2039,7 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-b">18:55</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -2025,14 +2048,14 @@
                             </div><!-- flights box -->
                             <div class="flights-box">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
+                                    <div class="col-5 col-lg-2">
                                         <div class="airline-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-10 flightbox-left">
                                         <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                            <div class="col-4 col-lg-3 fb-inner-left">
                                                 <h4>AUH</h4>
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
@@ -2042,19 +2065,20 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-2">14:55</div>
                                                 </div>
                                             </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
+                                            <div class="col-4 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime flighttime-1">14:55</div>
                                                 <div class="flightduration text-center">
                                                     <div class="fw-semibold">
                                                         4 Stops
                                                     </div>
-                                                    10hrs,30mins
+                                                    10hrs,<br>30mins
                                                 </div>
-                                                <div class="flighttime">18:55</div>
+                                                <div class="flighttime flighttime-1">18:55</div>
                                             </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                            <div class="col-4 col-lg-3 fb-inner-right text-end">
                                                 <h4>XNB</h4>
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
@@ -2064,6 +2088,7 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-b">18:55</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -2363,14 +2388,14 @@
                         <div class="flights-main loadmorebox">
                             <div class="flights-box">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
+                                    <div class="col-5 col-lg-2">
                                         <div class="airline-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-10 flightbox-left">
                                         <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                            <div class="col-4 col-lg-3 fb-inner-left">
                                                 <h4>LGW</h4>
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
@@ -2380,19 +2405,20 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-2">14:55</div>
                                                 </div>
                                             </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
+                                            <div class="col-4 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime flighttime-1">14:55</div>
                                                 <div class="flightduration text-center">
                                                     <div class="fw-semibold">
                                                         4 Stops
                                                     </div>
-                                                    10hrs,30mins
+                                                    10hrs,<br>30mins
                                                 </div>
-                                                <div class="flighttime">18:55</div>
+                                                <div class="flighttime flighttime-1">18:55</div>
                                             </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                            <div class="col-4 col-lg-3 fb-inner-right text-end">
                                                 <h4>AUH</h4>
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
@@ -2402,6 +2428,7 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-b">18:55</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -2410,14 +2437,14 @@
                             </div><!-- flights box -->
                             <div class="flights-box">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-lg-2">
+                                    <div class="col-5 col-lg-2">
                                         <div class="airline-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/flights/flightlogo2.png" alt="">
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-10 flightbox-left">
                                         <div class="row mt-2 align-items-center">
-                                            <div class="col-12 col-lg-3 fb-inner-left">
+                                            <div class="col-4 col-lg-3 fb-inner-left">
                                                 <h4>AUH</h4>
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
@@ -2427,19 +2454,20 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-2">14:55</div>
                                                 </div>
                                             </div>
-                                            <div class="col-12 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
-                                                <div class="flighttime">14:55</div>
+                                            <div class="col-4 col-lg-5 fb-inner-mid d-flex align-items-center justify-content-center">
+                                                <div class="flighttime flighttime-1">14:55</div>
                                                 <div class="flightduration text-center">
                                                     <div class="fw-semibold">
                                                         4 Stops
                                                     </div>
-                                                    10hrs,30mins
+                                                    10hrs,<br>30mins
                                                 </div>
-                                                <div class="flighttime">18:55</div>
+                                                <div class="flighttime flighttime-1">18:55</div>
                                             </div>
-                                            <div class="col-12 col-lg-3 fb-inner-right text-end">
+                                            <div class="col-4 col-lg-3 fb-inner-right text-end">
                                                 <h4>XNB</h4>
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
@@ -2449,6 +2477,7 @@
                                                     <span>
                                                         Terminal 3
                                                     </span>
+                                                    <div class="flighttime flighttime-b">18:55</div>
                                                 </div>
                                             </div>
                                         </div>
