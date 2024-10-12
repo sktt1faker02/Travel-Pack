@@ -33,11 +33,24 @@
 </head>
 
 <body>
-    <div id="herohome" style="background-image:url(<?= getBaseUrl() ?>/assets/img/car-hire/hero-car-hire-search.jpg)">
-        <?php include '../sections/global/header-nav.php';?>
+<div id="herohome" class="herowithform"  style="background-image:url(<?= getBaseUrl() ?>/assets/img/car-hire/transfer-banner-bg.png)">
+        <?php include '../sections/global/header-nav.php'; ?>
     </div><!-- main hero -->
 
-    <section class="block search-wrap bggray" id="hotels-search">
+    <section class="block pt-0 search-wrap bggray searchresults-formwrap" id="hotels-search">
+    <div class="container">
+            <div id="special-offers-searchbar" class="searchbar">
+                <div class="searchbar-top mb-2 mb-md-3 row align-items-center">
+                    <div class="col-md-5">
+                        <h2>
+                            Where's next?
+                        </h2>
+                    </div>
+                </div><!-- searchbartop -->
+                
+                <?php include '../sections/searchform/main-forms/searchform-transfer.php';?>
+            </div><!-- searchbar -->
+        </div><!-- container -->
         <div class="container">
             <div class="row">
                 <div class="col-12 mb-4 tp-page-title">
@@ -50,54 +63,6 @@
 
             <div class="row">
                 <div class="col-12 col-lg-3 tp-sidebar">
-                    <div class="filters-box filters">
-                        <div class="fb-top fw-semibold">
-                            <div>
-                                Filters
-                            </div>
-                            <div class="resetbtn txt-black">
-                                Reset All <i class="fa-solid fa-chevron-right"></i>
-                            </div>
-                        </div><!-- fb-top   -->
-                        <div class="fb-bottom">
-                            <div class="option-wrap">
-                                <span>
-                                    Vehicle
-                                </span>
-                                <div class="select">
-                                    <select>
-                                        <option>Bus</option>
-                                        <option>Car</option>
-                                        <option>Van</option>
-                                    </select>
-                                    <div class="select_arrow">
-                                    </div>
-                                </div>
-                            </div><!-- option-wrap -->
-                        </div>
-                    </div>
-                    
-                    <!-- <div class="filters-box cruise-transfer">
-                        <div class="fb-top fw-semibold">
-                            <div>
-                                Duration - <span class="sliderValue" id="durationValue"></span>
-                            </div>
-                            <div class="togglefilterbox txt-black">
-                                <i class="fa-solid fa-chevron-down"></i>
-                            </div>
-                        </div>
-                        <div class="fb-bottom">
-                            <div class="slider-container">
-                                <div class="rangeslider-wrap">
-                                    <input type="range" min="20" max="600" value="20" class="slider" id="durationSlider">
-                                </div>
-                                <div class="value-display">
-                                    <span>20min</span>
-                                    <span>10hr</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>                      -->
                     
                     <div class="filters-box needbox">
                         <div class="fb-top fw-semibold">
@@ -550,7 +515,7 @@
     <script>
         function redirectToPage(event) {
             event.preventDefault();
-            window.location.href = '<?= getBaseUrl() ?>/transfer/transfer-purchase-details';
+            window.location.href = '<?= getBaseUrl() ?>/transfer/transfer-purchase-details.php';
         }
         
         const slider = document.getElementById("durationSlider");

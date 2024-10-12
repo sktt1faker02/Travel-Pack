@@ -27,10 +27,11 @@
     line-height:1.4;
 }
 span.listing-price {
-    font-size: 32px;
+    font-size: 32px !important;
     line-height: 1.2;
     font-weight: 700;
 }
+
 .free-cancellation {
     background-color: var(--accent);
     display: inline-block;

@@ -79,6 +79,7 @@
     font-weight:600;
 }
 
+
 @media (min-width: 992px) {
     .transfers-features-right {
         width: 25%;
@@ -88,6 +89,9 @@
     }
     .car-hire-title {
         width: 45%;
+    }
+    .carhire-box .car-hire-title{
+        width: 32%;
     }
 
     .transfers-features {

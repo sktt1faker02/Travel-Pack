@@ -158,7 +158,7 @@
                                 </h3>
                             </div>
                             <div class="col-12 col-lg-5 d-flex justify-content-end">
-                                <input type="submit" class="btn btn-primary" value="Save and Proceed" onclick="redirectToPage(event)">
+                                <input type="submit" class="btn btn-primary" value="Proceed To Checkout" onclick="redirectToPage(event)">
                             </div>
                         </div><!-- row -->
                     </div><!-- proceed -->

@@ -63,7 +63,7 @@
                 </h2>
 
                 <p class="hero-text txt-white noshadow">
-                    Heathrow, London
+                   London, England
                 </p>
             </div>
         </div>

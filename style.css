@@ -204,6 +204,9 @@ p {
     margin-bottom: 10px;
     font-weight: 400;
 }
+.text-navy{
+    color: #092d62 !important;
+}
 .text-center {
     text-align: center;
 }
@@ -526,6 +529,11 @@ div#cta-datepicker {
 .datepicker {
     cursor: pointer;
 }
+.span.listing-price{
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+}
 
 /* COOKIE POLICY */
 #cookie-policy .container {
@@ -694,6 +702,9 @@ button:focus:not(:focus-visible) {
     font-size: 14px;
     border-radius: 5px;
     height:100px;
+}
+.tp-textarea.light-grey{
+    background: #F7F6F3;
 }
 strong {
     font-weight: 600;
@@ -943,7 +954,7 @@ ul.liststyle {
     margin: 1px;
 }
 .heroslider-nav .slick-dots li.slick-active button {
-    background-color: #fff;
+    background-color: #fff !important;
 }
 #main-hero .hero-text.noshadow {
     text-shadow: none;
@@ -2288,9 +2299,11 @@ img.icon-star {
     overflow: hidden;
     background-color: #fff;
 }
-.esd-box-slider .slick-dots li.slick-active button {
+.esd-box-slider .slick-dots li.slick-active button,
+.light-nav .slick-dots li.slick-active button {
     background-color: #fff;
 }
+
 
 
 /* HURRY */
@@ -4017,6 +4030,10 @@ img.thankyouicon {
     background-color: var(--primary);
 }
 
+/* Special Offers */
+.specialoffers-box .spboxmid-left{
+    font-weight: 500;
+}
 /* CAROUSEL MODAL */
 .carousel-modal-bottom-wrap {
     position: absolute;
@@ -4129,4 +4146,5 @@ td img{
 
 .selected-pax {
 	border 				: 1px solid #E74C3C;
+
 }

@@ -48,7 +48,7 @@
             </div><!-- tp table main -->
             <div class="d-flex justify-content-end mt-4">
                 <button class="btn btn-white">
-                    Change Seats
+                    Change Details
                 </button>
             </div>
         </div><!-- responsive table -->
@@ -84,6 +84,7 @@
                                 <div class="d-flex flex-column col-12 col-lg-6 gap-1">
                                     <span>Standard Room</span>
                                     <span>2x Adults</span>
+                                    <span>2x Children</span>
                                     <span class="txt-gray">Child 01 Age - 8</span>
                                     <span class="txt-gray">Child 01 Age - 8</span>
                                     <span>Breakfast</span>
@@ -102,7 +103,7 @@
                                 </div>
                                 <div class="col-12 mt-3">
                                     <span>Special Requests/Arrangements</span>
-                                    <textarea disabled name="" id="" class="tp-textarea" placeholder="Lorem ipsum dolor sit amet consectetur. Luctus amet aliquam massa sed. Tincidunt tellus nunc sit suscipit. Sed urna cursus sed amet ultricies. Netus eget nec aliquet cursus."></textarea>
+                                    <textarea disabled name="" id="" class="tp-textarea light-grey" placeholder="Lorem ipsum dolor sit amet consectetur. Luctus amet aliquam massa sed. Tincidunt tellus nunc sit suscipit. Sed urna cursus sed amet ultricies. Netus eget nec aliquet cursus."></textarea>
                                 </div>
                             </div><!-- row -->
                         </div><!-- hotel summary details right top -->
@@ -150,6 +151,7 @@
                                 <div class="d-flex flex-column col-12 col-lg-6 gap-1">
                                     <span>Standard Room</span>
                                     <span>2x Adults</span>
+                                    <span>2x Childres</span>
                                     <span class="txt-gray">Child 01 Age - 8</span>
                                     <span class="txt-gray">Child 01 Age - 8</span>
                                     <span>Breakfast</span>
@@ -169,7 +171,7 @@
 
                                 <div class="col-12 mt-3">
                                     <span>Special Requests/Arrangements</span>
-                                    <textarea disabled name="" id="" class="tp-textarea" placeholder="Lorem ipsum dolor sit amet consectetur. Luctus amet aliquam massa sed. Tincidunt tellus nunc sit suscipit. Sed urna cursus sed amet ultricies. Netus eget nec aliquet cursus."></textarea>
+                                    <textarea disabled name="" id="" class="tp-textarea light-grey" placeholder="Lorem ipsum dolor sit amet consectetur. Luctus amet aliquam massa sed. Tincidunt tellus nunc sit suscipit. Sed urna cursus sed amet ultricies. Netus eget nec aliquet cursus."></textarea>
                                 </div>
                             </div>
                         </div><!-- hotel summary details right top -->

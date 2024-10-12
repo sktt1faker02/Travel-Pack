@@ -5,13 +5,13 @@
                 <div class="col-12 col-lg-6">
                     <div class="ctawhitebox">
                         <h2 class="largesectiontitle">
-                            Want to explore more?
+                        Want to experience the local magic?
                         </h2>
                         <p>
-                            Book another experience from our endless options for experiences
+                        Book an experience through our endless options of experience with exciting deals
                         </p>
 
-                        <a href="<?= getBaseUrl() ?>/experiences" class="btn btn-primary">Add More Experiences</a>
+                        <a href="<?= getBaseUrl() ?>/experiences" class="btn btn-primary">View Experiences</a>
                     </div><!-- cta whitebox -->
                 </div><!-- col -->
             </div><!-- row -->

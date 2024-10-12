@@ -54,19 +54,19 @@
 
         <div id="main-hero">
             <div class="container">
-                <div class="heroslider-nav">
-                    <div class="heroslider-nav-slide">
+                <div class="heroslider-nav ">
+                    <div class="heroslider-nav-slide light-nav">
                         <h2 class="txt-white">
                             Uncover magic <br>
                             with our deals
                         </h2>
                     
                         <p class="hero-text txt-white noshadow">
-                            Bodhum, Turkey
+                            Bali, Indonesia
                         </p>
                     </div>
                     <div class="heroslider-nav-slide">
-                        <h2 class="txt-blue">
+                        <h2 class="txt-white">
                             Aliquam non erat,<br>
                             volutpat risus et
                         </h2>
@@ -76,7 +76,7 @@
                         </p>
                     </div>
                     <div class="heroslider-nav-slide">
-                        <h2 class="txt-blue">
+                        <h2 class="txt-white">
                             Quisque quis metus<br/>
                             fringilla mollis nec
                         </h2>
@@ -114,11 +114,15 @@
                 </div><!-- row -->
             </div><!-- container -->
 
-            <div class="rowslider tpslider-2  perfectholidayslider firstload">
+            <div class="rowslider tpslider-2  perfectholidayslider firstload light-nav">
                 <div class="yphbox innerrowslider">
-                    <div class="yellowtagwrap">
-                        <div class="yph-price global-price-tag">
-                            Save <strong>15%</strong> On Hotel Bookings 
+                    <div class="sedtop">
+                        <div class="yellowtagwrap">
+                            <div class="yph-price global-price-tag">
+                                <a href="#" tabindex="0">
+                                    Save <strong>15%</strong> On hotel Bookings
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <img src="<?= getBaseUrl() ?>/assets/img/home/yph1.jpg" alt="">
@@ -133,12 +137,16 @@
                     </div>
                 </div>
                 <div class="yphbox innerrowslider">
-                    <div class="yellowtagwrap">
-                        <div class="yph-price global-price-tag">
-                            Save <strong>15%</strong> On Hotel Bookings 
+                    <div class="sedtop">
+                        <div class="yellowtagwrap">
+                            <div class="yph-price global-price-tag">
+                                <a href="#" tabindex="0">
+                                     <strong>30+</strong> packages available
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <img src="<?= getBaseUrl() ?>/assets/img/home/yph2.jpg" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/home/couple-holi.jpg" alt="">
                     <div class="yph-details">
                         <div class="yph-title">
                             <h3>
@@ -150,12 +158,58 @@
                     </div>
                 </div>
                 <div class="yphbox innerrowslider">
-                    <div class="yellowtagwrap">
-                        <div class="yph-price global-price-tag">
-                            Save <strong>15%</strong> On Hotel Bookings 
+                    <div class="sedtop">
+                        <div class="yellowtagwrap">
+                            <div class="yph-price global-price-tag">
+                                <a href="#" tabindex="0">
+                                     <strong>30+</strong> packages available
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <img src="<?= getBaseUrl() ?>/assets/img/home/yph2.jpg" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/home/parachute.jpg" alt="">
+                    <div class="yph-details">
+                        <div class="yph-title">
+                            <h3>
+                            Adventure Holidays
+                            </h3>
+                        </div>
+
+                        <a href="#" class="fw-semibold yph-more">Find Out More <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="yphbox innerrowslider">
+                    <div class="sedtop">
+                        <div class="yellowtagwrap">
+                            <div class="yph-price global-price-tag">
+                                <a href="#" tabindex="0">
+                                    Save <strong>15%</strong> On hotel Bookings
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="<?= getBaseUrl() ?>/assets/img/home/yph1.jpg" alt="">
+                    <div class="yph-details">
+                        <div class="yph-title">
+                            <h3>
+                                Kids Holidays
+                            </h3>
+                        </div>
+
+                        <a href="#" class="fw-semibold yph-more">Find Out More <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="yphbox innerrowslider">
+                    <div class="sedtop">
+                        <div class="yellowtagwrap">
+                            <div class="yph-price global-price-tag">
+                                <a href="#" tabindex="0">
+                                     <strong>30</strong> packages available
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="<?= getBaseUrl() ?>/assets/img/home/couple-holi.jpg" alt="">
                     <div class="yph-details">
                         <div class="yph-title">
                             <h3>
@@ -167,12 +221,16 @@
                     </div>
                 </div>
                 <div class="yphbox innerrowslider">
-                    <div class="yellowtagwrap">
-                        <div class="yph-price global-price-tag">
-                            Save <strong>15%</strong> On Hotel Bookings 
+                    <div class="sedtop">
+                        <div class="yellowtagwrap">
+                            <div class="yph-price global-price-tag">
+                                <a href="#" tabindex="0">
+                                     <strong>30</strong> packages available
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <img src="<?= getBaseUrl() ?>/assets/img/home/yph2.jpg" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/home/parachute.jpg" alt="">
                     <div class="yph-details">
                         <div class="yph-title">
                             <h3>
@@ -183,40 +241,7 @@
                         <a href="#" class="fw-semibold yph-more">Find Out More <i class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>
-                <div class="yphbox innerrowslider">
-                    <div class="yellowtagwrap">
-                        <div class="yph-price global-price-tag">
-                            Save <strong>15%</strong> On Hotel Bookings 
-                        </div>
-                    </div>
-                    <img src="<?= getBaseUrl() ?>/assets/img/home/yph2.jpg" alt="">
-                    <div class="yph-details">
-                        <div class="yph-title">
-                            <h3>
-                                Couple Holidays
-                            </h3>
-                        </div>
-
-                        <a href="#" class="fw-semibold yph-more">Find Out More <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-                <div class="yphbox innerrowslider">
-                    <div class="yellowtagwrap">
-                        <div class="yph-price global-price-tag">
-                            Save <strong>15%</strong> On Hotel Bookings 
-                        </div>
-                    </div>
-                    <img src="<?= getBaseUrl() ?>/assets/img/home/yph2.jpg" alt="">
-                    <div class="yph-details">
-                        <div class="yph-title">
-                            <h3>
-                                Couple Holidays
-                            </h3>
-                        </div>
-
-                        <a href="#" class="fw-semibold yph-more">Find Out More <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
+              
             </div><!-- slider -->
         </section>
     </div><!-- hero home -->
@@ -350,15 +375,67 @@
                     </div>
                     <div class="esd-continent">
                         <a href="#">
-                            Europe
+                            Asia
                         </a>
                     </div>
                 </div>
-                <img src="<?= getBaseUrl() ?>/assets/img/home/sed4.jpg" alt="">
+                <img src="<?= getBaseUrl() ?>/assets/img/home/sed1.jpg" alt="">
                 <div class="sed-details">
                     <div class="sed-title">
                         <h3 class="mb-5 pb-4">
-                            Greece
+                            Japan
+                        </h3>
+                    </div>
+
+                    <a href="#" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="sedbox">
+                <div class="sedtop">
+                    <div class="yellowtagwrap">
+                        <div class="yph-price global-price-tag">
+                            <a href="#">
+                                From <strong>£600pp</strong>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="esd-continent">
+                        <a href="#">
+                            Asia
+                        </a>
+                    </div>
+                </div>
+                <img src="<?= getBaseUrl() ?>/assets/img/home/sed2.jpg" alt="">
+                <div class="sed-details">
+                    <div class="sed-title">
+                        <h3 class="mb-5 pb-4">
+                            China
+                        </h3>
+                    </div>
+
+                    <a href="#" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="sedbox">
+                <div class="sedtop">
+                    <div class="yellowtagwrap">
+                        <div class="yph-price global-price-tag">
+                            <a href="#">
+                                From <strong>£600pp</strong>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="esd-continent">
+                        <a href="#">
+                            Canada
+                        </a>
+                    </div>
+                </div>
+                <img src="<?= getBaseUrl() ?>/assets/img/home/sed3.jpg" alt="">
+                <div class="sed-details">
+                    <div class="sed-title">
+                        <h3 class="mb-5 pb-4">
+                            Canada
                         </h3>
                     </div>
 
@@ -391,6 +468,112 @@
                     <a href="#" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
             </div>
+            <div class="sedbox">
+                <div class="sedtop">
+                    <div class="yellowtagwrap">
+                        <div class="yph-price global-price-tag">
+                            <a href="#">
+                                From <strong>£600pp</strong>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="esd-continent">
+                        <a href="#">
+                            Asia
+                        </a>
+                    </div>
+                </div>
+                <img src="<?= getBaseUrl() ?>/assets/img/home/sed1.jpg" alt="">
+                <div class="sed-details">
+                    <div class="sed-title">
+                        <h3 class="mb-5 pb-4">
+                            Japan
+                        </h3>
+                    </div>
+
+                    <a href="#" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="sedbox">
+                <div class="sedtop">
+                    <div class="yellowtagwrap">
+                        <div class="yph-price global-price-tag">
+                            <a href="#">
+                                From <strong>£600pp</strong>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="esd-continent">
+                        <a href="#">
+                            Asia
+                        </a>
+                    </div>
+                </div>
+                <img src="<?= getBaseUrl() ?>/assets/img/home/sed2.jpg" alt="">
+                <div class="sed-details">
+                    <div class="sed-title">
+                        <h3 class="mb-5 pb-4">
+                            China
+                        </h3>
+                    </div>
+
+                    <a href="#" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="sedbox">
+                <div class="sedtop">
+                    <div class="yellowtagwrap">
+                        <div class="yph-price global-price-tag">
+                            <a href="#">
+                                From <strong>£600pp</strong>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="esd-continent">
+                        <a href="#">
+                            Canada
+                        </a>
+                    </div>
+                </div>
+                <img src="<?= getBaseUrl() ?>/assets/img/home/sed3.jpg" alt="">
+                <div class="sed-details">
+                    <div class="sed-title">
+                        <h3 class="mb-5 pb-4">
+                            Canada
+                        </h3>
+                    </div>
+
+                    <a href="#" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="sedbox">
+                <div class="sedtop">
+                    <div class="yellowtagwrap">
+                        <div class="yph-price global-price-tag">
+                            <a href="#">
+                                From <strong>£600pp</strong>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="esd-continent">
+                        <a href="#">
+                            Europe
+                        </a>
+                    </div>
+                </div>
+                <img src="<?= getBaseUrl() ?>/assets/img/home/sed4.jpg" alt="">
+                <div class="sed-details">
+                    <div class="sed-title">
+                        <h3 class="mb-5 pb-4">
+                            Greece
+                        </h3>
+                    </div>
+
+                    <a href="#" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+          
+            
         </div><!-- sed slider -->
     </section> 
 
