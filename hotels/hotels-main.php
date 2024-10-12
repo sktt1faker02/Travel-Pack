@@ -85,11 +85,19 @@
         <div class="container">
             <div class="hotel-rooms-main-top my-4">
                 <div class="row g-0">
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-lg-4 parent-slide">
                         <div class="free-cancellation">
                             Free Cancellation
                         </div>
-                        <div class="hotel-rooms-main-top-slider v-slide-wrap">
+                        <div class="carousel-modal-bottom-wrap">
+                            <div class="carousel-modal-counter">
+                                01/03
+                            </div>
+                            <div class="carousel-modal-view-all">
+                                View All <i class="fa-solid fa-chevron-right fs-icon fs13 ms-2 txt-blue"></i>
+                            </div>
+                        </div><!-- wrap -->
+                        <div class="hotel-rooms-main-top-slider carousel-modal-main v-slide-wrap">
                             <div class="hotel-rooms-main-top-slide v-slide">
                                 <img src="<?= getBaseUrl() ?>/assets/img/hotels/mainlisting-slide.jpg" alt="">
                             </div>

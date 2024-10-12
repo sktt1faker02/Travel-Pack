@@ -99,17 +99,17 @@
                     <!-- Duration Filter Box -->
                     <div class="filters-box time-range durationfilter">
                         <div class="fb-top fw-semibold">
-                            <div class="slider-label">
-                                Duration
-                            </div>
-                            <div class="togglefilterbox txt-black">
+                            <div class="togglefilterbox">
+                                <div class="slider-label">
+                                    Duration
+                                </div>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
                         </div><!-- fb-top -->
                         <div class="fb-bottom">
                             <div class="slider-container">
                                 <div class="rangeslider-wrap">
-                                    <input type="range" min="2" max="33" value="6" class="slider" id="durationRange">
+                                    <input type="range" min="2" max="33" value="6" class="slider" id="durationRange" slide-name="so-duration">
                                     <span class="sliderValue-below" id="durationValue">6 Nights</span>
                                 </div>
                                 <div class="value-display">
@@ -123,17 +123,17 @@
                     <!-- Rating Filter Box -->
                     <div id="ratingContainer" class="filters-box time-range">
                         <div class="fb-top fw-semibold">
-                            <div class="slider-label">
+                            <div class="togglefilterbox">
+                                <div class="slider-label">
                                 Rating
-                            </div>
-                            <div class="togglefilterbox txt-black">
+                                </div>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
                         </div><!-- fb-top -->
                         <div class="fb-bottom">
                             <div class="slider-container">
                                 <div class="rangeslider-wrap">
-                                    <input type="range" min="0" max="5" value="2" class="slider" id="ratingRange">
+                                    <input type="range" min="0" max="5" value="2" class="slider" id="ratingRange" slide-name="so-rating">
                                     <span class="sliderValue-below" id="ratingValueBelow">2</span>
                                 </div>
                                 <div class="value-display">
@@ -147,17 +147,17 @@
                     <!-- Price Filter Box -->
                     <div id="priceContainer" class="filters-box time-range">
                         <div class="fb-top fw-semibold">
-                            <div class="slider-label">
+                            <div class="togglefilterbox">
+                                <div class="slider-label">
                                 Price
-                            </div>
-                            <div class="togglefilterbox txt-black">
+                                </div>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
                         </div><!-- fb-top -->
                         <div class="fb-bottom">
                             <div class="slider-container">
                                 <div class="rangeslider-wrap">
-                                    <input type="range" min="600" max="10000" value="600" class="slider" id="priceRange">
+                                    <input type="range" min="600" max="10000" value="600" class="slider" id="priceRange" slide-name="so-price">
                                     <span class="sliderValue-below" id="priceValueBelow">£600</span>
                                 </div>
                                 <div class="value-display">
@@ -171,8 +171,12 @@
                     <!-- Guest Ratings Filter Box -->
                     <div class="filters-box">
                         <div class="fb-top">
-                            Guest Ratings
-                            <div class="togglefilterbox"><i class="fa-solid fa-chevron-down"></i></div>
+                            <div class="togglefilterbox">
+                                <div class="slider-label">
+                                Guest Ratings
+                                </div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
                         </div>
                         <div class="fb-bottom">
                             <ul class="checkbox-list">
@@ -212,8 +216,12 @@
                     <!-- Holiday Type Filter Box -->
                     <div class="filters-box">
                         <div class="fb-top">
-                            Holiday Type
-                            <div class="togglefilterbox"><i class="fa-solid fa-chevron-down"></i></div>
+                            <div class="togglefilterbox">
+                                <div class="slider-label">
+                                Holiday Type
+                                </div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
                         </div>
                         <div class="fb-bottom">
                             <ul class="checkbox-list">
@@ -252,8 +260,12 @@
                     <!-- Board Basis Filter Box -->
                     <div class="filters-box">
                         <div class="fb-top">
-                            Board Basis
-                            <div class="togglefilterbox"><i class="fa-solid fa-chevron-down"></i></div>
+                            <div class="togglefilterbox">
+                                <div class="slider-label">
+                                Board Basis
+                                </div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
                         </div>
                         <div class="fb-bottom">
                             <ul class="checkbox-list">
@@ -403,7 +415,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -481,7 +493,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -559,7 +571,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -637,7 +649,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -715,7 +727,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -793,7 +805,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -871,7 +883,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -949,7 +961,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -1027,7 +1039,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -1105,7 +1117,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -1183,7 +1195,7 @@
                             <div class="whiteboxbg specialoffers-box">
                                 <div class="spobox-image">
                                     <div class="yph-price global-price-tag">
-                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                        <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                             <strong>20% off</strong> On Advance Booking
                                         </a>
                                     </div>
@@ -1284,10 +1296,10 @@
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/slick.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/bootstrap.min.js"></script>
-    <script src="<?= getBaseUrl() ?>/assets/js/sidebar.js"></script>
-    <script src="<?= getBaseUrl() ?>/assets/js/scripts.js"></script>
-    <script src="<?= getBaseUrl() ?>/assets/js/searchbar.js"></script>
-    <script src="<?= getBaseUrl() ?>/assets/js/loadmoreboxes.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/sidebar.js?v=1.0.0"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/scripts.js?v=1.0.0"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/searchbar.js?v=1.0.0"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/loadmoreboxes.js?v=1.0.0"></script>
 
 </body>
 

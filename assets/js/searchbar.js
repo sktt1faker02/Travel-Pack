@@ -24,6 +24,7 @@ jQuery(document).ready(function($){
     }
 
     function highlightCurrentDay(date, inst) {
+        
         const pickupDate = $(".pickup-date").datepicker("getDate");
         const dropoffDate = $(".dropoff-date").datepicker("getDate");
 
@@ -32,13 +33,19 @@ jQuery(document).ready(function($){
             const endDate = dropoffDate.getTime();
             const currentDate = date.getTime();
 
+            const today = new Date();
+            const todayTime = today.setHours(0, 0, 0, 0); // Set time to midnight for comparison
+        
+            if (currentDate === todayTime) {
+                return [false, ""]; // Disable today's date
+            }
+
             if (currentDate === startDate || currentDate === endDate) {
                 return [true, "ui-datepicker-current-day"];
             } else if (currentDate > startDate && currentDate < endDate) {
                 return [true, "rd"];
             }
         }
-        
         return [true, ""];
     }
 
@@ -52,9 +59,12 @@ jQuery(document).ready(function($){
         beforeShowDay: highlightCurrentDay,
         onSelect: function(selectedDate) {
             const selectedDateObject = $.datepicker.parseDate("dd/mm/yy", selectedDate);
+
             const dropOffDate = new Date(selectedDateObject);
             dropOffDate.setDate(dropOffDate.getDate() + 7);
+
             $(".dropoff-date").datepicker("option", "minDate", dropOffDate);
+            
             const currentDropOffDate = $(".dropoff-date").datepicker("getDate");
             if (currentDropOffDate < dropOffDate) {
                 $(".dropoff-date").datepicker("setDate", dropOffDate);
@@ -63,8 +73,11 @@ jQuery(document).ready(function($){
             maxDate.setDate(maxDate.getDate() + 365);
             $(".dropoff-date").datepicker("option", "maxDate", maxDate);
             $(".dropoff-date").datepicker("refresh");
+
+            $(".ui-datepicker-today .ui-state-default").removeClass("ui-state-highlight");
         },
         beforeShow: function(input, inst) {
+            console.log(input);
             replaceShortMonthNames(inst);
         },
         onChangeMonthYear: function(year, month, inst) {
@@ -151,6 +164,7 @@ jQuery(document).ready(function($){
         }
     });
 
+    // ! DEFAULT DATE PICKER
     $(".initialize-date-picker").datepicker({
         dateFormat: 'dd/mm/yy',
         minDate: 0,
@@ -158,6 +172,20 @@ jQuery(document).ready(function($){
         changeMonth: true,
         changeYear: true,
     });
+
+
+
+    // ! daterangepicker library
+    $('.cruises-date-picker').daterangepicker({
+        opens: 'left',
+        minDate: moment().startOf('day'),
+        startDate: moment(),
+        endDate: moment().add(11, 'days'),
+        locale: {
+            format: 'DD/MM/YYYY'
+        }
+    });
+    $('.cruises-date-picker').val('Departure')
 });
 
 // DROPDOWN FILTER ON CLICK ------------------- ||
@@ -587,10 +615,3 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
-
-
-
-
-
-
-

@@ -100,10 +100,9 @@
     }
 }
 
-@media (max-width: 579px) {
+@media (max-width: 575px) {
     ul#searchtab {
-        width: 550px;
-        overflow-y: scroll;
+        width: 410px;
         padding-right: 27px; /* Increase/decrease this value for cross-browser compatibility */
         box-sizing: content-box; /* So the width will be 100% + 17px */
     }
@@ -115,6 +114,9 @@
     .searchbar {
         padding: 15px 15px 20px;
     }
+	div#searchbar-flights {
+		margin-top: 20px;
+	}
     .searchbar-checkboxes label {
         flex-basis: 40%;
         padding: 5px;

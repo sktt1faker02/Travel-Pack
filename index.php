@@ -1,6 +1,7 @@
 <?php include './config.php'; ?>
 
-<?php include './sections/global/home-header.php';?>
+<?php include './sections/global/home-header.php'; ?>
+
 <body class="home">
     <div id="herohome">
         <div class="herowrapblur">
@@ -16,18 +17,18 @@
                 </div>
             </div>
         </div>
-        
-        <?php include './sections/global/home-header-nav.php';?>
+
+        <?php include './sections/global/home-header-nav.php'; ?>
 
         <div id="main-hero">
             <div class="container">
                 <div class="heroslider-nav">
                     <div class="heroslider-nav-slide">
                         <h1 class="txt-white">
-                            Effortless travel,<br/>
+                            Effortless travel,<br />
                             Joyful moments.
                         </h1>
-                    
+
                         <p class="hero-text txt-white">
                             Hikkaduwa, Sri Lanka
                         </p>
@@ -37,17 +38,17 @@
                             Aliquam non erat,<br>
                             volutpat risus et
                         </h1>
-                    
+
                         <p class="hero-text txt-white">
                             Kyoto, Japan
                         </p>
                     </div>
                     <div class="heroslider-nav-slide">
                         <h1 class="txt-white">
-                            Quisque quis metus<br/>
+                            Quisque quis metus<br />
                             fringilla mollis nec
                         </h1>
-                    
+
                         <p class="hero-text txt-white">
                             Boracay, Philippines
                         </p>
@@ -100,19 +101,104 @@
                     <div class="col-12 mt-0 mt-sm-4">
                         <div class="tab-content 2" id="home-searchbar-content">
                             <div class="tab-pane fade show active" id="search-flights-tab" role="tabpanel" aria-labelledby="flights-tab" tabindex="0">
-                                <?php include './sections/searchform/main-forms/searchform-flights.php';?>
+                                <?php include './sections/searchform/main-forms/searchform-flights.php'; ?>
                             </div>
                             <div class="tab-pane fade" id="search-hotels-tab" role="tabpanel" aria-labelledby="hotels-tab" tabindex="0">
-                                <?php include './sections/searchform/main-forms/searchform-hotels.php';?>
+                                <?php include './sections/searchform/main-forms/searchform-hotels.php'; ?>
                             </div>
                             <div class="tab-pane fade" id="search-car-hire-tab" role="tabpanel" aria-labelledby="car-hire-tab" tabindex="0">
-                                <?php include './sections/searchform/main-forms/searchform-car-hire.php';?>
+                                <?php include './sections/searchform/main-forms/searchform-car-hire.php'; ?>
                             </div>
                             <div class="tab-pane fade" id="search-packages-tab" role="tabpanel" aria-labelledby="packages-tab" tabindex="0">
-                                <?php include './sections/searchform/main-forms/searchform-cruises.php';?>
+
+                                <div class="searchbar-main" id="searchbar-cruises">
+                                    <div class="searchbar-main-inner">
+                                        <form name="experiences-search" id="cruises-search" method="post" action="">
+                                            <div class="searchform-inner">
+                                                <div class="searchform-row">
+                                                    <div class="searchbar-inputwrap flex100-mobile mobile-last-col">
+                                                        <input type="text" class="form-control" autocomplete="cruise" name="cru-request" id="cruises-where" placeholder="Cruise, Destination...">
+                                                    </div>
+                                                    <div class="searchbar-inputwrap flex7 flex100-mobile mobile-last-col mobile-bordertop">
+                                                        <input type="text" class="form-control date cruises-date-picker" name="cru-from-date" id="cruises-when" placeholder="Departure">
+                                                        <div class="select_arrow"></div>
+                                                    </div>
+
+                                                    <div class="searchbar-inputwrap change-text-wrap searchbar-select flex7 flex100-mobile mobile-last-col mobile-bordertop">
+                                                        <input class="form-control dropdownfilter-click input-change-text" placeholder="Guests and Rooms" readonly>
+                                                        <div class="select_arrow"></div>
+                                                        <div class="dropdownfilter-main dropdown-filter-cruises">
+                                                            <div class="dropdown-filter dd-filter-max-99 dropdown-filter-cabin-count">
+                                                                <div class="dd-filter-inner">
+                                                                    <div class="dd-filter-wrap">
+                                                                        <div class="dd-filter">
+                                                                            <div class="dd-filter-left">
+                                                                                <label>
+                                                                                    Cabins
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="dd-filter-right">
+                                                                                <button type="button" class="decrement"><i class="fa-solid fa-minus"></i></button>
+                                                                                <input type="text" value="01" readonly>
+                                                                                <button type="button" class="increment"><i class="fa-solid fa-plus"></i></button>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="dd-filter dd-filter-max-9 dropdown-filter-adults-count dropdown-filter-travellers-count">
+                                                                            <div class="dd-filter-left">
+                                                                                <label>
+                                                                                    Adults
+                                                                                </label>
+                                                                                <small>Aged 16+</small>
+                                                                            </div>
+                                                                            <div class="dd-filter-right">
+                                                                                <button type="button" class="decrement"><i class="fa-solid fa-minus"></i></button>
+                                                                                <input type="text" value="02" readonly>
+                                                                                <button type="button" class="increment"><i class="fa-solid fa-plus"></i></button>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="dd-filter dd-filter-max-9 dropdown-filter-children-count dropdown-filter-travellers-count">
+                                                                            <div class="dd-filter-left">
+                                                                                <label>
+                                                                                    Children
+                                                                                </label>
+                                                                                <small>Aged 2 to 11</small>
+                                                                            </div>
+                                                                            <div class="dd-filter-right">
+                                                                                <button type="button" class="decrement"><i class="fa-solid fa-minus"></i></button>
+                                                                                <input type="text" value="00" readonly>
+                                                                                <button type="button" class="increment"><i class="fa-solid fa-plus"></i></button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div><!-- dd filter wrap -->
+                                                                    <div class="dd-filtertext">
+                                                                        <p>
+                                                                            Your age at time of travel must be valid for the age category booked.
+                                                                        </p>
+                                                                        <p>
+                                                                            Age limits and policies for travelling with children may vary so please check before booking.
+                                                                        </p>
+                                                                    </div><!-- fitertext -->
+                                                                    <div class="dd-filterbtn">
+                                                                        <button class="btn btn-primary">
+                                                                            Apply
+                                                                        </button>
+                                                                    </div>
+                                                                </div><!-- dd filter inner -->
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- searchabr inputwrap -->
+
+                                                    <div class="searchnow-btn searchbar-inputwrap flex6 flex100-mobile mobile-bordertop">
+                                                        <a class="btn-typ2 searchnowbtn btn btn-primary" href="javascript:void(0);" title="Search Now">Search Now</a>
+                                                    </div>
+                                                </div><!-- searchform-row -->
+                                            </div><!-- searchform-inner -->
+                                        </form><!-- form -->
+                                    </div>
+                                </div><!-- searchbar main -->
                             </div>
                             <div class="tab-pane fade" id="search-experiences-tab" role="tabpanel" aria-labelledby="experiences-tab" tabindex="0">
-                                <?php include './sections/searchform/main-forms/searchform-experiences.php';?>
+                                <?php include './sections/searchform/main-forms/searchform-experiences.php'; ?>
                             </div>
                         </div>
                     </div><!-- col -->
@@ -132,7 +218,7 @@
                                     </h3>
                                 </div>
                                 <div class="col-4 col-md-4 d-flex justify-content-end">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold view-all">View All <i class="fa-solid fa-chevron-right"></i></a>
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold view-all">View All <i class="fa-solid fa-chevron-right"></i></a>
                                 </div>
                             </div><!-- row -->
                         </div><!-- exciting deals -->
@@ -144,7 +230,7 @@
                     <div class="col-12 col-md-6 px-0 d-flex">
                         <div class="esd-left">
                             <div class="hurry-price global-price-tag">
-                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                     Summer Special
                                 </a>
                             </div>
@@ -173,7 +259,7 @@
                                 <div class="esd-right-top-title">
                                     <div class="esd-right-top-title-top">
                                         <div class="esd-continent">
-                                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                            <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                                 Asia
                                             </a>
                                         </div>
@@ -183,7 +269,7 @@
                                     </div>
                                     <div class="esd-right-title-main">
                                         <h3>
-                                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                            <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                                 Kyoto, Japan
                                             </a>
                                         </h3>
@@ -202,12 +288,12 @@
                             </div><!-- esd-right-top -->
                             <div class="esd-right-bottom d-flex align-items-center justify-content-between">
                                 <div class="esd-right-bottom-read-more">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         Read More <i class="fa-solid fa-chevron-right ms-1"></i>
                                     </a>
                                 </div>
                                 <div class="esd-right-bottom-price">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         £699pp
                                     </a>
                                 </div>
@@ -219,7 +305,7 @@
                     <div class="col-12 col-md-6 px-0 d-flex">
                         <div class="esd-left">
                             <div class="hurry-price global-price-tag">
-                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                     Summer Special
                                 </a>
                             </div>
@@ -228,10 +314,10 @@
                                     <img src="<?= getBaseUrl() ?>/assets/img/home/esd2.jpg" alt="">
                                 </a>
                                 <a href="">
-                                <img src="<?= getBaseUrl() ?>/assets/img/home/esd1.jpg" alt="">
+                                    <img src="<?= getBaseUrl() ?>/assets/img/home/esd1.jpg" alt="">
                                 </a>
                                 <a href="">
-                                <img src="<?= getBaseUrl() ?>/assets/img/home/esd3.jpg" alt="">
+                                    <img src="<?= getBaseUrl() ?>/assets/img/home/esd3.jpg" alt="">
                                 </a>
                             </div><!-- esd left slider -->
                         </div>
@@ -242,7 +328,7 @@
                                 <div class="esd-right-top-title">
                                     <div class="esd-right-top-title-top">
                                         <div class="esd-continent">
-                                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                            <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                                 Asia
                                             </a>
                                         </div>
@@ -252,7 +338,7 @@
                                     </div>
                                     <div class="esd-right-title-main">
                                         <h3>
-                                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                            <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                                 Rome, Italy <br>
 
                                                 Rome, Italy
@@ -273,12 +359,12 @@
                             </div><!-- esd-right-top -->
                             <div class="esd-right-bottom d-flex align-items-center justify-content-between">
                                 <div class="esd-right-bottom-read-more">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         Read More <i class="fa-solid fa-chevron-right ms-1"></i>
                                     </a>
                                 </div>
                                 <div class="esd-right-bottom-price">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         £699pp
                                     </a>
                                 </div>
@@ -290,7 +376,7 @@
                     <div class="col-12 col-md-6 px-0 d-flex">
                         <div class="esd-left">
                             <div class="hurry-price global-price-tag">
-                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                     Summer Special
                                 </a>
                             </div>
@@ -313,7 +399,7 @@
                                 <div class="esd-right-top-title">
                                     <div class="esd-right-top-title-top">
                                         <div class="esd-continent">
-                                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                            <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                                 Asia
                                             </a>
                                         </div>
@@ -323,8 +409,8 @@
                                     </div>
                                     <div class="esd-right-title-main">
                                         <h3>
-                                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
-                                                São Miguel, 
+                                            <a href="<?= getBaseUrl() ?>/flights/flights-search">
+                                                São Miguel,
                                                 Portugal
                                             </a>
                                         </h3>
@@ -343,12 +429,12 @@
                             </div><!-- esd-right-top -->
                             <div class="esd-right-bottom d-flex align-items-center justify-content-between">
                                 <div class="esd-right-bottom-read-more">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         Read More <i class="fa-solid fa-chevron-right ms-1"></i>
                                     </a>
                                 </div>
                                 <div class="esd-right-bottom-price">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         £699pp
                                     </a>
                                 </div>
@@ -360,7 +446,7 @@
                     <div class="col-12 col-md-6 px-0 d-flex">
                         <div class="esd-left">
                             <div class="hurry-price global-price-tag">
-                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                     Summer Special
                                 </a>
                             </div>
@@ -383,7 +469,7 @@
                                 <div class="esd-right-top-title">
                                     <div class="esd-right-top-title-top">
                                         <div class="esd-continent">
-                                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                            <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                                 Asia
                                             </a>
                                         </div>
@@ -393,7 +479,7 @@
                                     </div>
                                     <div class="esd-right-title-main">
                                         <h3>
-                                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                            <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                                 Kyoto, Japan
                                             </a>
                                         </h3>
@@ -412,12 +498,12 @@
                             </div><!-- esd-right-top -->
                             <div class="esd-right-bottom d-flex align-items-center justify-content-between">
                                 <div class="esd-right-bottom-read-more">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         Read More <i class="fa-solid fa-chevron-right ms-1"></i>
                                     </a>
                                 </div>
                                 <div class="esd-right-bottom-price">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         £699pp
                                     </a>
                                 </div>
@@ -429,7 +515,7 @@
                     <div class="col-12 col-md-6 px-0 d-flex">
                         <div class="esd-left">
                             <div class="hurry-price global-price-tag">
-                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                     Summer Special
                                 </a>
                             </div>
@@ -455,7 +541,7 @@
                                 <div class="esd-right-top-title">
                                     <div class="esd-right-top-title-top">
                                         <div class="esd-continent">
-                                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                            <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                                 Asia
                                             </a>
                                         </div>
@@ -465,7 +551,7 @@
                                     </div>
                                     <div class="esd-right-title-main">
                                         <h3>
-                                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                            <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                                 Kyoto, Japan
                                             </a>
                                         </h3>
@@ -484,12 +570,12 @@
                             </div><!-- esd-right-top -->
                             <div class="esd-right-bottom d-flex align-items-center justify-content-between">
                                 <div class="esd-right-bottom-read-more">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         Read More <i class="fa-solid fa-chevron-right ms-1"></i>
                                     </a>
                                 </div>
                                 <div class="esd-right-bottom-price">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         £699pp
                                     </a>
                                 </div>
@@ -500,7 +586,7 @@
             </div><!-- slider -->
         </div><!-- exciting deals -->
     </div>
-    
+
     <section id="hurry" class="block">
         <div class="container">
             <div class="row gx-5">
@@ -585,7 +671,7 @@
                 </div>
             </div>
         </div>
-    </section>    
+    </section>
 
     <section id="top-places" class="block topplaces">
         <div class="topplaces-slider">
@@ -618,11 +704,11 @@
                         </p>
 
                         <div>
-                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="btn btn-primary">
+                            <a href="<?= getBaseUrl() ?>/flights/flights-search" class="btn btn-primary">
                                 Find Out More
                             </a>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -656,7 +742,7 @@
                     </h2>
                 </div><!-- col -->
                 <div class="col-4 col-lg-6 d-flex justify-content-end">
-                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold view-all">View All <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold view-all">View All <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
             </div><!-- row -->
         </div><!-- container -->
@@ -684,7 +770,7 @@
                         </h3>
                     </div>
 
-                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
             </div>
             <div class="sedbox">
@@ -710,7 +796,7 @@
                         </h3>
                     </div>
 
-                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
             </div>
             <div class="sedbox">
@@ -725,7 +811,7 @@
                     <div class="esd-continent">
                         <a href="">
                             Canada
-                        </a>                            
+                        </a>
                     </div>
                 </div>
                 <img src="<?= getBaseUrl() ?>/assets/img/home/sed3.jpg" alt="">
@@ -736,7 +822,7 @@
                         </h3>
                     </div>
 
-                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
             </div>
             <div class="sedbox">
@@ -762,7 +848,7 @@
                         </h3>
                     </div>
 
-                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
             </div>
             <div class="sedbox">
@@ -790,7 +876,7 @@
                         </h3>
                     </div>
 
-                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
             </div>
             <div class="sedbox">
@@ -816,7 +902,7 @@
                         </h3>
                     </div>
 
-                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
             </div>
             <div class="sedbox">
@@ -842,7 +928,7 @@
                         </h3>
                     </div>
 
-                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
             </div>
             <div class="sedbox">
@@ -868,7 +954,7 @@
                         </h3>
                     </div>
 
-                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
             </div>
             <div class="sedbox">
@@ -883,7 +969,7 @@
                     <div class="esd-continent">
                         <a href="">
                             Canada
-                        </a>                            
+                        </a>
                     </div>
                 </div>
                 <img src="<?= getBaseUrl() ?>/assets/img/home/sed3.jpg" alt="">
@@ -894,21 +980,21 @@
                         </h3>
                     </div>
 
-                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
             </div>
         </div><!-- sed slider -->
-    </section> 
-    
-    <?php include './sections/global/whychoosetravelpack.php';?>
+    </section>
 
-    <?php include './sections/global/cta.php';?>
+    <?php include './sections/global/whychoosetravelpack.php'; ?>
 
-    <?php include './sections/global/testimonials.php';?>
-    <?php include './sections/global/dealstravels.php';?>
-    <?php include './sections/global/perfect-holiday.php';?>
+    <?php include './sections/global/cta.php'; ?>
 
-    <?php include './sections//global/home-footer.php';?>
+    <?php include './sections/global/testimonials.php'; ?>
+    <?php include './sections/global/dealstravels.php'; ?>
+    <?php include './sections/global/perfect-holiday.php'; ?>
+
+    <?php include './sections//global/home-footer.php'; ?>
 
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/jquery-ui.min.js"></script>
@@ -922,4 +1008,5 @@
     <script src="<?= getBaseUrl() ?>/assets/js/daterangepicker.js"></script>
 
 </body>
+
 </html>

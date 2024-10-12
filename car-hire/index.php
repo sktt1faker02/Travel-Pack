@@ -38,13 +38,16 @@
         <div class="herowrapblur">
             <div class="heroslider">
                 <div class="heroslide">
-                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-car-hire.jpg" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-car-hire.jpg" alt="" class="hero-img-desktop">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/heromobile/heromobile-car-hire.jpg" alt="" class="hero-img-mobile">
                 </div>
                 <div class="heroslide">
-                    <img src="" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-car-hire.jpg" alt="" class="hero-img-desktop">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/heromobile/heromobile-car-hire.jpg" alt="" class="hero-img-mobile">
                 </div>
                 <div class="heroslide">
-                    <img src="" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-car-hire.jpg" alt="" class="hero-img-desktop">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/heromobile/heromobile-car-hire.jpg" alt="" class="hero-img-mobile">
                 </div>
             </div>
         </div>
@@ -114,7 +117,7 @@
                                     </h3>
                                 </div>
                                 <div class="col-4 col-md-4 d-flex justify-content-end">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php" class="fw-semibold view-all">View All <i class="fa-solid fa-chevron-right"></i></a>
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search" class="fw-semibold view-all">View All <i class="fa-solid fa-chevron-right"></i></a>
                                 </div>
                             </div><!-- row -->
                         </div><!-- exciting deals -->
@@ -128,13 +131,13 @@
                         <div class="sedtop">
                             <div class="yellowtagwrap">
                                 <div class="yph-price global-price-tag">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                         From <strong>£22pp</strong>
                                     </a>
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                     Europe
                                 </a>
                             </div>
@@ -143,7 +146,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                         London                                        
                                     </a>
                                 </h3>
@@ -151,7 +154,7 @@
                             <p class="txt-blue pb-5">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div><!-- sexboxslide -->
@@ -160,13 +163,13 @@
                         <div class="sedtop">
                             <div class="yellowtagwrap">
                                 <div class="yph-price global-price-tag">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                         From <strong>£22pp</strong>
                                     </a>
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                     Europe
                                 </a>
                             </div>
@@ -175,14 +178,14 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                     New York                                        </a>
                                 </h3>
                             </div>
                             <p class="txt-blue pb-5">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>   
                 </div>
@@ -191,13 +194,13 @@
                         <div class="sedtop">
                             <div class="yellowtagwrap">
                                 <div class="yph-price global-price-tag">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                         From <strong>£22pp</strong>
                                     </a>
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                     Europe
                                 </a>
                             </div>
@@ -210,7 +213,7 @@
                                 </h3>
                             </div>
 
-                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>   
                 </div>
@@ -219,13 +222,13 @@
                         <div class="sedtop">
                             <div class="yellowtagwrap">
                                 <div class="yph-price global-price-tag">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                         From <strong>£22pp</strong>
                                     </a>
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                     Europe
                                 </a>
                             </div>
@@ -234,14 +237,14 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                     Oxford                                        </a>
                                 </h3>
                             </div>
                             <p class="txt-blue pb-5">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -250,13 +253,13 @@
                         <div class="sedtop">
                             <div class="yellowtagwrap">
                                 <div class="yph-price global-price-tag">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                         From <strong>£22pp</strong>
                                     </a>
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                     North America
                                 </a>
                             </div>
@@ -265,14 +268,14 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                     Europe                                        </a>
                                 </h3>
                             </div>
                             <p class="txt-blue pb-5">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>     
                 </div>  
@@ -281,13 +284,13 @@
                         <div class="sedtop">
                             <div class="yellowtagwrap">
                                 <div class="yph-price global-price-tag">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                         From <strong>£22pp</strong>
                                     </a>
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                     Europe
                                 </a>
                             </div>
@@ -296,7 +299,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                         London                                        
                                     </a>
                                 </h3>
@@ -304,7 +307,7 @@
                             <p class="txt-blue pb-5">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div><!-- sexboxslide --> 
@@ -313,13 +316,13 @@
                         <div class="sedtop">
                             <div class="yellowtagwrap">
                                 <div class="yph-price global-price-tag">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                         From <strong>£22pp</strong>
                                     </a>
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                     Europe
                                 </a>
                             </div>
@@ -328,14 +331,14 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                     New York                                        </a>
                                 </h3>
                             </div>
                             <p class="txt-blue pb-5">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>   
                 </div>    
@@ -344,13 +347,13 @@
                         <div class="sedtop">
                             <div class="yellowtagwrap">
                                 <div class="yph-price global-price-tag">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                         From <strong>£22pp</strong>
                                     </a>
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                     Europe
                                 </a>
                             </div>
@@ -359,7 +362,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                         London                                        
                                     </a>
                                 </h3>
@@ -367,7 +370,7 @@
                             <p class="txt-blue pb-5">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div><!-- sexboxslide -->
@@ -376,13 +379,13 @@
                         <div class="sedtop">
                             <div class="yellowtagwrap">
                                 <div class="yph-price global-price-tag">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                         From <strong>£22pp</strong>
                                     </a>
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                     North America
                                 </a>
                             </div>
@@ -391,14 +394,14 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                     Europe                                        </a>
                                 </h3>
                             </div>
                             <p class="txt-blue pb-5">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>     
                 </div>      
@@ -407,13 +410,13 @@
                         <div class="sedtop">
                             <div class="yellowtagwrap">
                                 <div class="yph-price global-price-tag">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                         From <strong>£22pp</strong>
                                     </a>
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                     Europe
                                 </a>
                             </div>
@@ -422,14 +425,14 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php">
+                                    <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search">
                                     Oxford                                        </a>
                                 </h3>
                             </div>
                             <p class="txt-blue pb-5">
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search.php" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/car-hire/car-hire-search" class="fw-semibold yph-more">Book Now <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -456,7 +459,7 @@
 
     <script>
         function redirectToPage(event) {
-            window.location.href = '<?= getBaseUrl() ?>/car-hire/car-hire-search.php';
+            window.location.href = '<?= getBaseUrl() ?>/car-hire/car-hire-search';
         }
     </script>
 

@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const isSpecialOffer = loadmoreBoxesWrap.closest('.specialoffer-main') !== null;
     const isBaggageAllowances = loadmoreBoxesWrap.closest('.baggage-allowances') !== null;
     const isDestination = loadmoreBoxesWrap.classList.contains('loadmoreboxes-destinations');
+    const isCarHire = loadmoreBoxesWrap.classList.contains('loadmoreboxes-car-hire');
     const displayStyle = isSpecialOffer ? 'flex' : 'block';
 
     // Set boxesPerPage based on specific classes
@@ -34,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         group.classList.add('box-group'); // Add 'box-group' by default
 
         // Only add 'g-3' and 'row' if the loadmore-boxes-wrap is NOT inside .baggage-allowances and is NOT a destination
-        if (!isBaggageAllowances && !isDestination) {
+        if (!isBaggageAllowances && !isDestination && !isCarHire) {
             group.classList.add('g-3', 'row');
         }
 

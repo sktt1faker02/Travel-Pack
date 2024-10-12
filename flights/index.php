@@ -119,7 +119,7 @@
                                     </h3>
                                 </div>
                                 <div class="col-4 col-md-4 d-flex justify-content-end">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold view-all">View All <i class="fa-solid fa-chevron-right"></i></a>
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold view-all">View All <i class="fa-solid fa-chevron-right"></i></a>
                                 </div>
                             </div><!-- row -->
                         </div><!-- exciting deals -->
@@ -139,7 +139,7 @@
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                     Asia
                                 </a>
                             </div>
@@ -148,7 +148,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         Japan
                                     </a>
                                 </h3>
@@ -158,7 +158,7 @@
                                 Round Trip
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div><!-- sexboxslide -->
@@ -173,7 +173,7 @@
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                     Asia
                                 </a>
                             </div>
@@ -182,7 +182,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         China
                                     </a>
                                 </h3>
@@ -192,7 +192,7 @@
                                 Round Trip
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>   
                 </div>
@@ -207,7 +207,7 @@
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                     Europe
                                 </a>
                             </div>
@@ -216,7 +216,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         Greece
                                     </a>
                                 </h3>
@@ -226,7 +226,7 @@
                                 Round Trip
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>     
                 </div>       
@@ -241,7 +241,7 @@
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                     Canada
                                 </a>
                             </div>
@@ -250,7 +250,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         Canada
                                     </a>
                                 </h3>
@@ -260,7 +260,7 @@
                                 Round Trip
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>   
                 </div>
@@ -275,7 +275,7 @@
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                     Europe
                                 </a>
                             </div>
@@ -284,7 +284,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         Greece
                                     </a>                                        
                                 </h3>
@@ -294,7 +294,7 @@
                                 Round Trip
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -309,7 +309,7 @@
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                     Europe
                                 </a>
                             </div>
@@ -318,7 +318,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         Greece
                                     </a>                                        
                                 </h3>
@@ -328,7 +328,7 @@
                                 Round Trip
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -343,7 +343,7 @@
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                     Europe
                                 </a>
                             </div>
@@ -352,7 +352,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         Greece
                                     </a>                                        
                                 </h3>
@@ -362,7 +362,7 @@
                                 Round Trip
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -377,7 +377,7 @@
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                     Europe
                                 </a>
                             </div>
@@ -386,7 +386,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         Greece
                                     </a>                                        
                                 </h3>
@@ -396,7 +396,7 @@
                                 Round Trip
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -411,7 +411,7 @@
                                 </div>
                             </div>
                             <div class="esd-continent">
-                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                     Europe
                                 </a>
                             </div>
@@ -420,7 +420,7 @@
                         <div class="sed-details">
                             <div class="sed-title">
                                 <h3 class="">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         Greece
                                     </a>                                        
                                 </h3>
@@ -430,7 +430,7 @@
                                 Round Trip
                             </p>
 
-                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="<?= getBaseUrl() ?>/flights/flights-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div>

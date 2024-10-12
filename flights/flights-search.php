@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/fontawesome.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/jquery-ui.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/daterangepicker.css">
-    
+
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/style.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/sidebar.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/main-flights.css">
@@ -36,8 +36,8 @@
 </head>
 
 <body>
-    <div id="herohome"  class="herowithform"  style="background-image:url(<?= getBaseUrl() ?>/assets/img/hotels/hero-search-hotels.jpg)">
-        <?php include '../sections/global/header-nav.php';?>
+    <div id="herohome" class="herowithform" style="background-image:url(<?= getBaseUrl() ?>/assets/img/hotels/hero-search-hotels.jpg)">
+        <?php include '../sections/global/header-nav.php'; ?>
     </div><!-- main hero -->
 
     <section class="block pt-0 search-wrap bggray searchresults-formwrap" id="flights-search">
@@ -50,8 +50,8 @@
                         </h2>
                     </div>
                 </div><!-- searchbartop -->
-                
-                <?php include '../sections/searchform/main-forms/searchform-flights.php';?>
+
+                <?php include '../sections/searchform/main-forms/searchform-flights.php'; ?>
             </div><!-- searchbar -->
         </div><!-- container -->
         <div class="container">
@@ -77,7 +77,7 @@
                             </a>
                         </div>
                     </div>
-                    
+
                     <div class="filters-box filters">
                         <div class="fb-bottom">
                             <div class="option-wrap">
@@ -153,7 +153,8 @@
                                 <div class="slider-label">
                                     Departure Airport
                                 </div>
-                                <i class="fa-solid fa-chevron-down"></i></div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
                         </div>
                         <div class="fb-bottom">
                             <ul class="checkbox-list">
@@ -161,34 +162,34 @@
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox1">
                                         <label for="checkbox1"><span class="checkboxtext">London City Airport (LCY)</span></label>
-                                    </div> 
+                                    </div>
                                     <span>120</span>
                                 </li>
                                 <li>
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox2">
                                         <label for="checkbox2"><span class="checkboxtext">London Heathrow Airport (LHR)</span></label>
-                                    </div> 
+                                    </div>
                                     <span>120</span>
                                 </li>
                                 <li>
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox3">
                                         <label for="checkbox3"><span class="checkboxtext">Stansted Airport (STN)</span></label>
-                                    </div> 
+                                    </div>
                                     <span>120</span>
                                 </li>
                                 <li>
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox4">
                                         <label for="checkbox4"><span class="checkboxtext">London Luton Airport (LTN)</span></label>
-                                    </div> 
+                                    </div>
                                     <span>120</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div class="filters-box">
                         <div class="fb-top">
                             <div class="togglefilterbox">
@@ -203,34 +204,34 @@
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox5">
                                         <label for="checkbox5"><span class="checkboxtext">London City Airport (LCY)</span></label>
-                                    </div> 
+                                    </div>
                                     <span>120</span>
                                 </li>
                                 <li>
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox6">
                                         <label for="checkbox6"><span class="checkboxtext">London Heathrow Airport (LHR)</span></label>
-                                    </div> 
+                                    </div>
                                     <span>120</span>
                                 </li>
                                 <li>
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox7">
                                         <label for="checkbox7"><span class="checkboxtext">Stansted Airport (STN)</span></label>
-                                    </div> 
+                                    </div>
                                     <span>120</span>
                                 </li>
                                 <li>
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox8">
                                         <label for="checkbox8"><span class="checkboxtext">London Luton Airport (LTN)</span></label>
-                                    </div> 
+                                    </div>
                                     <span>120</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div class="filters-box">
                         <div class="fb-top">
                             <div class="togglefilterbox">
@@ -245,39 +246,39 @@
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox9">
                                         <label for="checkbox9"><span class="checkboxtext">Economy</span></label>
-                                    </div> 
+                                    </div>
                                     <span>120</span>
                                 </li>
                                 <li>
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox10">
                                         <label for="checkbox10"><span class="checkboxtext">Premium Economy</span></label>
-                                    </div> 
+                                    </div>
                                     <span>120</span>
                                 </li>
                                 <li>
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox11">
                                         <label for="checkbox11"><span class="checkboxtext">First Class</span></label>
-                                    </div> 
+                                    </div>
                                     <span>120</span>
                                 </li>
                                 <li>
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox12">
                                         <label for="checkbox12"><span class="checkboxtext">Business Class</span></label>
-                                    </div> 
+                                    </div>
                                     <span>120</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div class="filters-box">
                         <div class="fb-top">
                             <div class="togglefilterbox">
-                                <div class="slider-label">                         
-                                Cabin (Return Flight)
+                                <div class="slider-label">
+                                    Cabin (Return Flight)
                                 </div>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
@@ -288,39 +289,39 @@
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox13">
                                         <label for="checkbox13"><span class="checkboxtext">Economy</span></label>
-                                    </div> 
+                                    </div>
                                     <span>120</span>
                                 </li>
                                 <li>
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox14">
                                         <label for="checkbox14"><span class="checkboxtext">Premium Economy</span></label>
-                                    </div> 
+                                    </div>
                                     <span>120</span>
                                 </li>
                                 <li>
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox15">
                                         <label for="checkbox15"><span class="checkboxtext">First Class</span></label>
-                                    </div> 
+                                    </div>
                                     <span>120</span>
                                 </li>
                                 <li>
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox16">
                                         <label for="checkbox16"><span class="checkboxtext">Business Class</span></label>
-                                    </div> 
+                                    </div>
                                     <span>120</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div class="filters-box">
                         <div class="fb-top">
                             <div class="togglefilterbox">
-                                <div class="slider-label">      
-                                Stops
+                                <div class="slider-label">
+                                    Stops
                                 </div>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
@@ -331,21 +332,21 @@
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox17">
                                         <label for="checkbox17"><span class="checkboxtext">Direct</span></label>
-                                    </div> 
+                                    </div>
                                     <span>120</span>
                                 </li>
                                 <li>
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox18">
                                         <label for="checkbox18"><span class="checkboxtext">1 Stops</span></label>
-                                    </div> 
+                                    </div>
                                     <span>120</span>
                                 </li>
                                 <li>
                                     <div class="checkbox-container">
                                         <input type="checkbox" id="checkbox18">
                                         <label for="checkbox18"><span class="checkboxtext">2+ Stops</span></label>
-                                    </div> 
+                                    </div>
                                     <span>120</span>
                                 </li>
                             </ul>
@@ -355,8 +356,8 @@
                     <div class="filters-box">
                         <div class="fb-top">
                             <div class="togglefilterbox">
-                                <div class="slider-label">   
-                                Operated By
+                                <div class="slider-label">
+                                    Operated By
                                 </div>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
@@ -449,7 +450,7 @@
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
                                                     <span>
-                                                        Sun 09 Jun 2024 
+                                                        Sun 09 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -471,7 +472,7 @@
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
                                                     <span>
-                                                        Sun 10 Jun 2024 
+                                                        Sun 10 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -496,7 +497,7 @@
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
                                                     <span>
-                                                        Sun 09 Jun 2024 
+                                                        Sun 09 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -518,7 +519,7 @@
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
                                                     <span>
-                                                        Sun 10 Jun 2024 
+                                                        Sun 10 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -546,12 +547,12 @@
                                                             <div class="loclines-wrap"></div>
                                                         </div>
                                                         <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">              
+                                                            <div class="fdm-top fdmbox">
                                                                 <strong>
                                                                     LGW - London Gatwick Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -560,12 +561,12 @@
                                                                     Departing 14:55
                                                                 </span>
                                                             </div>
-                                                            <div class="fdm-bottom fdmbox">           
+                                                            <div class="fdm-bottom fdmbox">
                                                                 <strong>
                                                                     AUH - Abu Dhabi Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -618,12 +619,12 @@
                                                             <div class="loclines-wrap"></div>
                                                         </div>
                                                         <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
+                                                            <div class="fdm-top fdmbox">
                                                                 <strong>
                                                                     AUH - Abu Dhabi Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -632,12 +633,12 @@
                                                                     Departing 14:55
                                                                 </span>
                                                             </div>
-                                                            <div class="fdm-bottom fdmbox">             
+                                                            <div class="fdm-bottom fdmbox">
                                                                 <strong>
                                                                     LGW - London Gatwick Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -690,12 +691,12 @@
                                                             <div class="loclines-wrap"></div>
                                                         </div>
                                                         <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
+                                                            <div class="fdm-top fdmbox">
                                                                 <strong>
                                                                     AUH - Abu Dhabi Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -704,12 +705,12 @@
                                                                     Departing 14:55
                                                                 </span>
                                                             </div>
-                                                            <div class="fdm-bottom fdmbox">             
+                                                            <div class="fdm-bottom fdmbox">
                                                                 <strong>
                                                                     LGW - London Gatwick Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -736,9 +737,6 @@
                                         </div><!-- row -->
                                     </div><!-- fdm-content-wrap -->
                                 </div><!-- d-flex -->
-
-
-
 
                                 <div class="row">
                                     <div class="offset-lg-2 ps-0 col-lg-10 flights-readmore-info">
@@ -837,7 +835,7 @@
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
                                                     <span>
-                                                        Sun 09 Jun 2024 
+                                                        Sun 09 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -859,7 +857,7 @@
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
                                                     <span>
-                                                        Sun 10 Jun 2024 
+                                                        Sun 10 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -884,7 +882,7 @@
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
                                                     <span>
-                                                        Sun 09 Jun 2024 
+                                                        Sun 09 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -906,7 +904,7 @@
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
                                                     <span>
-                                                        Sun 10 Jun 2024 
+                                                        Sun 10 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -934,12 +932,12 @@
                                                             <div class="loclines-wrap"></div>
                                                         </div>
                                                         <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">              
+                                                            <div class="fdm-top fdmbox">
                                                                 <strong>
                                                                     LGW - London Gatwick Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -948,12 +946,12 @@
                                                                     Departing 14:55
                                                                 </span>
                                                             </div>
-                                                            <div class="fdm-bottom fdmbox">           
+                                                            <div class="fdm-bottom fdmbox">
                                                                 <strong>
                                                                     AUH - Abu Dhabi Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -1006,12 +1004,12 @@
                                                             <div class="loclines-wrap"></div>
                                                         </div>
                                                         <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
+                                                            <div class="fdm-top fdmbox">
                                                                 <strong>
                                                                     AUH - Abu Dhabi Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -1020,12 +1018,12 @@
                                                                     Departing 14:55
                                                                 </span>
                                                             </div>
-                                                            <div class="fdm-bottom fdmbox">             
+                                                            <div class="fdm-bottom fdmbox">
                                                                 <strong>
                                                                     LGW - London Gatwick Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -1078,12 +1076,12 @@
                                                             <div class="loclines-wrap"></div>
                                                         </div>
                                                         <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
+                                                            <div class="fdm-top fdmbox">
                                                                 <strong>
                                                                     AUH - Abu Dhabi Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -1092,12 +1090,12 @@
                                                                     Departing 14:55
                                                                 </span>
                                                             </div>
-                                                            <div class="fdm-bottom fdmbox">             
+                                                            <div class="fdm-bottom fdmbox">
                                                                 <strong>
                                                                     LGW - London Gatwick Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -1124,9 +1122,6 @@
                                         </div><!-- row -->
                                     </div><!-- fdm-content-wrap -->
                                 </div><!-- d-flex -->
-
-
-
 
                                 <div class="row">
                                     <div class="offset-lg-2 ps-0 col-lg-10 flights-readmore-info">
@@ -1225,7 +1220,7 @@
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
                                                     <span>
-                                                        Sun 09 Jun 2024 
+                                                        Sun 09 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -1247,7 +1242,7 @@
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
                                                     <span>
-                                                        Sun 10 Jun 2024 
+                                                        Sun 10 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -1272,7 +1267,7 @@
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
                                                     <span>
-                                                        Sun 09 Jun 2024 
+                                                        Sun 09 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -1294,7 +1289,7 @@
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
                                                     <span>
-                                                        Sun 10 Jun 2024 
+                                                        Sun 10 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -1322,12 +1317,12 @@
                                                             <div class="loclines-wrap"></div>
                                                         </div>
                                                         <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">              
+                                                            <div class="fdm-top fdmbox">
                                                                 <strong>
                                                                     LGW - London Gatwick Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -1336,12 +1331,12 @@
                                                                     Departing 14:55
                                                                 </span>
                                                             </div>
-                                                            <div class="fdm-bottom fdmbox">           
+                                                            <div class="fdm-bottom fdmbox">
                                                                 <strong>
                                                                     AUH - Abu Dhabi Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -1394,12 +1389,12 @@
                                                             <div class="loclines-wrap"></div>
                                                         </div>
                                                         <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
+                                                            <div class="fdm-top fdmbox">
                                                                 <strong>
                                                                     AUH - Abu Dhabi Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -1408,12 +1403,12 @@
                                                                     Departing 14:55
                                                                 </span>
                                                             </div>
-                                                            <div class="fdm-bottom fdmbox">             
+                                                            <div class="fdm-bottom fdmbox">
                                                                 <strong>
                                                                     LGW - London Gatwick Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -1466,12 +1461,12 @@
                                                             <div class="loclines-wrap"></div>
                                                         </div>
                                                         <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
+                                                            <div class="fdm-top fdmbox">
                                                                 <strong>
                                                                     AUH - Abu Dhabi Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -1480,12 +1475,12 @@
                                                                     Departing 14:55
                                                                 </span>
                                                             </div>
-                                                            <div class="fdm-bottom fdmbox">             
+                                                            <div class="fdm-bottom fdmbox">
                                                                 <strong>
                                                                     LGW - London Gatwick Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -1512,9 +1507,6 @@
                                         </div><!-- row -->
                                     </div><!-- fdm-content-wrap -->
                                 </div><!-- d-flex -->
-
-
-
 
                                 <div class="row">
                                     <div class="offset-lg-2 ps-0 col-lg-10 flights-readmore-info">
@@ -1613,7 +1605,7 @@
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
                                                     <span>
-                                                        Sun 09 Jun 2024 
+                                                        Sun 09 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -1635,7 +1627,7 @@
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
                                                     <span>
-                                                        Sun 10 Jun 2024 
+                                                        Sun 10 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -1660,7 +1652,7 @@
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
                                                     <span>
-                                                        Sun 09 Jun 2024 
+                                                        Sun 09 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -1682,7 +1674,7 @@
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
                                                     <span>
-                                                        Sun 10 Jun 2024 
+                                                        Sun 10 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -1710,12 +1702,12 @@
                                                             <div class="loclines-wrap"></div>
                                                         </div>
                                                         <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">              
+                                                            <div class="fdm-top fdmbox">
                                                                 <strong>
                                                                     LGW - London Gatwick Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -1724,12 +1716,12 @@
                                                                     Departing 14:55
                                                                 </span>
                                                             </div>
-                                                            <div class="fdm-bottom fdmbox">           
+                                                            <div class="fdm-bottom fdmbox">
                                                                 <strong>
                                                                     AUH - Abu Dhabi Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -1782,12 +1774,12 @@
                                                             <div class="loclines-wrap"></div>
                                                         </div>
                                                         <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
+                                                            <div class="fdm-top fdmbox">
                                                                 <strong>
                                                                     AUH - Abu Dhabi Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -1796,12 +1788,12 @@
                                                                     Departing 14:55
                                                                 </span>
                                                             </div>
-                                                            <div class="fdm-bottom fdmbox">             
+                                                            <div class="fdm-bottom fdmbox">
                                                                 <strong>
                                                                     LGW - London Gatwick Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -1854,12 +1846,12 @@
                                                             <div class="loclines-wrap"></div>
                                                         </div>
                                                         <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
+                                                            <div class="fdm-top fdmbox">
                                                                 <strong>
                                                                     AUH - Abu Dhabi Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -1868,12 +1860,12 @@
                                                                     Departing 14:55
                                                                 </span>
                                                             </div>
-                                                            <div class="fdm-bottom fdmbox">             
+                                                            <div class="fdm-bottom fdmbox">
                                                                 <strong>
                                                                     LGW - London Gatwick Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -1900,9 +1892,6 @@
                                         </div><!-- row -->
                                     </div><!-- fdm-content-wrap -->
                                 </div><!-- d-flex -->
-
-
-
 
                                 <div class="row">
                                     <div class="offset-lg-2 ps-0 col-lg-10 flights-readmore-info">
@@ -2001,7 +1990,7 @@
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
                                                     <span>
-                                                        Sun 09 Jun 2024 
+                                                        Sun 09 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -2023,7 +2012,7 @@
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
                                                     <span>
-                                                        Sun 10 Jun 2024 
+                                                        Sun 10 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -2048,7 +2037,7 @@
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
                                                     <span>
-                                                        Sun 09 Jun 2024 
+                                                        Sun 09 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -2070,7 +2059,7 @@
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
                                                     <span>
-                                                        Sun 10 Jun 2024 
+                                                        Sun 10 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -2098,12 +2087,12 @@
                                                             <div class="loclines-wrap"></div>
                                                         </div>
                                                         <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">              
+                                                            <div class="fdm-top fdmbox">
                                                                 <strong>
                                                                     LGW - London Gatwick Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -2112,12 +2101,12 @@
                                                                     Departing 14:55
                                                                 </span>
                                                             </div>
-                                                            <div class="fdm-bottom fdmbox">           
+                                                            <div class="fdm-bottom fdmbox">
                                                                 <strong>
                                                                     AUH - Abu Dhabi Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -2170,12 +2159,12 @@
                                                             <div class="loclines-wrap"></div>
                                                         </div>
                                                         <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
+                                                            <div class="fdm-top fdmbox">
                                                                 <strong>
                                                                     AUH - Abu Dhabi Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -2184,12 +2173,12 @@
                                                                     Departing 14:55
                                                                 </span>
                                                             </div>
-                                                            <div class="fdm-bottom fdmbox">             
+                                                            <div class="fdm-bottom fdmbox">
                                                                 <strong>
                                                                     LGW - London Gatwick Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -2242,12 +2231,12 @@
                                                             <div class="loclines-wrap"></div>
                                                         </div>
                                                         <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
+                                                            <div class="fdm-top fdmbox">
                                                                 <strong>
                                                                     AUH - Abu Dhabi Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -2256,12 +2245,12 @@
                                                                     Departing 14:55
                                                                 </span>
                                                             </div>
-                                                            <div class="fdm-bottom fdmbox">             
+                                                            <div class="fdm-bottom fdmbox">
                                                                 <strong>
                                                                     LGW - London Gatwick Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -2288,9 +2277,6 @@
                                         </div><!-- row -->
                                     </div><!-- fdm-content-wrap -->
                                 </div><!-- d-flex -->
-
-
-
 
                                 <div class="row">
                                     <div class="offset-lg-2 ps-0 col-lg-10 flights-readmore-info">
@@ -2389,7 +2375,7 @@
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
                                                     <span>
-                                                        Sun 09 Jun 2024 
+                                                        Sun 09 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -2411,7 +2397,7 @@
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
                                                     <span>
-                                                        Sun 10 Jun 2024 
+                                                        Sun 10 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -2436,7 +2422,7 @@
                                                 <div class="flight-details">
                                                     <strong>Departing</strong>
                                                     <span>
-                                                        Sun 09 Jun 2024 
+                                                        Sun 09 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -2458,7 +2444,7 @@
                                                 <div class="flight-details">
                                                     <strong>Arriving</strong>
                                                     <span>
-                                                        Sun 10 Jun 2024 
+                                                        Sun 10 Jun 2024
                                                     </span>
                                                     <span>
                                                         Terminal 3
@@ -2486,12 +2472,12 @@
                                                             <div class="loclines-wrap"></div>
                                                         </div>
                                                         <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">              
+                                                            <div class="fdm-top fdmbox">
                                                                 <strong>
                                                                     LGW - London Gatwick Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -2500,12 +2486,12 @@
                                                                     Departing 14:55
                                                                 </span>
                                                             </div>
-                                                            <div class="fdm-bottom fdmbox">           
+                                                            <div class="fdm-bottom fdmbox">
                                                                 <strong>
                                                                     AUH - Abu Dhabi Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -2558,12 +2544,12 @@
                                                             <div class="loclines-wrap"></div>
                                                         </div>
                                                         <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
+                                                            <div class="fdm-top fdmbox">
                                                                 <strong>
                                                                     AUH - Abu Dhabi Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -2572,12 +2558,12 @@
                                                                     Departing 14:55
                                                                 </span>
                                                             </div>
-                                                            <div class="fdm-bottom fdmbox">             
+                                                            <div class="fdm-bottom fdmbox">
                                                                 <strong>
                                                                     LGW - London Gatwick Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -2630,12 +2616,12 @@
                                                             <div class="loclines-wrap"></div>
                                                         </div>
                                                         <div class="fdmbox-wrap">
-                                                            <div class="fdm-top fdmbox">            
+                                                            <div class="fdm-top fdmbox">
                                                                 <strong>
                                                                     AUH - Abu Dhabi Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -2644,12 +2630,12 @@
                                                                     Departing 14:55
                                                                 </span>
                                                             </div>
-                                                            <div class="fdm-bottom fdmbox">             
+                                                            <div class="fdm-bottom fdmbox">
                                                                 <strong>
                                                                     LGW - London Gatwick Airport
                                                                 </strong>
                                                                 <span>
-                                                                    Sun 09 Jun 
+                                                                    Sun 09 Jun
                                                                 </span>
                                                                 <span>
                                                                     Terminal 03
@@ -2676,9 +2662,6 @@
                                         </div><!-- row -->
                                     </div><!-- fdm-content-wrap -->
                                 </div><!-- d-flex -->
-
-
-
 
                                 <div class="row">
                                     <div class="offset-lg-2 ps-0 col-lg-10 flights-readmore-info">
@@ -2762,7 +2745,6 @@
                         </div><!-- flights main -->
                     </div><!-- flights wrap -->
 
-
                     <div class="loadmore-nav mx-auto mt-5">
                         <div class="loadmore-navdetails">
                             1-<span class="loadmore-number"></span>
@@ -2783,17 +2765,17 @@
         </div>
     </section>
 
-    <div class="modal fade" id="breakdown-1" tabindex="-1" aria-labelledby="breakdown-1" aria-hidden="true">
+    <div class="modal fade breakdown-popup" id="breakdown-1" tabindex="-1" aria-labelledby="breakdown-1" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body">
-                   
+
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     <div class="breakdowntop">
-                        <h4>
+                        <h4 class="mb-1">
                             Afternoon Show
                         </h4>
-                        <div class="fw-semibold">
+                        <div class="fw-semibold txt-gray mb-3">
                             Timings - 14:15
                         </div>
                     </div>
@@ -2805,9 +2787,9 @@
 
                             <p>Sed vitae bibendum augue. Sed suscipit dignissim euismod. Suspendisse auctor enim vel enim egestas, in faucibus magna rhoncus. Vivamus tincidunt dignissim mauris, non vehicula libero accumsan ut. Nulla dapibus mi sed nisl feugiat pulvinar. Vestibulum consequat nisl in ullamcorper scelerisque.</p>
                         </div>
-                        <div class="d-flex column-gap-3 align-items-center justify-content-end">
-                            <div class="breakdownbottom-left text-center">
-                                <div class="bdb-left-price">
+                        <div class="d-flex column-gap-4 align-items-center justify-content-end">
+                            <div class="breakdownbottom-left text-center pt-2 pe-2">
+                                <div class="bdb-left-price txt-black">
                                     2 Adults x £159.00
                                 </div>
                                 <div class="bdb-left-price-main">
@@ -2826,7 +2808,7 @@
         </div>
     </div>
 
-    <?php include '../sections/global/footer.php';?>
+    <?php include '../sections/global/footer.php'; ?>
 
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/jquery-ui.min.js"></script>

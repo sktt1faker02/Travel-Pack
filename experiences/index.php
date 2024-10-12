@@ -38,7 +38,8 @@
         <div class="herowrapblur">
             <div class="heroslider">
                 <div class="heroslide">
-                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-experience.jpg" alt="">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/hero-experience.jpg" alt="" class="hero-img-desktop">
+                    <img src="<?= getBaseUrl() ?>/assets/img/hero/heromobile/heromobile-experience.jpg" alt="" class="hero-img-mobile">
                 </div>
                 <div class="heroslide">
                     <img src="" alt="">
@@ -179,12 +180,12 @@
                             </div><!-- esd-right-top -->
                             <div class="esd-right-bottom d-flex align-items-center justify-content-between">
                                 <div class="esd-right-bottom-read-more">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         View All <i class="fa-solid fa-chevron-right ms-1"></i>
                                     </a>
                                 </div>
                                 <div class="esd-right-bottom-price">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         £699pp
                                     </a>
                                 </div>
@@ -196,7 +197,7 @@
                     <div class="col-12 col-md-6 px-0 d-flex">
                         <div class="esd-left">
                             <div class="hurry-price global-price-tag">
-                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                     Summer Special
                                 </a>
                             </div>
@@ -253,12 +254,12 @@
                             </div><!-- esd-right-top -->
                             <div class="esd-right-bottom d-flex align-items-center justify-content-between">
                                 <div class="esd-right-bottom-read-more">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         Read More <i class="fa-solid fa-chevron-right ms-1"></i>
                                     </a>
                                 </div>
                                 <div class="esd-right-bottom-price">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         £699pp
                                     </a>
                                 </div>
@@ -270,7 +271,7 @@
                     <div class="col-12 col-md-6 px-0 d-flex">
                         <div class="esd-left">
                             <div class="hurry-price global-price-tag">
-                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                     Summer Special
                                 </a>
                             </div>
@@ -296,7 +297,7 @@
                                 <div class="esd-right-top-title">
                                     <div class="esd-right-top-title-top">
                                         <div class="esd-continent">
-                                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                            <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                                 Asia
                                             </a>
                                         </div>
@@ -306,7 +307,7 @@
                                     </div>
                                     <div class="esd-right-title-main">
                                         <h3>
-                                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                            <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                                 Kyoto, Japan
                                             </a>
                                         </h3>
@@ -325,12 +326,12 @@
                             </div><!-- esd-right-top -->
                             <div class="esd-right-bottom d-flex align-items-center justify-content-between">
                                 <div class="esd-right-bottom-read-more">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         Read More <i class="fa-solid fa-chevron-right ms-1"></i>
                                     </a>
                                 </div>
                                 <div class="esd-right-bottom-price">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         £699pp
                                     </a>
                                 </div>
@@ -342,7 +343,7 @@
                     <div class="col-12 col-md-6 px-0 d-flex">
                         <div class="esd-left">
                             <div class="hurry-price global-price-tag">
-                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                     Summer Special
                                 </a>
                             </div>
@@ -368,7 +369,7 @@
                                 <div class="esd-right-top-title">
                                     <div class="esd-right-top-title-top">
                                         <div class="esd-continent">
-                                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                            <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                                 Asia
                                             </a>
                                         </div>
@@ -378,7 +379,7 @@
                                     </div>
                                     <div class="esd-right-title-main">
                                         <h3>
-                                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                            <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                                 Kyoto, Japan
                                             </a>
                                         </h3>
@@ -397,12 +398,12 @@
                             </div><!-- esd-right-top -->
                             <div class="esd-right-bottom d-flex align-items-center justify-content-between">
                                 <div class="esd-right-bottom-read-more">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         Read More <i class="fa-solid fa-chevron-right ms-1"></i>
                                     </a>
                                 </div>
                                 <div class="esd-right-bottom-price">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         £699pp
                                     </a>
                                 </div>
@@ -414,7 +415,7 @@
                     <div class="col-12 col-md-6 px-0 d-flex">
                         <div class="esd-left">
                             <div class="hurry-price global-price-tag">
-                                <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                     Summer Special
                                 </a>
                             </div>
@@ -440,7 +441,7 @@
                                 <div class="esd-right-top-title">
                                     <div class="esd-right-top-title-top">
                                         <div class="esd-continent">
-                                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                            <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                                 Asia
                                             </a>
                                         </div>
@@ -450,7 +451,7 @@
                                     </div>
                                     <div class="esd-right-title-main">
                                         <h3>
-                                            <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                            <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                                 Kyoto, Japan
                                             </a>
                                         </h3>
@@ -469,12 +470,12 @@
                             </div><!-- esd-right-top -->
                             <div class="esd-right-bottom d-flex align-items-center justify-content-between">
                                 <div class="esd-right-bottom-read-more">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         Read More <i class="fa-solid fa-chevron-right ms-1"></i>
                                     </a>
                                 </div>
                                 <div class="esd-right-bottom-price">
-                                    <a href="<?= getBaseUrl() ?>/flights/flights-search.php">
+                                    <a href="<?= getBaseUrl() ?>/flights/flights-search">
                                         £699pp
                                     </a>
                                 </div>
@@ -498,7 +499,7 @@
                                 </h3>
                             </div>
                             <div class="col-4 col-md-4 d-flex justify-content-end">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">View All <i class="fa-solid fa-chevron-right"></i></a>
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search" class="fw-semibold yph-more">View All <i class="fa-solid fa-chevron-right"></i></a>
                             </div>
                         </div><!-- row -->
                     </div><!-- exciting deals -->
@@ -512,13 +513,13 @@
                     <div class="sedtop">
                         <div class="yellowtagwrap">
                             <div class="yph-price global-price-tag">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     From <strong>£20pp</strong>
                                 </a>
                             </div>
                         </div>
                         <div class="esd-continent">
-                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                 Europe
                             </a>
                         </div>
@@ -527,7 +528,7 @@
                     <div class="sed-details">
                         <div class="sed-title">
                             <h3 class="">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     Manchester
                                 </a>
                             </h3>
@@ -535,7 +536,7 @@
                         <p class="txt-blue pb-5">
                         </p>
 
-                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -544,13 +545,13 @@
                     <div class="sedtop">
                         <div class="yellowtagwrap">
                             <div class="yph-price global-price-tag">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     From <strong>£60pp</strong>
                                 </a>
                             </div>
                         </div>
                         <div class="esd-continent">
-                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                 Europe
                             </a>
                         </div>
@@ -559,7 +560,7 @@
                     <div class="sed-details">
                         <div class="sed-title">
                             <h3 class="">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     Oxford
                                 </a>
                             </h3>
@@ -567,7 +568,7 @@
                         <p class="txt-blue pb-5">
                         </p>
 
-                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>   
             </div>
@@ -576,13 +577,13 @@
                     <div class="sedtop">
                         <div class="yellowtagwrap">
                             <div class="yph-price global-price-tag">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     From <strong>£30pp</strong>
                                 </a>
                             </div>
                         </div>
                         <div class="esd-continent">
-                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                 Europe
                             </a>
                         </div>
@@ -591,13 +592,13 @@
                     <div class="sed-details">
                         <div class="sed-title">
                             <h3 class="mb-5 pb-4">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     Bath
                                 </a>
                             </h3>
                         </div>
 
-                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>   
             </div>
@@ -606,13 +607,13 @@
                     <div class="sedtop">
                         <div class="yellowtagwrap">
                             <div class="yph-price global-price-tag">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     From <strong>£20pp</strong>
                                 </a>
                             </div>
                         </div>
                         <div class="esd-continent">
-                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                 Europe
                             </a>
                         </div>
@@ -621,7 +622,7 @@
                     <div class="sed-details">
                         <div class="sed-title">
                             <h3 class="">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     Leeds
                                 </a>
                             </h3>
@@ -629,7 +630,7 @@
                         <p class="txt-blue pb-5">
                         </p>
 
-                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -638,13 +639,13 @@
                     <div class="sedtop">
                         <div class="yellowtagwrap">
                             <div class="yph-price global-price-tag">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     From <strong>£22pp</strong>
                                 </a>
                             </div>
                         </div>
                         <div class="esd-continent">
-                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                 North America
                             </a>
                         </div>
@@ -653,7 +654,7 @@
                     <div class="sed-details">
                         <div class="sed-title">
                             <h3 class="">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     Europe
                                 </a>
                             </h3>
@@ -661,7 +662,7 @@
                         <p class="txt-blue pb-5">
                         </p>
 
-                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>     
             </div>   
@@ -670,13 +671,13 @@
                     <div class="sedtop">
                         <div class="yellowtagwrap">
                             <div class="yph-price global-price-tag">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     From <strong>£20pp</strong>
                                 </a>
                             </div>
                         </div>
                         <div class="esd-continent">
-                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                 Europe
                             </a>
                         </div>
@@ -685,7 +686,7 @@
                     <div class="sed-details">
                         <div class="sed-title">
                             <h3 class="">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     Manchester
                                 </a>
                             </h3>
@@ -693,7 +694,7 @@
                         <p class="txt-blue pb-5">
                         </p>
 
-                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -702,13 +703,13 @@
                     <div class="sedtop">
                         <div class="yellowtagwrap">
                             <div class="yph-price global-price-tag">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     From <strong>£60pp</strong>
                                 </a>
                             </div>
                         </div>
                         <div class="esd-continent">
-                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                 Europe
                             </a>
                         </div>
@@ -717,7 +718,7 @@
                     <div class="sed-details">
                         <div class="sed-title">
                             <h3 class="">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     Oxford
                                 </a>
                             </h3>
@@ -725,7 +726,7 @@
                         <p class="txt-blue pb-5">
                         </p>
 
-                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>   
             </div>
@@ -734,13 +735,13 @@
                     <div class="sedtop">
                         <div class="yellowtagwrap">
                             <div class="yph-price global-price-tag">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     From <strong>£30pp</strong>
                                 </a>
                             </div>
                         </div>
                         <div class="esd-continent">
-                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                 Europe
                             </a>
                         </div>
@@ -749,13 +750,13 @@
                     <div class="sed-details">
                         <div class="sed-title">
                             <h3 class="mb-5 pb-4">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     Bath
                                 </a>
                             </h3>
                         </div>
 
-                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>   
             </div>
@@ -764,13 +765,13 @@
                     <div class="sedtop">
                         <div class="yellowtagwrap">
                             <div class="yph-price global-price-tag">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     From <strong>£20pp</strong>
                                 </a>
                             </div>
                         </div>
                         <div class="esd-continent">
-                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                 Europe
                             </a>
                         </div>
@@ -779,7 +780,7 @@
                     <div class="sed-details">
                         <div class="sed-title">
                             <h3 class="">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     Leeds
                                 </a>
                             </h3>
@@ -787,7 +788,7 @@
                         <p class="txt-blue pb-5">
                         </p>
 
-                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -796,13 +797,13 @@
                     <div class="sedtop">
                         <div class="yellowtagwrap">
                             <div class="yph-price global-price-tag">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     From <strong>£22pp</strong>
                                 </a>
                             </div>
                         </div>
                         <div class="esd-continent">
-                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                            <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                 North America
                             </a>
                         </div>
@@ -811,7 +812,7 @@
                     <div class="sed-details">
                         <div class="sed-title">
                             <h3 class="">
-                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php">
+                                <a href="<?= getBaseUrl() ?>/experiences/experiences-search">
                                     Europe
                                 </a>
                             </h3>
@@ -819,7 +820,7 @@
                         <p class="txt-blue pb-5">
                         </p>
 
-                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search.php" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                        <a href="<?= getBaseUrl() ?>/experiences/experiences-search" class="fw-semibold yph-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>     
             </div> 

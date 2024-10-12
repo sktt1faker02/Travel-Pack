@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/slick.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/daterangepicker.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/fontawesome.css">
-    
+
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/style.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/sidebar.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/main-rail.css">
@@ -36,7 +37,7 @@
 
 <body>
     <div id="herohome" class="herowithform" style="background-image:url(<?= getBaseUrl() ?>/assets/img/rail/bghero-rail.jpg)">
-        <?php include '../sections/global/header-nav.php';?>
+        <?php include '../sections/global/header-nav.php'; ?>
     </div><!-- main hero -->
 
     <section class="block search-wrap pt-0 searchresults-formwrap bggray" id="special-offers-search">
@@ -49,8 +50,8 @@
                         </h2>
                     </div>
                 </div><!-- searchbartop -->
-                
-                <?php include '../sections/searchform/main-forms/searchform-rail.php';?>
+
+                <?php include '../sections/searchform/main-forms/searchform-rail.php'; ?>
             </div><!-- searchbar -->
         </div><!-- container -->
         <div class="container">
@@ -126,7 +127,7 @@
                         <div class="fb-bottom">
                             <div class="slider-container">
                                 <div class="rangeslider-wrap">
-                                    <input type="range" min="20" max="2000" value="600" class="slider" id="priceRange">
+                                    <input type="range" min="20" max="2000" value="600" class="slider" id="priceRange" slide-name="price">
                                     <span class="sliderValue-below" id="priceValueBelow">£600</span>
                                 </div>
                                 <div class="value-display">
@@ -141,7 +142,7 @@
                         <div class="fb-top fw-semibold">
                             <div class="togglefilterbox">
                                 <div class="slider-label">
-                                Departure Time
+                                    Departure Time
                                 </div>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
@@ -149,7 +150,7 @@
                         <div class="fb-bottom">
                             <div class="slider-container">
                                 <div class="rangeslider-wrap">
-                                    <input type="range" min="0" max="1440" value="60" step="60" class="slider" id="departureTime">
+                                    <input type="range" min="0" max="1440" value="60" step="60" class="slider" id="departureTime" slide-name="durationTime">
                                     <span class="sliderValue-below" id="departureTimeValueBelow">01:00</span>
                                 </div>
                                 <div class="value-display">
@@ -165,7 +166,7 @@
                         <div class="fb-top fw-semibold">
                             <div class="togglefilterbox">
                                 <div class="slider-label">
-                                Return Time
+                                    Return Time
                                 </div>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
@@ -173,7 +174,7 @@
                         <div class="fb-bottom">
                             <div class="slider-container">
                                 <div class="rangeslider-wrap">
-                                    <input type="range" min="0" max="1440" value="60" step="60" class="slider" id="returnTime">
+                                    <input type="range" min="0" max="1440" value="60" step="60" class="slider" id="returnTime" slide-name="returnTime">
                                     <span class="sliderValue-below" id="returnTimeValueBelow">01:00</span>
                                 </div>
                                 <div class="value-display">
@@ -188,7 +189,7 @@
                         <div class="fb-top">
                             <div class="togglefilterbox">
                                 <div class="slider-label">
-                                Departing from
+                                    Departing from
                                 </div>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
@@ -230,7 +231,7 @@
                         <div class="fb-top">
                             <div class="togglefilterbox">
                                 <div class="slider-label">
-                                Returning To
+                                    Returning To
                                 </div>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
@@ -276,7 +277,7 @@
                         </div><!-- fb-top   -->
                         <div class="fb-bottom txt-black">
                             <div class="flightpurchase-box">
-                                If you need any help with your bookings simply <a href="#"><u>Contact Us</u></a> and we shall get in touch with you or Just call us on  <a href="#">+44 208 585 4080 </a>
+                                If you need any help with your bookings simply <a href="#"><u>Contact Us</u></a> and we shall get in touch with you or Just call us on <a href="#">+44 208 585 4080 </a>
                             </div><!-- flight purchase box -->
                         </div>
                     </div><!-- filters box -->
@@ -305,7 +306,7 @@
                         </div><!-- special offers -->
                     </div>
 
-                    <div class="flights-wrap"> 
+                    <div class="flights-wrap">
                         <div class="loadmore-boxes-wrap">
                             <div class="flights-main loadmorebox">
                                 <div class="flights-box">
@@ -324,7 +325,7 @@
                                                     <div class="flight-details">
                                                         <strong>St Pancras International Station</strong>
                                                         <span>
-                                                            Sun 09 Jun 2024 
+                                                            Sun 09 Jun 2024
                                                         </span>
                                                     </div>
                                                 </div>
@@ -342,9 +343,9 @@
                                                     <h4>Paris</h4>
                                                     <div class="flight-details">
                                                         <strong>Gare du <br>
-                                                        Nord Station</strong>
+                                                            Nord Station</strong>
                                                         <span>
-                                                            Sun 10 Jun 2024 
+                                                            Sun 10 Jun 2024
                                                         </span>
                                                     </div>
                                                 </div>
@@ -366,7 +367,7 @@
                                                     <div class="flight-details">
                                                         <strong>St Pancras International Station</strong>
                                                         <span>
-                                                            Sun 09 Jun 2024 
+                                                            Sun 09 Jun 2024
                                                         </span>
                                                     </div>
                                                 </div>
@@ -384,9 +385,9 @@
                                                     <h4>London</h4>
                                                     <div class="flight-details">
                                                         <strong>Gare du <br>
-                                                        Nord Station</strong>
+                                                            Nord Station</strong>
                                                         <span>
-                                                            Sun 10 Jun 2024 
+                                                            Sun 10 Jun 2024
                                                         </span>
                                                     </div>
                                                 </div>
@@ -411,18 +412,18 @@
                                                                         <div class="loclines-wrap"></div>
                                                                     </div>
                                                                     <div class="fdmbox-wrap">
-                                                                        <div class="fdm-top fdmbox">  
+                                                                        <div class="fdm-top fdmbox">
                                                                             <span>
                                                                                 Sun 09 Jun - 20:55
-                                                                            </span>            
+                                                                            </span>
                                                                             <strong>
                                                                                 International St. Pancras Station
                                                                             </strong>
                                                                         </div>
-                                                                        <div class="fdm-top fdmbox">  
+                                                                        <div class="fdm-top fdmbox">
                                                                             <span>
                                                                                 Sun 09Jun - 06:45
-                                                                            </span>            
+                                                                            </span>
                                                                             <strong>
                                                                                 Lorem Ipsum
                                                                             </strong>
@@ -446,18 +447,18 @@
                                                                         <div class="loclines-wrap"></div>
                                                                     </div>
                                                                     <div class="fdmbox-wrap">
-                                                                        <div class="fdm-top fdmbox">  
+                                                                        <div class="fdm-top fdmbox">
                                                                             <span>
                                                                                 Sun 09 Jun - 20:55
-                                                                            </span>            
+                                                                            </span>
                                                                             <strong>
                                                                                 International St. Pancras Station
                                                                             </strong>
                                                                         </div>
-                                                                        <div class="fdm-top fdmbox">  
+                                                                        <div class="fdm-top fdmbox">
                                                                             <span>
                                                                                 Sun 09Jun - 06:45
-                                                                            </span>            
+                                                                            </span>
                                                                             <strong>
                                                                                 Lorem Ipsum
                                                                             </strong>
@@ -476,18 +477,18 @@
                                                                         <div class="loclines-wrap"></div>
                                                                     </div>
                                                                     <div class="fdmbox-wrap">
-                                                                        <div class="fdm-top fdmbox">  
+                                                                        <div class="fdm-top fdmbox">
                                                                             <span>
                                                                                 Sun 09 Jun - 20:55
-                                                                            </span>            
+                                                                            </span>
                                                                             <strong>
                                                                                 International St. Pancras Station
                                                                             </strong>
                                                                         </div>
-                                                                        <div class="fdm-top fdmbox">  
+                                                                        <div class="fdm-top fdmbox">
                                                                             <span>
                                                                                 Sun 09Jun - 06:45
-                                                                            </span>            
+                                                                            </span>
                                                                             <strong>
                                                                                 Lorem Ipsum
                                                                             </strong>
@@ -511,18 +512,18 @@
                                                                         <div class="loclines-wrap"></div>
                                                                     </div>
                                                                     <div class="fdmbox-wrap">
-                                                                        <div class="fdm-top fdmbox">  
+                                                                        <div class="fdm-top fdmbox">
                                                                             <span>
                                                                                 Sun 09 Jun - 20:55
-                                                                            </span>            
+                                                                            </span>
                                                                             <strong>
                                                                                 International St. Pancras Station
                                                                             </strong>
                                                                         </div>
-                                                                        <div class="fdm-top fdmbox">  
+                                                                        <div class="fdm-top fdmbox">
                                                                             <span>
                                                                                 Sun 09Jun - 06:45
-                                                                            </span>            
+                                                                            </span>
                                                                             <strong>
                                                                                 Lorem Ipsum
                                                                             </strong>
@@ -533,7 +534,7 @@
                                                         </div><!-- col -->
                                                     </div>
                                                 </div><!-- col -->
-                                            </div><!-- row -->               
+                                            </div><!-- row -->
                                         </div><!-- fdm-content-wrap -->
                                     </div><!-- d-flex -->
                                     <div class="row">
@@ -659,7 +660,7 @@
             </div><!-- row -->
         </div>
     </section>
-    
+
     <section id="cta" class="block" style="background-image: url(<?= getBaseUrl() ?>/assets/img/home/ctabg.jpeg);">
         <div class="container">
             <div class="row">
@@ -670,7 +671,7 @@
                 </div><!-- col -->
                 <div class="col-12 col-lg-6 offset-lg-3 text-center txt-white">
                     <p>
-                        To book your holiday call us or simply share your details and we shall get in touch with youJust call us on +44 208 585 4080 
+                        To book your holiday call us or simply share your details and we shall get in touch with youJust call us on +44 208 585 4080
                     </p>
 
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cta-modal">
@@ -727,7 +728,7 @@
                                     <label for="emailaddress">
                                         Email Address*
                                     </label>
-                                    <input type="email" placeholder="example@email.com" id="emailaddress" name="surnemailaddressame" required>                                                
+                                    <input type="email" placeholder="example@email.com" id="emailaddress" name="surnemailaddressame" required>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6">
@@ -764,15 +765,17 @@
         </div>
     </section>
 
-    <?php include '../sections/global/footer.php';?>
+    <?php include '../sections/global/footer.php'; ?>
 
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/jquery-ui.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/slick.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/bootstrap.min.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/sidebar.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/moment.min.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/daterangepicker.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/main-search.js"></script>
-    <script src="<?= getBaseUrl() ?>/assets/js/searchbar.js"></script>
+    <script src="<?= getBaseUrl() ?>/assets/js/searchbar.js?v=1.0.0"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/scripts.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/loadmoreboxes.js"></script>
 

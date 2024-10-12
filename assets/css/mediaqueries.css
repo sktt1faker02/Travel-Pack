@@ -1,8 +1,44 @@
+@media (min-width:1400px) {
+    .loadmoreboxes-car-hire .col-car-hire-image {
+        width:260px
+    }
+    .loadmoreboxes-car-hire .car-hire-title {
+        width: 200px;
+    }
+    .loadmoreboxes-car-hire .car-hire-features {
+        width: 300px;
+    }
+    .col-car-hire-details-wrap {
+        flex-grow:1;
+    }
+    .loadmoreboxes-car-hire .carhirelogo {
+        flex-grow:1;
+    }
+    .loadmoreboxes-car-hire .carhirebox-price {
+        position: relative;
+        left: -17px;
+    }
+    .footertop-right {
+        line-height: 32px;
+        width: 55%;
+        padding-left: 60px !important;
+    }
+    .footertop-left-main {
+        width: 45%;
+    }
+    .footertopmid {
+        width: 42%;
+    }
+    .footertopleft {
+        width: 53%;
+    }
+}
+
 @media (min-width:1200px) and (max-width:1399px) {
     .esd-right-top-description {
-        margin-top: 25px;
-        -webkit-line-clamp: 8;
-        line-clamp: 8;
+        margin-top: 15px;
+        -webkit-line-clamp: 6;
+        line-clamp: 6;
     }
 }
 
@@ -15,29 +51,6 @@
     }
 }
 
-@media (min-width: 992px) and (max-width:1199px)  {
-    .dti-right-img {
-        padding-top: 90%;
-    }
-    /*.container {
-        max-width: 1280px;
-    }
-    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        width: 96%;
-    }*/
-    .dm-exp-bottom {
-        font-size: 14px;
-    }
-    .bottommenu ul {
-        gap: 20px;
-    }
-    #herohome {
-        padding: 40px 0 80px;
-    }
-    .footertop-right {
-        font-size: 22px;
-    }
-}
 
 @media (max-width: 1199px) {
     #cta h2 {
@@ -93,9 +106,40 @@
     .global-price-tag a {
         padding: 6px 15px 5px;
     }
+} 
+ 
+
+@media (min-width: 992px) and (max-width:1199px)  {
+    .dti-right-img {
+        padding-top: 90%;
+    }
+    .esd-right-top-description {
+        -webkit-line-clamp: 5;
+        line-clamp: 5;
+        margin-top: 15px;
+        margin-bottom: -10px;
+    }
+    .esd-right-title-main h3 a {
+        font-size: 22px;
+    }
+    .dm-exp-bottom {
+        font-size: 14px;
+    }
+    .bottommenu ul {
+        gap: 20px;
+    }
+    #herohome {
+        padding: 40px 0 80px;
+    }
+    .footertop-right {
+        font-size: 22px;
+    }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
+    ul#searchtab {
+        gap: 40px;
+    }
     #cta {
         padding: 120px 0;
     }
@@ -123,10 +167,25 @@
     .tp-main {
         width: 74%;
     }
+    #cookie-policy .container {
+        max-width: 960px;
+    }
+    .hero-img-mobile {
+        display: none;
+    }
 }
 
 
 @media (max-width: 991px) {
+    .hero-img-desktop {
+        display:none;
+    }
+    ul#searchtab {
+        height:32px;
+    }
+    .footerbottom {
+        margin-top: 0;
+    }
     #main-header {
         top:20px;
     }
@@ -162,9 +221,6 @@
     .deals-travel-inspiration-top p {
         margin: 0 auto 15px;
         width:100%;
-    }
-    .emailinputwrap {
-        justify-content: center;
     }
     #main-hero {
         padding: 100px 0 30px;
@@ -248,9 +304,23 @@
 
 
 @media (max-width: 767px) {
+    .searchbar {
+        margin-bottom:40px;
+    }
+    .rowslider .slick-dots {
+        width: 100%;
+    }
     ul#searchtab button {
         font-size: 15px;
         padding-bottom: 4px;
+    }
+    .esd-left-slider .slick-slide {
+        height: 350px;
+    }
+    .esd-left-slider .slick-slide > div {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
     }
     .esd-left-slider .slick-slide {
         max-height: 350px;
@@ -316,24 +386,43 @@
     }
 }
 
-@media (min-width: 576px) {
-    .footertop-left-main {
-        width: 45%;
-    }
-    .footertopmid {
-        width: 42%;
-    }
-    .footertop-right {
-        width: 55%;
+@media (min-width: 480px) {
+    .dti-right-img2 {
+        margin-top: 40px;
     }
 }
 
+@media (min-width: 576px) {
+}
+
 @media (max-width: 575px) {
+    .topplaces-slider-nav {
+        font-size: 20px;
+    }
+    #footer h4 {
+        margin-bottom:10px;
+    }
+    #cookie-policy .container {
+        max-width: calc(100% - 20px);
+    }
+    .homesectiontitle {
+        font-size: 22px;
+    }
+    .whychoosebox p {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+    .whychoosebox img {
+        width: auto;
+        height: 100px;
+        margin-bottom: 30px;
+    }
     #top-places p {
         height: 150px;
     }
     .topplacesbox {
         padding: 20px;
+        min-height: 400px;
     }
     #top-places h2 {
         font-size: 33px;
@@ -342,7 +431,7 @@
     .faqs-toggle-btn i {
         font-size: 10px;
     }
-    .heroslider-nav-slide h1, .heroslider-nav-slide h2 {
+    #main-hero h1, #main-hero h2 {
         font-size: 43px;
     }
     .heroslider-nav .slick-dots {
@@ -354,15 +443,9 @@
     .slick-dots button {
         transform: scale(.7);
     }
-    .whychoosebox img {
-        width: 100px;
-    }
     .sed-slider {
         margin-right:0;
         margin-left:0;
-    }
-    .col2list li {
-        flex-basis: 100%;
     }
     #herohome {
         padding-top: 25px;
@@ -425,9 +508,46 @@
     #innerhero.inner-hc {
         background-image:url(../img/inner/mobilehero-hc.jpg) !important;
     }
+    .col2list li {
+        flex-basis: 35%;
+        line-height: 1.25;
+        margin-bottom: 10px;
+    }
+    .footertopleft ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .footertopleft ul li:nth-child(2) {
+        order: 3;
+        margin-bottom: 0;
+    }
+    .footertopleft ul li:nth-child(3) {
+        order: 4;
+        margin-bottom: 0;
+    }
+    .footertopleft ul li:nth-child(4) {
+        order: 2;
+    }
+    .footertopleft ul li:nth-child(5) {
+        order: 5;
+    }
+    .footertopleft ul li {
+        flex-basis: 180px;
+        order: 1;
+        line-height: 1.3;
+        margin-bottom: 11px;
+    }
+    .searchform-more {
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 479px) {
+    .footertopleft ul li {
+        flex-basis: 168px;
+        font-size: 13.6px;
+    }
     .yph-details > .yph-more {
         flex-basis: 110px;
     }
@@ -439,9 +559,6 @@
     }
     .exciting-deals-heading a.view-all {
         font-size: 14px;
-    }
-    .dti-right-img1 {
-        margin-top:0;
     }
     .sed-slider {
         padding-bottom: 0;
@@ -460,24 +577,10 @@
         padding:17px 10px;
         width: calc(100% - 20px);
     }
-    .wct-col {
-        width:100%;
-    }
-    .dti-right-img-wrap {
-        display: block;
-        text-align: center;
-    }
-    .dti-right-img1 {
-        top: 0;
-    }
     .global-price-tag a {
         font-size: 13px;
         padding: 8px 15px;
-    }    
-    .dti-right-img2 {
-        margin-left: 0;
-        margin-top: 20px;
-    }
+    }   
     .yphbox h3 {
         font-size: 23px;
         padding-right: 20px;
@@ -485,17 +588,9 @@
     .yph-more {
         font-size: 12px;
     }    
-    .dti-right-img {
-        padding-top:100%;
-    }
     .perfectholidayslider .global-price-tag a {
         left: 10px;
         font-size:13px;
-    }
-    .dti-right-img {
-        padding-top: 100%;
-        width: 380px;
-        max-width: 100%;
     }
     .countdown {
         padding: 15px 10px 20px;
@@ -517,5 +612,14 @@
         font-size: 20px;
         width: 200px;
         max-width: 100%;
+    }
+    .dti-right-img {
+        padding-top: 100%;
+    }
+    .dti-right-img2 {
+        top: 100px;
+    }
+    .dti-right-img1 {
+        top:0;
     }
 }

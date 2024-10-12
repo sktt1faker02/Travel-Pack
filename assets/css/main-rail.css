@@ -254,7 +254,7 @@ i.fa-chevron-* {
 }
 
 
-/* RAILS NEW + FLIGHT */
+/* RAILS NEW + FLIGHT /////*/
 .airline-image {
     background-color:#f8f6f3;
 }
@@ -264,4 +264,8 @@ i.fa-chevron-* {
 .flightprice-option .btn {
     padding: 7px 15px;
     font-size: 15px;
+}
+.fdm-box-main {
+    display: flex;
+    position: relative;
 }

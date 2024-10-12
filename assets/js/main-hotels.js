@@ -1,37 +1,37 @@
 /* HOTELS SLIDERS */
 $(document).ready(function() {
-    $('.hotels-summary-listing-slider').slick({
-        infinite: true,
-        arrows: true,
-        draggable: false,
-        dots: false,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        prevArrow: '<i class="fa-solid fa-chevron-left"></i>',
-        nextArrow: '<i class="fa-solid fa-chevron-right"></i>'
-    });
+    // $('.hotels-summary-listing-slider').slick({
+    //     infinite: true,
+    //     arrows: true,
+    //     draggable: false,
+    //     dots: false,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     prevArrow: '<i class="fa-solid fa-chevron-left"></i>',
+    //     nextArrow: '<i class="fa-solid fa-chevron-right"></i>'
+    // });
 
-    $('.hotelrooms-image-slider').slick({
-        infinite: true,
-        arrows: true,
-        draggable: false,
-        dots: false,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        prevArrow: '<i class="fa-solid fa-chevron-left"></i>',
-        nextArrow: '<i class="fa-solid fa-chevron-right"></i>'
-    });
+    // $('.hotelrooms-image-slider').slick({
+    //     infinite: true,
+    //     arrows: true,
+    //     draggable: false,
+    //     dots: false,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     prevArrow: '<i class="fa-solid fa-chevron-left"></i>',
+    //     nextArrow: '<i class="fa-solid fa-chevron-right"></i>'
+    // });
 
-    $('.hotel-rooms-main-top-slider').slick({
-        infinite: true,
-        arrows: true,
-        draggable: false,
-        dots: false,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        prevArrow: '<i class="fa-solid fa-chevron-left"></i>',
-        nextArrow: '<i class="fa-solid fa-chevron-right"></i>'
-    });
+    // $('.hotel-rooms-main-top-slider').slick({
+    //     infinite: true,
+    //     arrows: true,
+    //     draggable: false,
+    //     dots: false,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     prevArrow: '<i class="fa-solid fa-chevron-left"></i>',
+    //     nextArrow: '<i class="fa-solid fa-chevron-right"></i>'
+    // });
 
     // Function to set equal height
     function setEqualHeight2() {

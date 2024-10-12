@@ -352,15 +352,15 @@
                     </div>
                     
                     <form action="car-hire-extras.php" method="post">    
-                        <div class="loadmore-boxes-wrap">
+                        <div class="loadmore-boxes-wrap loadmoreboxes-car-hire">
                             <div class="whiteboxbg carhire-box loadmorebox">
                                 <div class="row">
-                                    <div class="col-lg-4 col-12">
+                                    <div class="col-lg-4 col-12 col-car-hire-image">
                                         <div class="car-hire-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/car-hire/car-thumb.jpg" alt="">
                                         </div>
                                     </div><!-- col -->
-                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column">
+                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column col-car-hire-details-wrap">
                                         <div class="row">
                                             <div class="col-lg-3 car-hire-title">
                                                 <div class="car-hire-boxtitle-main">
@@ -418,9 +418,9 @@
                                         <div class="row align-items-center">
                                             <div class="col-12 col-lg-9 d-flex justify-content-between align-items-center">
                                                 <div class="carhire-termslink">
-                                                    <a href="#">
+                                                    <span data-bs-toggle="modal" data-bs-target="#terms-and-conditions">
                                                         Show Terms & Conditions
-                                                    </a>
+                                                    </span>
                                                 </div><!-- carhire termslink -->
                                                 <div class="carhirebox-price">
                                                     <h3>
@@ -439,12 +439,12 @@
                             </div><!-- whiteboxbg -->
                             <div class="whiteboxbg carhire-box loadmorebox">
                                 <div class="row">
-                                    <div class="col-lg-4 col-12">
+                                    <div class="col-lg-4 col-12 col-car-hire-image">
                                         <div class="car-hire-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/car-hire/car-thumb.jpg" alt="">
                                         </div>
                                     </div><!-- col -->
-                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column">
+                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column col-car-hire-details-wrap">
                                         <div class="row">
                                             <div class="col-lg-3 car-hire-title">
                                                 <div class="car-hire-boxtitle-main">
@@ -502,9 +502,9 @@
                                         <div class="row align-items-center">
                                             <div class="col-12 col-lg-9 d-flex justify-content-between align-items-center">
                                                 <div class="carhire-termslink">
-                                                    <a href="#">
+                                                    <span data-bs-toggle="modal" data-bs-target="#terms-and-conditions">
                                                         Show Terms & Conditions
-                                                    </a>
+                                                    </span>
                                                 </div><!-- carhire termslink -->
                                                 <div class="carhirebox-price">
                                                     <h3>
@@ -523,12 +523,12 @@
                             </div><!-- whiteboxbg -->
                             <div class="whiteboxbg carhire-box loadmorebox">
                                 <div class="row">
-                                    <div class="col-lg-4 col-12">
+                                    <div class="col-lg-4 col-12 col-car-hire-image">
                                         <div class="car-hire-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/car-hire/car-thumb.jpg" alt="">
                                         </div>
                                     </div><!-- col -->
-                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column">
+                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column col-car-hire-details-wrap">
                                         <div class="row">
                                             <div class="col-lg-3 car-hire-title">
                                                 <div class="car-hire-boxtitle-main">
@@ -586,9 +586,9 @@
                                         <div class="row align-items-center">
                                             <div class="col-12 col-lg-9 d-flex justify-content-between align-items-center">
                                                 <div class="carhire-termslink">
-                                                    <a href="#">
+                                                    <span data-bs-toggle="modal" data-bs-target="#terms-and-conditions">
                                                         Show Terms & Conditions
-                                                    </a>
+                                                    </span>
                                                 </div><!-- carhire termslink -->
                                                 <div class="carhirebox-price">
                                                     <h3>
@@ -607,12 +607,12 @@
                             </div><!-- whiteboxbg -->
                             <div class="whiteboxbg carhire-box loadmorebox">
                                 <div class="row">
-                                    <div class="col-lg-4 col-12">
+                                    <div class="col-lg-4 col-12 col-car-hire-image">
                                         <div class="car-hire-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/car-hire/car-thumb.jpg" alt="">
                                         </div>
                                     </div><!-- col -->
-                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column">
+                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column col-car-hire-details-wrap">
                                         <div class="row">
                                             <div class="col-lg-3 car-hire-title">
                                                 <div class="car-hire-boxtitle-main">
@@ -670,9 +670,9 @@
                                         <div class="row align-items-center">
                                             <div class="col-12 col-lg-9 d-flex justify-content-between align-items-center">
                                                 <div class="carhire-termslink">
-                                                    <a href="#">
+                                                    <span data-bs-toggle="modal" data-bs-target="#terms-and-conditions">
                                                         Show Terms & Conditions
-                                                    </a>
+                                                    </span>
                                                 </div><!-- carhire termslink -->
                                                 <div class="carhirebox-price">
                                                     <h3>
@@ -691,12 +691,12 @@
                             </div><!-- whiteboxbg -->
                             <div class="whiteboxbg carhire-box loadmorebox">
                                 <div class="row">
-                                    <div class="col-lg-4 col-12">
+                                    <div class="col-lg-4 col-12 col-car-hire-image">
                                         <div class="car-hire-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/car-hire/car-thumb.jpg" alt="">
                                         </div>
                                     </div><!-- col -->
-                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column">
+                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column col-car-hire-details-wrap">
                                         <div class="row">
                                             <div class="col-lg-3 car-hire-title">
                                                 <div class="car-hire-boxtitle-main">
@@ -754,9 +754,9 @@
                                         <div class="row align-items-center">
                                             <div class="col-12 col-lg-9 d-flex justify-content-between align-items-center">
                                                 <div class="carhire-termslink">
-                                                    <a href="#">
+                                                    <span data-bs-toggle="modal" data-bs-target="#terms-and-conditions">
                                                         Show Terms & Conditions
-                                                    </a>
+                                                    </span>
                                                 </div><!-- carhire termslink -->
                                                 <div class="carhirebox-price">
                                                     <h3>
@@ -775,12 +775,12 @@
                             </div><!-- whiteboxbg -->
                             <div class="whiteboxbg carhire-box loadmorebox">
                                 <div class="row">
-                                    <div class="col-lg-4 col-12">
+                                    <div class="col-lg-4 col-12 col-car-hire-image">
                                         <div class="car-hire-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/car-hire/car-thumb.jpg" alt="">
                                         </div>
                                     </div><!-- col -->
-                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column">
+                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column col-car-hire-details-wrap">
                                         <div class="row">
                                             <div class="col-lg-3 car-hire-title">
                                                 <div class="car-hire-boxtitle-main">
@@ -838,9 +838,9 @@
                                         <div class="row align-items-center">
                                             <div class="col-12 col-lg-9 d-flex justify-content-between align-items-center">
                                                 <div class="carhire-termslink">
-                                                    <a href="#">
+                                                    <span data-bs-toggle="modal" data-bs-target="#terms-and-conditions">
                                                         Show Terms & Conditions
-                                                    </a>
+                                                    </span>
                                                 </div><!-- carhire termslink -->
                                                 <div class="carhirebox-price">
                                                     <h3>
@@ -859,12 +859,12 @@
                             </div><!-- whiteboxbg -->
                             <div class="whiteboxbg carhire-box loadmorebox">
                                 <div class="row">
-                                    <div class="col-lg-4 col-12">
+                                    <div class="col-lg-4 col-12 col-car-hire-image">
                                         <div class="car-hire-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/car-hire/car-thumb.jpg" alt="">
                                         </div>
                                     </div><!-- col -->
-                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column">
+                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column col-car-hire-details-wrap">
                                         <div class="row">
                                             <div class="col-lg-3 car-hire-title">
                                                 <div class="car-hire-boxtitle-main">
@@ -922,9 +922,9 @@
                                         <div class="row align-items-center">
                                             <div class="col-12 col-lg-9 d-flex justify-content-between align-items-center">
                                                 <div class="carhire-termslink">
-                                                    <a href="#">
+                                                    <span data-bs-toggle="modal" data-bs-target="#terms-and-conditions">
                                                         Show Terms & Conditions
-                                                    </a>
+                                                    </span>
                                                 </div><!-- carhire termslink -->
                                                 <div class="carhirebox-price">
                                                     <h3>
@@ -943,12 +943,12 @@
                             </div><!-- whiteboxbg -->
                             <div class="whiteboxbg carhire-box loadmorebox">
                                 <div class="row">
-                                    <div class="col-lg-4 col-12">
+                                    <div class="col-lg-4 col-12 col-car-hire-image">
                                         <div class="car-hire-image">
                                             <img src="<?= getBaseUrl() ?>/assets/img/car-hire/car-thumb.jpg" alt="">
                                         </div>
                                     </div><!-- col -->
-                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column">
+                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column col-car-hire-details-wrap">
                                         <div class="row">
                                             <div class="col-lg-3 car-hire-title">
                                                 <div class="car-hire-boxtitle-main">
@@ -1006,9 +1006,9 @@
                                         <div class="row align-items-center">
                                             <div class="col-12 col-lg-9 d-flex justify-content-between align-items-center">
                                                 <div class="carhire-termslink">
-                                                    <a href="#">
+                                                    <span data-bs-toggle="modal" data-bs-target="#terms-and-conditions">
                                                         Show Terms & Conditions
-                                                    </a>
+                                                    </span>
                                                 </div><!-- carhire termslink -->
                                                 <div class="carhirebox-price">
                                                     <h3>
@@ -1048,6 +1048,32 @@
             </div><!-- row -->
         </div>
     </section>
+
+
+    <div class="modal fade terms-and-conditions-modal" id="terms-and-conditions" tabindex="-1" aria-labelledby="terms-and-conditions" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="breakdowntop">
+                        <h4 class="mb-1">
+                            Terms
+                        </h4>
+                    </div>
+                    <div class="breakdownbottom">
+                        <div class="breakdown-content fs15 txt-gray">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis massa eget dapibus commodo. In at aliquet diam. Aenean nec tortor vel sapien tempor ullamcorper. Nullam tincidunt pellentesque ornare. Aliquam imperdiet dapibus vehicula. Mauris sed felis dui.</p>
+
+                            <p>Sed sollicitudin et lacus id aliquam. Mauris lacus nunc, rutrum feugiat dolor ut, commodo sollicitudin ligula. Aenean lobortis ultricies nunc, eget dapibus sem. In vitae lacinia urna.</p>
+
+                            <p>Sed vitae bibendum augue. Sed suscipit dignissim euismod. Suspendisse auctor enim vel enim egestas, in faucibus magna rhoncus. Vivamus tincidunt dignissim mauris, non vehicula libero accumsan ut. Nulla dapibus mi sed nisl feugiat pulvinar. Vestibulum consequat nisl in ullamcorper scelerisque.</p>
+                        </div>
+                    </div><!-- breakdownbottom -->
+                </div><!-- modal body -->
+            </div>
+        </div>
+    </div><!-- modal -->
 
 
     <?php include '../sections/global/cta.php';?>

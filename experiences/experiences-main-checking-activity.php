@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/slick.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/fontawesome.css">
-    
+
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/style.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/sidebar.css">
     <link rel="stylesheet" href="<?= getBaseUrl() ?>/assets/css/main-experiences.css">
@@ -35,7 +35,7 @@
 
 <body>
     <div id="nohero-inner">
-        <?php include '../sections/global/header-nav.php';?>
+        <?php include '../sections/global/header-nav.php'; ?>
     </div><!-- main hero -->
 
     <section class="block search-wrap bggray" id="experiences-main">
@@ -43,7 +43,7 @@
             <div class="row hotel-single-top">
                 <div class="col-12 col-md-5 experiences-single-top-left">
                     <h2>
-                        Harry Potter Warner Bros, Studio Tour 
+                        Harry Potter Warner Bros, Studio Tour
                         with Transport from London
                     </h2>
                 </div><!-- col -->
@@ -81,11 +81,19 @@
             </div>
             <div class="experiences-details-main-top my-4">
                 <div class="row g-0">
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6 parent-slide">
                         <div class="free-cancellation">
                             Free Cancellation
                         </div>
-                        <div class="experiences-details-main-top-slider v-slide-wrap">
+                        <div class="carousel-modal-bottom-wrap">
+                            <div class="carousel-modal-counter">
+                                01/03
+                            </div>
+                            <div class="carousel-modal-view-all">
+                                View All <i class="fa-solid fa-chevron-right fs-icon fs13 ms-2 txt-blue"></i>
+                            </div>
+                        </div><!-- wrap -->
+                        <div class="experiences-details-main-top-slider carousel-modal-main v-slide-wrap">
                             <div class="experiences-slide v-slide">
                                 <img src="<?= getBaseUrl() ?>/assets/img/hotels/mainlisting-slide.jpg" alt="">
                             </div>
@@ -101,13 +109,13 @@
                         <div class="experiences-main-top-right p-4 fs15">
                             <div class="txt-gray">
                                 <p>
-                                    Delve into the magical world of Harry Potter at the Warner Bros. Studio Tour London,with round-trip luxury coach transport included. Follow in the footsteps of Hogwartsstudents as you walk around original sets like Diagon Alleyand Platform 9 , complete with the Hogwarts Express steam engine. 
+                                    Delve into the magical world of Harry Potter at the Warner Bros. Studio Tour London,with round-trip luxury coach transport included. Follow in the footsteps of Hogwartsstudents as you walk around original sets like Diagon Alleyand Platform 9 , complete with the Hogwarts Express steam engine.
                                 </p>
                                 <p>
                                     Get up close to costumes and props, and discover the wizardry required to createthe mind-blowing special effects and animatronics. Discover how filmmakers created pandemonium when the Weasley twins disrupted the quiet exams. Both Fred and George will be suspended from the ceiling with bags filled with their latest product, Weasleys Wildfire Whiz-bangs - ready to fill the Great Hall with a burst of colour.More of their products will be on display outside their shop Weasleys Wizarding Wheezes on Diagon Alley.
                                 </p>
                             </div>
-                            
+
                             <div class="mt-4 pt-33 txt-black">
                                 <p>
                                     MAGICAL MISCHIEF: 20 Jan 2024 to 16 Apr 2024<br>
@@ -172,7 +180,7 @@
                                             Timings - 13: 45
                                         </span>
                                         <p class="txt-gray">
-                                            Lorem ipsum dolor sit amet consectetur. Ac sed proin egestas ornare adipiscing. Lorem ipsum dolor sit amet consectetur... 
+                                            Lorem ipsum dolor sit amet consectetur. Ac sed proin egestas ornare adipiscing. Lorem ipsum dolor sit amet consectetur...
                                             <a href="#" data-bs-toggle="modal" data-bs-target="#eocbox-modal">Read more</a>
                                         </p>
                                     </div><!-- div -->
@@ -330,7 +338,7 @@
         </div><!-- container -->
     </section>
 
-    <?php include '../sections/global/footer.php';?>
+    <?php include '../sections/global/footer.php'; ?>
 
     <script src="<?= getBaseUrl() ?>/assets/js/jquery.js"></script>
     <script src="<?= getBaseUrl() ?>/assets/js/jquery-ui.min.js"></script>
@@ -354,12 +362,12 @@
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis massa eget dapibus commodo. In at aliquet diam. Aenean nec tortor vel sapien tempor ullamcorper. Nullam tincidunt pellentesque ornare. Aliquam imperdiet dapibus vehicula. Mauris sed felis dui.</p>
                 <p>
-                    Sed sollicitudin et lacus id aliquam. Mauris lacus nunc, rutrum feugiat dolor ut, commodo sollicitudin ligula. Aenean lobortis ultricies nunc, eget dapibus sem. In vitae lacinia urna. 
+                    Sed sollicitudin et lacus id aliquam. Mauris lacus nunc, rutrum feugiat dolor ut, commodo sollicitudin ligula. Aenean lobortis ultricies nunc, eget dapibus sem. In vitae lacinia urna.
                 </p>
                 <p>
-                    Sed sollicitudin et lacus id aliquam. Mauris lacus nunc, rutrum feugiat dolor ut, commodo sollicitudin ligula. Aenean lobortis ultricies nunc, eget dapibus sem. In vitae lacinia urna. 
+                    Sed sollicitudin et lacus id aliquam. Mauris lacus nunc, rutrum feugiat dolor ut, commodo sollicitudin ligula. Aenean lobortis ultricies nunc, eget dapibus sem. In vitae lacinia urna.
                 </p>
-                
+
                 <div class="d-flex justify-content-end flex-row gap-4 eoc-box-right align-items-center mt-3">
                     <div class="d-flex flex-column text-center align-items-center justify-content-between">
                         <span class="txt-black fs14 fw-normal">
@@ -379,4 +387,5 @@
         </div>
     </div><!-- modal -->
 </body>
+
 </html>

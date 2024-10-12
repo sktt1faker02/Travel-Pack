@@ -32,7 +32,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="car-hire-extras">
     <div id="nohero-inner">
         <?php include '../sections/global/header-nav.php';?>
     </div><!-- main hero -->
@@ -56,7 +56,132 @@
                 <?php include '../sections/sidebar/car-hire.php';?>
 
                 <div class="col-12 col-lg-8 tp-main">
-                    <form action="car-hire-purchase-details.php" method="post">   
+                    <form action="car-hire-purchase-details" method="post"> 
+                        
+                        <div class="loadmoreboxes-car-hire">
+                            <div class="whiteboxbg carhire-box loadmorebox">
+                                <div class="row">
+                                    <div class="col-lg-4 col-12 col-car-hire-image">
+                                        <div class="car-hire-image">
+                                            <img src="<?= getBaseUrl() ?>/assets/img/car-hire/car-thumb.jpg" alt="">
+                                        </div>
+                                    </div><!-- col -->
+                                    <div class="col-lg-8 col-12 d-flex align-item-between flex-column col-car-hire-details-wrap">
+                                        <div class="row">
+                                            <div class="col-lg-3 car-hire-title">
+                                                <div class="car-hire-boxtitle-main">
+                                                    <h3>
+                                                        Toyota Aygo
+                                                    </h3>
+                                                    <span>
+                                                        or similar
+                                                    </span>
+                                                </div>
+
+                                                <div class="fuelpolicy">
+                                                    <h6>
+                                                        Fuel Policy (unspecified)
+                                                    </h6>
+                                                    <span>
+                                                        Pick up and return full
+                                                    </span>
+                                                </div>
+                                            </div><!-- col -->
+                                            <div class="col-lg-6 car-hire-features col-12 d-flex flex-row column-gap-4">
+                                                <div class="car-hire-features-inner">
+                                                    <h6 class="txt-black fontfam2">
+                                                        Rate Includes
+                                                    </h6>
+                                                    <ul>
+                                                        <li>Breakdown Assistance</li>
+                                                        <li>Airport Fee</li>
+                                                        <li>Road Tax</li>
+                                                        <li>Environmental Fee</li>
+                                                        <li>Tax</li>
+                                                        <li>One Way Fee</li>
+                                                        <li>Unlimited Mileage</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="car-hire-features-inner">
+                                                    <h6 class="txt-black fontfam2">
+                                                        Car Features
+                                                    </h6>
+                                                    <ul>
+                                                        <li>Mini (MCMR)</li>
+                                                        <li>4 Passengers</li>
+                                                        <li>2 Bags</li>
+                                                        <li>3 Doors</li>
+                                                        <li>Manual Transmission</li>
+                                                        <li>Air Conditioned</li>
+                                                    </ul>
+                                                </div>
+                                            </div><!-- col -->
+                                            <div class="col-lg-3 col-12 carhirelogo">
+                                                <img src="<?= getBaseUrl() ?>/assets/img/car-hire/green-motors.png" alt="">
+                                            </div>
+                                        </div><!-- row -->
+
+                                        <div class="row align-items-center">
+                                            <div class="col-12 col-lg-9 d-flex justify-content-between align-items-center">
+                                                <div class="carhire-termslink">
+                                                    <span data-bs-toggle="modal" data-bs-target="#terms-and-conditions">
+                                                        Show Terms & Conditions
+                                                    </span>
+                                                </div><!-- carhire termslink -->
+                                                <div class="carhirebox-price">
+                                                    <h3>
+                                                        £117.72
+                                                    </h3>
+                                                </div><!-- carehirebox -->
+                                            </div><!-- col -->
+                                            <div class="col-lg-3 d-flex justify-content-end">
+                                                <button class="btn btn-primary">
+                                                    Select
+                                                </button>
+                                            </div><!-- col lg -->
+                                        </div><!-- row -->
+                                    </div><!-- col -->
+                                </div><!-- row -->
+                            </div><!-- whiteboxbg -->                            
+                        </div><!--  -->
+
+                        <div class="tp-table mb-4">
+                            <div class="responsive-table">
+                                <div class="tp-table-main">
+                                    <table class="table-pickup-dropoff-car-hire-extras">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="2">Pickup</th>
+                                                <th colspan="2">DropOff</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="tbpd-col1">
+                                                    <strong>Address</strong><br>
+                                                    Northern Perimeter Road (West),<br>
+                                                    TW6 2QD
+                                                </td>
+                                                <td class="tbpd-col2">
+                                                    <strong>Opening Hours</strong><br>
+                                                    Mo-Su 24 hours
+                                                </td>
+                                                <td class="tbpd-col1">
+                                                    <strong>Address</strong><br>
+                                                    Northern Perimeter Road (West),<br>
+                                                    TW6 2QD
+                                                </td>
+                                                <td class="tbpd-col2">
+                                                    <strong>Opening Hours</strong><br>
+                                                    Mo-Su 24 hours
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div><!-- tp table main -->
+                            </div><!-- responsive table -->
+                        </div><!-- tp table -->
+
                         <div class="tp-table">
                             <h3 class="mb-3 tp-top-heading">
                                 Extra Paid Locally
